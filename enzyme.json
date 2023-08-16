@@ -1,0 +1,4970 @@
+{
+  "AbaSI": {
+    "site": "C",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FspEI": {
+    "site": "CC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AccII": {
+    "site": "CGCG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AciI": {
+    "site": "CCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AfaI": {
+    "site": "GTAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AluBI": {
+    "site": "AGCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AluI": {
+    "site": "AGCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AoxI": {
+    "site": "GGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AspLEI": {
+    "site": "GCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BfaI": {
+    "site": "CTAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsh1236I": {
+    "site": "CGCG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BshFI": {
+    "site": "GGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsiSI": {
+    "site": "CCGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsnI": {
+    "site": "GGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsp143I": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspACI": {
+    "site": "CCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BspANI": {
+    "site": "GGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspFNI": {
+    "site": "CGCG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BssMI": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstFNI": {
+    "site": "CGCG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstHHI": {
+    "site": "GCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstKTI": {
+    "site": "GATC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstMBI": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstUI": {
+    "site": "CGCG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsuRI": {
+    "site": "GGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CfoI": {
+    "site": "GCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Csp6I": {
+    "site": "GTAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "CviAII": {
+    "site": "CATG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CviJI": {
+    "site": "RGCY",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CviKI_1": {
+    "site": "RGCY",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "CviQI": {
+    "site": "GTAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "DpnI": {
+    "site": "GATC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "DpnII": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "FaeI": {
+    "site": "CATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FaiI": {
+    "site": "YATR",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FatI": {
+    "site": "CATG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "FspBI": {
+    "site": "CTAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "GlaI": {
+    "site": "GCGC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HaeIII": {
+    "site": "GGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HapII": {
+    "site": "CCGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HhaI": {
+    "site": "GCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Hin1II": {
+    "site": "CATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Hin6I": {
+    "site": "GCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HinP1I": {
+    "site": "GCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HpaII": {
+    "site": "CCGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HpyCH4IV": {
+    "site": "ACGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HpyCH4V": {
+    "site": "TGCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HpySE526I": {
+    "site": "ACGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Hsp92II": {
+    "site": "CATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HspAI": {
+    "site": "GCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Kzo9I": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "LpnPI": {
+    "site": "CCDG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MaeI": {
+    "site": "CTAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MaeII": {
+    "site": "ACGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MalI": {
+    "site": "GATC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MboI": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MluCI": {
+    "site": "AATT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MnlI": {
+    "site": "CCTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MseI": {
+    "site": "TTAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MspI": {
+    "site": "CCGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MspJI": {
+    "site": "CNNR",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MvnI": {
+    "site": "CGCG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "NdeII": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "NlaIII": {
+    "site": "CATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "RsaI": {
+    "site": "GTAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "RsaNI": {
+    "site": "GTAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SaqAI": {
+    "site": "TTAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Sau3AI": {
+    "site": "GATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SetI": {
+    "site": "ASST",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SgeI": {
+    "site": "CNNG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Sse9I": {
+    "site": "AATT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SsiI": {
+    "site": "CCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SspMI": {
+    "site": "CTAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TaiI": {
+    "site": "ACGT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TaqI": {
+    "site": "TCGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "TasI": {
+    "site": "AATT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Tru1I": {
+    "site": "TTAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Tru9I": {
+    "site": "TTAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "XspI": {
+    "site": "CTAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AclWI": {
+    "site": "GGATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AgsI": {
+    "site": "TTSAA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AjnI": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Alw26I": {
+    "site": "GTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AlwI": {
+    "site": "GGATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "ApeKI": {
+    "site": "GCWGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AspS9I": {
+    "site": "GGNCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AsuC2I": {
+    "site": "CCSGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AsuHPI": {
+    "site": "GGTGA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AvaII": {
+    "site": "GGWCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BbvI": {
+    "site": "GCAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BccI": {
+    "site": "CCATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BceAI": {
+    "site": "ACGGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BciT130I": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BcnI": {
+    "site": "CCSGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BcoDI": {
+    "site": "GTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BisI": {
+    "site": "GCNGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BlsI": {
+    "site": "GCNGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bme1390I": {
+    "site": "CCNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bme18I": {
+    "site": "GGWCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmgT120I": {
+    "site": "GGNCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmrFI": {
+    "site": "CCNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmsI": {
+    "site": "GCATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BpuMI": {
+    "site": "CCSGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bse1I": {
+    "site": "ACTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseBI": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseGI": {
+    "site": "GGATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseMII": {
+    "site": "CTCAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BseNI": {
+    "site": "ACTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseXI": {
+    "site": "GCAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BslFI": {
+    "site": "GGGAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsmAI": {
+    "site": "GTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsmFI": {
+    "site": "GGGAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BspCNI": {
+    "site": "CTCAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BspPI": {
+    "site": "GGATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsrI": {
+    "site": "ACTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bst2UI": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bst4CI": {
+    "site": "ACNGT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstDEI": {
+    "site": "CTNAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstF5I": {
+    "site": "GGATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BstMAI": {
+    "site": "GTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstNI": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BstSCI": {
+    "site": "CCNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstV1I": {
+    "site": "GCAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BtsCI": {
+    "site": "GGATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BtsIMutI": {
+    "site": "CAGTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Cfr13I": {
+    "site": "GGNCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CseI": {
+    "site": "GACGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "DdeI": {
+    "site": "CTNAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Eco47I": {
+    "site": "GGWCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EcoRII": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "FaqI": {
+    "site": "GGGAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FauI": {
+    "site": "CCCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Fnu4HI": {
+    "site": "GCNGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "FokI": {
+    "site": "GGATG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Fsp4HI": {
+    "site": "GCNGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "GluI": {
+    "site": "GCNGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HgaI": {
+    "site": "GACGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HinfI": {
+    "site": "GANTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HphI": {
+    "site": "GGTGA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Hpy188I": {
+    "site": "TCNGA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Hpy99I": {
+    "site": "CGWCG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HpyAV": {
+    "site": "CCTTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HpyCH4III": {
+    "site": "ACNGT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HpyF3I": {
+    "site": "CTNAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "LmnI": {
+    "site": "GCTCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Lsp1109I": {
+    "site": "GCAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "LweI": {
+    "site": "GCATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MaeIII": {
+    "site": "GTNAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MboII": {
+    "site": "GAAGA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MlyI": {
+    "site": "GAGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MspR9I": {
+    "site": "CCNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MvaI": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NciI": {
+    "site": "CCSGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NmuCI": {
+    "site": "GTSAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PfeI": {
+    "site": "GAWTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PkrI": {
+    "site": "GCNGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PleI": {
+    "site": "GAGTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "PpsI": {
+    "site": "GAGTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Psp6I": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspGI": {
+    "site": "CCWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "PspPI": {
+    "site": "GGNCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SatI": {
+    "site": "GCNGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Sau96I": {
+    "site": "GGNCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SchI": {
+    "site": "GAGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "ScrFI": {
+    "site": "CCNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SfaNI": {
+    "site": "GCATC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SinI": {
+    "site": "GGWCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "StyD4I": {
+    "site": "CCNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "TaaI": {
+    "site": "ACNGT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TauI": {
+    "site": "GCSGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TfiI": {
+    "site": "GAWTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "TscAI": {
+    "site": "CASTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TseFI": {
+    "site": "GTSAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TseI": {
+    "site": "GCWGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Tsp45I": {
+    "site": "GTSAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "TspDTI": {
+    "site": "ATGAA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TspGWI": {
+    "site": "ACGGA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "TspRI": {
+    "site": "CASTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "VpaK11BI": {
+    "site": "GGWCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AanI": {
+    "site": "TTATAA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AatII": {
+    "site": "GACGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Acc16I": {
+    "site": "TGCGCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Acc36I": {
+    "site": "ACCTGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Acc65I": {
+    "site": "GGTACC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AccB1I": {
+    "site": "GGYRCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AccBSI": {
+    "site": "CCGCTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AccI": {
+    "site": "GTMKAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AccIII": {
+    "site": "TCCGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AclI": {
+    "site": "AACGTT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AcoI": {
+    "site": "YGGCCR",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AcsI": {
+    "site": "RAATTY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AcuI": {
+    "site": "CTGAAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AcvI": {
+    "site": "CACGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AcyI": {
+    "site": "GRCGYC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AfeI": {
+    "site": "AGCGCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AflII": {
+    "site": "CTTAAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AflIII": {
+    "site": "ACRYGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AgeI": {
+    "site": "ACCGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AhlI": {
+    "site": "ACTAGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AjiI": {
+    "site": "CACGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Alw21I": {
+    "site": "GWGCWC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Alw44I": {
+    "site": "GTGCAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Ama87I": {
+    "site": "CYCGRG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Aor13HI": {
+    "site": "TCCGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Aor51HI": {
+    "site": "AGCGCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "ApaI": {
+    "site": "GGGCCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "ApaLI": {
+    "site": "GTGCAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "ApoI": {
+    "site": "RAATTY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AseI": {
+    "site": "ATTAAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AsiGI": {
+    "site": "ACCGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Asp718I": {
+    "site": "GGTACC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AspA2I": {
+    "site": "CCTAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AsuII": {
+    "site": "TTCGAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AsuNHI": {
+    "site": "GCTAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AvaI": {
+    "site": "CYCGRG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AvrII": {
+    "site": "CCTAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BaeGI": {
+    "site": "GKGCMC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BalI": {
+    "site": "TGGCCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BamHI": {
+    "site": "GGATCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BanI": {
+    "site": "GGYRCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BanII": {
+    "site": "GRGCYC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BauI": {
+    "site": "CACGAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BbrPI": {
+    "site": "CACGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BbsI": {
+    "site": "GAAGAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bbv12I": {
+    "site": "GWGCWC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BciVI": {
+    "site": "GTATCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BclI": {
+    "site": "TGATCA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BcuI": {
+    "site": "ACTAGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BfmI": {
+    "site": "CTRYAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BfoI": {
+    "site": "RGCGCY",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BfrI": {
+    "site": "CTTAAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BfuAI": {
+    "site": "ACCTGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BfuI": {
+    "site": "GTATCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BglII": {
+    "site": "AGATCT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BlnI": {
+    "site": "CCTAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmcAI": {
+    "site": "AGTACT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmeT110I": {
+    "site": "CYCGRG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmgBI": {
+    "site": "CACGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmiI": {
+    "site": "GGNNCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmrI": {
+    "site": "ACTGGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BmtI": {
+    "site": "GCTAGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BmuI": {
+    "site": "ACTGGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BpiI": {
+    "site": "GAAGAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BpmI": {
+    "site": "CTGGAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bpu14I": {
+    "site": "TTCGAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BpuEI": {
+    "site": "CTTGAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bsa29I": {
+    "site": "ATCGAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsaAI": {
+    "site": "YACGTR",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsaHI": {
+    "site": "GRCGYC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsaI": {
+    "site": "GGTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsaJI": {
+    "site": "CCNNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsaWI": {
+    "site": "WCCGGW",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bse118I": {
+    "site": "RCCGGY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bse3DI": {
+    "site": "GCAATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseAI": {
+    "site": "TCCGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseCI": {
+    "site": "ATCGAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BseDI": {
+    "site": "CCNNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseMI": {
+    "site": "GCAATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsePI": {
+    "site": "GCGCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseRI": {
+    "site": "GAGGAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BseSI": {
+    "site": "GKGCMC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseX3I": {
+    "site": "CGGCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseYI": {
+    "site": "CCCAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsgI": {
+    "site": "GTGCAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bsh1285I": {
+    "site": "CGRYCG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BshNI": {
+    "site": "GGYRCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BshTI": {
+    "site": "ACCGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BshVI": {
+    "site": "ATCGAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsiEI": {
+    "site": "CGRYCG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsiHKAI": {
+    "site": "GWGCWC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsiHKCI": {
+    "site": "CYCGRG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsiWI": {
+    "site": "CGTACG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsmBI": {
+    "site": "CGTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsmI": {
+    "site": "GAATGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bso31I": {
+    "site": "GGTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsoBI": {
+    "site": "CYCGRG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bsp119I": {
+    "site": "TTCGAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsp120I": {
+    "site": "GGGCCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsp1286I": {
+    "site": "GDGCHC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bsp13I": {
+    "site": "TCCGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsp1407I": {
+    "site": "TGTACA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsp19I": {
+    "site": "CCATGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsp68I": {
+    "site": "TCGCGA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspDI": {
+    "site": "ATCGAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspEI": {
+    "site": "TCCGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspHI": {
+    "site": "TCATGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BspLI": {
+    "site": "GGNNCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspMAI": {
+    "site": "CTGCAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspMI": {
+    "site": "ACCTGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BspOI": {
+    "site": "GCTAGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspT104I": {
+    "site": "TTCGAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspT107I": {
+    "site": "GGYRCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspTI": {
+    "site": "CTTAAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspTNI": {
+    "site": "GGTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsrBI": {
+    "site": "CCGCTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsrDI": {
+    "site": "GCAATG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsrFI": {
+    "site": "RCCGGY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsrGI": {
+    "site": "TGTACA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BssAI": {
+    "site": "RCCGGY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BssECI": {
+    "site": "CCNNGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BssHII": {
+    "site": "GCGCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BssNAI": {
+    "site": "GTATAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BssNI": {
+    "site": "GRCGYC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BssSI": {
+    "site": "CACGAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BssT1I": {
+    "site": "CCWWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bst1107I": {
+    "site": "GTATAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bst2BI": {
+    "site": "CACGAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bst6I": {
+    "site": "CTCTTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstACI": {
+    "site": "GRCGYC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstAFI": {
+    "site": "CTTAAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstAUI": {
+    "site": "TGTACA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstBAI": {
+    "site": "YACGTR",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstBI": {
+    "site": "TTCGAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstC8I": {
+    "site": "GCNNGC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BstDSI": {
+    "site": "CCRYGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstH2I": {
+    "site": "RGCGCY",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstMCI": {
+    "site": "CGRYCG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstNSI": {
+    "site": "RCATGY",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstSFI": {
+    "site": "CTRYAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstSLI": {
+    "site": "GKGCMC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstSNI": {
+    "site": "TACGTA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstV2I": {
+    "site": "GAAGAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstX2I": {
+    "site": "RGATCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstYI": {
+    "site": "RGATCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BstZ17I": {
+    "site": "GTATAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstZI": {
+    "site": "CGGCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsu15I": {
+    "site": "ATCGAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BsuI": {
+    "site": "GTATCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsuTUI": {
+    "site": "ATCGAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BtgI": {
+    "site": "CCRYGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BtgZI": {
+    "site": "GCGATG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BtrI": {
+    "site": "CACGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BtsI": {
+    "site": "GCAGTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BtuMI": {
+    "site": "TCGCGA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BveI": {
+    "site": "ACCTGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Cac8I": {
+    "site": "GCNNGC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CciI": {
+    "site": "TCATGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Cfr10I": {
+    "site": "RCCGGY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Cfr42I": {
+    "site": "CCGCGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Cfr9I": {
+    "site": "CCCGGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "ClaI": {
+    "site": "ATCGAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CspAI": {
+    "site": "ACCGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "DinI": {
+    "site": "GGCGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "DraI": {
+    "site": "TTTAAA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "EaeI": {
+    "site": "YGGCCR",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "EagI": {
+    "site": "CGGCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Eam1104I": {
+    "site": "CTCTTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EarI": {
+    "site": "CTCTTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "EciI": {
+    "site": "GGCGGA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Ecl136II": {
+    "site": "GAGCTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EclXI": {
+    "site": "CGGCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco105I": {
+    "site": "TACGTA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco130I": {
+    "site": "CCWWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco147I": {
+    "site": "AGGCCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco24I": {
+    "site": "GRGCYC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco31I": {
+    "site": "GGTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Eco32I": {
+    "site": "GATATC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco47III": {
+    "site": "AGCGCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco52I": {
+    "site": "CGGCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco53kI": {
+    "site": "GAGCTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco57I": {
+    "site": "CTGAAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Eco72I": {
+    "site": "CACGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco88I": {
+    "site": "CYCGRG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EcoICRI": {
+    "site": "GAGCTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EcoRI": {
+    "site": "GAATTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "EcoRV": {
+    "site": "GATATC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "EcoT14I": {
+    "site": "CCWWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EcoT22I": {
+    "site": "ATGCAT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EcoT38I": {
+    "site": "GRGCYC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "EgeI": {
+    "site": "GGCGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EheI": {
+    "site": "GGCGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "ErhI": {
+    "site": "CCWWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Esp3I": {
+    "site": "CGTCTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "FauNDI": {
+    "site": "CATATG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FbaI": {
+    "site": "TGATCA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FblI": {
+    "site": "GTMKAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FriOI": {
+    "site": "GRGCYC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FspI": {
+    "site": "TGCGCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "GsaI": {
+    "site": "CCCAGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "GsuI": {
+    "site": "CTGGAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HaeII": {
+    "site": "RGCGCY",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Hin1I": {
+    "site": "GRCGYC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HincII": {
+    "site": "GTYRAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HindII": {
+    "site": "GTYRAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HindIII": {
+    "site": "AAGCTT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "HpaI": {
+    "site": "GTTAAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Hpy166II": {
+    "site": "GTNNAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Hpy188III": {
+    "site": "TCNNGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Hpy8I": {
+    "site": "GTNNAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Hsp92I": {
+    "site": "GRCGYC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "KasI": {
+    "site": "GGCGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Kpn2I": {
+    "site": "TCCGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "KpnI": {
+    "site": "GGTACC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "KroI": {
+    "site": "GCCGGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Ksp22I": {
+    "site": "TGATCA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "KspAI": {
+    "site": "GTTAAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "KspI": {
+    "site": "CCGCGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MbiI": {
+    "site": "CCGCTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MfeI": {
+    "site": "CAATTG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MflI": {
+    "site": "RGATCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MhlI": {
+    "site": "GDGCHC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MlsI": {
+    "site": "TGGCCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MluI": {
+    "site": "ACGCGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MluNI": {
+    "site": "TGGCCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Mly113I": {
+    "site": "GGCGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MmeI": {
+    "site": "TCCRAC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Mox20I": {
+    "site": "TGGCCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Mph1103I": {
+    "site": "ATGCAT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MroI": {
+    "site": "TCCGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MroNI": {
+    "site": "GCCGGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MscI": {
+    "site": "TGGCCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Msp20I": {
+    "site": "TGGCCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MspA1I": {
+    "site": "CMGCKG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MspCI": {
+    "site": "CTTAAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MunI": {
+    "site": "CAATTG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Mva1269I": {
+    "site": "GAATGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "NaeI": {
+    "site": "GCCGGC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NarI": {
+    "site": "GGCGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "NcoI": {
+    "site": "CCATGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NdeI": {
+    "site": "CATATG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NgoMIV": {
+    "site": "GCCGGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NheI": {
+    "site": "GCTAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NlaIV": {
+    "site": "GGNNCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NmeAIII": {
+    "site": "GCCGAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NruI": {
+    "site": "TCGCGA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NsbI": {
+    "site": "TGCGCA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "NsiI": {
+    "site": "ATGCAT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NspI": {
+    "site": "RCATGY",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "NspV": {
+    "site": "TTCGAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PaeI": {
+    "site": "GCATGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PaeR7I": {
+    "site": "CTCGAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "PagI": {
+    "site": "TCATGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PauI": {
+    "site": "GCGCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PceI": {
+    "site": "AGGCCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PciI": {
+    "site": "ACATGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PctI": {
+    "site": "GAATGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PdiI": {
+    "site": "GCCGGC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Pfl23II": {
+    "site": "CGTACG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PinAI": {
+    "site": "ACCGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Ple19I": {
+    "site": "CGATCG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PluTI": {
+    "site": "GGCGCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "PmaCI": {
+    "site": "CACGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PmlI": {
+    "site": "CACGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Ppu21I": {
+    "site": "YACGTR",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PscI": {
+    "site": "ACATGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PshBI": {
+    "site": "ATTAAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PsiI": {
+    "site": "TTATAA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Psp124BI": {
+    "site": "GAGCTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Psp1406I": {
+    "site": "AACGTT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspCI": {
+    "site": "CACGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspFI": {
+    "site": "CCCAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspLI": {
+    "site": "CGTACG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspN4I": {
+    "site": "GGNNCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspOMI": {
+    "site": "GGGCCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PstI": {
+    "site": "CTGCAG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "PsuI": {
+    "site": "RGATCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PteI": {
+    "site": "GCGCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PvuI": {
+    "site": "CGATCG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PvuII": {
+    "site": "CAGCTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "RruI": {
+    "site": "TCGCGA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SacI": {
+    "site": "GAGCTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SacII": {
+    "site": "CCGCGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SalI": {
+    "site": "GTCGAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "ScaI": {
+    "site": "AGTACT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SduI": {
+    "site": "GDGCHC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SfcI": {
+    "site": "CTRYAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SfoI": {
+    "site": "GGCGCC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Sfr274I": {
+    "site": "CTCGAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Sfr303I": {
+    "site": "CCGCGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SfuI": {
+    "site": "TTCGAA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SgrBI": {
+    "site": "CCGCGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SlaI": {
+    "site": "CTCGAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SmaI": {
+    "site": "CCCGGG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SmlI": {
+    "site": "CTYRAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SmoI": {
+    "site": "CTYRAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SnaBI": {
+    "site": "TACGTA",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SpeI": {
+    "site": "ACTAGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SphI": {
+    "site": "GCATGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SseBI": {
+    "site": "AGGCCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SspDI": {
+    "site": "GGCGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SspI": {
+    "site": "AATATT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SstI": {
+    "site": "GAGCTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "StuI": {
+    "site": "AGGCCT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "StyI": {
+    "site": "CCWWGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "TaqII": {
+    "site": "GACCGA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "TatI": {
+    "site": "WGTACW",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "TspMI": {
+    "site": "CCCGGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Vha464I": {
+    "site": "CTTAAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "VneI": {
+    "site": "GTGCAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "VspI": {
+    "site": "ATTAAT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "XapI": {
+    "site": "RAATTY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "XbaI": {
+    "site": "TCTAGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "XceI": {
+    "site": "RCATGY",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "XhoI": {
+    "site": "CTCGAG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "XmaI": {
+    "site": "CCCGGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "XmaJI": {
+    "site": "CCTAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "XmiI": {
+    "site": "GTMKAC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "ZraI": {
+    "site": "GACGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "ZrmI": {
+    "site": "AGTACT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Zsp2I": {
+    "site": "ATGCAT",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AarI": {
+    "site": "CACCTGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AxyI": {
+    "site": "CCTNAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BbvCI": {
+    "site": "CCTCAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BlpI": {
+    "site": "GCTNAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bpu10I": {
+    "site": "CCTNAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Bpu1102I": {
+    "site": "GCTNAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bse21I": {
+    "site": "CCTNAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsp1720I": {
+    "site": "GCTNAGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BspQI": {
+    "site": "GCTCTTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstEII": {
+    "site": "GGTNACC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstPI": {
+    "site": "GGTNACC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsu36I": {
+    "site": "CCTNAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CpoI": {
+    "site": "CGGWCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "CsiI": {
+    "site": "ACCWGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "CspI": {
+    "site": "CGGWCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco81I": {
+    "site": "CCTNAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eco91I": {
+    "site": "GGTNACC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EcoO109I": {
+    "site": "RGGNCCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "EcoO65I": {
+    "site": "GGTNACC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "KflI": {
+    "site": "GGGWCCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "LguI": {
+    "site": "GCTCTTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MabI": {
+    "site": "ACCWGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PasI": {
+    "site": "CCCWGGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PciSI": {
+    "site": "GCTCTTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PfoI": {
+    "site": "TCCNGGA",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PpuMI": {
+    "site": "RGGWCCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Psp5II": {
+    "site": "RGGWCCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspEI": {
+    "site": "GGTNACC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspPPI": {
+    "site": "RGGWCCY",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Rsr2I": {
+    "site": "CGGWCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "RsrII": {
+    "site": "CGGWCCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SapI": {
+    "site": "GCTCTTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SexAI": {
+    "site": "ACCWGGT",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AbsI": {
+    "site": "CCTCGAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AscI": {
+    "site": "GGCGCGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AsiSI": {
+    "site": "GCGATCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CciNI": {
+    "site": "GCGGCCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "FseI": {
+    "site": "GGCCGGCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "FspAI": {
+    "site": "RTGCGCAY",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MauBI": {
+    "site": "CGCGCGCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MreI": {
+    "site": "CGCCGGCG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MssI": {
+    "site": "GTTTAAAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "NotI": {
+    "site": "GCGGCCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "PacI": {
+    "site": "TTAATTAA",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PalAI": {
+    "site": "GGCGCGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PmeI": {
+    "site": "GTTTAAAC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PspXI": {
+    "site": "VCTCGAGB",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "RgaI": {
+    "site": "GCGATCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "RigI": {
+    "site": "GGCCGGCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SbfI": {
+    "site": "CCTGCAGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SdaI": {
+    "site": "CCTGCAGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SfaAI": {
+    "site": "GCGATCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SgfI": {
+    "site": "GCGATCGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SgrAI": {
+    "site": "CRCCGGYG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "SgrDI": {
+    "site": "CGTCGACG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SgsI": {
+    "site": "GGCGCGCC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SmiI": {
+    "site": "ATTTAAAT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SrfI": {
+    "site": "GCCCGGGC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Sse8387I": {
+    "site": "CCTGCAGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SwaI": {
+    "site": "ATTTAAAT",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AdeI": {
+    "site": "CACNNNGTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AlwNI": {
+    "site": "CAGNNNCTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "CaiI": {
+    "site": "CAGNNNCTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "DraIII": {
+    "site": "CACNNNGTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "MteI": {
+    "site": "GCGCNGCGC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PflFI": {
+    "site": "GACNNNGTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PstNI": {
+    "site": "CAGNNNCTG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PsyI": {
+    "site": "GACNNNGTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Tth111I": {
+    "site": "GACNNNGTC",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AleI": {
+    "site": "CACNNNNGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "Asp700I": {
+    "site": "GAANNNNTTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BoxI": {
+    "site": "GACNNNNGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsaBI": {
+    "site": "GATNNNNATC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bse8I": {
+    "site": "GATNNNNATC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BseJI": {
+    "site": "GATNNNNATC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstPAI": {
+    "site": "GACNNNNGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MroXI": {
+    "site": "GAANNNNTTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MslI": {
+    "site": "CAYNNNNRTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "OliI": {
+    "site": "CACNNNNGTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PdmI": {
+    "site": "GAANNNNTTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PshAI": {
+    "site": "GACNNNNGTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "RseI": {
+    "site": "CAYNNNNRTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SmiMI": {
+    "site": "CAYNNNNRTG",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "XmnI": {
+    "site": "GAANNNNTTC",
+    "overhang": "blunt",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AccB7I": {
+    "site": "CCANNNNNTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AfiI": {
+    "site": "CCNNNNNNNGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AhdI": {
+    "site": "GACNNNNNGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BaeI": {
+    "site": "ACNNNNGTAYC",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BglI": {
+    "site": "GCCNNNNNGGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BmeRI": {
+    "site": "GACNNNNNGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BplI": {
+    "site": "GAGNNNNNCTC",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BsaXI": {
+    "site": "ACNNNNNCTCC",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Bsc4I": {
+    "site": "CCNNNNNNNGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BseLI": {
+    "site": "CCNNNNNNNGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BslI": {
+    "site": "CCNNNNNNNGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BstAPI": {
+    "site": "GCANNNNNTGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BstENI": {
+    "site": "CCTNNNNNAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BstMWI": {
+    "site": "GCNNNNNNNGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "DriI": {
+    "site": "GACNNNNNGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Eam1105I": {
+    "site": "GACNNNNNGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "EcoNI": {
+    "site": "CCTNNNNNAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "FalI": {
+    "site": "AAGNNNNNCTT",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "HpyF10VI": {
+    "site": "GCNNNNNNNGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "MwoI": {
+    "site": "GCNNNNNNNGC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "PflMI": {
+    "site": "CCANNNNNTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "Van91I": {
+    "site": "CCANNNNNTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "XagI": {
+    "site": "CCTNNNNNAGG",
+    "overhang": "5' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AasI": {
+    "site": "GACNNNNNNGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BcgI": {
+    "site": "CGANNNNNNTGC",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "BstXI": {
+    "site": "CCANNNNNNTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "CspCI": {
+    "site": "CAANNNNNGTGG",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "DrdI": {
+    "site": "GACNNNNNNGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "DseDI": {
+    "site": "GACNNNNNNGTC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "AloI": {
+    "site": "GAACNNNNNNTCC",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "ArsI": {
+    "site": "GACNNNNNNTTYG",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "BarI": {
+    "site": "GAAGNNNNNNTAC",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PcsI": {
+    "site": "WCGNNNNNNNCGW",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "PsrI": {
+    "site": "GAACNNNNNNTAC",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "SfiI": {
+    "site": "GGCCNNNNNGGCC",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  },
+  "AjuI": {
+    "site": "GAANNNNNNNTTGG",
+    "overhang": "3' overhang",
+    "cut_once": false,
+    "cut_twice": true,
+    "inact_temp": 65,
+    "is_methylable": false
+  },
+  "XcmI": {
+    "site": "CCANNNNNNNNNTGG",
+    "overhang": "3' overhang",
+    "cut_once": true,
+    "cut_twice": false,
+    "inact_temp": 65,
+    "is_methylable": true
+  }
+}
