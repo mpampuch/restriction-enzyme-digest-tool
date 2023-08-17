@@ -1,18 +1,9 @@
-import AppNav from "./AppNav";
 import Logo from "./Logo";
-import styles from "./Sidebar.module.css";
 
 function Sidebar() {
   return (
-    <div className={styles.sidebar}>
+    <div className="flex h-full basis-8/12 flex-col items-center bg-[#42484d] px-10 pb-6 pt-6">
       <Logo />
-      <AppNav />
-
-      <footer className={styles.footer}>
-        <p className={styles.copyright}>
-          &copy; Copyright {new Date().getFullYear()} by WorldWise Inc.
-        </p>
-      </footer>
     </div>
   );
 }

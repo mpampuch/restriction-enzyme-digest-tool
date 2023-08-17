@@ -1,7 +1,7 @@
-import styles from "./Logo.module.css";
-
 function Logo() {
-  return <img src="/logo.png" alt="WorldWise logo" className={styles.logo} />;
+  return (
+    <img src="/logo.png" alt="Restriction Enzyme tool logo" className="h-12" />
+  );
 }
 
 export default Logo;

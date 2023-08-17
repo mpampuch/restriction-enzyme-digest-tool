@@ -1,13 +1,11 @@
-import Map from "../components/Map";
+import OutputContainer from "../components/OutputContainer";
 import Sidebar from "../components/Sidebar";
-
-import styles from "./AppLayout.module.css";
 
 function AppLayout() {
   return (
-    <div className={styles.app}>
+    <div className="relative flex h-screen overscroll-y-none p-10">
       <Sidebar />
-      <Map />
+      <OutputContainer />
     </div>
   );
 }
