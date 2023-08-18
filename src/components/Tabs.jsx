@@ -52,17 +52,36 @@ export default function BasicTabs() {
       <Box>
         <CustomTabPanel value={value} index={0}>
           <h1>DNA input</h1>
+          <p>
+            Inpt the DNA sequence(s) that you would like to digest. The input
+            has to be in FASTA format and be less than 1Mb.
+          </p>
           <TextareaAutosize
             aria-label="minimum height"
             minRows={3}
             placeholder="Input DNA to digest"
+            className="text-gray-800"
           />
-
+          <Button variant="contained" component="label">
+            Upload File
+            <input type="file" hidden />
+          </Button>
+          <p>
+            Inpt the DNA sequence(s) that you would not like to digest. If this
+            is filled out, then any enzyme that performs one or more digestions
+            in this DNA will be exluded from the analysis on the desired DNA.
+            The input has to be in FASTA format and be less than 1Mb.
+          </p>
           <TextareaAutosize
             aria-label="minimum height"
             minRows={3}
             placeholder="Input DNA that you don't want to digest"
+            className="text-gray-800"
           />
+          <Button variant="contained" component="label">
+            Upload File
+            <input type="file" hidden />
+          </Button>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <h1>Enzyme Selection</h1>
