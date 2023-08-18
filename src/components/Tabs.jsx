@@ -6,6 +6,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Button from "@mui/material/Button";
+import LabelledSwitch from "./LabelledSwitch";
+import Switch from "@mui/material/Switch";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -42,6 +44,7 @@ function a11yProps(index) {
 
 export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
+  const [showRestrictedInput, setShowRestrictedInput] = React.useState(false);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -56,32 +59,57 @@ export default function BasicTabs() {
             Inpt the DNA sequence(s) that you would like to digest. The input
             has to be in FASTA format and be less than 1Mb.
           </p>
-          <TextareaAutosize
-            aria-label="minimum height"
-            minRows={3}
-            placeholder="Input DNA to digest"
-            className="text-gray-800"
-          />
+          {/* TODO, FIX THE OVERFLOW AND ADD A SCROLL WHEN THIS GETS TOO BIG */}
+          <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[300px] overflow-auto">
+            <TextareaAutosize
+              aria-label="minimum height"
+              minRows={3}
+              placeholder="Input DNA to digest"
+              className="text-gray-800"
+            />
+          </div>
           <Button variant="contained" component="label">
             Upload File
             <input type="file" hidden />
           </Button>
-          <p>
-            Inpt the DNA sequence(s) that you would not like to digest. If this
-            is filled out, then any enzyme that performs one or more digestions
-            in this DNA will be exluded from the analysis on the desired DNA.
-            The input has to be in FASTA format and be less than 1Mb.
-          </p>
-          <TextareaAutosize
-            aria-label="minimum height"
-            minRows={3}
-            placeholder="Input DNA that you don't want to digest"
-            className="text-gray-800"
+          <div
+            className={`overflow-hidden transition-all duration-500 ease-in-out ${
+              showRestrictedInput ? "max-h-[300px]" : "max-h-0"
+            }`}
+          >
+            {/* {showRestrictedInput && (
+              <> */}
+            <p>
+              Inpt the DNA sequence(s) that you would not like to digest. If
+              this is filled out, then any enzyme that performs one or more
+              digestions in this DNA will be exluded from the analysis on the
+              desired DNA. The input has to be in FASTA format and be less than
+              1Mb.
+            </p>
+            <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[300px] overflow-auto">
+              <TextareaAutosize
+                aria-label="minimum height"
+                minRows={3}
+                placeholder="Input DNA that you don't want to digest"
+                className="text-gray-800"
+              />
+            </div>
+            <Button variant="contained" component="label">
+              Upload File
+              <input type="file" hidden />
+            </Button>
+            {/* </>
+            )} */}
+          </div>
+          <LabelledSwitch />
+          {/* TODO, ADD THIS LOGIC TO THE LABELLED DNA INPUT THING BUT DO IT USING A GLOBAL STATE MANAGEMENT SYSTEM LIKE REDUX TO ENSURE PARENT CAN GET THE STATE */}
+          <Switch
+            onChange={() =>
+              setShowRestrictedInput(
+                (showRestrictedInput) => !showRestrictedInput,
+              )
+            }
           />
-          <Button variant="contained" component="label">
-            Upload File
-            <input type="file" hidden />
-          </Button>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <h1>Enzyme Selection</h1>
