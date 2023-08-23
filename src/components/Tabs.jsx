@@ -124,10 +124,7 @@ export default function BasicTabs() {
           </div>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          <div>
-            <h1>Enzyme Selection</h1>
-            <EnzymeSelection />
-          </div>
+          <EnzymeSelection />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
           <h1>Extra parameters</h1>
