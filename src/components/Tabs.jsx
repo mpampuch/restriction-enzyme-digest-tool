@@ -8,6 +8,7 @@ import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Button from "@mui/material/Button";
 import LabelledSwitch from "./LabelledSwitch";
 import Switch from "@mui/material/Switch";
+import EnzymeSelection from "./EnzymeSelection";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -123,7 +124,10 @@ export default function BasicTabs() {
           </div>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          <h1>Enzyme Selection</h1>
+          <div>
+            <h1>Enzyme Selection</h1>
+            <EnzymeSelection />
+          </div>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
           <h1>Extra parameters</h1>

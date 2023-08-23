@@ -97,8 +97,8 @@ def load_dna(file):
 # DNA sequences
 dna_to_cut = load_dna("dna_to_cut.fa")
 dna_to_not_cut = load_dna("dna_to_not_cut.fa")
-print(dna_to_cut)
-print(dna_to_not_cut)
+# print(dna_to_cut)
+# print(dna_to_not_cut)
 
 # Restriction enzymes
 commercial_enzymes = {str(x): getattr(Restriction, str(x))
@@ -263,5 +263,5 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
 # # print(test_restricted_seq)
 
 test = re_digest_analysis(sequence_to_cut=dna_to_cut, sequence_to_not_cut=dna_to_not_cut,
-                          enzymes=commercial_enzymes, min_cuts=0, max_cuts=1, output_style="map")
+                          enzymes=commercial_enzymes, min_cuts=1, max_cuts=5, output_style="map")
 print(test)
