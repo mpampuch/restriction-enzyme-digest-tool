@@ -12,7 +12,7 @@ import {
   toggleExcludeCs,
   toggleExcludeGs,
   toggleExcludeTs,
-  toggleExcludeAmbiguousBases,
+  // toggleExcludeAmbiguousBases,
   toggleExcludeNs,
   toggleExcludeWs,
   toggleExcludeSs,
@@ -70,12 +70,12 @@ function EnzymeSelection() {
     enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("T")),
   );
 
-  const ambiguousBasesPattern = /[NWSMKRYBDHV]/;
-  const enzymesWithAmbiguousBases = new Set(
-    enzymesList.filter((enzyme) =>
-      ambiguousBasesPattern.test(enzymesState[enzyme].site),
-    ),
-  );
+  // const ambiguousBasesPattern = /[NWSMKRYBDHV]/;
+  // const enzymesWithAmbiguousBases = new Set(
+  //   enzymesList.filter((enzyme) =>
+  //     ambiguousBasesPattern.test(enzymesState[enzyme].site),
+  //   ),
+  // );
 
   const enzymesWithNs = new Set(
     enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("N")),
@@ -157,6 +157,7 @@ function EnzymeSelection() {
   function handleToggleExclude3PrimeOverhangs() {
     dispatch(toggleExclude3PrimeOverhangs());
     for (const enzyme of enzymesWith3PrimeOverhangs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "toggleExclude3PrimeOverhangs",
@@ -167,6 +168,7 @@ function EnzymeSelection() {
   function handleToggleExclude5PrimeOverhangs() {
     dispatch(toggleExclude5PrimeOverhangs());
     for (const enzyme of enzymesWith5PrimeOverhangs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "toggleExclude5PrimeOverhangs",
@@ -177,6 +179,7 @@ function EnzymeSelection() {
   function handleToggleExcludeBluntEnds() {
     dispatch(toggleExcludeBluntEnds());
     for (const enzyme of enzymesWithBluntEnds) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "toggleExcludeBluntEnds",
@@ -187,6 +190,7 @@ function EnzymeSelection() {
   function handleToggleExcludeAs() {
     dispatch(toggleExcludeAs());
     for (const enzyme of enzymesWithAs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeAs",
@@ -197,6 +201,7 @@ function EnzymeSelection() {
   function handleToggleExcludeCs() {
     dispatch(toggleExcludeCs());
     for (const enzyme of enzymesWithCs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeCs",
@@ -207,6 +212,7 @@ function EnzymeSelection() {
   function handleToggleExcludeGs() {
     dispatch(toggleExcludeGs());
     for (const enzyme of enzymesWithGs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeGs",
@@ -217,6 +223,7 @@ function EnzymeSelection() {
   function handleToggleExcludeTs() {
     dispatch(toggleExcludeTs());
     for (const enzyme of enzymesWithTs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeTs",
@@ -225,18 +232,49 @@ function EnzymeSelection() {
   }
 
   function handleToggleExcludeAmbiguousBases() {
-    dispatch(toggleExcludeAmbiguousBases());
-    for (const enzyme of enzymesWithAmbiguousBases) {
-      handleGreyOutEnzyme({
-        enzyme: enzyme,
-        setting: "handleToggleExcludeAmbiguousBases",
-      });
+    if (!settingsState.excludeNs) handleToggleExcludeNs();
+    if (!settingsState.excludeWs) handleToggleExcludeWs();
+    if (!settingsState.excludeSs) handleToggleExcludeSs();
+    if (!settingsState.excludeMs) handleToggleExcludeMs();
+    if (!settingsState.excludeKs) handleToggleExcludeKs();
+    if (!settingsState.excludeRs) handleToggleExcludeRs();
+    if (!settingsState.excludeYs) handleToggleExcludeYs();
+    if (!settingsState.excludeBs) handleToggleExcludeBs();
+    if (!settingsState.excludeDs) handleToggleExcludeDs();
+    if (!settingsState.excludeHs) handleToggleExcludeHs();
+    if (!settingsState.excludeVs) handleToggleExcludeVs();
+    // if all are true, then set all to false
+    if (
+      settingsState.excludeNs &&
+      settingsState.excludeWs &&
+      settingsState.excludeSs &&
+      settingsState.excludeMs &&
+      settingsState.excludeKs &&
+      settingsState.excludeRs &&
+      settingsState.excludeYs &&
+      settingsState.excludeBs &&
+      settingsState.excludeDs &&
+      settingsState.excludeHs &&
+      settingsState.excludeVs
+    ) {
+      handleToggleExcludeNs();
+      handleToggleExcludeWs();
+      handleToggleExcludeSs();
+      handleToggleExcludeMs();
+      handleToggleExcludeKs();
+      handleToggleExcludeRs();
+      handleToggleExcludeYs();
+      handleToggleExcludeBs();
+      handleToggleExcludeDs();
+      handleToggleExcludeHs();
+      handleToggleExcludeVs();
     }
   }
 
   function handleToggleExcludeNs() {
     dispatch(toggleExcludeNs());
     for (const enzyme of enzymesWithNs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeNs",
@@ -247,6 +285,7 @@ function EnzymeSelection() {
   function handleToggleExcludeWs() {
     dispatch(toggleExcludeWs());
     for (const enzyme of enzymesWithWs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeWs",
@@ -257,6 +296,7 @@ function EnzymeSelection() {
   function handleToggleExcludeSs() {
     dispatch(toggleExcludeSs());
     for (const enzyme of enzymesWithSs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeSs",
@@ -267,6 +307,7 @@ function EnzymeSelection() {
   function handleToggleExcludeMs() {
     dispatch(toggleExcludeMs());
     for (const enzyme of enzymesWithMs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeMs",
@@ -277,6 +318,7 @@ function EnzymeSelection() {
   function handleToggleExcludeKs() {
     dispatch(toggleExcludeKs());
     for (const enzyme of enzymesWithKs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeKs",
@@ -287,6 +329,7 @@ function EnzymeSelection() {
   function handleToggleExcludeRs() {
     dispatch(toggleExcludeRs());
     for (const enzyme of enzymesWithRs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeRs",
@@ -297,6 +340,7 @@ function EnzymeSelection() {
   function handleToggleExcludeYs() {
     dispatch(toggleExcludeYs());
     for (const enzyme of enzymesWithYs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeYs",
@@ -307,6 +351,7 @@ function EnzymeSelection() {
   function handleToggleExcludeBs() {
     dispatch(toggleExcludeBs());
     for (const enzyme of enzymesWithBs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeBs",
@@ -317,6 +362,7 @@ function EnzymeSelection() {
   function handleToggleExcludeDs() {
     dispatch(toggleExcludeDs());
     for (const enzyme of enzymesWithDs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeDs",
@@ -327,6 +373,7 @@ function EnzymeSelection() {
   function handleToggleExcludeHs() {
     dispatch(toggleExcludeHs());
     for (const enzyme of enzymesWithHs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeHs",
@@ -337,6 +384,7 @@ function EnzymeSelection() {
   function handleToggleExcludeVs() {
     dispatch(toggleExcludeVs());
     for (const enzyme of enzymesWithVs) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeVs",
@@ -347,6 +395,7 @@ function EnzymeSelection() {
   function handleToggleExcludeMethylationSensitive() {
     dispatch(toggleExcludeMethylationSensitive());
     for (const enzyme of enzymesWithMethylationSensitive) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeMethylationSensitive",
@@ -357,10 +406,22 @@ function EnzymeSelection() {
   function handleToggleExcludeMethylationInsensitive() {
     dispatch(toggleExcludeMethylationInsensitive());
     for (const enzyme of enzymesWithMethylationInsensitive) {
+      if (enzymesState[enzyme].is_selected) handleSelectEnzyme(enzyme);
       handleGreyOutEnzyme({
         enzyme: enzyme,
         setting: "handleToggleExcludeMethylationInsensitive",
       });
+    }
+  }
+
+  function handleSelectVisibleEnzymes() {
+    for (const enzyme of enzymesList) {
+      if (
+        enzymesState[enzyme].greyed_out_by.length ||
+        enzymesState[enzyme].is_selected
+      )
+        continue;
+      handleSelectEnzyme(enzyme);
     }
   }
 
@@ -644,6 +705,15 @@ function EnzymeSelection() {
             />
             <span className="ml-4 text-2xl">Methylation insensitive</span>
           </div>
+        </div>
+        {/* Add button to select visible */}
+        <div className="flex justify-center">
+          <button
+            className="rounded-md bg-blue-500 px-4 py-2 text-2xl font-medium text-white"
+            onClick={handleSelectVisibleEnzymes}
+          >
+            Select Visible
+          </button>
         </div>
       </div>
     </div>
