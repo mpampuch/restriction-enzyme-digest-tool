@@ -6,7 +6,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FspEI: {
@@ -16,7 +16,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AccII: {
@@ -26,7 +26,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AciI: {
@@ -36,7 +36,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AfaI: {
@@ -46,7 +46,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AluBI: {
@@ -56,7 +56,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AluI: {
@@ -66,7 +66,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AoxI: {
@@ -76,7 +76,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AspLEI: {
@@ -86,7 +86,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BfaI: {
@@ -96,7 +96,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsh1236I: {
@@ -106,7 +106,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BshFI: {
@@ -116,7 +116,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsiSI: {
@@ -126,7 +126,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsnI: {
@@ -136,7 +136,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp143I: {
@@ -146,7 +146,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspACI: {
@@ -156,7 +156,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspANI: {
@@ -166,7 +166,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspFNI: {
@@ -176,7 +176,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssMI: {
@@ -186,7 +186,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstFNI: {
@@ -196,7 +196,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstHHI: {
@@ -206,7 +206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstKTI: {
@@ -216,7 +216,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstMBI: {
@@ -226,7 +226,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstUI: {
@@ -236,7 +236,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsuRI: {
@@ -246,7 +246,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CfoI: {
@@ -256,7 +256,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Csp6I: {
@@ -266,7 +266,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CviAII: {
@@ -276,7 +276,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CviJI: {
@@ -286,7 +286,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CviKI_1: {
@@ -296,7 +296,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CviQI: {
@@ -306,7 +306,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DpnI: {
@@ -316,7 +316,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DpnII: {
@@ -326,7 +326,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FaeI: {
@@ -336,7 +336,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FaiI: {
@@ -346,7 +346,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FatI: {
@@ -356,7 +356,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FspBI: {
@@ -366,7 +366,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   GlaI: {
@@ -376,7 +376,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HaeIII: {
@@ -386,7 +386,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HapII: {
@@ -396,7 +396,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HhaI: {
@@ -406,7 +406,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hin1II: {
@@ -416,7 +416,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hin6I: {
@@ -426,7 +426,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HinP1I: {
@@ -436,7 +436,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpaII: {
@@ -446,7 +446,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpyCH4IV: {
@@ -456,7 +456,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpyCH4V: {
@@ -466,7 +466,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpySE526I: {
@@ -476,7 +476,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hsp92II: {
@@ -486,7 +486,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HspAI: {
@@ -496,7 +496,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Kzo9I: {
@@ -506,7 +506,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   LpnPI: {
@@ -516,7 +516,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MaeI: {
@@ -526,7 +526,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MaeII: {
@@ -536,7 +536,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MalI: {
@@ -546,7 +546,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MboI: {
@@ -556,7 +556,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MluCI: {
@@ -566,7 +566,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MnlI: {
@@ -576,7 +576,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MseI: {
@@ -586,7 +586,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MspI: {
@@ -596,7 +596,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MspJI: {
@@ -606,7 +606,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MvnI: {
@@ -616,7 +616,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NdeII: {
@@ -626,7 +626,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NlaIII: {
@@ -636,7 +636,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   RsaI: {
@@ -646,7 +646,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   RsaNI: {
@@ -656,7 +656,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SaqAI: {
@@ -666,7 +666,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Sau3AI: {
@@ -676,7 +676,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SetI: {
@@ -686,7 +686,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SgeI: {
@@ -696,7 +696,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Sse9I: {
@@ -706,7 +706,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SsiI: {
@@ -716,7 +716,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SspMI: {
@@ -726,7 +726,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TaiI: {
@@ -736,7 +736,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TaqI: {
@@ -746,7 +746,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TasI: {
@@ -756,7 +756,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Tru1I: {
@@ -766,7 +766,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Tru9I: {
@@ -776,7 +776,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XspI: {
@@ -786,7 +786,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AclWI: {
@@ -796,7 +796,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AgsI: {
@@ -806,7 +806,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AjnI: {
@@ -816,7 +816,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Alw26I: {
@@ -826,7 +826,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AlwI: {
@@ -836,7 +836,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ApeKI: {
@@ -846,7 +846,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AspS9I: {
@@ -856,7 +856,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AsuC2I: {
@@ -866,7 +866,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AsuHPI: {
@@ -876,7 +876,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AvaII: {
@@ -886,7 +886,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BbvI: {
@@ -896,7 +896,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BccI: {
@@ -906,7 +906,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BceAI: {
@@ -916,7 +916,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BciT130I: {
@@ -926,7 +926,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BcnI: {
@@ -936,7 +936,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BcoDI: {
@@ -946,7 +946,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BisI: {
@@ -956,7 +956,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BlsI: {
@@ -966,7 +966,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bme1390I: {
@@ -976,7 +976,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bme18I: {
@@ -986,7 +986,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmgT120I: {
@@ -996,7 +996,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmrFI: {
@@ -1006,7 +1006,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmsI: {
@@ -1016,7 +1016,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BpuMI: {
@@ -1026,7 +1026,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bse1I: {
@@ -1036,7 +1036,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseBI: {
@@ -1046,7 +1046,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseGI: {
@@ -1056,7 +1056,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseMII: {
@@ -1066,7 +1066,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseNI: {
@@ -1076,7 +1076,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseXI: {
@@ -1086,7 +1086,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BslFI: {
@@ -1096,7 +1096,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsmAI: {
@@ -1106,7 +1106,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsmFI: {
@@ -1116,7 +1116,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspCNI: {
@@ -1126,7 +1126,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspPI: {
@@ -1136,7 +1136,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsrI: {
@@ -1146,7 +1146,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bst2UI: {
@@ -1156,7 +1156,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bst4CI: {
@@ -1166,7 +1166,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstDEI: {
@@ -1176,7 +1176,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstF5I: {
@@ -1186,7 +1186,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstMAI: {
@@ -1196,7 +1196,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstNI: {
@@ -1206,7 +1206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstSCI: {
@@ -1216,7 +1216,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstV1I: {
@@ -1226,7 +1226,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BtsCI: {
@@ -1236,7 +1236,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BtsIMutI: {
@@ -1246,7 +1246,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Cfr13I: {
@@ -1256,7 +1256,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CseI: {
@@ -1266,7 +1266,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DdeI: {
@@ -1276,7 +1276,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco47I: {
@@ -1286,7 +1286,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoRII: {
@@ -1296,7 +1296,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FaqI: {
@@ -1306,7 +1306,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FauI: {
@@ -1316,7 +1316,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Fnu4HI: {
@@ -1326,7 +1326,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FokI: {
@@ -1336,7 +1336,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Fsp4HI: {
@@ -1346,7 +1346,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   GluI: {
@@ -1356,7 +1356,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HgaI: {
@@ -1366,7 +1366,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HinfI: {
@@ -1376,7 +1376,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HphI: {
@@ -1386,7 +1386,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hpy188I: {
@@ -1396,7 +1396,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hpy99I: {
@@ -1406,7 +1406,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpyAV: {
@@ -1416,7 +1416,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpyCH4III: {
@@ -1426,7 +1426,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpyF3I: {
@@ -1436,7 +1436,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   LmnI: {
@@ -1446,7 +1446,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Lsp1109I: {
@@ -1456,7 +1456,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   LweI: {
@@ -1466,7 +1466,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MaeIII: {
@@ -1476,7 +1476,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MboII: {
@@ -1486,7 +1486,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MlyI: {
@@ -1496,7 +1496,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MspR9I: {
@@ -1506,7 +1506,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MvaI: {
@@ -1516,7 +1516,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NciI: {
@@ -1526,7 +1526,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NmuCI: {
@@ -1536,7 +1536,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PfeI: {
@@ -1546,7 +1546,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PkrI: {
@@ -1556,7 +1556,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PleI: {
@@ -1566,7 +1566,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PpsI: {
@@ -1576,7 +1576,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Psp6I: {
@@ -1586,7 +1586,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspGI: {
@@ -1596,7 +1596,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspPI: {
@@ -1606,7 +1606,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SatI: {
@@ -1616,7 +1616,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Sau96I: {
@@ -1626,7 +1626,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SchI: {
@@ -1636,7 +1636,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ScrFI: {
@@ -1646,7 +1646,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SfaNI: {
@@ -1656,7 +1656,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SinI: {
@@ -1666,7 +1666,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   StyD4I: {
@@ -1676,7 +1676,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TaaI: {
@@ -1686,7 +1686,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TauI: {
@@ -1696,7 +1696,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TfiI: {
@@ -1706,7 +1706,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TscAI: {
@@ -1716,7 +1716,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TseFI: {
@@ -1726,7 +1726,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TseI: {
@@ -1736,7 +1736,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Tsp45I: {
@@ -1746,7 +1746,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TspDTI: {
@@ -1756,7 +1756,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TspGWI: {
@@ -1766,7 +1766,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TspRI: {
@@ -1776,7 +1776,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   VpaK11BI: {
@@ -1786,7 +1786,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AanI: {
@@ -1796,7 +1796,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AatII: {
@@ -1806,7 +1806,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Acc16I: {
@@ -1816,7 +1816,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Acc36I: {
@@ -1826,7 +1826,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Acc65I: {
@@ -1836,7 +1836,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AccB1I: {
@@ -1846,7 +1846,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AccBSI: {
@@ -1856,7 +1856,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AccI: {
@@ -1866,7 +1866,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AccIII: {
@@ -1876,7 +1876,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AclI: {
@@ -1886,7 +1886,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AcoI: {
@@ -1896,7 +1896,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AcsI: {
@@ -1906,7 +1906,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AcuI: {
@@ -1916,7 +1916,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AcvI: {
@@ -1926,7 +1926,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AcyI: {
@@ -1936,7 +1936,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AfeI: {
@@ -1946,7 +1946,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AflII: {
@@ -1956,7 +1956,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AflIII: {
@@ -1966,7 +1966,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AgeI: {
@@ -1976,7 +1976,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AhlI: {
@@ -1986,7 +1986,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AjiI: {
@@ -1996,7 +1996,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Alw21I: {
@@ -2006,7 +2006,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Alw44I: {
@@ -2016,7 +2016,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Ama87I: {
@@ -2026,7 +2026,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Aor13HI: {
@@ -2036,7 +2036,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Aor51HI: {
@@ -2046,7 +2046,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ApaI: {
@@ -2056,7 +2056,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ApaLI: {
@@ -2066,7 +2066,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ApoI: {
@@ -2076,7 +2076,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AseI: {
@@ -2086,7 +2086,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AsiGI: {
@@ -2096,7 +2096,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Asp718I: {
@@ -2106,7 +2106,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AspA2I: {
@@ -2116,7 +2116,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AsuII: {
@@ -2126,7 +2126,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AsuNHI: {
@@ -2136,7 +2136,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AvaI: {
@@ -2146,7 +2146,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AvrII: {
@@ -2156,7 +2156,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BaeGI: {
@@ -2166,7 +2166,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BalI: {
@@ -2176,7 +2176,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BamHI: {
@@ -2186,7 +2186,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BanI: {
@@ -2196,7 +2196,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BanII: {
@@ -2206,7 +2206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BauI: {
@@ -2216,7 +2216,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BbrPI: {
@@ -2226,7 +2226,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BbsI: {
@@ -2236,7 +2236,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bbv12I: {
@@ -2246,7 +2246,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BciVI: {
@@ -2256,7 +2256,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BclI: {
@@ -2266,7 +2266,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BcuI: {
@@ -2276,7 +2276,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BfmI: {
@@ -2286,7 +2286,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BfoI: {
@@ -2296,7 +2296,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BfrI: {
@@ -2306,7 +2306,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BfuAI: {
@@ -2316,7 +2316,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BfuI: {
@@ -2326,7 +2326,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BglII: {
@@ -2336,7 +2336,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BlnI: {
@@ -2346,7 +2346,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmcAI: {
@@ -2356,7 +2356,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmeT110I: {
@@ -2366,7 +2366,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmgBI: {
@@ -2376,7 +2376,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmiI: {
@@ -2386,7 +2386,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmrI: {
@@ -2396,7 +2396,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmtI: {
@@ -2406,7 +2406,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmuI: {
@@ -2416,7 +2416,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BpiI: {
@@ -2426,7 +2426,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BpmI: {
@@ -2436,7 +2436,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bpu14I: {
@@ -2446,7 +2446,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BpuEI: {
@@ -2456,7 +2456,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsa29I: {
@@ -2466,7 +2466,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsaAI: {
@@ -2476,7 +2476,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsaHI: {
@@ -2486,7 +2486,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsaI: {
@@ -2496,7 +2496,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsaJI: {
@@ -2506,7 +2506,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsaWI: {
@@ -2516,7 +2516,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bse118I: {
@@ -2526,7 +2526,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bse3DI: {
@@ -2536,7 +2536,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseAI: {
@@ -2546,7 +2546,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseCI: {
@@ -2556,7 +2556,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseDI: {
@@ -2566,7 +2566,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseMI: {
@@ -2576,7 +2576,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsePI: {
@@ -2586,7 +2586,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseRI: {
@@ -2596,7 +2596,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseSI: {
@@ -2606,7 +2606,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseX3I: {
@@ -2616,7 +2616,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseYI: {
@@ -2626,7 +2626,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsgI: {
@@ -2636,7 +2636,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsh1285I: {
@@ -2646,7 +2646,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BshNI: {
@@ -2656,7 +2656,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BshTI: {
@@ -2666,7 +2666,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BshVI: {
@@ -2676,7 +2676,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsiEI: {
@@ -2686,7 +2686,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsiHKAI: {
@@ -2696,7 +2696,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsiHKCI: {
@@ -2706,7 +2706,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsiWI: {
@@ -2716,7 +2716,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsmBI: {
@@ -2726,7 +2726,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsmI: {
@@ -2736,7 +2736,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bso31I: {
@@ -2746,7 +2746,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsoBI: {
@@ -2756,7 +2756,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp119I: {
@@ -2766,7 +2766,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp120I: {
@@ -2776,7 +2776,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp1286I: {
@@ -2786,7 +2786,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp13I: {
@@ -2796,7 +2796,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp1407I: {
@@ -2806,7 +2806,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp19I: {
@@ -2816,7 +2816,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp68I: {
@@ -2826,7 +2826,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspDI: {
@@ -2836,7 +2836,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspEI: {
@@ -2846,7 +2846,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspHI: {
@@ -2856,7 +2856,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspLI: {
@@ -2866,7 +2866,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspMAI: {
@@ -2876,7 +2876,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspMI: {
@@ -2886,7 +2886,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspOI: {
@@ -2896,7 +2896,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspT104I: {
@@ -2906,7 +2906,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspT107I: {
@@ -2916,7 +2916,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspTI: {
@@ -2926,7 +2926,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspTNI: {
@@ -2936,7 +2936,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsrBI: {
@@ -2946,7 +2946,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsrDI: {
@@ -2956,7 +2956,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsrFI: {
@@ -2966,7 +2966,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsrGI: {
@@ -2976,7 +2976,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssAI: {
@@ -2986,7 +2986,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssECI: {
@@ -2996,7 +2996,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssHII: {
@@ -3006,7 +3006,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssNAI: {
@@ -3016,7 +3016,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssNI: {
@@ -3026,7 +3026,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssSI: {
@@ -3036,7 +3036,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BssT1I: {
@@ -3046,7 +3046,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bst1107I: {
@@ -3056,7 +3056,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bst2BI: {
@@ -3066,7 +3066,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bst6I: {
@@ -3076,7 +3076,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstACI: {
@@ -3086,7 +3086,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstAFI: {
@@ -3096,7 +3096,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstAUI: {
@@ -3106,7 +3106,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstBAI: {
@@ -3116,7 +3116,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstBI: {
@@ -3126,7 +3126,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstC8I: {
@@ -3136,7 +3136,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstDSI: {
@@ -3146,7 +3146,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstH2I: {
@@ -3156,7 +3156,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstMCI: {
@@ -3166,7 +3166,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstNSI: {
@@ -3176,7 +3176,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstSFI: {
@@ -3186,7 +3186,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstSLI: {
@@ -3196,7 +3196,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstSNI: {
@@ -3206,7 +3206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstV2I: {
@@ -3216,7 +3216,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstX2I: {
@@ -3226,7 +3226,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstYI: {
@@ -3236,7 +3236,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstZ17I: {
@@ -3246,7 +3246,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstZI: {
@@ -3256,7 +3256,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsu15I: {
@@ -3266,7 +3266,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsuI: {
@@ -3276,7 +3276,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsuTUI: {
@@ -3286,7 +3286,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BtgI: {
@@ -3296,7 +3296,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BtgZI: {
@@ -3306,7 +3306,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BtrI: {
@@ -3316,7 +3316,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BtsI: {
@@ -3326,7 +3326,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BtuMI: {
@@ -3336,7 +3336,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BveI: {
@@ -3346,7 +3346,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Cac8I: {
@@ -3356,7 +3356,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CciI: {
@@ -3366,7 +3366,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Cfr10I: {
@@ -3376,7 +3376,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Cfr42I: {
@@ -3386,7 +3386,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Cfr9I: {
@@ -3396,7 +3396,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ClaI: {
@@ -3406,7 +3406,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CspAI: {
@@ -3416,7 +3416,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DinI: {
@@ -3426,7 +3426,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DraI: {
@@ -3436,7 +3436,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EaeI: {
@@ -3446,7 +3446,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EagI: {
@@ -3456,7 +3456,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eam1104I: {
@@ -3466,7 +3466,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EarI: {
@@ -3476,7 +3476,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EciI: {
@@ -3486,7 +3486,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Ecl136II: {
@@ -3496,7 +3496,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EclXI: {
@@ -3506,7 +3506,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco105I: {
@@ -3516,7 +3516,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco130I: {
@@ -3526,7 +3526,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco147I: {
@@ -3536,7 +3536,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco24I: {
@@ -3546,7 +3546,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco31I: {
@@ -3556,7 +3556,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco32I: {
@@ -3566,7 +3566,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco47III: {
@@ -3576,7 +3576,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco52I: {
@@ -3586,7 +3586,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco53kI: {
@@ -3596,7 +3596,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco57I: {
@@ -3606,7 +3606,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco72I: {
@@ -3616,7 +3616,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco88I: {
@@ -3626,7 +3626,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoICRI: {
@@ -3636,7 +3636,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoRI: {
@@ -3646,7 +3646,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoRV: {
@@ -3656,7 +3656,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoT14I: {
@@ -3666,7 +3666,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoT22I: {
@@ -3676,7 +3676,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoT38I: {
@@ -3686,7 +3686,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EgeI: {
@@ -3696,7 +3696,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EheI: {
@@ -3706,7 +3706,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ErhI: {
@@ -3716,7 +3716,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Esp3I: {
@@ -3726,7 +3726,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FauNDI: {
@@ -3736,7 +3736,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FbaI: {
@@ -3746,7 +3746,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FblI: {
@@ -3756,7 +3756,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FriOI: {
@@ -3766,7 +3766,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FspI: {
@@ -3776,7 +3776,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   GsaI: {
@@ -3786,7 +3786,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   GsuI: {
@@ -3796,7 +3796,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HaeII: {
@@ -3806,7 +3806,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hin1I: {
@@ -3816,7 +3816,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HincII: {
@@ -3826,7 +3826,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HindII: {
@@ -3836,7 +3836,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HindIII: {
@@ -3846,7 +3846,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpaI: {
@@ -3856,7 +3856,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hpy166II: {
@@ -3866,7 +3866,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hpy188III: {
@@ -3876,7 +3876,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hpy8I: {
@@ -3886,7 +3886,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Hsp92I: {
@@ -3896,7 +3896,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   KasI: {
@@ -3906,7 +3906,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Kpn2I: {
@@ -3916,7 +3916,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   KpnI: {
@@ -3926,7 +3926,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   KroI: {
@@ -3936,7 +3936,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Ksp22I: {
@@ -3946,7 +3946,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   KspAI: {
@@ -3956,7 +3956,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   KspI: {
@@ -3966,7 +3966,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MbiI: {
@@ -3976,7 +3976,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MfeI: {
@@ -3986,7 +3986,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MflI: {
@@ -3996,7 +3996,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MhlI: {
@@ -4006,7 +4006,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MlsI: {
@@ -4016,7 +4016,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MluI: {
@@ -4026,7 +4026,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MluNI: {
@@ -4036,7 +4036,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Mly113I: {
@@ -4046,7 +4046,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MmeI: {
@@ -4056,7 +4056,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Mox20I: {
@@ -4066,7 +4066,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Mph1103I: {
@@ -4076,7 +4076,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MroI: {
@@ -4086,7 +4086,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MroNI: {
@@ -4096,7 +4096,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MscI: {
@@ -4106,7 +4106,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Msp20I: {
@@ -4116,7 +4116,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MspA1I: {
@@ -4126,7 +4126,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MspCI: {
@@ -4136,7 +4136,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MunI: {
@@ -4146,7 +4146,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Mva1269I: {
@@ -4156,7 +4156,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NaeI: {
@@ -4166,7 +4166,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NarI: {
@@ -4176,7 +4176,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NcoI: {
@@ -4186,7 +4186,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NdeI: {
@@ -4196,7 +4196,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NgoMIV: {
@@ -4206,7 +4206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NheI: {
@@ -4216,7 +4216,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NlaIV: {
@@ -4226,7 +4226,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NmeAIII: {
@@ -4236,7 +4236,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NruI: {
@@ -4246,7 +4246,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NsbI: {
@@ -4256,7 +4256,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NsiI: {
@@ -4266,7 +4266,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NspI: {
@@ -4276,7 +4276,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NspV: {
@@ -4286,7 +4286,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PaeI: {
@@ -4296,7 +4296,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PaeR7I: {
@@ -4306,7 +4306,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PagI: {
@@ -4316,7 +4316,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PauI: {
@@ -4326,7 +4326,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PceI: {
@@ -4336,7 +4336,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PciI: {
@@ -4346,7 +4346,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PctI: {
@@ -4356,7 +4356,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PdiI: {
@@ -4366,7 +4366,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Pfl23II: {
@@ -4376,7 +4376,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PinAI: {
@@ -4386,7 +4386,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Ple19I: {
@@ -4396,7 +4396,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PluTI: {
@@ -4406,7 +4406,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PmaCI: {
@@ -4416,7 +4416,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PmlI: {
@@ -4426,7 +4426,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Ppu21I: {
@@ -4436,7 +4436,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PscI: {
@@ -4446,7 +4446,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PshBI: {
@@ -4456,7 +4456,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PsiI: {
@@ -4466,7 +4466,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Psp124BI: {
@@ -4476,7 +4476,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Psp1406I: {
@@ -4486,7 +4486,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspCI: {
@@ -4496,7 +4496,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspFI: {
@@ -4506,7 +4506,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspLI: {
@@ -4516,7 +4516,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspN4I: {
@@ -4526,7 +4526,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspOMI: {
@@ -4536,7 +4536,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PstI: {
@@ -4546,7 +4546,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PsuI: {
@@ -4556,7 +4556,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PteI: {
@@ -4566,7 +4566,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PvuI: {
@@ -4576,7 +4576,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PvuII: {
@@ -4586,7 +4586,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   RruI: {
@@ -4596,7 +4596,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SacI: {
@@ -4606,7 +4606,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SacII: {
@@ -4616,7 +4616,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SalI: {
@@ -4626,7 +4626,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ScaI: {
@@ -4636,7 +4636,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SduI: {
@@ -4646,7 +4646,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SfcI: {
@@ -4656,7 +4656,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SfoI: {
@@ -4666,7 +4666,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Sfr274I: {
@@ -4676,7 +4676,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Sfr303I: {
@@ -4686,7 +4686,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SfuI: {
@@ -4696,7 +4696,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SgrBI: {
@@ -4706,7 +4706,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SlaI: {
@@ -4716,7 +4716,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SmaI: {
@@ -4726,7 +4726,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SmlI: {
@@ -4736,7 +4736,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SmoI: {
@@ -4746,7 +4746,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SnaBI: {
@@ -4756,7 +4756,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SpeI: {
@@ -4766,7 +4766,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SphI: {
@@ -4776,7 +4776,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SseBI: {
@@ -4786,7 +4786,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SspDI: {
@@ -4796,7 +4796,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SspI: {
@@ -4806,7 +4806,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SstI: {
@@ -4816,7 +4816,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   StuI: {
@@ -4826,7 +4826,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   StyI: {
@@ -4836,7 +4836,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TaqII: {
@@ -4846,7 +4846,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TatI: {
@@ -4856,7 +4856,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   TspMI: {
@@ -4866,7 +4866,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Vha464I: {
@@ -4876,7 +4876,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   VneI: {
@@ -4886,7 +4886,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   VspI: {
@@ -4896,7 +4896,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XapI: {
@@ -4906,7 +4906,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XbaI: {
@@ -4916,7 +4916,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XceI: {
@@ -4926,7 +4926,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XhoI: {
@@ -4936,7 +4936,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XmaI: {
@@ -4946,7 +4946,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XmaJI: {
@@ -4956,7 +4956,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XmiI: {
@@ -4966,7 +4966,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ZraI: {
@@ -4976,7 +4976,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ZrmI: {
@@ -4986,7 +4986,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Zsp2I: {
@@ -4996,7 +4996,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AarI: {
@@ -5006,7 +5006,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AxyI: {
@@ -5016,7 +5016,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BbvCI: {
@@ -5026,7 +5026,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BlpI: {
@@ -5036,7 +5036,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bpu10I: {
@@ -5046,7 +5046,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bpu1102I: {
@@ -5056,7 +5056,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bse21I: {
@@ -5066,7 +5066,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsp1720I: {
@@ -5076,7 +5076,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BspQI: {
@@ -5086,7 +5086,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstEII: {
@@ -5096,7 +5096,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstPI: {
@@ -5106,7 +5106,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsu36I: {
@@ -5116,7 +5116,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CpoI: {
@@ -5126,7 +5126,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CsiI: {
@@ -5136,7 +5136,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CspI: {
@@ -5146,7 +5146,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco81I: {
@@ -5156,7 +5156,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eco91I: {
@@ -5166,7 +5166,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoO109I: {
@@ -5176,7 +5176,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoO65I: {
@@ -5186,7 +5186,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   KflI: {
@@ -5196,7 +5196,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   LguI: {
@@ -5206,7 +5206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MabI: {
@@ -5216,7 +5216,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PasI: {
@@ -5226,7 +5226,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PciSI: {
@@ -5236,7 +5236,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PfoI: {
@@ -5246,7 +5246,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PpuMI: {
@@ -5256,7 +5256,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Psp5II: {
@@ -5266,7 +5266,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspEI: {
@@ -5276,7 +5276,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspPPI: {
@@ -5286,7 +5286,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Rsr2I: {
@@ -5296,7 +5296,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   RsrII: {
@@ -5306,7 +5306,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SapI: {
@@ -5316,7 +5316,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SexAI: {
@@ -5326,7 +5326,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AbsI: {
@@ -5336,7 +5336,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AscI: {
@@ -5346,7 +5346,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AsiSI: {
@@ -5356,7 +5356,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CciNI: {
@@ -5366,7 +5366,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FseI: {
@@ -5376,7 +5376,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FspAI: {
@@ -5386,7 +5386,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MauBI: {
@@ -5396,7 +5396,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MreI: {
@@ -5406,7 +5406,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MssI: {
@@ -5416,7 +5416,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   NotI: {
@@ -5426,7 +5426,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PacI: {
@@ -5436,7 +5436,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PalAI: {
@@ -5446,7 +5446,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PmeI: {
@@ -5456,7 +5456,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PspXI: {
@@ -5466,7 +5466,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   RgaI: {
@@ -5476,7 +5476,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   RigI: {
@@ -5486,7 +5486,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SbfI: {
@@ -5496,7 +5496,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SdaI: {
@@ -5506,7 +5506,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SfaAI: {
@@ -5516,7 +5516,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SgfI: {
@@ -5526,7 +5526,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SgrAI: {
@@ -5536,7 +5536,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SgrDI: {
@@ -5546,7 +5546,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SgsI: {
@@ -5556,7 +5556,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SmiI: {
@@ -5566,7 +5566,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SrfI: {
@@ -5576,7 +5576,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Sse8387I: {
@@ -5586,7 +5586,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SwaI: {
@@ -5596,7 +5596,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AdeI: {
@@ -5606,7 +5606,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AlwNI: {
@@ -5616,7 +5616,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CaiI: {
@@ -5626,7 +5626,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DraIII: {
@@ -5636,7 +5636,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MteI: {
@@ -5646,7 +5646,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PflFI: {
@@ -5656,7 +5656,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PstNI: {
@@ -5666,7 +5666,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PsyI: {
@@ -5676,7 +5676,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Tth111I: {
@@ -5686,7 +5686,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AleI: {
@@ -5696,7 +5696,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Asp700I: {
@@ -5706,7 +5706,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BoxI: {
@@ -5716,7 +5716,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsaBI: {
@@ -5726,7 +5726,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bse8I: {
@@ -5736,7 +5736,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseJI: {
@@ -5746,7 +5746,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstPAI: {
@@ -5756,7 +5756,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MroXI: {
@@ -5766,7 +5766,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MslI: {
@@ -5776,7 +5776,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   OliI: {
@@ -5786,7 +5786,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PdmI: {
@@ -5796,7 +5796,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PshAI: {
@@ -5806,7 +5806,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   RseI: {
@@ -5816,7 +5816,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SmiMI: {
@@ -5826,7 +5826,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XmnI: {
@@ -5836,7 +5836,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AccB7I: {
@@ -5846,7 +5846,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AfiI: {
@@ -5856,7 +5856,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AhdI: {
@@ -5866,7 +5866,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BaeI: {
@@ -5876,7 +5876,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BglI: {
@@ -5886,7 +5886,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BmeRI: {
@@ -5896,7 +5896,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BplI: {
@@ -5906,7 +5906,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BsaXI: {
@@ -5916,7 +5916,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Bsc4I: {
@@ -5926,7 +5926,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BseLI: {
@@ -5936,7 +5936,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BslI: {
@@ -5946,7 +5946,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstAPI: {
@@ -5956,7 +5956,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstENI: {
@@ -5966,7 +5966,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstMWI: {
@@ -5976,7 +5976,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DriI: {
@@ -5986,7 +5986,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Eam1105I: {
@@ -5996,7 +5996,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   EcoNI: {
@@ -6006,7 +6006,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   FalI: {
@@ -6016,7 +6016,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   HpyF10VI: {
@@ -6026,7 +6026,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   MwoI: {
@@ -6036,7 +6036,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PflMI: {
@@ -6046,7 +6046,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   Van91I: {
@@ -6056,7 +6056,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XagI: {
@@ -6066,7 +6066,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AasI: {
@@ -6076,7 +6076,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BcgI: {
@@ -6086,7 +6086,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BstXI: {
@@ -6096,7 +6096,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   CspCI: {
@@ -6106,7 +6106,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DrdI: {
@@ -6116,7 +6116,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   DseDI: {
@@ -6126,7 +6126,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AloI: {
@@ -6136,7 +6136,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   ArsI: {
@@ -6146,7 +6146,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   BarI: {
@@ -6156,7 +6156,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PcsI: {
@@ -6166,7 +6166,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   PsrI: {
@@ -6176,7 +6176,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   SfiI: {
@@ -6186,7 +6186,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   AjuI: {
@@ -6196,7 +6196,7 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
   XcmI: {
@@ -6206,7 +6206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
-    is_grayed_out: false,
+    is_greyed_out: false,
     is_selected: false,
   },
 };
