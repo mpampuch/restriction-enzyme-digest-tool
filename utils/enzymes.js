@@ -6,6 +6,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FspEI: {
     site: "CC",
@@ -14,6 +16,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AccII: {
     site: "CGCG",
@@ -22,6 +26,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AciI: {
     site: "CCGC",
@@ -30,6 +36,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AfaI: {
     site: "GTAC",
@@ -38,6 +46,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AluBI: {
     site: "AGCT",
@@ -46,6 +56,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AluI: {
     site: "AGCT",
@@ -54,6 +66,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AoxI: {
     site: "GGCC",
@@ -62,6 +76,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AspLEI: {
     site: "GCGC",
@@ -70,6 +86,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BfaI: {
     site: "CTAG",
@@ -78,6 +96,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsh1236I: {
     site: "CGCG",
@@ -86,6 +106,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BshFI: {
     site: "GGCC",
@@ -94,6 +116,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsiSI: {
     site: "CCGG",
@@ -102,6 +126,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsnI: {
     site: "GGCC",
@@ -110,6 +136,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp143I: {
     site: "GATC",
@@ -118,6 +146,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspACI: {
     site: "CCGC",
@@ -126,6 +156,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspANI: {
     site: "GGCC",
@@ -134,6 +166,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspFNI: {
     site: "CGCG",
@@ -142,6 +176,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssMI: {
     site: "GATC",
@@ -150,6 +186,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstFNI: {
     site: "CGCG",
@@ -158,6 +196,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstHHI: {
     site: "GCGC",
@@ -166,6 +206,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstKTI: {
     site: "GATC",
@@ -174,6 +216,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstMBI: {
     site: "GATC",
@@ -182,6 +226,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstUI: {
     site: "CGCG",
@@ -190,6 +236,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsuRI: {
     site: "GGCC",
@@ -198,6 +246,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CfoI: {
     site: "GCGC",
@@ -206,6 +256,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Csp6I: {
     site: "GTAC",
@@ -214,6 +266,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CviAII: {
     site: "CATG",
@@ -222,6 +276,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CviJI: {
     site: "RGCY",
@@ -230,6 +286,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CviKI_1: {
     site: "RGCY",
@@ -238,6 +296,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CviQI: {
     site: "GTAC",
@@ -246,6 +306,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DpnI: {
     site: "GATC",
@@ -254,6 +316,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DpnII: {
     site: "GATC",
@@ -262,6 +326,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FaeI: {
     site: "CATG",
@@ -270,6 +336,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FaiI: {
     site: "YATR",
@@ -278,6 +346,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FatI: {
     site: "CATG",
@@ -286,6 +356,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FspBI: {
     site: "CTAG",
@@ -294,6 +366,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   GlaI: {
     site: "GCGC",
@@ -302,6 +376,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HaeIII: {
     site: "GGCC",
@@ -310,6 +386,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HapII: {
     site: "CCGG",
@@ -318,6 +396,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HhaI: {
     site: "GCGC",
@@ -326,6 +406,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hin1II: {
     site: "CATG",
@@ -334,6 +416,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hin6I: {
     site: "GCGC",
@@ -342,6 +426,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HinP1I: {
     site: "GCGC",
@@ -350,6 +436,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpaII: {
     site: "CCGG",
@@ -358,6 +446,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpyCH4IV: {
     site: "ACGT",
@@ -366,6 +456,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpyCH4V: {
     site: "TGCA",
@@ -374,6 +466,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpySE526I: {
     site: "ACGT",
@@ -382,6 +476,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hsp92II: {
     site: "CATG",
@@ -390,6 +486,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HspAI: {
     site: "GCGC",
@@ -398,6 +496,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Kzo9I: {
     site: "GATC",
@@ -406,6 +506,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   LpnPI: {
     site: "CCDG",
@@ -414,6 +516,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MaeI: {
     site: "CTAG",
@@ -422,6 +526,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MaeII: {
     site: "ACGT",
@@ -430,6 +536,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MalI: {
     site: "GATC",
@@ -438,6 +546,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MboI: {
     site: "GATC",
@@ -446,6 +556,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MluCI: {
     site: "AATT",
@@ -454,6 +566,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MnlI: {
     site: "CCTC",
@@ -462,6 +576,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MseI: {
     site: "TTAA",
@@ -470,6 +586,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MspI: {
     site: "CCGG",
@@ -478,6 +596,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MspJI: {
     site: "CNNR",
@@ -486,6 +606,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MvnI: {
     site: "CGCG",
@@ -494,6 +616,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NdeII: {
     site: "GATC",
@@ -502,6 +626,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NlaIII: {
     site: "CATG",
@@ -510,6 +636,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   RsaI: {
     site: "GTAC",
@@ -518,6 +646,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   RsaNI: {
     site: "GTAC",
@@ -526,6 +656,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SaqAI: {
     site: "TTAA",
@@ -534,6 +666,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Sau3AI: {
     site: "GATC",
@@ -542,6 +676,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SetI: {
     site: "ASST",
@@ -550,6 +686,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SgeI: {
     site: "CNNG",
@@ -558,6 +696,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Sse9I: {
     site: "AATT",
@@ -566,6 +706,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SsiI: {
     site: "CCGC",
@@ -574,6 +716,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SspMI: {
     site: "CTAG",
@@ -582,6 +726,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TaiI: {
     site: "ACGT",
@@ -590,6 +736,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TaqI: {
     site: "TCGA",
@@ -598,6 +746,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TasI: {
     site: "AATT",
@@ -606,6 +756,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Tru1I: {
     site: "TTAA",
@@ -614,6 +766,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Tru9I: {
     site: "TTAA",
@@ -622,6 +776,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XspI: {
     site: "CTAG",
@@ -630,6 +786,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AclWI: {
     site: "GGATC",
@@ -638,6 +796,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AgsI: {
     site: "TTSAA",
@@ -646,6 +806,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AjnI: {
     site: "CCWGG",
@@ -654,6 +816,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Alw26I: {
     site: "GTCTC",
@@ -662,6 +826,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AlwI: {
     site: "GGATC",
@@ -670,6 +836,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ApeKI: {
     site: "GCWGC",
@@ -678,6 +846,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AspS9I: {
     site: "GGNCC",
@@ -686,6 +856,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AsuC2I: {
     site: "CCSGG",
@@ -694,6 +866,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AsuHPI: {
     site: "GGTGA",
@@ -702,6 +876,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AvaII: {
     site: "GGWCC",
@@ -710,6 +886,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BbvI: {
     site: "GCAGC",
@@ -718,6 +896,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BccI: {
     site: "CCATC",
@@ -726,6 +906,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BceAI: {
     site: "ACGGC",
@@ -734,6 +916,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BciT130I: {
     site: "CCWGG",
@@ -742,6 +926,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BcnI: {
     site: "CCSGG",
@@ -750,6 +936,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BcoDI: {
     site: "GTCTC",
@@ -758,6 +946,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BisI: {
     site: "GCNGC",
@@ -766,6 +956,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BlsI: {
     site: "GCNGC",
@@ -774,6 +966,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bme1390I: {
     site: "CCNGG",
@@ -782,6 +976,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bme18I: {
     site: "GGWCC",
@@ -790,6 +986,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmgT120I: {
     site: "GGNCC",
@@ -798,6 +996,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmrFI: {
     site: "CCNGG",
@@ -806,6 +1006,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmsI: {
     site: "GCATC",
@@ -814,6 +1016,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BpuMI: {
     site: "CCSGG",
@@ -822,6 +1026,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bse1I: {
     site: "ACTGG",
@@ -830,6 +1036,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseBI: {
     site: "CCWGG",
@@ -838,6 +1046,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseGI: {
     site: "GGATG",
@@ -846,6 +1056,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseMII: {
     site: "CTCAG",
@@ -854,6 +1066,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseNI: {
     site: "ACTGG",
@@ -862,6 +1076,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseXI: {
     site: "GCAGC",
@@ -870,6 +1086,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BslFI: {
     site: "GGGAC",
@@ -878,6 +1096,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsmAI: {
     site: "GTCTC",
@@ -886,6 +1106,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsmFI: {
     site: "GGGAC",
@@ -894,6 +1116,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspCNI: {
     site: "CTCAG",
@@ -902,6 +1126,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspPI: {
     site: "GGATC",
@@ -910,6 +1136,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsrI: {
     site: "ACTGG",
@@ -918,6 +1146,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bst2UI: {
     site: "CCWGG",
@@ -926,6 +1156,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bst4CI: {
     site: "ACNGT",
@@ -934,6 +1166,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstDEI: {
     site: "CTNAG",
@@ -942,6 +1176,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstF5I: {
     site: "GGATG",
@@ -950,6 +1186,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstMAI: {
     site: "GTCTC",
@@ -958,6 +1196,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstNI: {
     site: "CCWGG",
@@ -966,6 +1206,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstSCI: {
     site: "CCNGG",
@@ -974,6 +1216,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstV1I: {
     site: "GCAGC",
@@ -982,6 +1226,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BtsCI: {
     site: "GGATG",
@@ -990,6 +1236,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BtsIMutI: {
     site: "CAGTG",
@@ -998,6 +1246,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Cfr13I: {
     site: "GGNCC",
@@ -1006,6 +1256,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CseI: {
     site: "GACGC",
@@ -1014,6 +1266,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DdeI: {
     site: "CTNAG",
@@ -1022,6 +1276,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco47I: {
     site: "GGWCC",
@@ -1030,6 +1286,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoRII: {
     site: "CCWGG",
@@ -1038,6 +1296,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FaqI: {
     site: "GGGAC",
@@ -1046,6 +1306,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FauI: {
     site: "CCCGC",
@@ -1054,6 +1316,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Fnu4HI: {
     site: "GCNGC",
@@ -1062,6 +1326,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FokI: {
     site: "GGATG",
@@ -1070,6 +1336,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Fsp4HI: {
     site: "GCNGC",
@@ -1078,6 +1346,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   GluI: {
     site: "GCNGC",
@@ -1086,6 +1356,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HgaI: {
     site: "GACGC",
@@ -1094,6 +1366,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HinfI: {
     site: "GANTC",
@@ -1102,6 +1376,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HphI: {
     site: "GGTGA",
@@ -1110,6 +1386,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hpy188I: {
     site: "TCNGA",
@@ -1118,6 +1396,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hpy99I: {
     site: "CGWCG",
@@ -1126,6 +1406,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpyAV: {
     site: "CCTTC",
@@ -1134,6 +1416,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpyCH4III: {
     site: "ACNGT",
@@ -1142,6 +1426,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpyF3I: {
     site: "CTNAG",
@@ -1150,6 +1436,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   LmnI: {
     site: "GCTCC",
@@ -1158,6 +1446,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Lsp1109I: {
     site: "GCAGC",
@@ -1166,6 +1456,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   LweI: {
     site: "GCATC",
@@ -1174,6 +1466,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MaeIII: {
     site: "GTNAC",
@@ -1182,6 +1476,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MboII: {
     site: "GAAGA",
@@ -1190,6 +1486,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MlyI: {
     site: "GAGTC",
@@ -1198,6 +1496,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MspR9I: {
     site: "CCNGG",
@@ -1206,6 +1506,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MvaI: {
     site: "CCWGG",
@@ -1214,6 +1516,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NciI: {
     site: "CCSGG",
@@ -1222,6 +1526,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NmuCI: {
     site: "GTSAC",
@@ -1230,6 +1536,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PfeI: {
     site: "GAWTC",
@@ -1238,6 +1546,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PkrI: {
     site: "GCNGC",
@@ -1246,6 +1556,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PleI: {
     site: "GAGTC",
@@ -1254,6 +1566,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PpsI: {
     site: "GAGTC",
@@ -1262,6 +1576,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Psp6I: {
     site: "CCWGG",
@@ -1270,6 +1586,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspGI: {
     site: "CCWGG",
@@ -1278,6 +1596,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspPI: {
     site: "GGNCC",
@@ -1286,6 +1606,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SatI: {
     site: "GCNGC",
@@ -1294,6 +1616,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Sau96I: {
     site: "GGNCC",
@@ -1302,6 +1626,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SchI: {
     site: "GAGTC",
@@ -1310,6 +1636,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ScrFI: {
     site: "CCNGG",
@@ -1318,6 +1646,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SfaNI: {
     site: "GCATC",
@@ -1326,6 +1656,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SinI: {
     site: "GGWCC",
@@ -1334,6 +1666,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   StyD4I: {
     site: "CCNGG",
@@ -1342,6 +1676,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TaaI: {
     site: "ACNGT",
@@ -1350,6 +1686,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TauI: {
     site: "GCSGC",
@@ -1358,6 +1696,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TfiI: {
     site: "GAWTC",
@@ -1366,6 +1706,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TscAI: {
     site: "CASTG",
@@ -1374,6 +1716,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TseFI: {
     site: "GTSAC",
@@ -1382,6 +1726,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TseI: {
     site: "GCWGC",
@@ -1390,6 +1736,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Tsp45I: {
     site: "GTSAC",
@@ -1398,6 +1746,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TspDTI: {
     site: "ATGAA",
@@ -1406,6 +1756,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TspGWI: {
     site: "ACGGA",
@@ -1414,6 +1766,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TspRI: {
     site: "CASTG",
@@ -1422,6 +1776,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   VpaK11BI: {
     site: "GGWCC",
@@ -1430,6 +1786,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AanI: {
     site: "TTATAA",
@@ -1438,6 +1796,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AatII: {
     site: "GACGTC",
@@ -1446,6 +1806,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Acc16I: {
     site: "TGCGCA",
@@ -1454,6 +1816,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Acc36I: {
     site: "ACCTGC",
@@ -1462,6 +1826,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Acc65I: {
     site: "GGTACC",
@@ -1470,6 +1836,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AccB1I: {
     site: "GGYRCC",
@@ -1478,6 +1846,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AccBSI: {
     site: "CCGCTC",
@@ -1486,6 +1856,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AccI: {
     site: "GTMKAC",
@@ -1494,6 +1866,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AccIII: {
     site: "TCCGGA",
@@ -1502,6 +1876,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AclI: {
     site: "AACGTT",
@@ -1510,6 +1886,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AcoI: {
     site: "YGGCCR",
@@ -1518,6 +1896,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AcsI: {
     site: "RAATTY",
@@ -1526,6 +1906,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AcuI: {
     site: "CTGAAG",
@@ -1534,6 +1916,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AcvI: {
     site: "CACGTG",
@@ -1542,6 +1926,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AcyI: {
     site: "GRCGYC",
@@ -1550,6 +1936,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AfeI: {
     site: "AGCGCT",
@@ -1558,6 +1946,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AflII: {
     site: "CTTAAG",
@@ -1566,6 +1956,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AflIII: {
     site: "ACRYGT",
@@ -1574,6 +1966,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AgeI: {
     site: "ACCGGT",
@@ -1582,6 +1976,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AhlI: {
     site: "ACTAGT",
@@ -1590,6 +1986,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AjiI: {
     site: "CACGTC",
@@ -1598,6 +1996,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Alw21I: {
     site: "GWGCWC",
@@ -1606,6 +2006,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Alw44I: {
     site: "GTGCAC",
@@ -1614,6 +2016,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Ama87I: {
     site: "CYCGRG",
@@ -1622,6 +2026,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Aor13HI: {
     site: "TCCGGA",
@@ -1630,6 +2036,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Aor51HI: {
     site: "AGCGCT",
@@ -1638,6 +2046,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ApaI: {
     site: "GGGCCC",
@@ -1646,6 +2056,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ApaLI: {
     site: "GTGCAC",
@@ -1654,6 +2066,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ApoI: {
     site: "RAATTY",
@@ -1662,6 +2076,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AseI: {
     site: "ATTAAT",
@@ -1670,6 +2086,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AsiGI: {
     site: "ACCGGT",
@@ -1678,6 +2096,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Asp718I: {
     site: "GGTACC",
@@ -1686,6 +2106,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AspA2I: {
     site: "CCTAGG",
@@ -1694,6 +2116,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AsuII: {
     site: "TTCGAA",
@@ -1702,6 +2126,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AsuNHI: {
     site: "GCTAGC",
@@ -1710,6 +2136,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AvaI: {
     site: "CYCGRG",
@@ -1718,6 +2146,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AvrII: {
     site: "CCTAGG",
@@ -1726,6 +2156,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BaeGI: {
     site: "GKGCMC",
@@ -1734,6 +2166,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BalI: {
     site: "TGGCCA",
@@ -1742,6 +2176,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BamHI: {
     site: "GGATCC",
@@ -1750,6 +2186,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BanI: {
     site: "GGYRCC",
@@ -1758,6 +2196,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BanII: {
     site: "GRGCYC",
@@ -1766,6 +2206,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BauI: {
     site: "CACGAG",
@@ -1774,6 +2216,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BbrPI: {
     site: "CACGTG",
@@ -1782,6 +2226,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BbsI: {
     site: "GAAGAC",
@@ -1790,6 +2236,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bbv12I: {
     site: "GWGCWC",
@@ -1798,6 +2246,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BciVI: {
     site: "GTATCC",
@@ -1806,6 +2256,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BclI: {
     site: "TGATCA",
@@ -1814,6 +2266,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BcuI: {
     site: "ACTAGT",
@@ -1822,6 +2276,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BfmI: {
     site: "CTRYAG",
@@ -1830,6 +2286,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BfoI: {
     site: "RGCGCY",
@@ -1838,6 +2296,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BfrI: {
     site: "CTTAAG",
@@ -1846,6 +2306,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BfuAI: {
     site: "ACCTGC",
@@ -1854,6 +2316,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BfuI: {
     site: "GTATCC",
@@ -1862,6 +2326,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BglII: {
     site: "AGATCT",
@@ -1870,6 +2336,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BlnI: {
     site: "CCTAGG",
@@ -1878,6 +2346,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmcAI: {
     site: "AGTACT",
@@ -1886,6 +2356,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmeT110I: {
     site: "CYCGRG",
@@ -1894,6 +2366,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmgBI: {
     site: "CACGTC",
@@ -1902,6 +2376,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmiI: {
     site: "GGNNCC",
@@ -1910,6 +2386,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmrI: {
     site: "ACTGGG",
@@ -1918,6 +2396,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmtI: {
     site: "GCTAGC",
@@ -1926,6 +2406,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmuI: {
     site: "ACTGGG",
@@ -1934,6 +2416,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BpiI: {
     site: "GAAGAC",
@@ -1942,6 +2426,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BpmI: {
     site: "CTGGAG",
@@ -1950,6 +2436,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bpu14I: {
     site: "TTCGAA",
@@ -1958,6 +2446,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BpuEI: {
     site: "CTTGAG",
@@ -1966,6 +2456,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsa29I: {
     site: "ATCGAT",
@@ -1974,6 +2466,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsaAI: {
     site: "YACGTR",
@@ -1982,6 +2476,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsaHI: {
     site: "GRCGYC",
@@ -1990,6 +2486,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsaI: {
     site: "GGTCTC",
@@ -1998,6 +2496,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsaJI: {
     site: "CCNNGG",
@@ -2006,6 +2506,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsaWI: {
     site: "WCCGGW",
@@ -2014,6 +2516,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bse118I: {
     site: "RCCGGY",
@@ -2022,6 +2526,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bse3DI: {
     site: "GCAATG",
@@ -2030,6 +2536,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseAI: {
     site: "TCCGGA",
@@ -2038,6 +2546,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseCI: {
     site: "ATCGAT",
@@ -2046,6 +2556,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseDI: {
     site: "CCNNGG",
@@ -2054,6 +2566,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseMI: {
     site: "GCAATG",
@@ -2062,6 +2576,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsePI: {
     site: "GCGCGC",
@@ -2070,6 +2586,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseRI: {
     site: "GAGGAG",
@@ -2078,6 +2596,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseSI: {
     site: "GKGCMC",
@@ -2086,6 +2606,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseX3I: {
     site: "CGGCCG",
@@ -2094,6 +2616,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseYI: {
     site: "CCCAGC",
@@ -2102,6 +2626,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsgI: {
     site: "GTGCAG",
@@ -2110,6 +2636,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsh1285I: {
     site: "CGRYCG",
@@ -2118,6 +2646,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BshNI: {
     site: "GGYRCC",
@@ -2126,6 +2656,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BshTI: {
     site: "ACCGGT",
@@ -2134,6 +2666,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BshVI: {
     site: "ATCGAT",
@@ -2142,6 +2676,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsiEI: {
     site: "CGRYCG",
@@ -2150,6 +2686,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsiHKAI: {
     site: "GWGCWC",
@@ -2158,6 +2696,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsiHKCI: {
     site: "CYCGRG",
@@ -2166,6 +2706,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsiWI: {
     site: "CGTACG",
@@ -2174,6 +2716,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsmBI: {
     site: "CGTCTC",
@@ -2182,6 +2726,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsmI: {
     site: "GAATGC",
@@ -2190,6 +2736,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bso31I: {
     site: "GGTCTC",
@@ -2198,6 +2746,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsoBI: {
     site: "CYCGRG",
@@ -2206,6 +2756,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp119I: {
     site: "TTCGAA",
@@ -2214,6 +2766,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp120I: {
     site: "GGGCCC",
@@ -2222,6 +2776,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp1286I: {
     site: "GDGCHC",
@@ -2230,6 +2786,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp13I: {
     site: "TCCGGA",
@@ -2238,6 +2796,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp1407I: {
     site: "TGTACA",
@@ -2246,6 +2806,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp19I: {
     site: "CCATGG",
@@ -2254,6 +2816,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp68I: {
     site: "TCGCGA",
@@ -2262,6 +2826,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspDI: {
     site: "ATCGAT",
@@ -2270,6 +2836,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspEI: {
     site: "TCCGGA",
@@ -2278,6 +2846,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspHI: {
     site: "TCATGA",
@@ -2286,6 +2856,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspLI: {
     site: "GGNNCC",
@@ -2294,6 +2866,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspMAI: {
     site: "CTGCAG",
@@ -2302,6 +2876,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspMI: {
     site: "ACCTGC",
@@ -2310,6 +2886,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspOI: {
     site: "GCTAGC",
@@ -2318,6 +2896,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspT104I: {
     site: "TTCGAA",
@@ -2326,6 +2906,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspT107I: {
     site: "GGYRCC",
@@ -2334,6 +2916,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspTI: {
     site: "CTTAAG",
@@ -2342,6 +2926,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspTNI: {
     site: "GGTCTC",
@@ -2350,6 +2936,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsrBI: {
     site: "CCGCTC",
@@ -2358,6 +2946,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsrDI: {
     site: "GCAATG",
@@ -2366,6 +2956,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsrFI: {
     site: "RCCGGY",
@@ -2374,6 +2966,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsrGI: {
     site: "TGTACA",
@@ -2382,6 +2976,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssAI: {
     site: "RCCGGY",
@@ -2390,6 +2986,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssECI: {
     site: "CCNNGG",
@@ -2398,6 +2996,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssHII: {
     site: "GCGCGC",
@@ -2406,6 +3006,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssNAI: {
     site: "GTATAC",
@@ -2414,6 +3016,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssNI: {
     site: "GRCGYC",
@@ -2422,6 +3026,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssSI: {
     site: "CACGAG",
@@ -2430,6 +3036,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BssT1I: {
     site: "CCWWGG",
@@ -2438,6 +3046,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bst1107I: {
     site: "GTATAC",
@@ -2446,6 +3056,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bst2BI: {
     site: "CACGAG",
@@ -2454,6 +3066,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bst6I: {
     site: "CTCTTC",
@@ -2462,6 +3076,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstACI: {
     site: "GRCGYC",
@@ -2470,6 +3086,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstAFI: {
     site: "CTTAAG",
@@ -2478,6 +3096,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstAUI: {
     site: "TGTACA",
@@ -2486,6 +3106,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstBAI: {
     site: "YACGTR",
@@ -2494,6 +3116,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstBI: {
     site: "TTCGAA",
@@ -2502,6 +3126,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstC8I: {
     site: "GCNNGC",
@@ -2510,6 +3136,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstDSI: {
     site: "CCRYGG",
@@ -2518,6 +3146,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstH2I: {
     site: "RGCGCY",
@@ -2526,6 +3156,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstMCI: {
     site: "CGRYCG",
@@ -2534,6 +3166,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstNSI: {
     site: "RCATGY",
@@ -2542,6 +3176,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstSFI: {
     site: "CTRYAG",
@@ -2550,6 +3186,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstSLI: {
     site: "GKGCMC",
@@ -2558,6 +3196,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstSNI: {
     site: "TACGTA",
@@ -2566,6 +3206,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstV2I: {
     site: "GAAGAC",
@@ -2574,6 +3216,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstX2I: {
     site: "RGATCY",
@@ -2582,6 +3226,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstYI: {
     site: "RGATCY",
@@ -2590,6 +3236,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstZ17I: {
     site: "GTATAC",
@@ -2598,6 +3246,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstZI: {
     site: "CGGCCG",
@@ -2606,6 +3256,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsu15I: {
     site: "ATCGAT",
@@ -2614,6 +3266,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsuI: {
     site: "GTATCC",
@@ -2622,6 +3276,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsuTUI: {
     site: "ATCGAT",
@@ -2630,6 +3286,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BtgI: {
     site: "CCRYGG",
@@ -2638,6 +3296,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BtgZI: {
     site: "GCGATG",
@@ -2646,6 +3306,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BtrI: {
     site: "CACGTC",
@@ -2654,6 +3316,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BtsI: {
     site: "GCAGTG",
@@ -2662,6 +3326,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BtuMI: {
     site: "TCGCGA",
@@ -2670,6 +3336,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BveI: {
     site: "ACCTGC",
@@ -2678,6 +3346,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Cac8I: {
     site: "GCNNGC",
@@ -2686,6 +3356,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CciI: {
     site: "TCATGA",
@@ -2694,6 +3366,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Cfr10I: {
     site: "RCCGGY",
@@ -2702,6 +3376,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Cfr42I: {
     site: "CCGCGG",
@@ -2710,6 +3386,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Cfr9I: {
     site: "CCCGGG",
@@ -2718,6 +3396,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ClaI: {
     site: "ATCGAT",
@@ -2726,6 +3406,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CspAI: {
     site: "ACCGGT",
@@ -2734,6 +3416,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DinI: {
     site: "GGCGCC",
@@ -2742,6 +3426,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DraI: {
     site: "TTTAAA",
@@ -2750,6 +3436,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EaeI: {
     site: "YGGCCR",
@@ -2758,6 +3446,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EagI: {
     site: "CGGCCG",
@@ -2766,6 +3456,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eam1104I: {
     site: "CTCTTC",
@@ -2774,6 +3466,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EarI: {
     site: "CTCTTC",
@@ -2782,6 +3476,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EciI: {
     site: "GGCGGA",
@@ -2790,6 +3486,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Ecl136II: {
     site: "GAGCTC",
@@ -2798,6 +3496,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EclXI: {
     site: "CGGCCG",
@@ -2806,6 +3506,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco105I: {
     site: "TACGTA",
@@ -2814,6 +3516,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco130I: {
     site: "CCWWGG",
@@ -2822,6 +3526,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco147I: {
     site: "AGGCCT",
@@ -2830,6 +3536,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco24I: {
     site: "GRGCYC",
@@ -2838,6 +3546,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco31I: {
     site: "GGTCTC",
@@ -2846,6 +3556,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco32I: {
     site: "GATATC",
@@ -2854,6 +3566,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco47III: {
     site: "AGCGCT",
@@ -2862,6 +3576,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco52I: {
     site: "CGGCCG",
@@ -2870,6 +3586,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco53kI: {
     site: "GAGCTC",
@@ -2878,6 +3596,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco57I: {
     site: "CTGAAG",
@@ -2886,6 +3606,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco72I: {
     site: "CACGTG",
@@ -2894,6 +3616,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco88I: {
     site: "CYCGRG",
@@ -2902,6 +3626,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoICRI: {
     site: "GAGCTC",
@@ -2910,6 +3636,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoRI: {
     site: "GAATTC",
@@ -2918,6 +3646,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoRV: {
     site: "GATATC",
@@ -2926,6 +3656,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoT14I: {
     site: "CCWWGG",
@@ -2934,6 +3666,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoT22I: {
     site: "ATGCAT",
@@ -2942,6 +3676,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoT38I: {
     site: "GRGCYC",
@@ -2950,6 +3686,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EgeI: {
     site: "GGCGCC",
@@ -2958,6 +3696,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EheI: {
     site: "GGCGCC",
@@ -2966,6 +3706,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ErhI: {
     site: "CCWWGG",
@@ -2974,6 +3716,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Esp3I: {
     site: "CGTCTC",
@@ -2982,6 +3726,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FauNDI: {
     site: "CATATG",
@@ -2990,6 +3736,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FbaI: {
     site: "TGATCA",
@@ -2998,6 +3746,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FblI: {
     site: "GTMKAC",
@@ -3006,6 +3756,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FriOI: {
     site: "GRGCYC",
@@ -3014,6 +3766,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FspI: {
     site: "TGCGCA",
@@ -3022,6 +3776,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   GsaI: {
     site: "CCCAGC",
@@ -3030,6 +3786,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   GsuI: {
     site: "CTGGAG",
@@ -3038,6 +3796,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HaeII: {
     site: "RGCGCY",
@@ -3046,6 +3806,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hin1I: {
     site: "GRCGYC",
@@ -3054,6 +3816,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HincII: {
     site: "GTYRAC",
@@ -3062,6 +3826,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HindII: {
     site: "GTYRAC",
@@ -3070,6 +3836,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HindIII: {
     site: "AAGCTT",
@@ -3078,6 +3846,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpaI: {
     site: "GTTAAC",
@@ -3086,6 +3856,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hpy166II: {
     site: "GTNNAC",
@@ -3094,6 +3866,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hpy188III: {
     site: "TCNNGA",
@@ -3102,6 +3876,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hpy8I: {
     site: "GTNNAC",
@@ -3110,6 +3886,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Hsp92I: {
     site: "GRCGYC",
@@ -3118,6 +3896,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   KasI: {
     site: "GGCGCC",
@@ -3126,6 +3906,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Kpn2I: {
     site: "TCCGGA",
@@ -3134,6 +3916,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   KpnI: {
     site: "GGTACC",
@@ -3142,6 +3926,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   KroI: {
     site: "GCCGGC",
@@ -3150,6 +3936,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Ksp22I: {
     site: "TGATCA",
@@ -3158,6 +3946,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   KspAI: {
     site: "GTTAAC",
@@ -3166,6 +3956,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   KspI: {
     site: "CCGCGG",
@@ -3174,6 +3966,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MbiI: {
     site: "CCGCTC",
@@ -3182,6 +3976,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MfeI: {
     site: "CAATTG",
@@ -3190,6 +3986,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MflI: {
     site: "RGATCY",
@@ -3198,6 +3996,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MhlI: {
     site: "GDGCHC",
@@ -3206,6 +4006,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MlsI: {
     site: "TGGCCA",
@@ -3214,6 +4016,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MluI: {
     site: "ACGCGT",
@@ -3222,6 +4026,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MluNI: {
     site: "TGGCCA",
@@ -3230,6 +4036,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Mly113I: {
     site: "GGCGCC",
@@ -3238,6 +4046,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MmeI: {
     site: "TCCRAC",
@@ -3246,6 +4056,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Mox20I: {
     site: "TGGCCA",
@@ -3254,6 +4066,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Mph1103I: {
     site: "ATGCAT",
@@ -3262,6 +4076,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MroI: {
     site: "TCCGGA",
@@ -3270,6 +4086,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MroNI: {
     site: "GCCGGC",
@@ -3278,6 +4096,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MscI: {
     site: "TGGCCA",
@@ -3286,6 +4106,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Msp20I: {
     site: "TGGCCA",
@@ -3294,6 +4116,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MspA1I: {
     site: "CMGCKG",
@@ -3302,6 +4126,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MspCI: {
     site: "CTTAAG",
@@ -3310,6 +4136,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MunI: {
     site: "CAATTG",
@@ -3318,6 +4146,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Mva1269I: {
     site: "GAATGC",
@@ -3326,6 +4156,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NaeI: {
     site: "GCCGGC",
@@ -3334,6 +4166,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NarI: {
     site: "GGCGCC",
@@ -3342,6 +4176,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NcoI: {
     site: "CCATGG",
@@ -3350,6 +4186,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NdeI: {
     site: "CATATG",
@@ -3358,6 +4196,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NgoMIV: {
     site: "GCCGGC",
@@ -3366,6 +4206,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NheI: {
     site: "GCTAGC",
@@ -3374,6 +4216,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NlaIV: {
     site: "GGNNCC",
@@ -3382,6 +4226,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NmeAIII: {
     site: "GCCGAG",
@@ -3390,6 +4236,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NruI: {
     site: "TCGCGA",
@@ -3398,6 +4246,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NsbI: {
     site: "TGCGCA",
@@ -3406,6 +4256,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NsiI: {
     site: "ATGCAT",
@@ -3414,6 +4266,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NspI: {
     site: "RCATGY",
@@ -3422,6 +4276,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NspV: {
     site: "TTCGAA",
@@ -3430,6 +4286,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PaeI: {
     site: "GCATGC",
@@ -3438,6 +4296,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PaeR7I: {
     site: "CTCGAG",
@@ -3446,6 +4306,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PagI: {
     site: "TCATGA",
@@ -3454,6 +4316,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PauI: {
     site: "GCGCGC",
@@ -3462,6 +4326,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PceI: {
     site: "AGGCCT",
@@ -3470,6 +4336,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PciI: {
     site: "ACATGT",
@@ -3478,6 +4346,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PctI: {
     site: "GAATGC",
@@ -3486,6 +4356,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PdiI: {
     site: "GCCGGC",
@@ -3494,6 +4366,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Pfl23II: {
     site: "CGTACG",
@@ -3502,6 +4376,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PinAI: {
     site: "ACCGGT",
@@ -3510,6 +4386,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Ple19I: {
     site: "CGATCG",
@@ -3518,6 +4396,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PluTI: {
     site: "GGCGCC",
@@ -3526,6 +4406,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PmaCI: {
     site: "CACGTG",
@@ -3534,6 +4416,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PmlI: {
     site: "CACGTG",
@@ -3542,6 +4426,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Ppu21I: {
     site: "YACGTR",
@@ -3550,6 +4436,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PscI: {
     site: "ACATGT",
@@ -3558,6 +4446,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PshBI: {
     site: "ATTAAT",
@@ -3566,6 +4456,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PsiI: {
     site: "TTATAA",
@@ -3574,6 +4466,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Psp124BI: {
     site: "GAGCTC",
@@ -3582,6 +4476,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Psp1406I: {
     site: "AACGTT",
@@ -3590,6 +4486,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspCI: {
     site: "CACGTG",
@@ -3598,6 +4496,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspFI: {
     site: "CCCAGC",
@@ -3606,6 +4506,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspLI: {
     site: "CGTACG",
@@ -3614,6 +4516,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspN4I: {
     site: "GGNNCC",
@@ -3622,6 +4526,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspOMI: {
     site: "GGGCCC",
@@ -3630,6 +4536,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PstI: {
     site: "CTGCAG",
@@ -3638,6 +4546,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PsuI: {
     site: "RGATCY",
@@ -3646,6 +4556,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PteI: {
     site: "GCGCGC",
@@ -3654,6 +4566,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PvuI: {
     site: "CGATCG",
@@ -3662,6 +4576,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PvuII: {
     site: "CAGCTG",
@@ -3670,6 +4586,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   RruI: {
     site: "TCGCGA",
@@ -3678,6 +4596,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SacI: {
     site: "GAGCTC",
@@ -3686,6 +4606,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SacII: {
     site: "CCGCGG",
@@ -3694,6 +4616,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SalI: {
     site: "GTCGAC",
@@ -3702,6 +4626,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ScaI: {
     site: "AGTACT",
@@ -3710,6 +4636,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SduI: {
     site: "GDGCHC",
@@ -3718,6 +4646,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SfcI: {
     site: "CTRYAG",
@@ -3726,6 +4656,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SfoI: {
     site: "GGCGCC",
@@ -3734,6 +4666,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Sfr274I: {
     site: "CTCGAG",
@@ -3742,6 +4676,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Sfr303I: {
     site: "CCGCGG",
@@ -3750,6 +4686,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SfuI: {
     site: "TTCGAA",
@@ -3758,6 +4696,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SgrBI: {
     site: "CCGCGG",
@@ -3766,6 +4706,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SlaI: {
     site: "CTCGAG",
@@ -3774,6 +4716,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SmaI: {
     site: "CCCGGG",
@@ -3782,6 +4726,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SmlI: {
     site: "CTYRAG",
@@ -3790,6 +4736,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SmoI: {
     site: "CTYRAG",
@@ -3798,6 +4746,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SnaBI: {
     site: "TACGTA",
@@ -3806,6 +4756,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SpeI: {
     site: "ACTAGT",
@@ -3814,6 +4766,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SphI: {
     site: "GCATGC",
@@ -3822,6 +4776,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SseBI: {
     site: "AGGCCT",
@@ -3830,6 +4786,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SspDI: {
     site: "GGCGCC",
@@ -3838,6 +4796,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SspI: {
     site: "AATATT",
@@ -3846,6 +4806,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SstI: {
     site: "GAGCTC",
@@ -3854,6 +4816,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   StuI: {
     site: "AGGCCT",
@@ -3862,6 +4826,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   StyI: {
     site: "CCWWGG",
@@ -3870,6 +4836,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TaqII: {
     site: "GACCGA",
@@ -3878,6 +4846,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TatI: {
     site: "WGTACW",
@@ -3886,6 +4856,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   TspMI: {
     site: "CCCGGG",
@@ -3894,6 +4866,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Vha464I: {
     site: "CTTAAG",
@@ -3902,6 +4876,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   VneI: {
     site: "GTGCAC",
@@ -3910,6 +4886,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   VspI: {
     site: "ATTAAT",
@@ -3918,6 +4896,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XapI: {
     site: "RAATTY",
@@ -3926,6 +4906,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XbaI: {
     site: "TCTAGA",
@@ -3934,6 +4916,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XceI: {
     site: "RCATGY",
@@ -3942,6 +4926,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XhoI: {
     site: "CTCGAG",
@@ -3950,6 +4936,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XmaI: {
     site: "CCCGGG",
@@ -3958,6 +4946,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XmaJI: {
     site: "CCTAGG",
@@ -3966,6 +4956,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XmiI: {
     site: "GTMKAC",
@@ -3974,6 +4966,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ZraI: {
     site: "GACGTC",
@@ -3982,6 +4976,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ZrmI: {
     site: "AGTACT",
@@ -3990,6 +4986,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Zsp2I: {
     site: "ATGCAT",
@@ -3998,6 +4996,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AarI: {
     site: "CACCTGC",
@@ -4006,6 +5006,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AxyI: {
     site: "CCTNAGG",
@@ -4014,6 +5016,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BbvCI: {
     site: "CCTCAGC",
@@ -4022,6 +5026,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BlpI: {
     site: "GCTNAGC",
@@ -4030,6 +5036,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bpu10I: {
     site: "CCTNAGC",
@@ -4038,6 +5046,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bpu1102I: {
     site: "GCTNAGC",
@@ -4046,6 +5056,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bse21I: {
     site: "CCTNAGG",
@@ -4054,6 +5066,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsp1720I: {
     site: "GCTNAGC",
@@ -4062,6 +5076,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BspQI: {
     site: "GCTCTTC",
@@ -4070,6 +5086,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstEII: {
     site: "GGTNACC",
@@ -4078,6 +5096,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstPI: {
     site: "GGTNACC",
@@ -4086,6 +5106,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsu36I: {
     site: "CCTNAGG",
@@ -4094,6 +5116,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CpoI: {
     site: "CGGWCCG",
@@ -4102,6 +5126,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CsiI: {
     site: "ACCWGGT",
@@ -4110,6 +5136,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CspI: {
     site: "CGGWCCG",
@@ -4118,6 +5146,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco81I: {
     site: "CCTNAGG",
@@ -4126,6 +5156,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eco91I: {
     site: "GGTNACC",
@@ -4134,6 +5166,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoO109I: {
     site: "RGGNCCY",
@@ -4142,6 +5176,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoO65I: {
     site: "GGTNACC",
@@ -4150,6 +5186,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   KflI: {
     site: "GGGWCCC",
@@ -4158,6 +5196,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   LguI: {
     site: "GCTCTTC",
@@ -4166,6 +5206,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MabI: {
     site: "ACCWGGT",
@@ -4174,6 +5216,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PasI: {
     site: "CCCWGGG",
@@ -4182,6 +5226,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PciSI: {
     site: "GCTCTTC",
@@ -4190,6 +5236,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PfoI: {
     site: "TCCNGGA",
@@ -4198,6 +5246,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PpuMI: {
     site: "RGGWCCY",
@@ -4206,6 +5256,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Psp5II: {
     site: "RGGWCCY",
@@ -4214,6 +5266,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspEI: {
     site: "GGTNACC",
@@ -4222,6 +5276,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspPPI: {
     site: "RGGWCCY",
@@ -4230,6 +5286,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Rsr2I: {
     site: "CGGWCCG",
@@ -4238,6 +5296,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   RsrII: {
     site: "CGGWCCG",
@@ -4246,6 +5306,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SapI: {
     site: "GCTCTTC",
@@ -4254,6 +5316,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SexAI: {
     site: "ACCWGGT",
@@ -4262,6 +5326,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AbsI: {
     site: "CCTCGAGG",
@@ -4270,6 +5336,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AscI: {
     site: "GGCGCGCC",
@@ -4278,6 +5346,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AsiSI: {
     site: "GCGATCGC",
@@ -4286,6 +5356,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CciNI: {
     site: "GCGGCCGC",
@@ -4294,6 +5366,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FseI: {
     site: "GGCCGGCC",
@@ -4302,6 +5376,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FspAI: {
     site: "RTGCGCAY",
@@ -4310,6 +5386,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MauBI: {
     site: "CGCGCGCG",
@@ -4318,6 +5396,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MreI: {
     site: "CGCCGGCG",
@@ -4326,6 +5406,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MssI: {
     site: "GTTTAAAC",
@@ -4334,6 +5416,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   NotI: {
     site: "GCGGCCGC",
@@ -4342,6 +5426,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PacI: {
     site: "TTAATTAA",
@@ -4350,6 +5436,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PalAI: {
     site: "GGCGCGCC",
@@ -4358,6 +5446,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PmeI: {
     site: "GTTTAAAC",
@@ -4366,6 +5456,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PspXI: {
     site: "VCTCGAGB",
@@ -4374,6 +5466,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   RgaI: {
     site: "GCGATCGC",
@@ -4382,6 +5476,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   RigI: {
     site: "GGCCGGCC",
@@ -4390,6 +5486,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SbfI: {
     site: "CCTGCAGG",
@@ -4398,6 +5496,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SdaI: {
     site: "CCTGCAGG",
@@ -4406,6 +5506,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SfaAI: {
     site: "GCGATCGC",
@@ -4414,6 +5516,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SgfI: {
     site: "GCGATCGC",
@@ -4422,6 +5526,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SgrAI: {
     site: "CRCCGGYG",
@@ -4430,6 +5536,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SgrDI: {
     site: "CGTCGACG",
@@ -4438,6 +5546,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SgsI: {
     site: "GGCGCGCC",
@@ -4446,6 +5556,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SmiI: {
     site: "ATTTAAAT",
@@ -4454,6 +5566,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SrfI: {
     site: "GCCCGGGC",
@@ -4462,6 +5576,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Sse8387I: {
     site: "CCTGCAGG",
@@ -4470,6 +5586,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SwaI: {
     site: "ATTTAAAT",
@@ -4478,6 +5596,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AdeI: {
     site: "CACNNNGTG",
@@ -4486,6 +5606,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AlwNI: {
     site: "CAGNNNCTG",
@@ -4494,6 +5616,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CaiI: {
     site: "CAGNNNCTG",
@@ -4502,6 +5626,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DraIII: {
     site: "CACNNNGTG",
@@ -4510,6 +5636,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MteI: {
     site: "GCGCNGCGC",
@@ -4518,6 +5646,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PflFI: {
     site: "GACNNNGTC",
@@ -4526,6 +5656,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PstNI: {
     site: "CAGNNNCTG",
@@ -4534,6 +5666,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PsyI: {
     site: "GACNNNGTC",
@@ -4542,6 +5676,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Tth111I: {
     site: "GACNNNGTC",
@@ -4550,6 +5686,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AleI: {
     site: "CACNNNNGTG",
@@ -4558,6 +5696,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Asp700I: {
     site: "GAANNNNTTC",
@@ -4566,6 +5706,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BoxI: {
     site: "GACNNNNGTC",
@@ -4574,6 +5716,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsaBI: {
     site: "GATNNNNATC",
@@ -4582,6 +5726,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bse8I: {
     site: "GATNNNNATC",
@@ -4590,6 +5736,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseJI: {
     site: "GATNNNNATC",
@@ -4598,6 +5746,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstPAI: {
     site: "GACNNNNGTC",
@@ -4606,6 +5756,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MroXI: {
     site: "GAANNNNTTC",
@@ -4614,6 +5766,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MslI: {
     site: "CAYNNNNRTG",
@@ -4622,6 +5776,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   OliI: {
     site: "CACNNNNGTG",
@@ -4630,6 +5786,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PdmI: {
     site: "GAANNNNTTC",
@@ -4638,6 +5796,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PshAI: {
     site: "GACNNNNGTC",
@@ -4646,6 +5806,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   RseI: {
     site: "CAYNNNNRTG",
@@ -4654,6 +5816,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SmiMI: {
     site: "CAYNNNNRTG",
@@ -4662,6 +5826,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XmnI: {
     site: "GAANNNNTTC",
@@ -4670,6 +5836,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AccB7I: {
     site: "CCANNNNNTGG",
@@ -4678,6 +5846,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AfiI: {
     site: "CCNNNNNNNGG",
@@ -4686,6 +5856,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AhdI: {
     site: "GACNNNNNGTC",
@@ -4694,6 +5866,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BaeI: {
     site: "ACNNNNGTAYC",
@@ -4702,6 +5876,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BglI: {
     site: "GCCNNNNNGGC",
@@ -4710,6 +5886,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BmeRI: {
     site: "GACNNNNNGTC",
@@ -4718,6 +5896,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BplI: {
     site: "GAGNNNNNCTC",
@@ -4726,6 +5906,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BsaXI: {
     site: "ACNNNNNCTCC",
@@ -4734,6 +5916,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Bsc4I: {
     site: "CCNNNNNNNGG",
@@ -4742,6 +5926,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BseLI: {
     site: "CCNNNNNNNGG",
@@ -4750,6 +5936,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BslI: {
     site: "CCNNNNNNNGG",
@@ -4758,6 +5946,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstAPI: {
     site: "GCANNNNNTGC",
@@ -4766,6 +5956,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstENI: {
     site: "CCTNNNNNAGG",
@@ -4774,6 +5966,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstMWI: {
     site: "GCNNNNNNNGC",
@@ -4782,6 +5976,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DriI: {
     site: "GACNNNNNGTC",
@@ -4790,6 +5986,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Eam1105I: {
     site: "GACNNNNNGTC",
@@ -4798,6 +5996,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   EcoNI: {
     site: "CCTNNNNNAGG",
@@ -4806,6 +6006,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   FalI: {
     site: "AAGNNNNNCTT",
@@ -4814,6 +6016,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   HpyF10VI: {
     site: "GCNNNNNNNGC",
@@ -4822,6 +6026,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   MwoI: {
     site: "GCNNNNNNNGC",
@@ -4830,6 +6036,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PflMI: {
     site: "CCANNNNNTGG",
@@ -4838,6 +6046,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   Van91I: {
     site: "CCANNNNNTGG",
@@ -4846,6 +6056,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XagI: {
     site: "CCTNNNNNAGG",
@@ -4854,6 +6066,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AasI: {
     site: "GACNNNNNNGTC",
@@ -4862,6 +6076,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BcgI: {
     site: "CGANNNNNNTGC",
@@ -4870,6 +6086,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BstXI: {
     site: "CCANNNNNNTGG",
@@ -4878,6 +6096,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   CspCI: {
     site: "CAANNNNNGTGG",
@@ -4886,6 +6106,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DrdI: {
     site: "GACNNNNNNGTC",
@@ -4894,6 +6116,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   DseDI: {
     site: "GACNNNNNNGTC",
@@ -4902,6 +6126,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AloI: {
     site: "GAACNNNNNNTCC",
@@ -4910,6 +6136,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   ArsI: {
     site: "GACNNNNNNTTYG",
@@ -4918,6 +6146,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   BarI: {
     site: "GAAGNNNNNNTAC",
@@ -4926,6 +6156,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PcsI: {
     site: "WCGNNNNNNNCGW",
@@ -4934,6 +6166,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   PsrI: {
     site: "GAACNNNNNNTAC",
@@ -4942,6 +6176,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   SfiI: {
     site: "GGCCNNNNNGGCC",
@@ -4950,6 +6186,8 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
   AjuI: {
     site: "GAANNNNNNNTTGG",
@@ -4958,6 +6196,8 @@ export const enzymes = {
     cut_twice: true,
     inact_temp: 65,
     is_methylable: false,
+    is_grayed_out: false,
+    is_selected: false,
   },
   XcmI: {
     site: "CCANNNNNNNNNTGG",
@@ -4966,5 +6206,7 @@ export const enzymes = {
     cut_twice: false,
     inact_temp: 65,
     is_methylable: true,
+    is_grayed_out: false,
+    is_selected: false,
   },
 };
