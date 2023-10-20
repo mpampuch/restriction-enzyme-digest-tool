@@ -5,7 +5,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FspEI": {
     "site": "CC",
@@ -13,7 +15,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AccII": {
     "site": "CGCG",
@@ -21,7 +25,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AciI": {
     "site": "CCGC",
@@ -29,7 +35,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AfaI": {
     "site": "GTAC",
@@ -37,7 +45,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AluBI": {
     "site": "AGCT",
@@ -45,7 +55,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AluI": {
     "site": "AGCT",
@@ -53,7 +65,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AoxI": {
     "site": "GGCC",
@@ -61,7 +75,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AspLEI": {
     "site": "GCGC",
@@ -69,7 +85,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BfaI": {
     "site": "CTAG",
@@ -77,7 +95,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsh1236I": {
     "site": "CGCG",
@@ -85,7 +105,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BshFI": {
     "site": "GGCC",
@@ -93,7 +115,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsiSI": {
     "site": "CCGG",
@@ -101,7 +125,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsnI": {
     "site": "GGCC",
@@ -109,7 +135,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp143I": {
     "site": "GATC",
@@ -117,7 +145,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspACI": {
     "site": "CCGC",
@@ -125,7 +155,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspANI": {
     "site": "GGCC",
@@ -133,7 +165,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspFNI": {
     "site": "CGCG",
@@ -141,7 +175,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssMI": {
     "site": "GATC",
@@ -149,7 +185,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstFNI": {
     "site": "CGCG",
@@ -157,7 +195,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstHHI": {
     "site": "GCGC",
@@ -165,7 +205,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstKTI": {
     "site": "GATC",
@@ -173,7 +215,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstMBI": {
     "site": "GATC",
@@ -181,7 +225,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstUI": {
     "site": "CGCG",
@@ -189,7 +235,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsuRI": {
     "site": "GGCC",
@@ -197,7 +245,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CfoI": {
     "site": "GCGC",
@@ -205,7 +255,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Csp6I": {
     "site": "GTAC",
@@ -213,7 +265,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CviAII": {
     "site": "CATG",
@@ -221,7 +275,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CviJI": {
     "site": "RGCY",
@@ -229,7 +285,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CviKI_1": {
     "site": "RGCY",
@@ -237,7 +295,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CviQI": {
     "site": "GTAC",
@@ -245,7 +305,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DpnI": {
     "site": "GATC",
@@ -253,7 +315,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DpnII": {
     "site": "GATC",
@@ -261,7 +325,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FaeI": {
     "site": "CATG",
@@ -269,7 +335,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FaiI": {
     "site": "YATR",
@@ -277,7 +345,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FatI": {
     "site": "CATG",
@@ -285,7 +355,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FspBI": {
     "site": "CTAG",
@@ -293,7 +365,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "GlaI": {
     "site": "GCGC",
@@ -301,7 +375,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HaeIII": {
     "site": "GGCC",
@@ -309,7 +385,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HapII": {
     "site": "CCGG",
@@ -317,7 +395,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HhaI": {
     "site": "GCGC",
@@ -325,7 +405,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hin1II": {
     "site": "CATG",
@@ -333,7 +415,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hin6I": {
     "site": "GCGC",
@@ -341,7 +425,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HinP1I": {
     "site": "GCGC",
@@ -349,7 +435,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpaII": {
     "site": "CCGG",
@@ -357,7 +445,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpyCH4IV": {
     "site": "ACGT",
@@ -365,7 +455,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpyCH4V": {
     "site": "TGCA",
@@ -373,7 +465,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpySE526I": {
     "site": "ACGT",
@@ -381,7 +475,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hsp92II": {
     "site": "CATG",
@@ -389,7 +485,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HspAI": {
     "site": "GCGC",
@@ -397,7 +495,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Kzo9I": {
     "site": "GATC",
@@ -405,7 +505,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "LpnPI": {
     "site": "CCDG",
@@ -413,7 +515,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MaeI": {
     "site": "CTAG",
@@ -421,7 +525,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MaeII": {
     "site": "ACGT",
@@ -429,7 +535,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MalI": {
     "site": "GATC",
@@ -437,7 +545,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MboI": {
     "site": "GATC",
@@ -445,7 +555,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MluCI": {
     "site": "AATT",
@@ -453,7 +565,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MnlI": {
     "site": "CCTC",
@@ -461,7 +575,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MseI": {
     "site": "TTAA",
@@ -469,7 +585,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MspI": {
     "site": "CCGG",
@@ -477,7 +595,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MspJI": {
     "site": "CNNR",
@@ -485,7 +605,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MvnI": {
     "site": "CGCG",
@@ -493,7 +615,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NdeII": {
     "site": "GATC",
@@ -501,7 +625,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NlaIII": {
     "site": "CATG",
@@ -509,7 +635,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "RsaI": {
     "site": "GTAC",
@@ -517,7 +645,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "RsaNI": {
     "site": "GTAC",
@@ -525,7 +655,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SaqAI": {
     "site": "TTAA",
@@ -533,7 +665,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Sau3AI": {
     "site": "GATC",
@@ -541,7 +675,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SetI": {
     "site": "ASST",
@@ -549,7 +685,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SgeI": {
     "site": "CNNG",
@@ -557,7 +695,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Sse9I": {
     "site": "AATT",
@@ -565,7 +705,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SsiI": {
     "site": "CCGC",
@@ -573,7 +715,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SspMI": {
     "site": "CTAG",
@@ -581,7 +725,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TaiI": {
     "site": "ACGT",
@@ -589,7 +735,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TaqI": {
     "site": "TCGA",
@@ -597,7 +745,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TasI": {
     "site": "AATT",
@@ -605,7 +755,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Tru1I": {
     "site": "TTAA",
@@ -613,7 +765,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Tru9I": {
     "site": "TTAA",
@@ -621,7 +775,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XspI": {
     "site": "CTAG",
@@ -629,7 +785,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AclWI": {
     "site": "GGATC",
@@ -637,7 +795,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AgsI": {
     "site": "TTSAA",
@@ -645,7 +805,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AjnI": {
     "site": "CCWGG",
@@ -653,7 +815,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Alw26I": {
     "site": "GTCTC",
@@ -661,7 +825,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AlwI": {
     "site": "GGATC",
@@ -669,7 +835,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ApeKI": {
     "site": "GCWGC",
@@ -677,7 +845,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AspS9I": {
     "site": "GGNCC",
@@ -685,7 +855,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AsuC2I": {
     "site": "CCSGG",
@@ -693,7 +865,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AsuHPI": {
     "site": "GGTGA",
@@ -701,7 +875,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AvaII": {
     "site": "GGWCC",
@@ -709,7 +885,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BbvI": {
     "site": "GCAGC",
@@ -717,7 +895,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BccI": {
     "site": "CCATC",
@@ -725,7 +905,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BceAI": {
     "site": "ACGGC",
@@ -733,7 +915,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BciT130I": {
     "site": "CCWGG",
@@ -741,7 +925,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BcnI": {
     "site": "CCSGG",
@@ -749,7 +935,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BcoDI": {
     "site": "GTCTC",
@@ -757,7 +945,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BisI": {
     "site": "GCNGC",
@@ -765,7 +955,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BlsI": {
     "site": "GCNGC",
@@ -773,7 +965,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bme1390I": {
     "site": "CCNGG",
@@ -781,7 +975,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bme18I": {
     "site": "GGWCC",
@@ -789,7 +985,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmgT120I": {
     "site": "GGNCC",
@@ -797,7 +995,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmrFI": {
     "site": "CCNGG",
@@ -805,7 +1005,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmsI": {
     "site": "GCATC",
@@ -813,7 +1015,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BpuMI": {
     "site": "CCSGG",
@@ -821,7 +1025,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bse1I": {
     "site": "ACTGG",
@@ -829,7 +1035,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseBI": {
     "site": "CCWGG",
@@ -837,7 +1045,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseGI": {
     "site": "GGATG",
@@ -845,7 +1055,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseMII": {
     "site": "CTCAG",
@@ -853,7 +1065,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseNI": {
     "site": "ACTGG",
@@ -861,7 +1075,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseXI": {
     "site": "GCAGC",
@@ -869,7 +1085,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BslFI": {
     "site": "GGGAC",
@@ -877,7 +1095,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsmAI": {
     "site": "GTCTC",
@@ -885,7 +1105,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsmFI": {
     "site": "GGGAC",
@@ -893,7 +1115,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspCNI": {
     "site": "CTCAG",
@@ -901,7 +1125,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspPI": {
     "site": "GGATC",
@@ -909,7 +1135,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsrI": {
     "site": "ACTGG",
@@ -917,7 +1145,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bst2UI": {
     "site": "CCWGG",
@@ -925,7 +1155,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bst4CI": {
     "site": "ACNGT",
@@ -933,7 +1165,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstDEI": {
     "site": "CTNAG",
@@ -941,7 +1175,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstF5I": {
     "site": "GGATG",
@@ -949,7 +1185,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstMAI": {
     "site": "GTCTC",
@@ -957,7 +1195,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstNI": {
     "site": "CCWGG",
@@ -965,7 +1205,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstSCI": {
     "site": "CCNGG",
@@ -973,7 +1215,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstV1I": {
     "site": "GCAGC",
@@ -981,7 +1225,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BtsCI": {
     "site": "GGATG",
@@ -989,7 +1235,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BtsIMutI": {
     "site": "CAGTG",
@@ -997,7 +1245,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Cfr13I": {
     "site": "GGNCC",
@@ -1005,7 +1255,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CseI": {
     "site": "GACGC",
@@ -1013,7 +1265,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DdeI": {
     "site": "CTNAG",
@@ -1021,7 +1275,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco47I": {
     "site": "GGWCC",
@@ -1029,7 +1285,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoRII": {
     "site": "CCWGG",
@@ -1037,7 +1295,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FaqI": {
     "site": "GGGAC",
@@ -1045,7 +1305,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FauI": {
     "site": "CCCGC",
@@ -1053,7 +1315,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Fnu4HI": {
     "site": "GCNGC",
@@ -1061,7 +1325,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FokI": {
     "site": "GGATG",
@@ -1069,7 +1335,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Fsp4HI": {
     "site": "GCNGC",
@@ -1077,7 +1345,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "GluI": {
     "site": "GCNGC",
@@ -1085,7 +1355,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HgaI": {
     "site": "GACGC",
@@ -1093,7 +1365,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HinfI": {
     "site": "GANTC",
@@ -1101,7 +1375,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HphI": {
     "site": "GGTGA",
@@ -1109,7 +1385,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hpy188I": {
     "site": "TCNGA",
@@ -1117,7 +1395,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hpy99I": {
     "site": "CGWCG",
@@ -1125,7 +1405,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpyAV": {
     "site": "CCTTC",
@@ -1133,7 +1415,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpyCH4III": {
     "site": "ACNGT",
@@ -1141,7 +1425,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpyF3I": {
     "site": "CTNAG",
@@ -1149,7 +1435,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "LmnI": {
     "site": "GCTCC",
@@ -1157,7 +1445,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Lsp1109I": {
     "site": "GCAGC",
@@ -1165,7 +1455,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "LweI": {
     "site": "GCATC",
@@ -1173,7 +1465,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MaeIII": {
     "site": "GTNAC",
@@ -1181,7 +1475,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MboII": {
     "site": "GAAGA",
@@ -1189,7 +1485,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MlyI": {
     "site": "GAGTC",
@@ -1197,7 +1495,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MspR9I": {
     "site": "CCNGG",
@@ -1205,7 +1505,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MvaI": {
     "site": "CCWGG",
@@ -1213,7 +1515,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NciI": {
     "site": "CCSGG",
@@ -1221,7 +1525,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NmuCI": {
     "site": "GTSAC",
@@ -1229,7 +1535,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PfeI": {
     "site": "GAWTC",
@@ -1237,7 +1545,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PkrI": {
     "site": "GCNGC",
@@ -1245,7 +1555,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PleI": {
     "site": "GAGTC",
@@ -1253,7 +1565,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PpsI": {
     "site": "GAGTC",
@@ -1261,7 +1575,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Psp6I": {
     "site": "CCWGG",
@@ -1269,7 +1585,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspGI": {
     "site": "CCWGG",
@@ -1277,7 +1595,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspPI": {
     "site": "GGNCC",
@@ -1285,7 +1605,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SatI": {
     "site": "GCNGC",
@@ -1293,7 +1615,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Sau96I": {
     "site": "GGNCC",
@@ -1301,7 +1625,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SchI": {
     "site": "GAGTC",
@@ -1309,7 +1635,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ScrFI": {
     "site": "CCNGG",
@@ -1317,7 +1645,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SfaNI": {
     "site": "GCATC",
@@ -1325,7 +1655,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SinI": {
     "site": "GGWCC",
@@ -1333,7 +1665,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "StyD4I": {
     "site": "CCNGG",
@@ -1341,7 +1675,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TaaI": {
     "site": "ACNGT",
@@ -1349,7 +1685,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TauI": {
     "site": "GCSGC",
@@ -1357,7 +1695,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TfiI": {
     "site": "GAWTC",
@@ -1365,7 +1705,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TscAI": {
     "site": "CASTG",
@@ -1373,7 +1715,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TseFI": {
     "site": "GTSAC",
@@ -1381,7 +1725,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TseI": {
     "site": "GCWGC",
@@ -1389,7 +1735,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Tsp45I": {
     "site": "GTSAC",
@@ -1397,7 +1745,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TspDTI": {
     "site": "ATGAA",
@@ -1405,7 +1755,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TspGWI": {
     "site": "ACGGA",
@@ -1413,7 +1765,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TspRI": {
     "site": "CASTG",
@@ -1421,7 +1775,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "VpaK11BI": {
     "site": "GGWCC",
@@ -1429,7 +1785,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AanI": {
     "site": "TTATAA",
@@ -1437,7 +1795,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AatII": {
     "site": "GACGTC",
@@ -1445,7 +1805,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Acc16I": {
     "site": "TGCGCA",
@@ -1453,7 +1815,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Acc36I": {
     "site": "ACCTGC",
@@ -1461,7 +1825,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Acc65I": {
     "site": "GGTACC",
@@ -1469,7 +1835,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AccB1I": {
     "site": "GGYRCC",
@@ -1477,7 +1845,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AccBSI": {
     "site": "CCGCTC",
@@ -1485,7 +1855,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AccI": {
     "site": "GTMKAC",
@@ -1493,7 +1865,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AccIII": {
     "site": "TCCGGA",
@@ -1501,7 +1875,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AclI": {
     "site": "AACGTT",
@@ -1509,7 +1885,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AcoI": {
     "site": "YGGCCR",
@@ -1517,7 +1895,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AcsI": {
     "site": "RAATTY",
@@ -1525,7 +1905,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AcuI": {
     "site": "CTGAAG",
@@ -1533,7 +1915,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AcvI": {
     "site": "CACGTG",
@@ -1541,7 +1925,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AcyI": {
     "site": "GRCGYC",
@@ -1549,7 +1935,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AfeI": {
     "site": "AGCGCT",
@@ -1557,7 +1945,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AflII": {
     "site": "CTTAAG",
@@ -1565,7 +1955,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AflIII": {
     "site": "ACRYGT",
@@ -1573,7 +1965,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AgeI": {
     "site": "ACCGGT",
@@ -1581,7 +1975,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AhlI": {
     "site": "ACTAGT",
@@ -1589,7 +1985,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AjiI": {
     "site": "CACGTC",
@@ -1597,7 +1995,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Alw21I": {
     "site": "GWGCWC",
@@ -1605,7 +2005,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Alw44I": {
     "site": "GTGCAC",
@@ -1613,7 +2015,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Ama87I": {
     "site": "CYCGRG",
@@ -1621,7 +2025,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Aor13HI": {
     "site": "TCCGGA",
@@ -1629,7 +2035,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Aor51HI": {
     "site": "AGCGCT",
@@ -1637,7 +2045,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ApaI": {
     "site": "GGGCCC",
@@ -1645,7 +2055,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ApaLI": {
     "site": "GTGCAC",
@@ -1653,7 +2065,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ApoI": {
     "site": "RAATTY",
@@ -1661,7 +2075,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AseI": {
     "site": "ATTAAT",
@@ -1669,7 +2085,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AsiGI": {
     "site": "ACCGGT",
@@ -1677,7 +2095,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Asp718I": {
     "site": "GGTACC",
@@ -1685,7 +2105,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AspA2I": {
     "site": "CCTAGG",
@@ -1693,7 +2115,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AsuII": {
     "site": "TTCGAA",
@@ -1701,7 +2125,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AsuNHI": {
     "site": "GCTAGC",
@@ -1709,7 +2135,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AvaI": {
     "site": "CYCGRG",
@@ -1717,7 +2145,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AvrII": {
     "site": "CCTAGG",
@@ -1725,7 +2155,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BaeGI": {
     "site": "GKGCMC",
@@ -1733,7 +2165,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BalI": {
     "site": "TGGCCA",
@@ -1741,7 +2175,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BamHI": {
     "site": "GGATCC",
@@ -1749,7 +2185,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BanI": {
     "site": "GGYRCC",
@@ -1757,7 +2195,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BanII": {
     "site": "GRGCYC",
@@ -1765,7 +2205,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BauI": {
     "site": "CACGAG",
@@ -1773,7 +2215,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BbrPI": {
     "site": "CACGTG",
@@ -1781,7 +2225,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BbsI": {
     "site": "GAAGAC",
@@ -1789,7 +2235,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bbv12I": {
     "site": "GWGCWC",
@@ -1797,7 +2245,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BciVI": {
     "site": "GTATCC",
@@ -1805,7 +2255,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BclI": {
     "site": "TGATCA",
@@ -1813,7 +2265,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BcuI": {
     "site": "ACTAGT",
@@ -1821,7 +2275,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BfmI": {
     "site": "CTRYAG",
@@ -1829,7 +2285,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BfoI": {
     "site": "RGCGCY",
@@ -1837,7 +2295,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BfrI": {
     "site": "CTTAAG",
@@ -1845,7 +2305,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BfuAI": {
     "site": "ACCTGC",
@@ -1853,7 +2315,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BfuI": {
     "site": "GTATCC",
@@ -1861,7 +2325,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BglII": {
     "site": "AGATCT",
@@ -1869,7 +2335,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BlnI": {
     "site": "CCTAGG",
@@ -1877,7 +2345,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmcAI": {
     "site": "AGTACT",
@@ -1885,7 +2355,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmeT110I": {
     "site": "CYCGRG",
@@ -1893,7 +2365,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmgBI": {
     "site": "CACGTC",
@@ -1901,7 +2375,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmiI": {
     "site": "GGNNCC",
@@ -1909,7 +2385,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmrI": {
     "site": "ACTGGG",
@@ -1917,7 +2395,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmtI": {
     "site": "GCTAGC",
@@ -1925,7 +2405,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmuI": {
     "site": "ACTGGG",
@@ -1933,7 +2415,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BpiI": {
     "site": "GAAGAC",
@@ -1941,7 +2425,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BpmI": {
     "site": "CTGGAG",
@@ -1949,7 +2435,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bpu14I": {
     "site": "TTCGAA",
@@ -1957,7 +2445,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BpuEI": {
     "site": "CTTGAG",
@@ -1965,7 +2455,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsa29I": {
     "site": "ATCGAT",
@@ -1973,7 +2465,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsaAI": {
     "site": "YACGTR",
@@ -1981,7 +2475,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsaHI": {
     "site": "GRCGYC",
@@ -1989,7 +2485,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsaI": {
     "site": "GGTCTC",
@@ -1997,7 +2495,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsaJI": {
     "site": "CCNNGG",
@@ -2005,7 +2505,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsaWI": {
     "site": "WCCGGW",
@@ -2013,7 +2515,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bse118I": {
     "site": "RCCGGY",
@@ -2021,7 +2525,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bse3DI": {
     "site": "GCAATG",
@@ -2029,7 +2535,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseAI": {
     "site": "TCCGGA",
@@ -2037,7 +2545,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseCI": {
     "site": "ATCGAT",
@@ -2045,7 +2555,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseDI": {
     "site": "CCNNGG",
@@ -2053,7 +2565,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseMI": {
     "site": "GCAATG",
@@ -2061,7 +2575,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsePI": {
     "site": "GCGCGC",
@@ -2069,7 +2585,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseRI": {
     "site": "GAGGAG",
@@ -2077,7 +2595,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseSI": {
     "site": "GKGCMC",
@@ -2085,7 +2605,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseX3I": {
     "site": "CGGCCG",
@@ -2093,7 +2615,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseYI": {
     "site": "CCCAGC",
@@ -2101,7 +2625,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsgI": {
     "site": "GTGCAG",
@@ -2109,7 +2635,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsh1285I": {
     "site": "CGRYCG",
@@ -2117,7 +2645,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BshNI": {
     "site": "GGYRCC",
@@ -2125,7 +2655,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BshTI": {
     "site": "ACCGGT",
@@ -2133,7 +2665,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BshVI": {
     "site": "ATCGAT",
@@ -2141,7 +2675,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsiEI": {
     "site": "CGRYCG",
@@ -2149,7 +2685,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsiHKAI": {
     "site": "GWGCWC",
@@ -2157,7 +2695,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsiHKCI": {
     "site": "CYCGRG",
@@ -2165,7 +2705,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsiWI": {
     "site": "CGTACG",
@@ -2173,7 +2715,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsmBI": {
     "site": "CGTCTC",
@@ -2181,7 +2725,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsmI": {
     "site": "GAATGC",
@@ -2189,7 +2735,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bso31I": {
     "site": "GGTCTC",
@@ -2197,7 +2745,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsoBI": {
     "site": "CYCGRG",
@@ -2205,7 +2755,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp119I": {
     "site": "TTCGAA",
@@ -2213,7 +2765,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp120I": {
     "site": "GGGCCC",
@@ -2221,7 +2775,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp1286I": {
     "site": "GDGCHC",
@@ -2229,7 +2785,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp13I": {
     "site": "TCCGGA",
@@ -2237,7 +2795,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp1407I": {
     "site": "TGTACA",
@@ -2245,7 +2805,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp19I": {
     "site": "CCATGG",
@@ -2253,7 +2815,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp68I": {
     "site": "TCGCGA",
@@ -2261,7 +2825,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspDI": {
     "site": "ATCGAT",
@@ -2269,7 +2835,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspEI": {
     "site": "TCCGGA",
@@ -2277,7 +2845,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspHI": {
     "site": "TCATGA",
@@ -2285,7 +2855,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspLI": {
     "site": "GGNNCC",
@@ -2293,7 +2865,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspMAI": {
     "site": "CTGCAG",
@@ -2301,7 +2875,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspMI": {
     "site": "ACCTGC",
@@ -2309,7 +2885,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspOI": {
     "site": "GCTAGC",
@@ -2317,7 +2895,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspT104I": {
     "site": "TTCGAA",
@@ -2325,7 +2905,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspT107I": {
     "site": "GGYRCC",
@@ -2333,7 +2915,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspTI": {
     "site": "CTTAAG",
@@ -2341,7 +2925,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspTNI": {
     "site": "GGTCTC",
@@ -2349,7 +2935,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsrBI": {
     "site": "CCGCTC",
@@ -2357,7 +2945,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsrDI": {
     "site": "GCAATG",
@@ -2365,7 +2955,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsrFI": {
     "site": "RCCGGY",
@@ -2373,7 +2965,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsrGI": {
     "site": "TGTACA",
@@ -2381,7 +2975,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssAI": {
     "site": "RCCGGY",
@@ -2389,7 +2985,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssECI": {
     "site": "CCNNGG",
@@ -2397,7 +2995,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssHII": {
     "site": "GCGCGC",
@@ -2405,7 +3005,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssNAI": {
     "site": "GTATAC",
@@ -2413,7 +3015,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssNI": {
     "site": "GRCGYC",
@@ -2421,7 +3025,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssSI": {
     "site": "CACGAG",
@@ -2429,7 +3035,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BssT1I": {
     "site": "CCWWGG",
@@ -2437,7 +3045,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bst1107I": {
     "site": "GTATAC",
@@ -2445,7 +3055,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bst2BI": {
     "site": "CACGAG",
@@ -2453,7 +3065,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bst6I": {
     "site": "CTCTTC",
@@ -2461,7 +3075,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstACI": {
     "site": "GRCGYC",
@@ -2469,7 +3085,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstAFI": {
     "site": "CTTAAG",
@@ -2477,7 +3095,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstAUI": {
     "site": "TGTACA",
@@ -2485,7 +3105,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstBAI": {
     "site": "YACGTR",
@@ -2493,7 +3115,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstBI": {
     "site": "TTCGAA",
@@ -2501,7 +3125,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstC8I": {
     "site": "GCNNGC",
@@ -2509,7 +3135,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstDSI": {
     "site": "CCRYGG",
@@ -2517,7 +3145,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstH2I": {
     "site": "RGCGCY",
@@ -2525,7 +3155,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstMCI": {
     "site": "CGRYCG",
@@ -2533,7 +3165,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstNSI": {
     "site": "RCATGY",
@@ -2541,7 +3175,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstSFI": {
     "site": "CTRYAG",
@@ -2549,7 +3185,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstSLI": {
     "site": "GKGCMC",
@@ -2557,7 +3195,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstSNI": {
     "site": "TACGTA",
@@ -2565,7 +3205,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstV2I": {
     "site": "GAAGAC",
@@ -2573,7 +3215,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstX2I": {
     "site": "RGATCY",
@@ -2581,7 +3225,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstYI": {
     "site": "RGATCY",
@@ -2589,7 +3235,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstZ17I": {
     "site": "GTATAC",
@@ -2597,7 +3245,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstZI": {
     "site": "CGGCCG",
@@ -2605,7 +3255,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsu15I": {
     "site": "ATCGAT",
@@ -2613,7 +3265,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsuI": {
     "site": "GTATCC",
@@ -2621,7 +3275,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsuTUI": {
     "site": "ATCGAT",
@@ -2629,7 +3285,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BtgI": {
     "site": "CCRYGG",
@@ -2637,7 +3295,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BtgZI": {
     "site": "GCGATG",
@@ -2645,7 +3305,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BtrI": {
     "site": "CACGTC",
@@ -2653,7 +3315,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BtsI": {
     "site": "GCAGTG",
@@ -2661,7 +3325,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BtuMI": {
     "site": "TCGCGA",
@@ -2669,7 +3335,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BveI": {
     "site": "ACCTGC",
@@ -2677,7 +3345,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Cac8I": {
     "site": "GCNNGC",
@@ -2685,7 +3355,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CciI": {
     "site": "TCATGA",
@@ -2693,7 +3365,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Cfr10I": {
     "site": "RCCGGY",
@@ -2701,7 +3375,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Cfr42I": {
     "site": "CCGCGG",
@@ -2709,7 +3385,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Cfr9I": {
     "site": "CCCGGG",
@@ -2717,7 +3395,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ClaI": {
     "site": "ATCGAT",
@@ -2725,7 +3405,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CspAI": {
     "site": "ACCGGT",
@@ -2733,7 +3415,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DinI": {
     "site": "GGCGCC",
@@ -2741,7 +3425,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DraI": {
     "site": "TTTAAA",
@@ -2749,7 +3435,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EaeI": {
     "site": "YGGCCR",
@@ -2757,7 +3445,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EagI": {
     "site": "CGGCCG",
@@ -2765,7 +3455,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eam1104I": {
     "site": "CTCTTC",
@@ -2773,7 +3465,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EarI": {
     "site": "CTCTTC",
@@ -2781,7 +3475,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EciI": {
     "site": "GGCGGA",
@@ -2789,7 +3485,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Ecl136II": {
     "site": "GAGCTC",
@@ -2797,7 +3495,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EclXI": {
     "site": "CGGCCG",
@@ -2805,7 +3505,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco105I": {
     "site": "TACGTA",
@@ -2813,7 +3515,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco130I": {
     "site": "CCWWGG",
@@ -2821,7 +3525,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco147I": {
     "site": "AGGCCT",
@@ -2829,7 +3535,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco24I": {
     "site": "GRGCYC",
@@ -2837,7 +3545,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco31I": {
     "site": "GGTCTC",
@@ -2845,7 +3555,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco32I": {
     "site": "GATATC",
@@ -2853,7 +3565,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco47III": {
     "site": "AGCGCT",
@@ -2861,7 +3575,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco52I": {
     "site": "CGGCCG",
@@ -2869,7 +3585,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco53kI": {
     "site": "GAGCTC",
@@ -2877,7 +3595,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco57I": {
     "site": "CTGAAG",
@@ -2885,7 +3605,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco72I": {
     "site": "CACGTG",
@@ -2893,7 +3615,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco88I": {
     "site": "CYCGRG",
@@ -2901,7 +3625,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoICRI": {
     "site": "GAGCTC",
@@ -2909,7 +3635,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoRI": {
     "site": "GAATTC",
@@ -2917,7 +3645,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoRV": {
     "site": "GATATC",
@@ -2925,7 +3655,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoT14I": {
     "site": "CCWWGG",
@@ -2933,7 +3665,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoT22I": {
     "site": "ATGCAT",
@@ -2941,7 +3675,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoT38I": {
     "site": "GRGCYC",
@@ -2949,7 +3685,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EgeI": {
     "site": "GGCGCC",
@@ -2957,7 +3695,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EheI": {
     "site": "GGCGCC",
@@ -2965,7 +3705,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ErhI": {
     "site": "CCWWGG",
@@ -2973,7 +3715,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Esp3I": {
     "site": "CGTCTC",
@@ -2981,7 +3725,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FauNDI": {
     "site": "CATATG",
@@ -2989,7 +3735,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FbaI": {
     "site": "TGATCA",
@@ -2997,7 +3745,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FblI": {
     "site": "GTMKAC",
@@ -3005,7 +3755,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FriOI": {
     "site": "GRGCYC",
@@ -3013,7 +3765,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FspI": {
     "site": "TGCGCA",
@@ -3021,7 +3775,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "GsaI": {
     "site": "CCCAGC",
@@ -3029,7 +3785,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "GsuI": {
     "site": "CTGGAG",
@@ -3037,7 +3795,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HaeII": {
     "site": "RGCGCY",
@@ -3045,7 +3805,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hin1I": {
     "site": "GRCGYC",
@@ -3053,7 +3815,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HincII": {
     "site": "GTYRAC",
@@ -3061,7 +3825,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HindII": {
     "site": "GTYRAC",
@@ -3069,7 +3835,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HindIII": {
     "site": "AAGCTT",
@@ -3077,7 +3845,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpaI": {
     "site": "GTTAAC",
@@ -3085,7 +3855,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hpy166II": {
     "site": "GTNNAC",
@@ -3093,7 +3865,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hpy188III": {
     "site": "TCNNGA",
@@ -3101,7 +3875,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hpy8I": {
     "site": "GTNNAC",
@@ -3109,7 +3885,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Hsp92I": {
     "site": "GRCGYC",
@@ -3117,7 +3895,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "KasI": {
     "site": "GGCGCC",
@@ -3125,7 +3905,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Kpn2I": {
     "site": "TCCGGA",
@@ -3133,7 +3915,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "KpnI": {
     "site": "GGTACC",
@@ -3141,7 +3925,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "KroI": {
     "site": "GCCGGC",
@@ -3149,7 +3935,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Ksp22I": {
     "site": "TGATCA",
@@ -3157,7 +3945,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "KspAI": {
     "site": "GTTAAC",
@@ -3165,7 +3955,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "KspI": {
     "site": "CCGCGG",
@@ -3173,7 +3965,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MbiI": {
     "site": "CCGCTC",
@@ -3181,7 +3975,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MfeI": {
     "site": "CAATTG",
@@ -3189,7 +3985,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MflI": {
     "site": "RGATCY",
@@ -3197,7 +3995,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MhlI": {
     "site": "GDGCHC",
@@ -3205,7 +4005,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MlsI": {
     "site": "TGGCCA",
@@ -3213,7 +4015,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MluI": {
     "site": "ACGCGT",
@@ -3221,7 +4025,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MluNI": {
     "site": "TGGCCA",
@@ -3229,7 +4035,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Mly113I": {
     "site": "GGCGCC",
@@ -3237,7 +4045,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MmeI": {
     "site": "TCCRAC",
@@ -3245,7 +4055,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Mox20I": {
     "site": "TGGCCA",
@@ -3253,7 +4065,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Mph1103I": {
     "site": "ATGCAT",
@@ -3261,7 +4075,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MroI": {
     "site": "TCCGGA",
@@ -3269,7 +4085,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MroNI": {
     "site": "GCCGGC",
@@ -3277,7 +4095,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MscI": {
     "site": "TGGCCA",
@@ -3285,7 +4105,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Msp20I": {
     "site": "TGGCCA",
@@ -3293,7 +4115,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MspA1I": {
     "site": "CMGCKG",
@@ -3301,7 +4125,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MspCI": {
     "site": "CTTAAG",
@@ -3309,7 +4135,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MunI": {
     "site": "CAATTG",
@@ -3317,7 +4145,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Mva1269I": {
     "site": "GAATGC",
@@ -3325,7 +4155,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NaeI": {
     "site": "GCCGGC",
@@ -3333,7 +4165,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NarI": {
     "site": "GGCGCC",
@@ -3341,7 +4175,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NcoI": {
     "site": "CCATGG",
@@ -3349,7 +4185,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NdeI": {
     "site": "CATATG",
@@ -3357,7 +4195,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NgoMIV": {
     "site": "GCCGGC",
@@ -3365,7 +4205,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NheI": {
     "site": "GCTAGC",
@@ -3373,7 +4215,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NlaIV": {
     "site": "GGNNCC",
@@ -3381,7 +4225,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NmeAIII": {
     "site": "GCCGAG",
@@ -3389,7 +4235,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NruI": {
     "site": "TCGCGA",
@@ -3397,7 +4245,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NsbI": {
     "site": "TGCGCA",
@@ -3405,7 +4255,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NsiI": {
     "site": "ATGCAT",
@@ -3413,7 +4265,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NspI": {
     "site": "RCATGY",
@@ -3421,7 +4275,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NspV": {
     "site": "TTCGAA",
@@ -3429,7 +4285,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PaeI": {
     "site": "GCATGC",
@@ -3437,7 +4295,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PaeR7I": {
     "site": "CTCGAG",
@@ -3445,7 +4305,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PagI": {
     "site": "TCATGA",
@@ -3453,7 +4315,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PauI": {
     "site": "GCGCGC",
@@ -3461,7 +4325,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PceI": {
     "site": "AGGCCT",
@@ -3469,7 +4335,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PciI": {
     "site": "ACATGT",
@@ -3477,7 +4345,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PctI": {
     "site": "GAATGC",
@@ -3485,7 +4355,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PdiI": {
     "site": "GCCGGC",
@@ -3493,7 +4365,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Pfl23II": {
     "site": "CGTACG",
@@ -3501,7 +4375,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PinAI": {
     "site": "ACCGGT",
@@ -3509,7 +4385,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Ple19I": {
     "site": "CGATCG",
@@ -3517,7 +4395,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PluTI": {
     "site": "GGCGCC",
@@ -3525,7 +4405,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PmaCI": {
     "site": "CACGTG",
@@ -3533,7 +4415,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PmlI": {
     "site": "CACGTG",
@@ -3541,7 +4425,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Ppu21I": {
     "site": "YACGTR",
@@ -3549,7 +4435,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PscI": {
     "site": "ACATGT",
@@ -3557,7 +4445,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PshBI": {
     "site": "ATTAAT",
@@ -3565,7 +4455,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PsiI": {
     "site": "TTATAA",
@@ -3573,7 +4465,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Psp124BI": {
     "site": "GAGCTC",
@@ -3581,7 +4475,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Psp1406I": {
     "site": "AACGTT",
@@ -3589,7 +4485,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspCI": {
     "site": "CACGTG",
@@ -3597,7 +4495,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspFI": {
     "site": "CCCAGC",
@@ -3605,7 +4505,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspLI": {
     "site": "CGTACG",
@@ -3613,7 +4515,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspN4I": {
     "site": "GGNNCC",
@@ -3621,7 +4525,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspOMI": {
     "site": "GGGCCC",
@@ -3629,7 +4535,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PstI": {
     "site": "CTGCAG",
@@ -3637,7 +4545,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PsuI": {
     "site": "RGATCY",
@@ -3645,7 +4555,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PteI": {
     "site": "GCGCGC",
@@ -3653,7 +4565,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PvuI": {
     "site": "CGATCG",
@@ -3661,7 +4575,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PvuII": {
     "site": "CAGCTG",
@@ -3669,7 +4585,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "RruI": {
     "site": "TCGCGA",
@@ -3677,7 +4595,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SacI": {
     "site": "GAGCTC",
@@ -3685,7 +4605,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SacII": {
     "site": "CCGCGG",
@@ -3693,7 +4615,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SalI": {
     "site": "GTCGAC",
@@ -3701,7 +4625,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ScaI": {
     "site": "AGTACT",
@@ -3709,7 +4635,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SduI": {
     "site": "GDGCHC",
@@ -3717,7 +4645,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SfcI": {
     "site": "CTRYAG",
@@ -3725,7 +4655,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SfoI": {
     "site": "GGCGCC",
@@ -3733,7 +4665,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Sfr274I": {
     "site": "CTCGAG",
@@ -3741,7 +4675,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Sfr303I": {
     "site": "CCGCGG",
@@ -3749,7 +4685,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SfuI": {
     "site": "TTCGAA",
@@ -3757,7 +4695,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SgrBI": {
     "site": "CCGCGG",
@@ -3765,7 +4705,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SlaI": {
     "site": "CTCGAG",
@@ -3773,7 +4715,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SmaI": {
     "site": "CCCGGG",
@@ -3781,7 +4725,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SmlI": {
     "site": "CTYRAG",
@@ -3789,7 +4735,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SmoI": {
     "site": "CTYRAG",
@@ -3797,7 +4745,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SnaBI": {
     "site": "TACGTA",
@@ -3805,7 +4755,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SpeI": {
     "site": "ACTAGT",
@@ -3813,7 +4765,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SphI": {
     "site": "GCATGC",
@@ -3821,7 +4775,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SseBI": {
     "site": "AGGCCT",
@@ -3829,7 +4785,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SspDI": {
     "site": "GGCGCC",
@@ -3837,7 +4795,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SspI": {
     "site": "AATATT",
@@ -3845,7 +4805,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SstI": {
     "site": "GAGCTC",
@@ -3853,7 +4815,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "StuI": {
     "site": "AGGCCT",
@@ -3861,7 +4825,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "StyI": {
     "site": "CCWWGG",
@@ -3869,7 +4835,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TaqII": {
     "site": "GACCGA",
@@ -3877,7 +4845,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TatI": {
     "site": "WGTACW",
@@ -3885,7 +4855,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "TspMI": {
     "site": "CCCGGG",
@@ -3893,7 +4865,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Vha464I": {
     "site": "CTTAAG",
@@ -3901,7 +4875,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "VneI": {
     "site": "GTGCAC",
@@ -3909,7 +4885,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "VspI": {
     "site": "ATTAAT",
@@ -3917,7 +4895,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XapI": {
     "site": "RAATTY",
@@ -3925,7 +4905,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XbaI": {
     "site": "TCTAGA",
@@ -3933,7 +4915,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XceI": {
     "site": "RCATGY",
@@ -3941,7 +4925,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XhoI": {
     "site": "CTCGAG",
@@ -3949,7 +4935,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XmaI": {
     "site": "CCCGGG",
@@ -3957,7 +4945,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XmaJI": {
     "site": "CCTAGG",
@@ -3965,7 +4955,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XmiI": {
     "site": "GTMKAC",
@@ -3973,7 +4965,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ZraI": {
     "site": "GACGTC",
@@ -3981,7 +4975,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ZrmI": {
     "site": "AGTACT",
@@ -3989,7 +4985,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Zsp2I": {
     "site": "ATGCAT",
@@ -3997,7 +4995,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AarI": {
     "site": "CACCTGC",
@@ -4005,7 +5005,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AxyI": {
     "site": "CCTNAGG",
@@ -4013,7 +5015,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BbvCI": {
     "site": "CCTCAGC",
@@ -4021,7 +5025,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BlpI": {
     "site": "GCTNAGC",
@@ -4029,7 +5035,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bpu10I": {
     "site": "CCTNAGC",
@@ -4037,7 +5045,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bpu1102I": {
     "site": "GCTNAGC",
@@ -4045,7 +5055,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bse21I": {
     "site": "CCTNAGG",
@@ -4053,7 +5065,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsp1720I": {
     "site": "GCTNAGC",
@@ -4061,7 +5075,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BspQI": {
     "site": "GCTCTTC",
@@ -4069,7 +5085,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstEII": {
     "site": "GGTNACC",
@@ -4077,7 +5095,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstPI": {
     "site": "GGTNACC",
@@ -4085,7 +5105,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsu36I": {
     "site": "CCTNAGG",
@@ -4093,7 +5115,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CpoI": {
     "site": "CGGWCCG",
@@ -4101,7 +5125,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CsiI": {
     "site": "ACCWGGT",
@@ -4109,7 +5135,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CspI": {
     "site": "CGGWCCG",
@@ -4117,7 +5145,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco81I": {
     "site": "CCTNAGG",
@@ -4125,7 +5155,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eco91I": {
     "site": "GGTNACC",
@@ -4133,7 +5165,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoO109I": {
     "site": "RGGNCCY",
@@ -4141,7 +5175,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoO65I": {
     "site": "GGTNACC",
@@ -4149,7 +5185,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "KflI": {
     "site": "GGGWCCC",
@@ -4157,7 +5195,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "LguI": {
     "site": "GCTCTTC",
@@ -4165,7 +5205,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MabI": {
     "site": "ACCWGGT",
@@ -4173,7 +5215,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PasI": {
     "site": "CCCWGGG",
@@ -4181,7 +5225,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PciSI": {
     "site": "GCTCTTC",
@@ -4189,7 +5235,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PfoI": {
     "site": "TCCNGGA",
@@ -4197,7 +5245,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PpuMI": {
     "site": "RGGWCCY",
@@ -4205,7 +5255,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Psp5II": {
     "site": "RGGWCCY",
@@ -4213,7 +5265,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspEI": {
     "site": "GGTNACC",
@@ -4221,7 +5275,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspPPI": {
     "site": "RGGWCCY",
@@ -4229,7 +5285,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Rsr2I": {
     "site": "CGGWCCG",
@@ -4237,7 +5295,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "RsrII": {
     "site": "CGGWCCG",
@@ -4245,7 +5305,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SapI": {
     "site": "GCTCTTC",
@@ -4253,7 +5315,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SexAI": {
     "site": "ACCWGGT",
@@ -4261,7 +5325,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AbsI": {
     "site": "CCTCGAGG",
@@ -4269,7 +5335,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AscI": {
     "site": "GGCGCGCC",
@@ -4277,7 +5345,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AsiSI": {
     "site": "GCGATCGC",
@@ -4285,7 +5355,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CciNI": {
     "site": "GCGGCCGC",
@@ -4293,7 +5365,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FseI": {
     "site": "GGCCGGCC",
@@ -4301,7 +5375,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FspAI": {
     "site": "RTGCGCAY",
@@ -4309,7 +5385,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MauBI": {
     "site": "CGCGCGCG",
@@ -4317,7 +5395,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MreI": {
     "site": "CGCCGGCG",
@@ -4325,7 +5405,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MssI": {
     "site": "GTTTAAAC",
@@ -4333,7 +5415,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "NotI": {
     "site": "GCGGCCGC",
@@ -4341,7 +5425,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PacI": {
     "site": "TTAATTAA",
@@ -4349,7 +5435,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PalAI": {
     "site": "GGCGCGCC",
@@ -4357,7 +5445,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PmeI": {
     "site": "GTTTAAAC",
@@ -4365,7 +5455,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PspXI": {
     "site": "VCTCGAGB",
@@ -4373,7 +5465,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "RgaI": {
     "site": "GCGATCGC",
@@ -4381,7 +5475,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "RigI": {
     "site": "GGCCGGCC",
@@ -4389,7 +5485,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SbfI": {
     "site": "CCTGCAGG",
@@ -4397,7 +5495,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SdaI": {
     "site": "CCTGCAGG",
@@ -4405,7 +5505,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SfaAI": {
     "site": "GCGATCGC",
@@ -4413,7 +5515,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SgfI": {
     "site": "GCGATCGC",
@@ -4421,7 +5525,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SgrAI": {
     "site": "CRCCGGYG",
@@ -4429,7 +5535,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SgrDI": {
     "site": "CGTCGACG",
@@ -4437,7 +5545,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SgsI": {
     "site": "GGCGCGCC",
@@ -4445,7 +5555,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SmiI": {
     "site": "ATTTAAAT",
@@ -4453,7 +5565,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SrfI": {
     "site": "GCCCGGGC",
@@ -4461,7 +5575,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Sse8387I": {
     "site": "CCTGCAGG",
@@ -4469,7 +5585,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SwaI": {
     "site": "ATTTAAAT",
@@ -4477,7 +5595,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AdeI": {
     "site": "CACNNNGTG",
@@ -4485,7 +5605,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AlwNI": {
     "site": "CAGNNNCTG",
@@ -4493,7 +5615,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CaiI": {
     "site": "CAGNNNCTG",
@@ -4501,7 +5625,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DraIII": {
     "site": "CACNNNGTG",
@@ -4509,7 +5635,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MteI": {
     "site": "GCGCNGCGC",
@@ -4517,7 +5645,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PflFI": {
     "site": "GACNNNGTC",
@@ -4525,7 +5655,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PstNI": {
     "site": "CAGNNNCTG",
@@ -4533,7 +5665,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PsyI": {
     "site": "GACNNNGTC",
@@ -4541,7 +5675,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Tth111I": {
     "site": "GACNNNGTC",
@@ -4549,7 +5685,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AleI": {
     "site": "CACNNNNGTG",
@@ -4557,7 +5695,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Asp700I": {
     "site": "GAANNNNTTC",
@@ -4565,7 +5705,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BoxI": {
     "site": "GACNNNNGTC",
@@ -4573,7 +5715,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsaBI": {
     "site": "GATNNNNATC",
@@ -4581,7 +5725,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bse8I": {
     "site": "GATNNNNATC",
@@ -4589,7 +5735,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseJI": {
     "site": "GATNNNNATC",
@@ -4597,7 +5745,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstPAI": {
     "site": "GACNNNNGTC",
@@ -4605,7 +5755,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MroXI": {
     "site": "GAANNNNTTC",
@@ -4613,7 +5765,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MslI": {
     "site": "CAYNNNNRTG",
@@ -4621,7 +5775,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "OliI": {
     "site": "CACNNNNGTG",
@@ -4629,7 +5785,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PdmI": {
     "site": "GAANNNNTTC",
@@ -4637,7 +5795,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PshAI": {
     "site": "GACNNNNGTC",
@@ -4645,7 +5805,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "RseI": {
     "site": "CAYNNNNRTG",
@@ -4653,7 +5815,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SmiMI": {
     "site": "CAYNNNNRTG",
@@ -4661,7 +5825,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XmnI": {
     "site": "GAANNNNTTC",
@@ -4669,7 +5835,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AccB7I": {
     "site": "CCANNNNNTGG",
@@ -4677,7 +5845,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AfiI": {
     "site": "CCNNNNNNNGG",
@@ -4685,7 +5855,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AhdI": {
     "site": "GACNNNNNGTC",
@@ -4693,7 +5865,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BaeI": {
     "site": "ACNNNNGTAYC",
@@ -4701,7 +5875,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BglI": {
     "site": "GCCNNNNNGGC",
@@ -4709,7 +5885,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BmeRI": {
     "site": "GACNNNNNGTC",
@@ -4717,7 +5895,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BplI": {
     "site": "GAGNNNNNCTC",
@@ -4725,7 +5905,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BsaXI": {
     "site": "ACNNNNNCTCC",
@@ -4733,7 +5915,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Bsc4I": {
     "site": "CCNNNNNNNGG",
@@ -4741,7 +5925,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BseLI": {
     "site": "CCNNNNNNNGG",
@@ -4749,7 +5935,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BslI": {
     "site": "CCNNNNNNNGG",
@@ -4757,7 +5945,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstAPI": {
     "site": "GCANNNNNTGC",
@@ -4765,7 +5955,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstENI": {
     "site": "CCTNNNNNAGG",
@@ -4773,7 +5965,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstMWI": {
     "site": "GCNNNNNNNGC",
@@ -4781,7 +5975,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DriI": {
     "site": "GACNNNNNGTC",
@@ -4789,7 +5985,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Eam1105I": {
     "site": "GACNNNNNGTC",
@@ -4797,7 +5995,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "EcoNI": {
     "site": "CCTNNNNNAGG",
@@ -4805,7 +6005,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "FalI": {
     "site": "AAGNNNNNCTT",
@@ -4813,7 +6015,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "HpyF10VI": {
     "site": "GCNNNNNNNGC",
@@ -4821,7 +6025,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "MwoI": {
     "site": "GCNNNNNNNGC",
@@ -4829,7 +6035,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PflMI": {
     "site": "CCANNNNNTGG",
@@ -4837,7 +6045,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "Van91I": {
     "site": "CCANNNNNTGG",
@@ -4845,7 +6055,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XagI": {
     "site": "CCTNNNNNAGG",
@@ -4853,7 +6065,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AasI": {
     "site": "GACNNNNNNGTC",
@@ -4861,7 +6075,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BcgI": {
     "site": "CGANNNNNNTGC",
@@ -4869,7 +6085,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BstXI": {
     "site": "CCANNNNNNTGG",
@@ -4877,7 +6095,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "CspCI": {
     "site": "CAANNNNNGTGG",
@@ -4885,7 +6105,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DrdI": {
     "site": "GACNNNNNNGTC",
@@ -4893,7 +6115,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "DseDI": {
     "site": "GACNNNNNNGTC",
@@ -4901,7 +6125,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AloI": {
     "site": "GAACNNNNNNTCC",
@@ -4909,7 +6135,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "ArsI": {
     "site": "GACNNNNNNTTYG",
@@ -4917,7 +6145,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "BarI": {
     "site": "GAAGNNNNNNTAC",
@@ -4925,7 +6155,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PcsI": {
     "site": "WCGNNNNNNNCGW",
@@ -4933,7 +6165,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "PsrI": {
     "site": "GAACNNNNNNTAC",
@@ -4941,7 +6175,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "SfiI": {
     "site": "GGCCNNNNNGGCC",
@@ -4949,7 +6185,9 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "AjuI": {
     "site": "GAANNNNNNNTTGG",
@@ -4957,7 +6195,9 @@
     "cut_once": false,
     "cut_twice": true,
     "inact_temp": 65,
-    "is_methylable": false
+    "is_methylable": false,
+    "is_greyed_out": false,
+    "is_selected": true
   },
   "XcmI": {
     "site": "CCANNNNNNNNNTGG",
@@ -4965,6 +6205,8 @@
     "cut_once": true,
     "cut_twice": false,
     "inact_temp": 65,
-    "is_methylable": true
+    "is_methylable": true,
+    "is_greyed_out": false,
+    "is_selected": true
   }
 }
