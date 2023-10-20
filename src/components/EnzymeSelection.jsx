@@ -1,8 +1,17 @@
-import { enzymes } from "../../utils/enzymes";
+// import { enzymes } from "../../utils/enzymes";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  selectEnzyme,
+  // greyOutEnzyme,
+  // resetEnzyme,
+} from "../features/enzymesSlice"; // Replace 'path-to-your-enzymesSlice' with the actual import path
 
 function EnzymeSelection() {
   // get list of enzymes from keys of enzymes object
-  const enzymesList = Object.keys(enzymes);
+  const enzymesState = useSelector((store) => store.enzymes);
+  const enzymesList = Object.keys(enzymesState);
+
+  const dispatch = useDispatch();
 
   return (
     <div className="flex gap-12">
@@ -13,7 +22,15 @@ function EnzymeSelection() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {enzymesList.map((enzyme, index) => (
               <div key={index} className="r flex items-center p-4">
-                <input type="checkbox" className="h-8 w-10 flex-shrink-0 " />
+                <input
+                  type="checkbox"
+                  className="h-8 w-10 flex-shrink-0"
+                  checked={enzymesState[enzyme].is_selected}
+                  onChange={() => {
+                    dispatch(selectEnzyme(enzyme));
+                    console.log("clicked");
+                  }}
+                />
                 <span className="ml-4 text-2xl">{enzyme}</span>
               </div>
             ))}
