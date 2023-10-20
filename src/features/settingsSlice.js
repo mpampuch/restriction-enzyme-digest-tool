@@ -1,5 +1,5 @@
-// TODO
-// Settings state should contain the following information
+import { createSlice } from "@reduxjs/toolkit";
+
 const initialState = {
   dnaInputProvided: false,
   restrictedDnaInputProvided: false,
@@ -33,3 +33,128 @@ const initialState = {
 // TODO
 // Create a slice for the settings state
 // A slice is a collection of reducer functions and actions for a specific feature
+
+const settingsSlice = createSlice({
+  name: "settings",
+  initialState,
+  reducers: {
+    toggleProvideDnaInput(state) {
+      state.dnaInputProvided = !state.dnaInputProvided;
+    },
+    toggleProvideRestrictedDnaInput(state) {
+      state.restrictedDnaInputProvided = !state.restrictedDnaInputProvided;
+    },
+    toggleExclude3PrimeOverhangs(state) {
+      state.exclude3PrimeOverhangs = !state.exclude3PrimeOverhangs;
+    },
+    toggleExclude5PrimeOverhangs(state) {
+      state.exclude5PrimeOverhangs = !state.exclude5PrimeOverhangs;
+    },
+    toggleExcludeBluntEnds(state) {
+      state.excludeBluntEnds = !state.excludeBluntEnds;
+    },
+    toggleExcludeAs(state) {
+      state.excludeAs = !state.excludeAs;
+    },
+    toggleExcludeCs(state) {
+      state.excludeCs = !state.excludeCs;
+    },
+    toggleExcludeGs(state) {
+      state.excludeGs = !state.excludeGs;
+    },
+    toggleExcludeTs(state) {
+      state.excludeTs = !state.excludeTs;
+    },
+    toggleExcludeAmbiguousBases(state) {
+      state.excludeAmbiguousBases = !state.excludeAmbiguousBases;
+    },
+    toggleExcludeNs(state) {
+      state.excludeNs = !state.excludeNs;
+    },
+    toggleExcludeWs(state) {
+      state.excludeWs = !state.excludeWs;
+    },
+    toggleExcludeSs(state) {
+      state.excludeSs = !state.excludeSs;
+    },
+    toggleExcludeMs(state) {
+      state.excludeMs = !state.excludeMs;
+    },
+    toggleExcludeKs(state) {
+      state.excludeKs = !state.excludeKs;
+    },
+    toggleExcludeRs(state) {
+      state.excludeRs = !state.excludeRs;
+    },
+    toggleExcludeYs(state) {
+      state.excludeYs = !state.excludeYs;
+    },
+    toggleExcludeBs(state) {
+      state.excludeBs = !state.excludeBs;
+    },
+    toggleExcludeDs(state) {
+      state.excludeDs = !state.excludeDs;
+    },
+    toggleExcludeHs(state) {
+      state.excludeHs = !state.excludeHs;
+    },
+    toggleExcludeVs(state) {
+      state.excludeVs = !state.excludeVs;
+    },
+    toggleExcludeMethylationSensitive(state) {
+      state.excludeMethylationSensitive = !state.excludeMethylationSensitive;
+    },
+    toggleExcludeMethylationInsensitive(state) {
+      state.excludeMethylationInsensitive =
+        !state.excludeMethylationInsensitive;
+    },
+    setMinNumberOfCutsites(state, action) {
+      state.minNumberOfCutsites = action.payload;
+    },
+    toggleMaxNumberOfCutsitesEnabled(state) {
+      state.maxNumberOfCutsitesEnabled = !state.maxNumberOfCutsitesEnabled;
+    },
+    setMaxNumberOfCutsites(state, action) {
+      state.maxNumberOfCutsites = action.payload;
+    },
+    setDisplayType(state, action) {
+      state.displayType = action.payload;
+    },
+    resetSettings() {
+      () => initialState;
+    },
+  },
+});
+
+export const {
+  toggleProvideDnaInput,
+  toggleProvideRestrictedDnaInput,
+  toggleExclude3PrimeOverhangs,
+  toggleExclude5PrimeOverhangs,
+  toggleExcludeBluntEnds,
+  toggleExcludeAs,
+  toggleExcludeCs,
+  toggleExcludeGs,
+  toggleExcludeTs,
+  toggleExcludeAmbiguousBases,
+  toggleExcludeNs,
+  toggleExcludeWs,
+  toggleExcludeSs,
+  toggleExcludeMs,
+  toggleExcludeKs,
+  toggleExcludeRs,
+  toggleExcludeYs,
+  toggleExcludeBs,
+  toggleExcludeDs,
+  toggleExcludeHs,
+  toggleExcludeVs,
+  toggleExcludeMethylationSensitive,
+  toggleExcludeMethylationInsensitive,
+  setMinNumberOfCutsites,
+  toggleMaxNumberOfCutsitesEnabled,
+  setMaxNumberOfCutsites,
+  setDisplayType,
+  resetSettings,
+} = settingsSlice.actions;
+
+export default settingsSlice.reducer;
