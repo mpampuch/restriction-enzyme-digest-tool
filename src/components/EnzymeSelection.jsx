@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import {
   selectEnzyme,
-  // greyOutEnzyme,
+  greyOutEnzyme,
   // resetEnzyme,
 } from "../features/enzymesSlice";
 import {
@@ -30,12 +30,118 @@ import {
 
 function EnzymeSelection() {
   // Grab State from Redux Store
+  const settingsState = useSelector((store) => store.settings);
   const enzymesState = useSelector((store) => store.enzymes);
   const enzymesList = Object.keys(enzymesState);
-  const settingsState = useSelector((store) => store.settings);
 
   // Create Dispatcher to Dispatch Actions to Redux Store
   const dispatch = useDispatch();
+
+  // Precompute various enzyme sets
+  const enzymesWith3PrimeOverhangs = new Set(
+    enzymesList.filter(
+      (enzyme) => enzymesState[enzyme].overhang === "3' overhang",
+    ),
+  );
+
+  const enzymesWith5PrimeOverhangs = new Set(
+    enzymesList.filter(
+      (enzyme) => enzymesState[enzyme].overhang === "5' overhang",
+    ),
+  );
+
+  const enzymesWithBluntEnds = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].overhang === "blunt"),
+  );
+
+  const enzymesWithAs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("A")),
+  );
+
+  const enzymesWithCs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("C")),
+  );
+
+  const enzymesWithGs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("G")),
+  );
+
+  const enzymesWithTs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("T")),
+  );
+
+  const ambiguousBasesPattern = /[NWSMKRYBDHV]/;
+  const enzymesWithAmbiguousBases = new Set(
+    enzymesList.filter((enzyme) =>
+      ambiguousBasesPattern.test(enzymesState[enzyme].site),
+    ),
+  );
+
+  const enzymesWithNs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("N")),
+  );
+
+  const enzymesWithWs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("W")),
+  );
+
+  const enzymesWithSs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("S")),
+  );
+
+  const enzymesWithMs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("M")),
+  );
+
+  const enzymesWithKs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("K")),
+  );
+
+  const enzymesWithRs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("R")),
+  );
+
+  const enzymesWithYs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("Y")),
+  );
+
+  const enzymesWithBs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("B")),
+  );
+
+  const enzymesWithDs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("D")),
+  );
+
+  const enzymesWithHs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("H")),
+  );
+
+  const enzymesWithVs = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].site.includes("V")),
+  );
+
+  const enzymesWithMethylationSensitive = new Set(
+    enzymesList.filter((enzyme) => enzymesState[enzyme].is_methylable),
+  );
+
+  const enzymesWithMethylationInsensitive = new Set(
+    enzymesList.filter((enzyme) => !enzymesState[enzyme].is_methylable),
+  );
+
+  // Compute if all ambiguous bases are excluded (this is used to determine if the "Exclude all ambiguous bases" checkbox should be checked)
+  const allAmbiguousBasesExcluded =
+    settingsState.excludeNs &&
+    settingsState.excludeWs &&
+    settingsState.excludeSs &&
+    settingsState.excludeMs &&
+    settingsState.excludeKs &&
+    settingsState.excludeRs &&
+    settingsState.excludeYs &&
+    settingsState.excludeBs &&
+    settingsState.excludeDs &&
+    settingsState.excludeHs &&
+    settingsState.excludeVs;
 
   // Create Handlers for Dispatching Actions to Redux Store
   function handleSelectEnzyme(enzyme) {
@@ -43,93 +149,219 @@ function EnzymeSelection() {
     dispatch(selectEnzyme(enzyme));
   }
 
-  // function handleGreyOutEnzyme(enzyme) {
-  //   if (!enzyme) return;
-  //   dispatch(greyOutEnzyme(enzyme));
-  // }
+  function handleGreyOutEnzyme({ enzyme, setting }) {
+    if (!enzyme || !setting) return;
+    dispatch(greyOutEnzyme({ enzyme, setting }));
+  }
 
   function handleToggleExclude3PrimeOverhangs() {
     dispatch(toggleExclude3PrimeOverhangs());
+    for (const enzyme of enzymesWith3PrimeOverhangs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "toggleExclude3PrimeOverhangs",
+      });
+    }
   }
 
   function handleToggleExclude5PrimeOverhangs() {
     dispatch(toggleExclude5PrimeOverhangs());
+    for (const enzyme of enzymesWith5PrimeOverhangs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "toggleExclude5PrimeOverhangs",
+      });
+    }
   }
 
   function handleToggleExcludeBluntEnds() {
     dispatch(toggleExcludeBluntEnds());
+    for (const enzyme of enzymesWithBluntEnds) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "toggleExcludeBluntEnds",
+      });
+    }
   }
 
   function handleToggleExcludeAs() {
     dispatch(toggleExcludeAs());
+    for (const enzyme of enzymesWithAs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeAs",
+      });
+    }
   }
 
   function handleToggleExcludeCs() {
     dispatch(toggleExcludeCs());
+    for (const enzyme of enzymesWithCs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeCs",
+      });
+    }
   }
 
   function handleToggleExcludeGs() {
     dispatch(toggleExcludeGs());
+    for (const enzyme of enzymesWithGs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeGs",
+      });
+    }
   }
 
   function handleToggleExcludeTs() {
     dispatch(toggleExcludeTs());
+    for (const enzyme of enzymesWithTs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeTs",
+      });
+    }
   }
 
   function handleToggleExcludeAmbiguousBases() {
     dispatch(toggleExcludeAmbiguousBases());
+    for (const enzyme of enzymesWithAmbiguousBases) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeAmbiguousBases",
+      });
+    }
   }
 
   function handleToggleExcludeNs() {
     dispatch(toggleExcludeNs());
+    for (const enzyme of enzymesWithNs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeNs",
+      });
+    }
   }
 
   function handleToggleExcludeWs() {
     dispatch(toggleExcludeWs());
+    for (const enzyme of enzymesWithWs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeWs",
+      });
+    }
   }
 
   function handleToggleExcludeSs() {
     dispatch(toggleExcludeSs());
+    for (const enzyme of enzymesWithSs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeSs",
+      });
+    }
   }
 
   function handleToggleExcludeMs() {
     dispatch(toggleExcludeMs());
+    for (const enzyme of enzymesWithMs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeMs",
+      });
+    }
   }
 
   function handleToggleExcludeKs() {
     dispatch(toggleExcludeKs());
+    for (const enzyme of enzymesWithKs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeKs",
+      });
+    }
   }
 
   function handleToggleExcludeRs() {
     dispatch(toggleExcludeRs());
+    for (const enzyme of enzymesWithRs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeRs",
+      });
+    }
   }
 
   function handleToggleExcludeYs() {
     dispatch(toggleExcludeYs());
+    for (const enzyme of enzymesWithYs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeYs",
+      });
+    }
   }
 
   function handleToggleExcludeBs() {
     dispatch(toggleExcludeBs());
+    for (const enzyme of enzymesWithBs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeBs",
+      });
+    }
   }
 
   function handleToggleExcludeDs() {
     dispatch(toggleExcludeDs());
+    for (const enzyme of enzymesWithDs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeDs",
+      });
+    }
   }
 
   function handleToggleExcludeHs() {
     dispatch(toggleExcludeHs());
+    for (const enzyme of enzymesWithHs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeHs",
+      });
+    }
   }
 
   function handleToggleExcludeVs() {
     dispatch(toggleExcludeVs());
+    for (const enzyme of enzymesWithVs) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeVs",
+      });
+    }
   }
 
   function handleToggleExcludeMethylationSensitive() {
     dispatch(toggleExcludeMethylationSensitive());
+    for (const enzyme of enzymesWithMethylationSensitive) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeMethylationSensitive",
+      });
+    }
   }
 
   function handleToggleExcludeMethylationInsensitive() {
     dispatch(toggleExcludeMethylationInsensitive());
+    for (const enzyme of enzymesWithMethylationInsensitive) {
+      handleGreyOutEnzyme({
+        enzyme: enzyme,
+        setting: "handleToggleExcludeMethylationInsensitive",
+      });
+    }
   }
 
   return (
@@ -146,8 +378,18 @@ function EnzymeSelection() {
                   className="h-8 w-10 flex-shrink-0"
                   checked={enzymesState[enzyme].is_selected}
                   onChange={() => handleSelectEnzyme(enzyme)}
+                  disabled={Boolean(enzymesState[enzyme].greyed_out_by.length)}
                 />
-                <span className="ml-4 text-2xl">{enzyme}</span>
+                {/* If enzyme is_greyed out is true color the enzyme grey */}
+                <span
+                  className={`ml-4 text-2xl ${
+                    enzymesState[enzyme].greyed_out_by.length
+                      ? "text-gray-500"
+                      : ""
+                  }`}
+                >
+                  {enzyme}
+                </span>
               </div>
             ))}
           </div>
@@ -236,7 +478,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeAmbiguousBases}
+                checked={
+                  settingsState.excludeAmbiguousBases ||
+                  allAmbiguousBasesExcluded
+                }
                 onChange={handleToggleExcludeAmbiguousBases}
               />
               <span className="ml-4 text-2xl">Exclude all ambiguous bases</span>
@@ -247,7 +492,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeNs}
+                checked={
+                  settingsState.excludeNs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeNs}
               />
               <span className="ml-4 text-2xl">No N&apos;s</span>
@@ -256,7 +504,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeWs}
+                checked={
+                  settingsState.excludeWs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeWs}
               />
               <span className="ml-4 text-2xl">No W&apos;s</span>
@@ -265,7 +516,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeSs}
+                checked={
+                  settingsState.excludeSs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeSs}
               />
               <span className="ml-4 text-2xl">No S&apos;s</span>
@@ -274,7 +528,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeMs}
+                checked={
+                  settingsState.excludeMs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeMs}
               />
               <span className="ml-4 text-2xl">No M&apos;s</span>
@@ -283,7 +540,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeKs}
+                checked={
+                  settingsState.excludeKs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeKs}
               />
               <span className="ml-4 text-2xl">No K&apos;s</span>
@@ -292,7 +552,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeRs}
+                checked={
+                  settingsState.excludeRs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeRs}
               />
               <span className="ml-4 text-2xl">No R&apos;s</span>
@@ -301,7 +564,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeYs}
+                checked={
+                  settingsState.excludeYs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeYs}
               />
               <span className="ml-4 text-2xl">No Y&apos;s</span>
@@ -310,7 +576,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeBs}
+                checked={
+                  settingsState.excludeBs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeBs}
               />
               <span className="ml-4 text-2xl">No B&apos;s</span>
@@ -319,7 +588,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeDs}
+                checked={
+                  settingsState.excludeDs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeDs}
               />
               <span className="ml-4 text-2xl">No D&apos;s</span>
@@ -328,7 +600,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeHs}
+                checked={
+                  settingsState.excludeHs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeHs}
               />
               <span className="ml-4 text-2xl">No H&apos;s</span>
@@ -337,7 +612,10 @@ function EnzymeSelection() {
               <input
                 type="checkbox"
                 className="h-8 w-10 flex-shrink-0 "
-                checked={settingsState.excludeVs}
+                checked={
+                  settingsState.excludeVs || settingsState.excludeAmbiguousBases
+                }
+                disabled={settingsState.excludeAmbiguousBases}
                 onChange={handleToggleExcludeVs}
               />
               <span className="ml-4 text-2xl">No V&apos;s</span>

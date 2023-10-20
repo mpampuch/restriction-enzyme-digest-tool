@@ -25,13 +25,29 @@ const enzymesSlice = createSlice({
       state[enzymeKey].is_selected = !state[enzymeKey].is_selected;
     },
     greyOutEnzyme(state, action) {
-      const enzymeKey = action.payload;
-      state[enzymeKey].is_greyed = !state[enzymeKey].is_greyed;
+      const enzymeKey = action.payload.enzyme;
+      let settings = action.payload.setting;
+
+      if (!Array.isArray(settings)) {
+        settings = [settings]; // Ensure settings is an array
+      }
+
+      // TOGGLE LOGIC for each setting in the array
+      settings.forEach((setting) => {
+        if (!state[enzymeKey].greyed_out_by.includes(setting)) {
+          state[enzymeKey].greyed_out_by.push(setting);
+        } else {
+          state[enzymeKey].greyed_out_by = state[
+            enzymeKey
+          ].greyed_out_by.filter((item) => item !== setting);
+        }
+      });
     },
+
     resetEnzyme(state, action) {
       const enzymeKey = action.payload;
       state[enzymeKey].is_selected = false;
-      state[enzymeKey].is_greyed = false;
+      state[enzymeKey].is_greyed_out = false;
     },
   },
 });
