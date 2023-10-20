@@ -13,6 +13,8 @@ sortedKeys.forEach((key) => {
   initialState[key] = unsortedEnzymes[key];
 });
 
+// Create a slice for the enzymes state
+// A slice is a collection of reducer functions and actions for a specific feature
 const enzymesSlice = createSlice({
   name: "enzymes",
   initialState,
