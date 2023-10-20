@@ -1,7 +1,7 @@
 // TODO
 // Settings state should contain the following information
 const initialState = {
-  dnaInputProvide: false,
+  dnaInputProvided: false,
   restrictedDnaInputProvided: false,
   exclude3PrimeOverhangs: false,
   exclude5PrimeOverhangs: false,
