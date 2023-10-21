@@ -42,6 +42,11 @@ const enzymesSlice = createSlice({
           ].greyed_out_by.filter((item) => item !== setting);
         }
       });
+
+      // Also set is_selected to false if the enzyme is greyed out
+      if (state[enzymeKey].greyed_out_by.length > 0) {
+        state[enzymeKey].is_selected = false;
+      }
     },
 
     resetEnzyme(state, action) {

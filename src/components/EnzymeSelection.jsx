@@ -143,6 +143,23 @@ function EnzymeSelection() {
     settingsState.excludeHs &&
     settingsState.excludeVs;
 
+  // Compute if all non-greyed out enzymes are selected (this is used to determine if the "Select Visible" button should turn into "Deslect Visible")
+  // // Compute greyed out enzymes
+  // const greyedOutEnzymes = [
+  //   ...new Set(
+  //     enzymesList.filter((enzyme) => enzymesState[enzyme].greyed_out_by.length),
+  //   ),
+  // ];
+
+  const allNonGreyedOutEnzymesSelected = enzymesList.every((enzyme) => {
+    const { greyed_out_by, is_selected } = enzymesState[enzyme];
+    if (!greyed_out_by.length) {
+      return is_selected;
+    } else {
+      return true;
+    }
+  });
+
   // Create Handlers for Dispatching Actions to Redux Store
   function handleSelectEnzyme(enzyme) {
     if (!enzyme) return;
@@ -232,18 +249,31 @@ function EnzymeSelection() {
   }
 
   function handleToggleExcludeAmbiguousBases() {
+    console.log("allAmbiguousBasesExcluded: ", allAmbiguousBasesExcluded);
     if (!settingsState.excludeNs) handleToggleExcludeNs();
+    console.log("settingsState.excludeNs: ", settingsState.excludeNs);
     if (!settingsState.excludeWs) handleToggleExcludeWs();
+    console.log("settingsState.excludeWs: ", settingsState.excludeWs);
     if (!settingsState.excludeSs) handleToggleExcludeSs();
+    console.log("settingsState.excludeSs: ", settingsState.excludeSs);
     if (!settingsState.excludeMs) handleToggleExcludeMs();
+    console.log("settingsState.excludeMs: ", settingsState.excludeMs);
     if (!settingsState.excludeKs) handleToggleExcludeKs();
+    console.log("settingsState.excludeKs: ", settingsState.excludeKs);
     if (!settingsState.excludeRs) handleToggleExcludeRs();
+    console.log("settingsState.excludeRs: ", settingsState.excludeRs);
     if (!settingsState.excludeYs) handleToggleExcludeYs();
+    console.log("settingsState.excludeYs: ", settingsState.excludeYs);
     if (!settingsState.excludeBs) handleToggleExcludeBs();
+    console.log("settingsState.excludeBs: ", settingsState.excludeBs);
     if (!settingsState.excludeDs) handleToggleExcludeDs();
+    console.log("settingsState.excludeDs: ", settingsState.excludeDs);
     if (!settingsState.excludeHs) handleToggleExcludeHs();
+    console.log("settingsState.excludeHs: ", settingsState.excludeHs);
     if (!settingsState.excludeVs) handleToggleExcludeVs();
+    console.log("settingsState.excludeVs: ", settingsState.excludeVs);
     // if all are true, then set all to false
+
     if (
       settingsState.excludeNs &&
       settingsState.excludeWs &&
@@ -416,11 +446,16 @@ function EnzymeSelection() {
 
   function handleSelectVisibleEnzymes() {
     for (const enzyme of enzymesList) {
+      const { greyed_out_by, is_selected } = enzymesState[enzyme];
+
+      // If enzyme is greyed out or not all non-greyed-out enzymes are selected, skip it
       if (
-        enzymesState[enzyme].greyed_out_by.length ||
-        enzymesState[enzyme].is_selected
-      )
+        greyed_out_by.length ||
+        (!allNonGreyedOutEnzymesSelected && is_selected)
+      ) {
         continue;
+      }
+
       handleSelectEnzyme(enzyme);
     }
   }
@@ -712,7 +747,9 @@ function EnzymeSelection() {
             className="rounded-md bg-blue-500 px-4 py-2 text-2xl font-medium text-white"
             onClick={handleSelectVisibleEnzymes}
           >
-            Select Visible
+            {allNonGreyedOutEnzymesSelected
+              ? "Deselect Visible"
+              : "Select Visible"}
           </button>
         </div>
       </div>
