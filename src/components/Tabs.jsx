@@ -1,13 +1,9 @@
-import * as React from "react";
+import { useState } from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import TextareaAutosize from "@mui/material/TextareaAutosize";
-import Button from "@mui/material/Button";
-import LabelledSwitch from "./LabelledSwitch";
-import Switch from "@mui/material/Switch";
 
 import DnaInputTabLayout from "./DnaInputTabLayout";
 import EnzymeSelectionTabLayout from "./EnzymeSelectionTabLayout";
@@ -47,8 +43,7 @@ function a11yProps(index) {
 }
 
 export default function BasicTabs() {
-  const [value, setValue] = React.useState(0);
-  const [showRestrictedInput, setShowRestrictedInput] = React.useState(false);
+  const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -71,62 +66,6 @@ export default function BasicTabs() {
         <CustomTabPanel value={value} index={0}>
           <DnaInputTabLayout />
           {/* // TODO, MOVE THE DNA INPUT CODE TO ./DnaInputTabLayout.jsx */}
-          <h1>DNA input</h1>
-          <p>
-            Inpt the DNA sequence(s) that you would like to digest. The input
-            has to be in FASTA format and be less than 1Mb.
-          </p>
-          {/* TODO, FIX THE OVERFLOW AND ADD A SCROLL WHEN THIS GETS TOO BIG */}
-          <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[250px] overflow-auto">
-            <TextareaAutosize
-              aria-label="minimum height"
-              minRows={7}
-              placeholder="Input DNA to digest"
-              className="text-gray-800"
-            />
-          </div>
-          <Button variant="contained" component="label">
-            Upload File
-            <input type="file" hidden />
-          </Button>
-          <LabelledSwitch />
-          {/* TODO, ADD THIS LOGIC TO THE LABELLED DNA INPUT THING BUT DO IT USING A GLOBAL STATE MANAGEMENT SYSTEM LIKE REDUX TO ENSURE PARENT CAN GET THE STATE */}
-          <Switch
-            onChange={() =>
-              setShowRestrictedInput(
-                (showRestrictedInput) => !showRestrictedInput,
-              )
-            }
-          />
-          <div
-            className={`overflow-auto transition-all duration-500 ease-in-out ${
-              showRestrictedInput ? "max-h-[450px]" : "max-h-0"
-            }`}
-          >
-            {/* {showRestrictedInput && (
-              <> */}
-            <p>
-              Inpt the DNA sequence(s) that you would not like to digest. If
-              this is filled out, then any enzyme that performs one or more
-              digestions in this DNA will be exluded from the analysis on the
-              desired DNA. The input has to be in FASTA format and be less than
-              1Mb.
-            </p>
-            <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[300px] overflow-auto">
-              <TextareaAutosize
-                aria-label="minimum height"
-                minRows={7}
-                placeholder="Input DNA that you don't want to digest"
-                className="max-h-[250px] text-gray-800"
-              />
-            </div>
-            <Button variant="contained" component="label">
-              Upload File
-              <input type="file" hidden />
-            </Button>
-            {/* </>
-            )} */}
-          </div>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <EnzymeSelectionTabLayout />

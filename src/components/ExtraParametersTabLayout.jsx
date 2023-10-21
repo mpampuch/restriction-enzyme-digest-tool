@@ -16,12 +16,9 @@ import Select from "@mui/material/Select";
 function ExtraParametersTabLayout() {
   // Grab State from Redux Store
   const settingsState = useSelector((store) => store.settings);
-  console.log("settingsState: ", settingsState);
   const minNumberOfCuts = settingsState.minNumberOfCutsites;
-  console.log("minNumberOfCuts: ", minNumberOfCuts);
   const maxNumberOfCutsEnabled = settingsState.maxNumberOfCutsitesEnabled;
   const maxNumberOfCuts = settingsState.maxNumberOfCutsites;
-  console.log("maxNumberOfCuts: ", maxNumberOfCuts);
   const displayType = settingsState.displayType;
 
   // Create Dispatcher to Dispatch Actions to Redux Store
