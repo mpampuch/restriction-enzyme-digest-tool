@@ -8,7 +8,10 @@ import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Button from "@mui/material/Button";
 import LabelledSwitch from "./LabelledSwitch";
 import Switch from "@mui/material/Switch";
-import EnzymeSelection from "./EnzymeSelection";
+
+import DnaInputTabLayout from "./DnaInputTabLayout";
+import EnzymeSelectionTabLayout from "./EnzymeSelectionTabLayout";
+import ExtraParametersTabLayout from "./ExtraParametersTabLayout";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,6 +69,8 @@ export default function BasicTabs() {
           <Tab label="Extra Parmeters" {...a11yProps(2)} />
         </Tabs>
         <CustomTabPanel value={value} index={0}>
+          <DnaInputTabLayout />
+          {/* // TODO, MOVE THE DNA INPUT CODE TO ./DnaInputTabLayout.jsx */}
           <h1>DNA input</h1>
           <p>
             Inpt the DNA sequence(s) that you would like to digest. The input
@@ -75,7 +80,7 @@ export default function BasicTabs() {
           <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[250px] overflow-auto">
             <TextareaAutosize
               aria-label="minimum height"
-              minRows={10}
+              minRows={7}
               placeholder="Input DNA to digest"
               className="text-gray-800"
             />
@@ -110,7 +115,7 @@ export default function BasicTabs() {
             <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[300px] overflow-auto">
               <TextareaAutosize
                 aria-label="minimum height"
-                minRows={10}
+                minRows={7}
                 placeholder="Input DNA that you don't want to digest"
                 className="max-h-[250px] text-gray-800"
               />
@@ -124,11 +129,10 @@ export default function BasicTabs() {
           </div>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          <EnzymeSelection />
+          <EnzymeSelectionTabLayout />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          <h1>Extra parameters</h1>
-          <Button variant="contained">Default</Button>
+          <ExtraParametersTabLayout />
         </CustomTabPanel>
       </Box>
     </Box>

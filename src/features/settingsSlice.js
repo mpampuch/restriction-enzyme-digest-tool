@@ -26,8 +26,8 @@ const initialState = {
   excludeMethylationInsensitive: false,
   minNumberOfCutsites: 0,
   maxNumberOfCutsitesEnabled: false,
-  maxNumberOfCutsites: Infinity,
-  displayType: "detailed", // can be "detailed", "cutsite locations", or "number of cutsites"
+  maxNumberOfCutsites: 1000,
+  displayType: "detailed", // can be "detailed", "cutsite-locations", or "number-of-cutsites"
 };
 
 // TODO

@@ -144,13 +144,6 @@ function EnzymeSelection() {
     settingsState.excludeVs;
 
   // Compute if all non-greyed out enzymes are selected (this is used to determine if the "Select Visible" button should turn into "Deslect Visible")
-  // // Compute greyed out enzymes
-  // const greyedOutEnzymes = [
-  //   ...new Set(
-  //     enzymesList.filter((enzyme) => enzymesState[enzyme].greyed_out_by.length),
-  //   ),
-  // ];
-
   const allNonGreyedOutEnzymesSelected = enzymesList.every((enzyme) => {
     const { greyed_out_by, is_selected } = enzymesState[enzyme];
     if (!greyed_out_by.length) {
@@ -159,6 +152,11 @@ function EnzymeSelection() {
       return true;
     }
   });
+
+  // Compute if all enzymes are greyed out (this is used to determine if the "Select Visible" button should be inactive)
+  const allEnzymesGreyedOut = enzymesList.every(
+    (enzyme) => enzymesState[enzyme].greyed_out_by.length,
+  );
 
   // Create Handlers for Dispatching Actions to Redux Store
   function handleSelectEnzyme(enzyme) {
@@ -491,9 +489,9 @@ function EnzymeSelection() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col justify-between">
         <h1 className="mb-2 text-3xl">Settings</h1>
-        <div>
+        <div className="mb-3">
           <h2 className="mb-3 text-2xl font-medium underline">
             Exclude Enzymes by overhangs:
           </h2>
@@ -743,14 +741,24 @@ function EnzymeSelection() {
         </div>
         {/* Add button to select visible */}
         <div className="flex justify-center">
-          <button
-            className="rounded-md bg-blue-500 px-4 py-2 text-2xl font-medium text-white"
-            onClick={handleSelectVisibleEnzymes}
-          >
-            {allNonGreyedOutEnzymesSelected
-              ? "Deselect Visible"
-              : "Select Visible"}
-          </button>
+          {/* Conditionally render the button */}
+          {allEnzymesGreyedOut ? (
+            <button
+              className="rounded-md bg-gray-500 px-4 py-2 text-2xl font-medium text-gray-400"
+              disabled
+            >
+              Select Visible
+            </button>
+          ) : (
+            <button
+              className="rounded-md bg-blue-500 px-4 py-2 text-2xl font-medium text-white"
+              onClick={handleSelectVisibleEnzymes}
+            >
+              {allNonGreyedOutEnzymesSelected
+                ? "Deselect Visible"
+                : "Select Visible"}
+            </button>
+          )}
         </div>
       </div>
     </div>
