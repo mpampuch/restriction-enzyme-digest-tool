@@ -1,8 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
+  inputString: "",
   dnaInputProvided: false,
   showRestrictedDnaInput: false,
+  restrictedInputString: "",
   restrictedDnaInputProvided: false,
   exclude3PrimeOverhangs: false,
   exclude5PrimeOverhangs: false,
@@ -39,11 +41,17 @@ const settingsSlice = createSlice({
   name: "settings",
   initialState,
   reducers: {
+    setInputString(state, action) {
+      state.inputString = action.payload;
+    },
     toggleProvideDnaInput(state) {
       state.dnaInputProvided = !state.dnaInputProvided;
     },
     toggleShowRestrictedDnaInput(state) {
       state.showRestrictedDnaInput = !state.showRestrictedDnaInput;
+    },
+    setRestrictedInputString(state, action) {
+      state.restrictedInputString = action.payload;
     },
     toggleProvideRestrictedDnaInput(state) {
       state.restrictedDnaInputProvided = !state.restrictedDnaInputProvided;
@@ -131,8 +139,10 @@ const settingsSlice = createSlice({
 });
 
 export const {
+  setInputString,
   toggleProvideDnaInput,
   toggleShowRestrictedDnaInput,
+  setRestrictedInputString,
   toggleProvideRestrictedDnaInput,
   toggleExclude3PrimeOverhangs,
   toggleExclude5PrimeOverhangs,

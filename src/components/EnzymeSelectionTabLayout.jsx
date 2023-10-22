@@ -478,7 +478,7 @@ function EnzymeSelection() {
                 <span
                   className={`ml-4 text-2xl ${
                     enzymesState[enzyme].greyed_out_by.length
-                      ? "text-gray-500"
+                      ? "text-gray-400"
                       : ""
                   }`}
                 >
@@ -744,14 +744,14 @@ function EnzymeSelection() {
           {/* Conditionally render the button */}
           {allEnzymesGreyedOut ? (
             <button
-              className="rounded-md bg-gray-500 px-4 py-2 text-2xl font-medium text-gray-400"
+              className="rounded-md bg-gray-400 px-4 py-2 text-2xl font-medium text-gray-300"
               disabled
             >
               Select Visible
             </button>
           ) : (
             <button
-              className="rounded-md bg-blue-500 px-4 py-2 text-2xl font-medium text-white"
+              className="rounded-md bg-blue-400 px-4 py-2 text-2xl font-medium text-white"
               onClick={handleSelectVisibleEnzymes}
             >
               {allNonGreyedOutEnzymesSelected

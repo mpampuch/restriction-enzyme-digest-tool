@@ -68,6 +68,7 @@ function ExtraParametersTabLayout() {
           <p>Min number of cutsites</p>
           <TextField
             id="outlined-number"
+            className="bg-gray-100 text-3xl text-black"
             label=""
             type="number"
             value={minNumberOfCuts}
@@ -83,12 +84,16 @@ function ExtraParametersTabLayout() {
         </div>
 
         <div className="flex w-3/4 flex-row items-center gap-4">
-          <p>Max number of cutsites</p>
+          <p className={maxNumberOfCutsEnabled ? "" : `${"text-gray-400"}`}>
+            Max number of cutsites
+          </p>
           <TextField
             id="outlined-number"
+            className="bg-gray-100 text-3xl text-black"
             label=""
             type="number"
             value={maxNumberOfCuts}
+            disabled={!maxNumberOfCutsEnabled}
             onChange={handleMaxNumberOfCutsChange}
             InputLabelProps={{
               shrink: true,
@@ -101,6 +106,7 @@ function ExtraParametersTabLayout() {
 
           <div className="flex flex-row items-center gap-2">
             <input
+              className="h-8 w-10"
               type="checkbox"
               checked={maxNumberOfCutsEnabled}
               onChange={handleMaxNumberOfCutsEnabledChange}
@@ -116,6 +122,7 @@ function ExtraParametersTabLayout() {
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
+              className="bg-gray-100 text-3xl text-black"
               value={displayType}
               label=""
               onChange={handleDisplayTypeChange}

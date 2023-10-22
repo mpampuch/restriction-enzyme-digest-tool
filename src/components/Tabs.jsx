@@ -59,9 +59,21 @@ export default function BasicTabs() {
           centered
           className="flex justify-between"
         >
-          <Tab label="DNA Input" {...a11yProps(0)} />
-          <Tab label="Enzyme Selection" {...a11yProps(1)} />
-          <Tab label="Extra Parmeters" {...a11yProps(2)} />
+          <Tab
+            label="DNA Input"
+            {...a11yProps(0)}
+            style={{ color: "#ececec" }}
+          />
+          <Tab
+            label="Enzyme Selection"
+            {...a11yProps(1)}
+            style={{ color: "#ececec" }}
+          />
+          <Tab
+            label="Extra Parmeters"
+            {...a11yProps(2)}
+            style={{ color: "#ececec" }}
+          />
         </Tabs>
         <CustomTabPanel value={value} index={0}>
           <DnaInputTabLayout />
