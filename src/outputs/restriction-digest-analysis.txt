@@ -1,0 +1,743 @@
+-------------------------------------------------
+Restriction Digest Analysis on Sequence: test1
+-------------------------------------------------
+
+TCATTAACTGTTGTTTGGTAGCACAAAAGTATTACCATGGTCCTAGAAGTTCGGCACAGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTAATTGACAACAAACCATCGTGTTTTCATAATGGTACCAGGATCTTCAAGCCGTGTCA
+1                                                         60
+
+TAGTTCGAGCCTAATGTCACAAATGACGCAGAACGCCAATGAGTGCCAGACATTAGGTGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATCAAGCTCGGATTACAGTGTTTACTGCGTCTTGCGGTTACTCACGGTCTGTAATCCACC
+61                                                       120
+
+AGTTCAGTTCGGTAACGGAGAGACTCTGCGGCGTACTTAATTATGCATTTGAAACGCGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCAAGTCAAGCCATTGCCTCTCTGAGACGCCGCATGAATTAATACGTAAACTTTGCGCGG
+121                                                      180
+
+                     202 Hpy188I
+                     |                                      
+                     |       210 BmiI BspLI NlaIV PspN4I
+                     |       |                              
+CAAGTGACGCTAGGCAAGTCAGAGCAGGTTCCCGTGTTAGCTTGAGGGTAAACATACAAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTTCACTGCGATCCGTTCAGTCTCGTCCAAGGGCACAATCGAACTCCCATTTGTATGTTC
+181                                                      240
+
+                                                      295 Hpy188I
+                                                      |     
+CCGATTGAAGATGGGTAGGGGGCTTCAAATCGTCCAGCACTCCACAGTACCTCCGAGAGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCTAACTTCTACCCATCCCCCGAAGTTTAGCAGGTCGTGAGGTGTCATGGAGGCTCTCG
+241                                                      300
+
+     306 BstMWI HpyF10VI MwoI
+     |                                                      
+     |   310 BmiI BspLI NlaIV PspN4I
+     |   |                                                  
+     |   |                      333 Asp700I MroXI PdmI XmnI
+     |   |                      |                           
+     |   |                      |                350 BanII Eco24I EcoT38I FriOI
+     |   |                      |                |          
+AAGTAGGGCACCCTGTAGTTCGAAGCGGAACTATTTCGAGGGGCGAGCCCACATCGTCTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTCATCCCGTGGGACATCAAGCTTCGCCTTGATAAAGCTCCCCGCTCGGGTGTAGCAGAG
+301                                                      360
+
+TTCTGCGGATGACTTAACACGCTAGGGAGGTGGAGTCGATTCCATCGATGGTTATAAATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAGACGCCTACTGAATTGTGCGATCCCTCCACCTCAGCTAAGGTAGCTACCAATATTTAG
+361                                                      420
+
+         430 Hpy188I
+         |                                                  
+         |         440 Hpy188III
+         |         |                                        
+         |         |                          467 Hpy188III
+         |         |                          |             
+AAAAAATCGGAACGCTGTCTGGAGGATGAATCTAACGGTGCGTATCTCGATCGCTCAGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTTTTAGCCTTGCGACAGACCTCCTACTTAGATTGCCACGCATAGAGCTAGCGAGTCAG
+421                                                      480
+
+                              511 AccBSI BsrBI MbiI
+                              |                             
+                              |             525 BmiI BspLI NlaIV PspN4I
+                              |             |               
+                              |             |  528 Hpy188I
+                              |             |  |            
+                              |             |  |         538 Hpy188III
+                              |             |  |         |  
+GCTTTTCGTACTGCGCGAAAGTTCGCACCGCTCATACACTTGGTTCCGAAGCCTGTCCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGAAAAGCATGACGCGCTTTCAAGCGTGGCGAGTATGTGAACCAAGGCTTCGGACAGGAC
+481                                                      540
+
+              555 FauI
+              |                                             
+              |      562 AccBSI BsrBI MbiI
+              |      |                                      
+              |      |      569 BanII Eco24I EcoT38I FriOI
+              |      |      |                               
+              |      |      |570 Hpy188III
+              |      |      ||                              
+ATATATGAATCCAAACTAGAGCGGGGCTCTTGACGTTTGGAGTTGTAAATATCTAATATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TATATACTTAGGTTTGATCTCGCCCCGAGAACTGCAAACCTCAACATTTATAGATTATAA
+541                                                      600
+
+               616 BsaAI BstBAI Ppu21I
+               |                                            
+               |   620 FauI
+               |   |                                        
+CCAATCGGCTTTTACGTGCACCACCGCGGGCGGCTGACGAGGGACTCACACCGAGAAACT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGTTAGCCGAAAATGCACGTGGTGGCGCCCGCCGACTGCTCCCTGAGTGTGGCTCTTTGA
+601                                                      660
+
+                          687 BsiSI HapII HpaII MspI
+                          |                                 
+AGACAGTTGCGCGCTGGAAGTAGCGCCGGCTAAGAAAGACGCCTGGTACAGCAGGACTAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCTGTCAACGCGCGACCTTCATCGCGGCCGATTCTTTCTGCGGACCATGTCGTCCTGATA
+661                                                      720
+
+            733 AfiI Bsc4I BseLI BslI
+            |                                               
+            |                750 AfiI Bsc4I BseLI BslI
+            |                |                              
+GAAACCCGTACAAAGGCAACATCCTCACTTCGGTGAATCGAAACGCGGCATCAAGGTTAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTTTGGGCATGTTTCCGTTGTAGGAGTGAAGCCACTTAGCTTTGCGCCGTAGTTCCAATG
+721                                                      780
+
+TTTTTGGATACCTGAAACAAAACCCATCGTAGTCCTTAGACTTGGGACACTTTCACCCCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAAACCTATGGACTTTGTTTTGGGTAGCATCAGGAATCTGAACCCTGTGAAAGTGGGGA
+781                                                      840
+
+    845 BmiI BspLI NlaIV PspN4I
+    |                                                       
+    | 847 BanII Eco24I EcoT38I FriOI
+    | |                                                     
+    | |    852 AfiI Bsc4I BseLI BslI
+    | |    |                                                
+    | |    |853 Hpy188III
+    | |    ||                                               
+    | |    ||                               885 Hpy188I
+    | |    ||                               |               
+AGGGCCCATATCTGGAAATAGACGCCAAGTTCAATCCGTACTCCGACGTACGATGGAACA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCCCGGGTATAGACCTTTATCTGCGGTTCAAGTTAGGCATGAGGCTGCATGCTACCTTGT
+841                                                      900
+
+     906 BtsIMutI TscAI TspRI
+     |                                                      
+     |                                 940 BsiSI HapII HpaII HpyAV MspI
+     |                                 |                    
+     |                                 |    945 BsiSI HapII HpaII MspI
+     |                                 |    |               
+     |                                 |    |946 AfiI Bsc4I BseLI BslI
+     |                                 |    ||              
+     |                                 |    ||   950 BmiI BspLI NlaIV PspN4I
+     |                                 |    ||   |          
+GTGTGGATGTGACGAGCTTCATTTATACCCTTCGCGCGCCGGACCGGGGTCCGCAAGGCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CACACCTACACTGCTCGAAGTAAATATGGGAAGCGCGCGGCCTGGCCCCAGGCGTTCCGC
+901                                                      960
+
+CGGCGGTGCACAAGCAATTGACAACTAACCACCGTGTATT
+||||||||||||||||||||||||||||||||||||||||
+GCCGCCACGTGTTCGTTAACTGTTGATTGGTGGCACATAA
+961                                 1000
+
+
+   Enzymes that cut restricted sequences
+
+AbaSI     AluBI     AluI      CviJI     CviKI_1   MluCI     
+MspJI     SetI      SgeI      Sse9I     TasI      BstC8I    
+Cac8I     HindIII   
+
+   Enzymes that cut less than 1 times
+
+AoxI      AspLEI    BshFI     BsnI      Bsp143I   BspANI    
+BssMI     BstHHI    BstKTI    BstMBI    BsuRI     CfoI      
+CviAII    DpnI      DpnII     FaeI      FatI      GlaI      
+HaeIII    HhaI      Hin1II    Hin6I     HinP1I    HpyCH4V   
+Hsp92II   HspAI     Kzo9I     LpnPI     MalI      MboI      
+MseI      NdeII     NlaIII    SaqAI     Sau3AI    Tru1I     
+Tru9I     AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      
+BccI      BceAI     BciT130I  BcnI      BcoDI     BisI      
+BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     BmsI      
+BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     
+BseXI     BslFI     BsmAI     BsmFI     BspCNI    BspPI     
+BsrI      Bst2UI    Bst4CI    BstDEI    BstF5I    BstMAI    
+BstNI     BstSCI    BstV1I    BtsCI     Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      Fnu4HI    FokI      
+Fsp4HI    GluI      HgaI      HinfI     HphI      Hpy99I    
+HpyCH4III HpyF3I    LmnI      Lsp1109I  LweI      MaeIII    
+MboII     MlyI      MspR9I    MvaI      NciI      NmuCI     
+PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     
+PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     
+SinI      StyD4I    TaaI      TauI      TfiI      TseFI     
+TseI      Tsp45I    TspDTI    TspGWI    VpaK11BI  AanI      
+AatII     Acc16I    Acc36I    Acc65I    AccB1I    AccI      
+AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AcyI      AfeI      AflII     AflIII    AgeI      AhlI      
+AjiI      Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   
+ApaI      ApaLI     ApoI      AseI      AsiGI     Asp718I   
+AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     
+BalI      BamHI     BanI      BauI      BbrPI     BbsI      
+Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      
+BfrI      BfuAI     BfuI      BglII     BlnI      BmcAI     
+BmeT110I  BmgBI     BmrI      BmtI      BmuI      BpiI      
+BpmI      Bpu14I    BpuEI     Bsa29I    BsaHI     BsaI      
+BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     
+BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    
+BseYI     BsgI      Bsh1285I  BshNI     BshTI     BshVI     
+BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     BsmI      
+Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspMAI    
+BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    
+BsrDI     BsrFI     BsrGI     BssAI     BssECI    BssHII    
+BssNAI    BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    
+Bst6I     BstACI    BstAFI    BstAUI    BstBI     BstDSI    
+BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    
+BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      
+BtuMI     BveI      CciI      Cfr10I    Cfr42I    Cfr9I     
+ClaI      CspAI     DinI      DraI      EaeI      EagI      
+Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   
+Eco130I   Eco147I   Eco31I    Eco32I    Eco47III  Eco52I    
+Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     
+EcoRV     EcoT14I   EcoT22I   EgeI      EheI      ErhI      
+Esp3I     FauNDI    FbaI      FblI      FspI      GsaI      
+GsuI      HaeII     Hin1I     HincII    HindII    HindIII   
+HpaI      Hpy166II  Hpy8I     Hsp92I    KasI      Kpn2I     
+KpnI      KroI      Ksp22I    KspAI     KspI      MfeI      
+MflI      MlsI      MluI      MluNI     Mly113I   MmeI      
+Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    
+MspA1I    MspCI     MunI      Mva1269I  NaeI      NarI      
+NcoI      NdeI      NgoMIV    NheI      NmeAIII   NruI      
+NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    
+PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      
+PscI      PshBI     PsiI      Psp124BI  Psp1406I  PspCI     
+PspFI     PspLI     PspOMI    PstI      PsuI      PteI      
+PvuI      PvuII     RruI      SacI      SacII     SalI      
+ScaI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      
+SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     
+SpeI      SphI      SseBI     SspDI     SspI      SstI      
+StuI      StyI      TaqII     TatI      TspMI     Vha464I   
+VneI      VspI      XapI      XbaI      XceI      XhoI      
+XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     
+AarI      AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  
+Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    
+CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  
+EcoO65I   KflI      LguI      MabI      PasI      PciSI     
+PfoI      PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     
+RsrII     SapI      SexAI     AbsI      AscI      AsiSI     
+CciNI     FseI      FspAI     MauBI     MreI      MssI      
+NotI      PacI      PalAI     PmeI      PspXI     RgaI      
+RigI      SbfI      SdaI      SfaAI     SgfI      SgrAI     
+SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      
+AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     
+PstNI     PsyI      Tth111I   AleI      BoxI      BsaBI     
+Bse8I     BseJI     BstPAI    MslI      OliI      PshAI     
+RseI      SmiMI     AccB7I    AhdI      BaeI      BglI      
+BmeRI     BplI      BsaXI     BstAPI    BstENI    DriI      
+Eam1105I  EcoNI     FalI      PflMI     Van91I    XagI      
+AasI      BcgI      BstXI     CspCI     DrdI      DseDI     
+AloI      ArsI      BarI      PcsI      PsrI      SfiI      
+AjuI      XcmI      
+
+   Enzymes that cut more than 5 times
+
+AbaSI     FspEI     AccII     AciI      AfaI      AluBI     
+AluI      AspLEI    BfaI      Bsh1236I  BspACI    BspFNI    
+BstFNI    BstHHI    BstUI     CfoI      Csp6I     CviJI     
+CviKI_1   CviQI     FaiI      FspBI     GlaI      HhaI      
+Hin6I     HinP1I    HpyCH4IV  HpySE526I HspAI     LpnPI     
+MaeI      MaeII     MnlI      MspJI     MvnI      RsaI      
+RsaNI     SetI      SgeI      SsiI      SspMI     TaiI      
+TaqI      XspI      Bme1390I  BmrFI     Bst4CI    BstSCI    
+HinfI     HpyCH4III MspR9I    ScrFI     StyD4I    TaaI      
+BsaJI     BseDI     Bsp1286I  BssECI    MhlI      SduI      
+
+
+
+
+-------------------------------------------------
+Restriction Digest Analysis on Sequence: test2
+-------------------------------------------------
+
+         10 BmiI BspLI NlaIV PspN4I
+         |                                                  
+         |                              41 BanII Eco24I EcoT38I FriOI
+         |                              |                   
+CGTTATGGCACCAGGGAGTTTAAGCCGAGTCAATGGAGCTCGCAATACAGAGTTTACCGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCAATACCGTGGTCCCTCAAATTCGGCTCAGTTACCTCGAGCGTTATGTCTCAAATGGCG
+1                                                         60
+
+ATCTTGCCCTAACTGACAAACTGTGATCGACCACAAGCCAAGCCATTGCCTCTTAGACAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TAGAACGGGATTGACTGTTTGACACTAGCTGGTGTTCGGTTCGGTAACGGAGAATCTGTG
+61                                                       120
+
+              135 BtsIMutI TscAI TspRI
+              |                                             
+              |     141 FauI
+              |     |                                       
+GCCGTTACAGTGATTATGAAAACTTTGCGGGGCATGGCTACGACTTGTTCAGCCACGTCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGGCAATGTCACTAATACTTTTGAAACGCCCCGTACCGATGCTGAACAAGTCGGTGCAGG
+121                                                      180
+
+181 Hpy188I
+|                                                           
+|                                                  232 AfiI Bsc4I BseLI BslI
+|                                                  |        
+|                                                  |233 BsiSI HapII HpaII MspI
+|                                                  ||       
+GAGGGCAGAAACCTATCCCCATTTGTATGTTCAGCTATCTTCTACCCATCCCCGGAGGTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTCCCGTCTTTGGATAGGGGTAAACATACAAGTCGATAGAAGATGGGTAGGGGCCTCCAA
+181                                                      240
+
+                       264 BstMWI HpyF10VI MwoI
+                       |                                    
+                       |     270 Hpy188III
+                       |     |                              
+AAGTAGGTTGTGAGATGCGGAAGAGGCTCTCGATCATCCCGTGGGACATCAACCTTTCCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTCATCCAACACTCTACGCCTTCTCCGAGAGCTAGTAGGGCACCCTGTAGTTGGAAAGGG
+241                                                      300
+
+                317 AccBSI BsrBI MbiI
+                |                                           
+                | 319 AfiI Bsc4I BseLI BslI
+                | |                                         
+                | |  322 FauI
+                | |  |                                      
+                | |  |                339 Asp700I MroXI PdmI XmnI
+                | |  |                |                     
+                | |  |                |     345 Hpy188I
+                | |  |                |     |               
+                | |  |                |     |    350 HpyAV
+                | |  |                |     |    |          
+TTGATAAAGCACCCCGCTCGGGTATGGCAGAGAGAACGCCTTCTGAATTGTGCTATCCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AACTATTTCGTGGGGCGAGCCCATACCGTCTCTCTTGCGGAAGACTTAACACGATAGGAA
+301                                                      360
+
+       368 HpyAV
+       |                                                    
+CGACCTTATCAAAGCTTGCTACCAATAATTAGGATTATTGCCTTGCGACAGACCTCCTAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTGGAATAGTTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATG
+361                                                      420
+
+   424 BtsIMutI
+   |                                                        
+   |      431 TscAI TspRI
+   |      |                                                 
+   |      |                     453 BtsIMutI TscAI TspRI
+   |      |                     |                           
+   |      |                     |            466 BstMWI HpyF10VI MwoI
+   |      |                     |            |              
+   |      |                     |            |  469 AccBSI BsrBI MbiI
+   |      |                     |            |  |           
+   |      |                     |            |  |    474 FauI
+   |      |                     |            |  |    |      
+TCACACTGCCTCACATTGAGCTAGTCAGTGAGCGATTAGCTTGACCCGCTCTCTAGGGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTGTGACGGAGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAG
+421                                                      480
+
+481 Hpy188III
+|                                                           
+|       489 BsaAI BstBAI Ppu21I
+|       |                                                   
+|       |           501 BmiI BspLI NlaIV PspN4I
+|       |           |                                       
+|       |           |502 BanII Eco24I EcoT38I FriOI
+|       |           ||                                      
+|       |           ||503 BsiSI HapII HpaII Hpy188III MspI
+|       |           |||                                     
+|       |           |||                        528 Hpy188I
+|       |           |||                        |            
+GCGAGTACGTGAGCTAGGGCTCCGGACTGGGCTATATAGTCGAGTCTGATCTCGCCCCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGCTCATGCACTCGATCCCGAGGCCTGACCCGATATATCAGCTCAGACTAGAGCGGGGCT
+481                                                      540
+
+                                            585 BstMWI HpyF10VI MwoI
+                                            |               
+                                            |        594 BstMWI HpyF10VI MwoI
+                                            |        |      
+                                            |        | 596 BmiI BspLI NlaIV PspN4I
+                                            |        | |    
+CAACTGCAAACCTCAACTTTTTTAGATAACATGGTTAGCCGAAGTTGCACGAGGTGCCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTTGACGTTTGGAGTTGAAAAAATCTATTGTACCAATCGGCTTCAACGTGCTCCACGGCT
+541                                                      600
+
+               616 BsiSI HapII HpaII MspI
+               |                                            
+               |    621 AfiI Bsc4I BseLI BslI
+               |    |                                       
+               |    |    626 BmiI BspLI NlaIV PspN4I
+               |    |    |                                  
+               |    |    |         636 Hpy188I
+               |    |    |         |                        
+               |    |    |         | 638 HpyAV
+               |    |    |         | |                      
+CCGCGGACTGCTCCCCGGGTGTGGCTCCTTCATCTGACAACGTGCAACCGCTATCGCCAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCGCCTGACGAGGGGCCCACACCGAGGAAGTAGACTGTTGCACGTTGGCGATAGCGGTA
+601                                                      660
+
+CGATTGATTCAGCGGACGGTGTTGTCGTCATAGTTTGGGCATGTTTCCCTTGTAGGTGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTAACTAAGTCGCCTGCCACAACAGCAGTATCAAACCCGTACAAAGGGAACATCCACAC
+661                                                      720
+
+AAATCACTTAGCTTCGCGCCGTAGTCTTAAAGGAAAACCTATGGACTATGTTTCGGGTAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTAGTGAATCGAAGCGCGGCATCAGAATTTCCTTTTGGATACCTGATACAAAGCCCATC
+721                                                      780
+
+            793 Hpy188I
+            |                                               
+            |      800 BsaAI BstBAI Ppu21I
+            |      |                                        
+CACCAGGAATCTGAAGCACGTGTATGTGGACGTGGCGTGCGTACACCTTAATCTCCGCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGGTCCTTAGACTTCGTGCACATACACCTGCACCGCACGCATGTGGAATTAGAGGCGAA
+781                                                      840
+
+                                        881 BtsIMutI
+                                        |                   
+                                        |      888 TscAI TspRI
+                                        |      |            
+                                        |      |          899 FauI
+                                        |      |          | 
+CATGCTAAGGATCTGGCTGCATGCTATGTTGATACACCTACACTGCTCGAAGAAAATATA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTACGATTCCTAGACCGACGTACGATACAACTATGTGGATGTGACGAGCTTCTTTTATAT
+841                                                      900
+
+                  919 BsiSI HapII HpaII MspI
+                  |                                         
+                  |   923 BmiI BspLI NlaIV PspN4I
+                  |   |                                     
+                  |   |  926 BanII Eco24I EcoT38I FriOI
+                  |   |  |                                  
+                  |   |  |              941 BsaAI BstBAI Ppu21I
+                  |   |  |              |                   
+CGAAGCGGGCGGCCTGGCCGGAGCCCTACCGCATCGACACGTGTTCGTTTACTGTTAATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTTCGCCCGCCGGACCGGCCTCGGGATGGCGTAGCTGTGCACAAGCAAATGACAATTAA
+901                                                      960
+
+GGTGGCACATAAGCAATATTGTAGTCCGTCAATTTCAGCC
+||||||||||||||||||||||||||||||||||||||||
+CCACCGTGTATTCGTTATAACATCAGGCAGTTAAAGTCGG
+961                                 1000
+
+
+   Enzymes that cut restricted sequences
+
+AbaSI     AluBI     AluI      CviJI     CviKI_1   MluCI     
+MspJI     SetI      SgeI      Sse9I     TasI      BstC8I    
+Cac8I     HindIII   
+
+   Enzymes that cut less than 1 times
+
+AoxI      AspLEI    BshFI     BsnI      Bsp143I   BspANI    
+BssMI     BstHHI    BstKTI    BstMBI    BsuRI     CfoI      
+CviAII    DpnI      DpnII     FaeI      FatI      GlaI      
+HaeIII    HhaI      Hin1II    Hin6I     HinP1I    HpyCH4V   
+Hsp92II   HspAI     Kzo9I     LpnPI     MalI      MboI      
+MseI      NdeII     NlaIII    SaqAI     Sau3AI    Tru1I     
+Tru9I     AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      
+BccI      BceAI     BciT130I  BcnI      BcoDI     BisI      
+BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     BmsI      
+BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     
+BseXI     BslFI     BsmAI     BsmFI     BspCNI    BspPI     
+BsrI      Bst2UI    Bst4CI    BstDEI    BstF5I    BstMAI    
+BstNI     BstSCI    BstV1I    BtsCI     Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      Fnu4HI    FokI      
+Fsp4HI    GluI      HgaI      HinfI     HphI      Hpy99I    
+HpyCH4III HpyF3I    LmnI      Lsp1109I  LweI      MaeIII    
+MboII     MlyI      MspR9I    MvaI      NciI      NmuCI     
+PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     
+PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     
+SinI      StyD4I    TaaI      TauI      TfiI      TseFI     
+TseI      Tsp45I    TspDTI    TspGWI    VpaK11BI  AanI      
+AatII     Acc16I    Acc36I    Acc65I    AccB1I    AccI      
+AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AcyI      AfeI      AflII     AflIII    AgeI      AhlI      
+AjiI      Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   
+ApaI      ApaLI     ApoI      AseI      AsiGI     Asp718I   
+AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     
+BalI      BamHI     BanI      BauI      BbrPI     BbsI      
+Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      
+BfrI      BfuAI     BfuI      BglII     BlnI      BmcAI     
+BmeT110I  BmgBI     BmrI      BmtI      BmuI      BpiI      
+BpmI      Bpu14I    BpuEI     Bsa29I    BsaHI     BsaI      
+BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     
+BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    
+BseYI     BsgI      Bsh1285I  BshNI     BshTI     BshVI     
+BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     BsmI      
+Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspMAI    
+BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    
+BsrDI     BsrFI     BsrGI     BssAI     BssECI    BssHII    
+BssNAI    BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    
+Bst6I     BstACI    BstAFI    BstAUI    BstBI     BstDSI    
+BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    
+BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      
+BtuMI     BveI      CciI      Cfr10I    Cfr42I    Cfr9I     
+ClaI      CspAI     DinI      DraI      EaeI      EagI      
+Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   
+Eco130I   Eco147I   Eco31I    Eco32I    Eco47III  Eco52I    
+Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     
+EcoRV     EcoT14I   EcoT22I   EgeI      EheI      ErhI      
+Esp3I     FauNDI    FbaI      FblI      FspI      GsaI      
+GsuI      HaeII     Hin1I     HincII    HindII    HindIII   
+HpaI      Hpy166II  Hpy8I     Hsp92I    KasI      Kpn2I     
+KpnI      KroI      Ksp22I    KspAI     KspI      MfeI      
+MflI      MlsI      MluI      MluNI     Mly113I   MmeI      
+Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    
+MspA1I    MspCI     MunI      Mva1269I  NaeI      NarI      
+NcoI      NdeI      NgoMIV    NheI      NmeAIII   NruI      
+NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    
+PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      
+PscI      PshBI     PsiI      Psp124BI  Psp1406I  PspCI     
+PspFI     PspLI     PspOMI    PstI      PsuI      PteI      
+PvuI      PvuII     RruI      SacI      SacII     SalI      
+ScaI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      
+SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     
+SpeI      SphI      SseBI     SspDI     SspI      SstI      
+StuI      StyI      TaqII     TatI      TspMI     Vha464I   
+VneI      VspI      XapI      XbaI      XceI      XhoI      
+XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     
+AarI      AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  
+Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    
+CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  
+EcoO65I   KflI      LguI      MabI      PasI      PciSI     
+PfoI      PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     
+RsrII     SapI      SexAI     AbsI      AscI      AsiSI     
+CciNI     FseI      FspAI     MauBI     MreI      MssI      
+NotI      PacI      PalAI     PmeI      PspXI     RgaI      
+RigI      SbfI      SdaI      SfaAI     SgfI      SgrAI     
+SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      
+AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     
+PstNI     PsyI      Tth111I   AleI      BoxI      BsaBI     
+Bse8I     BseJI     BstPAI    MslI      OliI      PshAI     
+RseI      SmiMI     AccB7I    AhdI      BaeI      BglI      
+BmeRI     BplI      BsaXI     BstAPI    BstENI    DriI      
+Eam1105I  EcoNI     FalI      PflMI     Van91I    XagI      
+AasI      BcgI      BstXI     CspCI     DrdI      DseDI     
+AloI      ArsI      BarI      PcsI      PsrI      SfiI      
+AjuI      XcmI      
+
+   Enzymes that cut more than 5 times
+
+AbaSI     FspEI     AccII     AciI      AfaI      AluBI     
+AluI      AspLEI    BfaI      Bsh1236I  BspACI    BspFNI    
+BstFNI    BstHHI    BstUI     CfoI      Csp6I     CviJI     
+CviKI_1   CviQI     FaiI      FspBI     GlaI      HhaI      
+Hin6I     HinP1I    HpyCH4IV  HpySE526I HspAI     LpnPI     
+MaeI      MaeII     MnlI      MspJI     MvnI      RsaI      
+RsaNI     SetI      SgeI      SsiI      SspMI     TaiI      
+TaqI      XspI      Bme1390I  BmrFI     Bst4CI    BstSCI    
+HinfI     HpyCH4III MspR9I    ScrFI     StyD4I    TaaI      
+BsaJI     BseDI     Bsp1286I  BssECI    MhlI      SduI      
+
+
+
+
+-------------------------------------------------
+Restriction Digest Analysis on Sequence: test3
+-------------------------------------------------
+
+      7 AccBSI BsrBI MbiI
+      |                                                     
+      | 9 AfiI Bsc4I BseLI BslI
+      | |                                                   
+      | |  12 FauI
+      | |  |                                                
+      | |  |                29 Asp700I MroXI PdmI XmnI
+      | |  |                |                               
+      | |  |                |     35 Hpy188I
+      | |  |                |     |                         
+      | |  |                |     |    40 HpyAV
+      | |  |                |     |    |                    
+      | |  |                |     |    |                 58 HpyAV
+      | |  |                |     |    |                 |  
+ACCCCGCTCGGGTATGGCAGAGAGAACGCCTTCTGAATTGTGCTATCCTTCGACCTTATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGGGCGAGCCCATACCGTCTCTCTTGCGGAAGACTTAACACGATAGGAAGCTGGAATAG
+1                                                         60
+
+                                                     114 BtsIMutI
+                                                     |      
+AAAGCTTGCTACCAATAATTAGGATTATTGCCTTGCGACAGACCTCCTACTCACACTGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATGAGTGTGACGG
+61                                                       120
+
+121 TscAI TspRI
+|                                                           
+|                     143 BtsIMutI TscAI TspRI
+|                     |                                     
+|                     |            156 BstMWI HpyF10VI MwoI
+|                     |            |                        
+|                     |            |  159 AccBSI BsrBI MbiI
+|                     |            |  |                     
+|                     |            |  |    164 FauI
+|                     |            |  |    |                
+|                     |            |  |    |      171 Hpy188III
+|                     |            |  |    |      |         
+|                     |            |  |    |      |       179 BsaAI BstBAI Ppu21I
+|                     |            |  |    |      |       | 
+TCACATTGAGCTAGTCAGTGAGCGATTAGCTTGACCCGCTCTCTAGGGTCGCGAGTACGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAGCGCTCATGCA
+121                                                      180
+
+          191 BmiI BspLI NlaIV PspN4I
+          |                                                 
+          |192 BanII Eco24I EcoT38I FriOI
+          ||                                                
+          ||193 BsiSI HapII HpaII MspI
+          |||                                               
+GAGCTAGGGCTCCGG
+|||||||||||||||
+CTCGATCCCGAGGCC
+181                        195
+
+
+   Enzymes that cut restricted sequences
+
+AbaSI     AluBI     AluI      CviJI     CviKI_1   MluCI     
+MspJI     SetI      SgeI      Sse9I     TasI      BstC8I    
+Cac8I     HindIII   
+
+   Enzymes that cut less than 1 times
+
+AoxI      AspLEI    BshFI     BsnI      Bsp143I   BspANI    
+BssMI     BstHHI    BstKTI    BstMBI    BsuRI     CfoI      
+CviAII    DpnI      DpnII     FaeI      FatI      GlaI      
+HaeIII    HhaI      Hin1II    Hin6I     HinP1I    HpyCH4V   
+Hsp92II   HspAI     Kzo9I     LpnPI     MalI      MboI      
+MseI      NdeII     NlaIII    SaqAI     Sau3AI    Tru1I     
+Tru9I     AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      
+BccI      BceAI     BciT130I  BcnI      BcoDI     BisI      
+BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     BmsI      
+BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     
+BseXI     BslFI     BsmAI     BsmFI     BspCNI    BspPI     
+BsrI      Bst2UI    Bst4CI    BstDEI    BstF5I    BstMAI    
+BstNI     BstSCI    BstV1I    BtsCI     Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      Fnu4HI    FokI      
+Fsp4HI    GluI      HgaI      HinfI     HphI      Hpy99I    
+HpyCH4III HpyF3I    LmnI      Lsp1109I  LweI      MaeIII    
+MboII     MlyI      MspR9I    MvaI      NciI      NmuCI     
+PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     
+PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     
+SinI      StyD4I    TaaI      TauI      TfiI      TseFI     
+TseI      Tsp45I    TspDTI    TspGWI    VpaK11BI  AanI      
+AatII     Acc16I    Acc36I    Acc65I    AccB1I    AccI      
+AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AcyI      AfeI      AflII     AflIII    AgeI      AhlI      
+AjiI      Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   
+ApaI      ApaLI     ApoI      AseI      AsiGI     Asp718I   
+AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     
+BalI      BamHI     BanI      BauI      BbrPI     BbsI      
+Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      
+BfrI      BfuAI     BfuI      BglII     BlnI      BmcAI     
+BmeT110I  BmgBI     BmrI      BmtI      BmuI      BpiI      
+BpmI      Bpu14I    BpuEI     Bsa29I    BsaHI     BsaI      
+BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     
+BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    
+BseYI     BsgI      Bsh1285I  BshNI     BshTI     BshVI     
+BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     BsmI      
+Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspMAI    
+BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    
+BsrDI     BsrFI     BsrGI     BssAI     BssECI    BssHII    
+BssNAI    BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    
+Bst6I     BstACI    BstAFI    BstAUI    BstBI     BstDSI    
+BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    
+BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      
+BtuMI     BveI      CciI      Cfr10I    Cfr42I    Cfr9I     
+ClaI      CspAI     DinI      DraI      EaeI      EagI      
+Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   
+Eco130I   Eco147I   Eco31I    Eco32I    Eco47III  Eco52I    
+Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     
+EcoRV     EcoT14I   EcoT22I   EgeI      EheI      ErhI      
+Esp3I     FauNDI    FbaI      FblI      FspI      GsaI      
+GsuI      HaeII     Hin1I     HincII    HindII    HindIII   
+HpaI      Hpy166II  Hpy8I     Hsp92I    KasI      Kpn2I     
+KpnI      KroI      Ksp22I    KspAI     KspI      MfeI      
+MflI      MlsI      MluI      MluNI     Mly113I   MmeI      
+Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    
+MspA1I    MspCI     MunI      Mva1269I  NaeI      NarI      
+NcoI      NdeI      NgoMIV    NheI      NmeAIII   NruI      
+NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    
+PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      
+PscI      PshBI     PsiI      Psp124BI  Psp1406I  PspCI     
+PspFI     PspLI     PspOMI    PstI      PsuI      PteI      
+PvuI      PvuII     RruI      SacI      SacII     SalI      
+ScaI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      
+SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     
+SpeI      SphI      SseBI     SspDI     SspI      SstI      
+StuI      StyI      TaqII     TatI      TspMI     Vha464I   
+VneI      VspI      XapI      XbaI      XceI      XhoI      
+XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     
+AarI      AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  
+Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    
+CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  
+EcoO65I   KflI      LguI      MabI      PasI      PciSI     
+PfoI      PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     
+RsrII     SapI      SexAI     AbsI      AscI      AsiSI     
+CciNI     FseI      FspAI     MauBI     MreI      MssI      
+NotI      PacI      PalAI     PmeI      PspXI     RgaI      
+RigI      SbfI      SdaI      SfaAI     SgfI      SgrAI     
+SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      
+AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     
+PstNI     PsyI      Tth111I   AleI      BoxI      BsaBI     
+Bse8I     BseJI     BstPAI    MslI      OliI      PshAI     
+RseI      SmiMI     AccB7I    AhdI      BaeI      BglI      
+BmeRI     BplI      BsaXI     BstAPI    BstENI    DriI      
+Eam1105I  EcoNI     FalI      PflMI     Van91I    XagI      
+AasI      BcgI      BstXI     CspCI     DrdI      DseDI     
+AloI      ArsI      BarI      PcsI      PsrI      SfiI      
+AjuI      XcmI      
+
+   Enzymes that cut more than 5 times
+
+AbaSI     FspEI     AccII     AciI      AfaI      AluBI     
+AluI      AspLEI    BfaI      Bsh1236I  BspACI    BspFNI    
+BstFNI    BstHHI    BstUI     CfoI      Csp6I     CviJI     
+CviKI_1   CviQI     FaiI      FspBI     GlaI      HhaI      
+Hin6I     HinP1I    HpyCH4IV  HpySE526I HspAI     LpnPI     
+MaeI      MaeII     MnlI      MspJI     MvnI      RsaI      
+RsaNI     SetI      SgeI      SsiI      SspMI     TaiI      
+TaqI      XspI      Bme1390I  BmrFI     Bst4CI    BstSCI    
+HinfI     HpyCH4III MspR9I    ScrFI     StyD4I    TaaI      
+BsaJI     BseDI     Bsp1286I  BssECI    MhlI      SduI      
+
+

@@ -102,7 +102,7 @@ dna_to_not_cut = load_dna("dna_to_not_cut.fa")
 
 # Restriction enzymes
 commercial_enzymes = {str(x): getattr(Restriction, str(x))
-                      for x in sorted(list(Restriction.CommOnly))}
+                      for x in sorted(list(Restriction.CommOnly), key=lambda x: str(x))}
 # print(commercial_enzymes)
 
 # Extra parameters
@@ -170,6 +170,10 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
   # Get enzymes batch
   re_enzymes = Restriction.RestrictionBatch(enzymes)
 
+  # Sort the enzymes in alphabetical order (DIDNT WORK)
+  # re_enzymes.mapping = {k: re_enzymes.mapping[k]
+  #                       for k in sorted(re_enzymes.mapping.keys(), key=lambda x: str(x))}
+
   # todo ---------------
   # TODO PERFORM FILTERING OF ENZYMES THAT DOES NOT REQUIRE A DIGESTION ANALYSIS (I.E. RESTRICTION SITE, METHYLATION, ETC.)
 
@@ -182,6 +186,8 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
     for i, seq in enumerate(sequence_to_not_cut.keys()):
       re_analysis_not_cut = Restriction.Analysis(
           re_enzymes, sequence_to_not_cut[seq], linear=True)
+      # re_analysis_not_cut.mapping = {k: re_analysis_not_cut.mapping[k] for k in sorted(
+      #     re_analysis_not_cut.mapping.keys(), key=lambda x: str(x))}
     # Exclude enzymes that cut the sequence from the enzyme batch
       enzymes_that_cut_restricted_seq.extend(
           [k for k, v in re_analysis_not_cut.full().items() if v != []])
@@ -195,6 +201,8 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
 
       re_analysis_cut = Restriction.Analysis(
           re_enzymes, sequence_to_cut[seq], linear=True)
+      # re_analysis_cut.mapping = {k: re_analysis_cut.mapping[k] for k in sorted(
+      #     re_analysis_cut.mapping.keys(), key=lambda x: str(x))}
 
       enzymes_that_cut_less_than_min_cuts.extend([k for k, v in re_analysis_cut.full(
       ).items() if len(v) < min_cuts and k not in enzymes_that_cut_less_than_min_cuts])
@@ -204,7 +212,7 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
 
   # Exclude enzymes that fail filter from the enzyme batch
   enzymes_to_remove = list(set(enzymes_that_cut_restricted_seq +
-                           enzymes_that_cut_less_than_min_cuts + enzymes_that_cut_more_than_max_cuts))
+                               enzymes_that_cut_less_than_min_cuts + enzymes_that_cut_more_than_max_cuts))
   if len(enzymes_to_remove) > 0:
     re_enzymes = Restriction.RestrictionBatch(
         [k for k, v in re_analysis_cut.full().items() if k not in enzymes_to_remove])
@@ -224,6 +232,8 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
 
       re_analysis = Restriction.Analysis(
           re_enzymes, sequence_to_cut[seq], linear=True)
+      # re_analysis.mapping = {k: re_analysis.mapping[k] for k in sorted(
+      #     re_analysis.mapping.keys(), key=lambda x: str(x))}
 
       re_analysis.print_as(output_style)
 
@@ -231,6 +241,9 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
 
   # todo ---------------
   # TODO TEST IF THESE CUSTOM OUTPUT FUNCTIONS WORK ON ANY OTHER OUTPUT SETTING OTHER THAN 'map'
+
+      LINESIZE_TO_OUTPUT_6_ENZYMES_PER_ROW = 50
+      PrintFormat.linesize = LINESIZE_TO_OUTPUT_6_ENZYMES_PER_ROW
 
       if sequence_to_not_cut:
         print(re_analysis._make_nocut_only(nc=enzymes_that_cut_restricted_seq,
@@ -262,6 +275,10 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
 #         test_restricted_seq[record.id] = record.seq
 # # print(test_restricted_seq)
 
-test = re_digest_analysis(sequence_to_cut=dna_to_cut, sequence_to_not_cut=dna_to_not_cut,
-                          enzymes=commercial_enzymes, min_cuts=1, max_cuts=5, output_style="map")
-print(test)
+analysis_output_str = re_digest_analysis(sequence_to_cut=dna_to_cut, sequence_to_not_cut=dna_to_not_cut,
+                                         enzymes=commercial_enzymes, min_cuts=1, max_cuts=5, output_style="map")
+print(analysis_output_str)
+
+# write analysis_output_str to file
+with open("./src/outputs/restriction-digest-analysis.txt", "w") as f:
+  f.write(analysis_output_str)
