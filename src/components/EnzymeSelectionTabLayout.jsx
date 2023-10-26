@@ -158,6 +158,15 @@ function EnzymeSelection() {
     (enzyme) => enzymesState[enzyme].greyed_out_by.length,
   );
 
+  // Compute the number of selected enzymes
+  const numSelectedEnzymes = enzymesList.reduce((acc, enzyme) => {
+    if (enzymesState[enzyme].is_selected) {
+      return acc + 1;
+    } else {
+      return acc;
+    }
+  }, 0);
+
   // Create Handlers for Dispatching Actions to Redux Store
   function handleSelectEnzyme(enzyme) {
     if (!enzyme) return;
@@ -461,8 +470,15 @@ function EnzymeSelection() {
   return (
     <div className="flex gap-12">
       <div className="flex h-[calc(75vh-3.25rem)] flex-grow flex-col">
-        <h1 className="mb-2 text-3xl">Enzyme Selection</h1>
-
+        <div className="flex items-center justify-between gap-3">
+          <h1 className="mb-2 text-3xl">Enzyme Selection</h1>
+          <h2 className="ml-4 text-2xl">
+            {" "}
+            {`${numSelectedEnzymes} enzyme${
+              numSelectedEnzymes !== 1 ? "s" : ""
+            } selected`}
+          </h2>
+        </div>
         <div className="flex-grow overflow-y-scroll rounded-md border">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {enzymesList.map((enzyme, index) => (

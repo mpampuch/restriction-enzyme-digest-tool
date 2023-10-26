@@ -50,9 +50,9 @@ function DnaInputTabLayout() {
       <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[250px] overflow-auto">
         <TextareaAutosize
           aria-label="minimum height"
-          minRows={7}
+          minRows={8}
           placeholder="Input DNA to digest"
-          className="text-gray-800"
+          className="max-h-[200px] text-gray-800"
           value={inputString}
           onChange={(e) => handleInputStringChange(e)}
         />
@@ -83,9 +83,9 @@ function DnaInputTabLayout() {
         <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[300px] overflow-auto">
           <TextareaAutosize
             aria-label="minimum height"
-            minRows={7}
+            minRows={8}
             placeholder="Input DNA that you don't want to digest"
-            className="max-h-[250px] text-gray-800"
+            className="max-h-[200px] text-gray-800"
             value={restrictedInputString}
             onChange={(e) => handleRestrictedInputStringChange(e)}
           />
