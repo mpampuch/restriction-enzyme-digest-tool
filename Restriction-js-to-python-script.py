@@ -12,8 +12,6 @@ import sys
 from contextlib import redirect_stdout
 import os
 import argparse
-import flask
-from flask import Flask, request, jsonify
 
 # Helper functions
 
@@ -83,7 +81,13 @@ def load_dna_from_string(data):
 # Perform restriction enzyme analysis
 
 
-def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, enzymes: dict = {}, min_cuts: int = 0, max_cuts: int = 9999999999, output_style: str = "map"):
+def re_digest_analysis(sequence_to_cut: dict,
+                       sequence_to_not_cut: dict = {},
+                       enzymes: dict = {},
+                       min_cuts: int = 0,
+                       max_cuts_enabled: bool = False,
+                       max_cuts: int = 9999999999,
+                       output_style: str = "map"):
   """Perform a restriction enzyme analysis on a sequence and output the results to a string
 
   sequence_to_cut: dict (a dictionary of sequences to cut with the key being the name of the sequence (> line in fasta file) and the value being the sequence itself)
@@ -213,56 +217,13 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
         print(re_analysis._make_nocut_only(nc=enzymes_that_cut_less_than_min_cuts,
               s1=f"{tab}Enzymes that cut less than {min_cuts} times{nl}{nl}"))
 
-      if max_cuts != 9999999999:
+      if max_cuts_enabled:
         print(re_analysis._make_nocut_only(nc=enzymes_that_cut_more_than_max_cuts,
               s1=f"{tab}Enzymes that cut more than {max_cuts} times{nl}{nl}"))
 
       output = buf.getvalue()
 
   return output
-
-
-app = Flask(__name__)
-
-
-@app.route('/path/to/python_script', methods=['POST'])
-def process_request():
-  data = request.json
-
-  # Perform the analysis using the received data
-  dna_to_cut_raw = data['dna_to_cut']
-  dna_to_not_cut_raw = data['dna_to_not_cut']
-  enzymes_raw = data['enzymes']
-
-  # DNA sequences
-  dna_to_cut = load_dna_from_string(dna_to_cut_raw)
-  dna_to_not_cut = load_dna_from_string(dna_to_not_cut_raw)
-
-  # Convert enzymes to dictionary
-  enzymes = {str(enzyme): getattr(Restriction, str(enzyme))
-             for enzyme in sorted(enzymes_raw)}
-
-  min_cuts = data['min_cuts']
-  max_cuts = data['max_cuts']
-  output_style = data['output_style']
-
-  # Perform analysis
-  analysis_output_str = re_digest_analysis(
-      sequence_to_cut=dna_to_cut,
-      sequence_to_not_cut=dna_to_not_cut,
-      enzymes=enzymes,
-      min_cuts=min_cuts,
-      max_cuts=max_cuts,
-      output_style=output_style
-  )
-  print(analysis_output_str)
-
-  # Write analysis output to file
-  with open("./src/outputs/restriction-digest-analysis.txt", "w") as f:
-    f.write(analysis_output_str)
-
-  # Return the analysis output as JSON response
-  return jsonify({'analysis_output': analysis_output_str})
 
 
 if __name__ == "__main__":
@@ -276,6 +237,8 @@ if __name__ == "__main__":
                       help="List of enzymes to be used in the analysis.")
   parser.add_argument("--min_cuts", type=int, default=0,
                       help="Minimum number of cuts to be considered in the analysis.")
+  parser.add_argument("--max_cuts_enabled", type=bool, default=False,
+                      help="Whether maximum number of cuts should be considered.")
   parser.add_argument("--max_cuts", type=int, default=9999999999,
                       help="Maximum number of cuts to be considered in the analysis.")
   parser.add_argument("--output_style", type=str, default="map", choices=[
@@ -297,6 +260,7 @@ if __name__ == "__main__":
 
   min_cuts = args.min_cuts
   max_cuts = args.max_cuts
+  max_cuts_enabled = args.max_cuts_enabled
   output_style = args.output_style
 
   # print("dna_to_cut: ", dna_to_cut)
@@ -307,15 +271,23 @@ if __name__ == "__main__":
   # print("enzymes: ", enzymes.__class__)
   # print("min_cuts: ", min_cuts)
   # print("min_cuts: ", min_cuts.__class__)
+  # print("max_cuts_enabled: ", max_cuts_enabled)
+  # print("max_cuts_enabled: ", max_cuts_enabled.__class__)
   # print("max_cuts: ", max_cuts)
   # print("max_cuts: ", max_cuts.__class__)
   # print("output_style: ", output_style)
   # print("output_style: ", output_style.__class__)
-  # Perform analysis
-  analysis_output_str = re_digest_analysis(sequence_to_cut=dna_to_cut, sequence_to_not_cut=dna_to_not_cut,
-                                           enzymes=enzymes, min_cuts=args.min_cuts, max_cuts=args.max_cuts, output_style=args.output_style)
 
-  # print(analysis_output_str)
+  # Perform analysis
+  analysis_output_str = re_digest_analysis(sequence_to_cut=dna_to_cut,
+                                           sequence_to_not_cut=dna_to_not_cut,
+                                           enzymes=enzymes,
+                                           min_cuts=min_cuts,
+                                           max_cuts_enabled=max_cuts_enabled,
+                                           max_cuts=max_cuts,
+                                           output_style=output_style)
+
+  print(analysis_output_str)
 
   # Write analysis output to file
   with open("./src/outputs/restriction-digest-analysis.txt", "w") as f:
@@ -323,4 +295,3 @@ if __name__ == "__main__":
 
   # Return the analysis output as JSON response
   # jsonify({'analysis_output': analysis_output_str})
-  # app.run(debug=True)

@@ -2,36 +2,57 @@
 Restriction Digest Analysis on Sequence: test1
 -------------------------------------------------
 
-
-
-enzymes which cut 1 times :
-
+BshFI      :  845.
+BsnI       :  845.
+BspANI     :  845.
+BsuRI      :  845.
+HaeIII     :  845.
 AanI       :  415.
+AccBSI     :  511, 562.
+BsrBI      :  511, 562.
+MbiI       :  511, 562.
+MspA1I     :  627.
+NaeI       :  688.
+PdiI       :  688.
 PsiI       :  415.
 SspI       :  598.
-
-
-enzymes which cut 3 times :
-
-MseI       :  5, 158, 375.
-SaqAI      :  5, 158, 375.
-Tru1I      :  5, 158, 375.
-Tru9I      :  5, 158, 375.
-
-
-enzymes which cut 4 times :
-
-FokI       :  381, 458, 727, 919.
+AleI       :  751.
+Asp700I    :  333.
+BoxI       :  947.
+BstPAI     :  947.
+MroXI      :  333.
+MslI       :  751.
+OliI       :  751.
+PdmI       :  333.
+PshAI      :  947.
+RseI       :  751.
+SmiMI      :  751.
+XmnI       :  333.
 
    Enzymes which do not cut the sequence.
 
-AseI      DraI      PshBI     VspI      SmiI      SwaI      
+Acc16I    AcvI      AfeI      AjiI      Aor51HI   BalI      BbrPI     BmcAI     
+BmgBI     Bsp68I    BssNAI    Bst1107I  BstSNI    BstZ17I   BtrI      BtuMI     
+DinI      DraI      Ecl136II  Eco105I   Eco147I   Eco32I    Eco47III  Eco53kI   
+Eco72I    EcoICRI   EcoRV     EgeI      EheI      FspI      HincII    HindII    
+HpaI      KspAI     MlsI      MluNI     Mox20I    MscI      Msp20I    NruI      
+NsbI      PceI      PmaCI     PmlI      PspCI     PvuII     RruI      ScaI      
+SfoI      SmaI      SnaBI     SseBI     StuI      ZraI      ZrmI      FspAI     
+MssI      PmeI      SmiI      SrfI      SwaI      BsaBI     Bse8I     BseJI     
+
 
    Enzymes that cut restricted sequences
 
-MluCI     Sse9I     TasI      
+AluBI     AluI      CviJI     CviKI_1   BstC8I    Cac8I     
 
-   Enzymes that cut more than 1000 times
+
+   Enzymes that cut more than 2 times
+
+AccII     AfaI      AluBI     AluI      Bsh1236I  BspFNI    
+BstFNI    BstUI     CviJI     CviKI_1   DpnI      FaiI      
+GlaI      HpyCH4V   MalI      MvnI      RsaI      MlyI      
+SchI      BmiI      BsaAI     BspLI     BstBAI    BstC8I    
+Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I    
 
 
 
@@ -40,35 +61,66 @@ MluCI     Sse9I     TasI
 Restriction Digest Analysis on Sequence: test2
 -------------------------------------------------
 
-
-
-enzymes which cut 1 times :
-
+BshFI      :  913, 918.
+BsnI       :  913, 918.
+BspANI     :  913, 918.
+BsuRI      :  913, 918.
+HaeIII     :  913, 918.
+AccBSI     :  317, 469.
+AcvI       :  800, 941.
+AjiI       :  177, 812.
+BbrPI      :  800, 941.
+BmgBI      :  177, 812.
+Bsp68I     :  482.
+BsrBI      :  317, 469.
+BtrI       :  177, 812.
+BtuMI      :  482.
+Ecl136II   :  39.
+Eco53kI    :  39.
+Eco72I     :  800, 941.
+EcoICRI    :  39.
+MbiI       :  317, 469.
+MspA1I     :  604, 673.
+NruI       :  482.
+PmaCI      :  800, 941.
+PmlI       :  800, 941.
+PspCI      :  800, 941.
+RruI       :  482.
+SmaI       :  617.
 SspI       :  978.
-
-
-enzymes which cut 2 times :
-
-FokI       :  214, 262.
-
-
-enzymes which cut 5 times :
-
-MseI       :  21, 240, 748, 829, 956.
-SaqAI      :  21, 240, 748, 829, 956.
-Tru1I      :  21, 240, 748, 829, 956.
-Tru9I      :  21, 240, 748, 829, 956.
+Asp700I    :  339.
+MroXI      :  339.
+MslI       :  205, 802.
+PdmI       :  339.
+RseI       :  205, 802.
+SmiMI      :  205, 802.
+XmnI       :  339.
 
    Enzymes which do not cut the sequence.
 
-AanI      AseI      DraI      PshBI     PsiI      VspI      
-SmiI      SwaI      
+AanI      Acc16I    AfeI      Aor51HI   BalI      BmcAI     
+BssNAI    Bst1107I  BstSNI    BstZ17I   DinI      DraI      
+Eco105I   Eco147I   Eco32I    Eco47III  EcoRV     EgeI      
+EheI      FspI      HincII    HindII    HpaI      KspAI     
+MlsI      MluNI     Mox20I    MscI      Msp20I    NaeI      
+NsbI      PceI      PdiI      PsiI      PvuII     ScaI      
+SfoI      SnaBI     SseBI     StuI      ZraI      ZrmI      
+FspAI     MssI      PmeI      SmiI      SrfI      SwaI      
+AleI      BoxI      BsaBI     Bse8I     BseJI     BstPAI    
+OliI      PshAI     
 
    Enzymes that cut restricted sequences
 
-MluCI     Sse9I     TasI      
+AluBI     AluI      CviJI     CviKI_1   BstC8I    Cac8I     
 
-   Enzymes that cut more than 1000 times
+
+   Enzymes that cut more than 2 times
+
+AccII     AfaI      AluBI     AluI      Bsh1236I  BspFNI    
+BstFNI    BstUI     CviJI     CviKI_1   DpnI      FaiI      
+GlaI      HpyCH4V   MalI      MvnI      RsaI      MlyI      
+SchI      BmiI      BsaAI     BspLI     BstBAI    BstC8I    
+Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I    
 
 
 
@@ -77,17 +129,46 @@ MluCI     Sse9I     TasI
 Restriction Digest Analysis on Sequence: test3
 -------------------------------------------------
 
+AccBSI     :  7, 159.
+Bsp68I     :  172.
+BsrBI      :  7, 159.
+BtuMI      :  172.
+MbiI       :  7, 159.
+NruI       :  172.
+RruI       :  172.
+Asp700I    :  29.
+MroXI      :  29.
+PdmI       :  29.
+XmnI       :  29.
 
    Enzymes which do not cut the sequence.
 
-MseI      SaqAI     Tru1I     Tru9I     FokI      AanI      
-AseI      DraI      PshBI     PsiI      SspI      VspI      
-SmiI      SwaI      
+BshFI     BsnI      BspANI    BsuRI     HaeIII    AanI      
+Acc16I    AcvI      AfeI      AjiI      Aor51HI   BalI      
+BbrPI     BmcAI     BmgBI     BssNAI    Bst1107I  BstSNI    
+BstZ17I   BtrI      DinI      DraI      Ecl136II  Eco105I   
+Eco147I   Eco32I    Eco47III  Eco53kI   Eco72I    EcoICRI   
+EcoRV     EgeI      EheI      FspI      HincII    HindII    
+HpaI      KspAI     MlsI      MluNI     Mox20I    MscI      
+Msp20I    MspA1I    NaeI      NsbI      PceI      PdiI      
+PmaCI     PmlI      PsiI      PspCI     PvuII     ScaI      
+SfoI      SmaI      SnaBI     SseBI     SspI      StuI      
+ZraI      ZrmI      FspAI     MssI      PmeI      SmiI      
+SrfI      SwaI      AleI      BoxI      BsaBI     Bse8I     
+BseJI     BstPAI    MslI      OliI      PshAI     RseI      
+SmiMI     
 
    Enzymes that cut restricted sequences
 
-MluCI     Sse9I     TasI      
+AluBI     AluI      CviJI     CviKI_1   BstC8I    Cac8I     
 
-   Enzymes that cut more than 1000 times
+
+   Enzymes that cut more than 2 times
+
+AccII     AfaI      AluBI     AluI      Bsh1236I  BspFNI    
+BstFNI    BstUI     CviJI     CviKI_1   DpnI      FaiI      
+GlaI      HpyCH4V   MalI      MvnI      RsaI      MlyI      
+SchI      BmiI      BsaAI     BspLI     BstBAI    BstC8I    
+Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I    
 
 

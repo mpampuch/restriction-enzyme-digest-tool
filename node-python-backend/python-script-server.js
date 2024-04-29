@@ -20,6 +20,7 @@ app.post("/execute-python-script", (req, res) => {
     enzymes,
     min_cuts,
     max_cuts,
+    max_cuts_enabled,
     output_style,
   } = req.body;
 
@@ -33,6 +34,8 @@ app.post("/execute-python-script", (req, res) => {
     ...enzymes, // Spread enzymes array
     "--min_cuts",
     min_cuts,
+    "--max_cuts_enabled",
+    max_cuts_enabled,
     "--max_cuts",
     max_cuts,
     "--output_style",

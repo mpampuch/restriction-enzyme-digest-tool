@@ -63,9 +63,11 @@ export function submit(store) {
   // Get the minimum and maximum number of cutsites
   const minCuts = state.settings.minNumberOfCutsites;
   const maxCuts = state.settings.maxNumberOfCutsites;
+  const maxCutsEnabled = state.settings.maxNumberOfCutsitesEnabled;
+  const maxCutsEnabledFormattedToPython = maxCutsEnabled ? "True" : "False";
 
   // validate that the minimum number of cutsites is less than the maximum number of cutsites
-  if (minCuts > maxCuts) {
+  if (minCuts > maxCuts && maxCutsEnabled) {
     showToast(
       "Minimum number of cutsites is greater than the maximum number of cutsites.",
     );
@@ -82,13 +84,14 @@ export function submit(store) {
   const displayTypeConverted = diplayTypeConversion[displayType];
 
   // Log the form data to
-  console.log("DNA to cut: ", dnaToCut);
-  console.log("DNA to not cut: ", dnaToNotCut);
-  console.log("Enzymes to use: ", enzymesToUse);
-  console.log("Minimum cuts: ", minCuts);
-  console.log("Maximum cuts: ", maxCuts);
-  console.log("Display type: ", displayType);
-  console.log("Display type converted: ", displayTypeConverted);
+  // console.log("DNA to cut: ", dnaToCut);
+  // console.log("DNA to not cut: ", dnaToNotCut);
+  // console.log("Enzymes to use: ", enzymesToUse);
+  // console.log("Minimum cuts: ", minCuts);
+  // console.log("Maximum cuts: ", maxCuts);
+  console.log("Maximum cuts enabled: ", maxCutsEnabledFormattedToPython);
+  // console.log("Display type: ", displayType);
+  // console.log("Display type converted: ", displayTypeConverted);
 
   // Construct the data object to send to the server
   const formData = {
@@ -97,6 +100,7 @@ export function submit(store) {
     enzymes: enzymesToUse,
     min_cuts: minCuts,
     max_cuts: maxCuts,
+    max_cuts_enabled: maxCutsEnabledFormattedToPython,
     output_style: displayTypeConverted,
   };
 
@@ -119,4 +123,5 @@ export function submit(store) {
       console.error("Error executing Python script:", error);
       // Handle errors
     });
+  console.log("Data sent");
 }
