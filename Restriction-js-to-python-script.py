@@ -11,7 +11,9 @@ from io import StringIO
 import sys
 from contextlib import redirect_stdout
 import os
-
+import argparse
+import flask
+from flask import Flask, request, jsonify
 
 # Helper functions
 
@@ -40,82 +42,48 @@ def find_mode_product_length(enzyme, sequence):
     return "Unknown"
 
 
-def is_file_size_less_than_xMb(file_path, Mb):
-  file_size_bytes = os.path.getsize(file_path)
-  file_size_mb = file_size_bytes / \
-      (1024 * 1024)  # Convert bytes to megabytes
-  return file_size_mb < Mb
+# def check_if_valid_fasta_string(data):
+#   try:
+
+#     # Check if starts with '>'
+#     if not data.strip().startswith(">"):
+#       raise ValueError("Invalid fasta string. It needs to start with '>'")
+
+#     # Check if the string represents a valid FASTA file
+#     fasta = SeqIO.read(StringIO(data), "fasta")
+
+#   except Exception as e:
+#     raise e
 
 
-def check_if_valid_fasta_file(file):
-  try:
-    with open(file, "r") as handle:
-      # check if starts with >
-      if not handle.read().startswith(">"):
-        raise ValueError("Invalid fasta file. Needs to start with >")
-
-      # check if remaining file is fasta
-      fasta = SeqIO.parse(handle, "fasta")
-      if not fasta:
-        raise ValueError("Invalid fasta file")
-
-      # Check if total size of file is less than 1Mb
-      if is_file_size_less_than_xMb(file, 1) == False:
-        raise ValueError("Fast file is too large")
-
-  except Exception as e:
-    raise e
-
-
-def load_dna(file):
+def load_dna_from_string(data):
   try:
     dna_dict = {}
-    # check if the file exists
-    with open(file) as f:
-      pass
 
-    # Check if valid fasta file
-    check_if_valid_fasta_file(file)
+    # Check if the string is a valid FASTA file
+    # check_if_valid_fasta_string(data)
 
-    # Read file into dictionary
-    with open(file) as dna:
-      for record in SeqIO.parse(dna, "fasta"):
-        # Check if sequence is valid
-        # Only valid if sequence contains A, T, G, C, U, or N
-        if not set(record.seq).issubset("ATGCUatgcuNn"):
-          raise ValueError("Invalid sequence")
+    # Read the string into a dictionary
+    fasta = SeqIO.parse(StringIO(data), "fasta")
+    for record in fasta:
+      # Check if sequence is valid
+      # Only valid if sequence contains A, T, G, C, U, or N
+      # if not set(record.seq).issubset("ATGCUatgcuNn"):
+      #   raise ValueError("Invalid sequence")
 
-        # Read sequence into dictionary
-        dna_dict[record.id] = record.seq
+      # Read sequence into dictionary
+      dna_dict[record.id] = record.seq
 
     return dna_dict
 
   except Exception as e:
-    print(f"{file} is not a valid fasta file")
+    print("Invalid FASTA string")
     print(e)
-
-
-# DNA sequences
-dna_to_cut = load_dna("dna_to_cut.fa")
-dna_to_not_cut = load_dna("dna_to_not_cut.fa")
-
-# Restriction enzymes
-commercial_enzymes = {str(x): getattr(Restriction, str(x))
-                      for x in sorted(list(Restriction.CommOnly), key=lambda x: str(x))}
-# print(commercial_enzymes)
-ezymes_to_use_list = ["XspI", "EcoRI"]
-enzymes_to_use = {str(x): getattr(Restriction, str(x))
-                  for x in sorted(ezymes_to_use_list)}
-
-# Extra parameters
-min_cuts = 0
-max_cuts = 9999999999
-detailed = False
 
 # Perform restriction enzyme analysis
 
 
-def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, enzymes: dict = commercial_enzymes, min_cuts: int = 0, max_cuts: int = 9999999999, output_style: str = "map"):
+def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, enzymes: dict = {}, min_cuts: int = 0, max_cuts: int = 9999999999, output_style: str = "map"):
   """Perform a restriction enzyme analysis on a sequence and output the results to a string
 
   sequence_to_cut: dict (a dictionary of sequences to cut with the key being the name of the sequence (> line in fasta file) and the value being the sequence itself)
@@ -254,10 +222,105 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
   return output
 
 
-analysis_output_str = re_digest_analysis(sequence_to_cut=dna_to_cut, sequence_to_not_cut=dna_to_not_cut,
-                                         enzymes=commercial_enzymes, min_cuts=1, max_cuts=5, output_style="map")
-print(analysis_output_str)
+app = Flask(__name__)
 
-# write analysis_output_str to file
-with open("./src/outputs/restriction-digest-analysis.txt", "w") as f:
-  f.write(analysis_output_str)
+
+@app.route('/path/to/python_script', methods=['POST'])
+def process_request():
+  data = request.json
+
+  # Perform the analysis using the received data
+  dna_to_cut_raw = data['dna_to_cut']
+  dna_to_not_cut_raw = data['dna_to_not_cut']
+  enzymes_raw = data['enzymes']
+
+  # DNA sequences
+  dna_to_cut = load_dna_from_string(dna_to_cut_raw)
+  dna_to_not_cut = load_dna_from_string(dna_to_not_cut_raw)
+
+  # Convert enzymes to dictionary
+  enzymes = {str(enzyme): getattr(Restriction, str(enzyme))
+             for enzyme in sorted(enzymes_raw)}
+
+  min_cuts = data['min_cuts']
+  max_cuts = data['max_cuts']
+  output_style = data['output_style']
+
+  # Perform analysis
+  analysis_output_str = re_digest_analysis(
+      sequence_to_cut=dna_to_cut,
+      sequence_to_not_cut=dna_to_not_cut,
+      enzymes=enzymes,
+      min_cuts=min_cuts,
+      max_cuts=max_cuts,
+      output_style=output_style
+  )
+  print(analysis_output_str)
+
+  # Write analysis output to file
+  with open("./src/outputs/restriction-digest-analysis.txt", "w") as f:
+    f.write(analysis_output_str)
+
+  # Return the analysis output as JSON response
+  return jsonify({'analysis_output': analysis_output_str})
+
+
+if __name__ == "__main__":
+  parser = argparse.ArgumentParser(
+    description="Perform restriction enzyme analysis on DNA sequences.")
+  parser.add_argument("--dna_to_cut", type=str,
+                      help="Path to the FASTA file containing sequences to cut.")
+  parser.add_argument("--dna_to_not_cut", type=str, default="",
+                      help="Path to the FASTA file containing sequences not to cut.")
+  parser.add_argument("--enzymes", nargs="+",
+                      help="List of enzymes to be used in the analysis.")
+  parser.add_argument("--min_cuts", type=int, default=0,
+                      help="Minimum number of cuts to be considered in the analysis.")
+  parser.add_argument("--max_cuts", type=int, default=9999999999,
+                      help="Maximum number of cuts to be considered in the analysis.")
+  parser.add_argument("--output_style", type=str, default="map", choices=[
+                      "list", "number", "map"], help="Output format for the analysis. Choose from 'list', 'number', or 'map'. Default is 'map'.")
+
+  args = parser.parse_args()
+
+  dna_to_cut_raw = args.dna_to_cut
+  dna_to_not_cut_raw = args.dna_to_not_cut
+  enzymes_raw = args.enzymes
+
+  # DNA sequences
+  dna_to_cut = load_dna_from_string(dna_to_cut_raw)
+  dna_to_not_cut = load_dna_from_string(dna_to_not_cut_raw)
+
+  # Convert enzymes to dictionary
+  enzymes = {str(enzyme): getattr(Restriction, str(enzyme))
+             for enzyme in sorted(enzymes_raw)}
+
+  min_cuts = args.min_cuts
+  max_cuts = args.max_cuts
+  output_style = args.output_style
+
+  # print("dna_to_cut: ", dna_to_cut)
+  # print("dna_to_cut: ", dna_to_cut.__class__)
+  # print("dna_to_not_cut: ", dna_to_not_cut)
+  # print("dna_to_not_cut: ", dna_to_not_cut.__class__)
+  # print("enzymes: ", enzymes)
+  # print("enzymes: ", enzymes.__class__)
+  # print("min_cuts: ", min_cuts)
+  # print("min_cuts: ", min_cuts.__class__)
+  # print("max_cuts: ", max_cuts)
+  # print("max_cuts: ", max_cuts.__class__)
+  # print("output_style: ", output_style)
+  # print("output_style: ", output_style.__class__)
+  # Perform analysis
+  analysis_output_str = re_digest_analysis(sequence_to_cut=dna_to_cut, sequence_to_not_cut=dna_to_not_cut,
+                                           enzymes=enzymes, min_cuts=args.min_cuts, max_cuts=args.max_cuts, output_style=args.output_style)
+
+  # print(analysis_output_str)
+
+  # Write analysis output to file
+  with open("./src/outputs/restriction-digest-analysis.txt", "w") as f:
+    f.write(analysis_output_str)
+
+  # Return the analysis output as JSON response
+  # jsonify({'analysis_output': analysis_output_str})
+  # app.run(debug=True)

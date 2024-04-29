@@ -1,6 +1,7 @@
 import { getSelectedEnzymeNames } from "./getSelectedEnzymes";
 import { isFastaFormat } from "./validateFasta";
 import { showToast } from "./showToast";
+import { pythonScriptPort } from "../config/config";
 
 export function submit(store) {
   // Get the current state of the Redux store
@@ -88,4 +89,34 @@ export function submit(store) {
   console.log("Maximum cuts: ", maxCuts);
   console.log("Display type: ", displayType);
   console.log("Display type converted: ", displayTypeConverted);
+
+  // Construct the data object to send to the server
+  const formData = {
+    dna_to_cut: dnaToCut,
+    dna_to_not_cut: dnaToNotCut,
+    enzymes: enzymesToUse,
+    min_cuts: minCuts,
+    max_cuts: maxCuts,
+    output_style: displayTypeConverted,
+  };
+
+  // Send the form data to the server
+  console.log("Sending form data to server...");
+  fetch(`http://localhost:${pythonScriptPort}/execute-python-script`, {
+    // Update URL to localhost:3000
+    method: "POST",
+    body: JSON.stringify(formData), // Convert formData to JSON string
+    headers: {
+      "Content-Type": "application/json", // Set content type to JSON
+    },
+  })
+    .then((response) => response.text())
+    .then((data) => {
+      console.log("Python script output:", data);
+      // Handle the output as needed
+    })
+    .catch((error) => {
+      console.error("Error executing Python script:", error);
+      // Handle errors
+    });
 }
