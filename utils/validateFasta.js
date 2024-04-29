@@ -10,17 +10,18 @@ export function isFastaFormat(input) {
   // Check if the odd lines starts with '>'
   for (let i = 0; i < lines.length; i += 2) {
     // Iterate over even lines
-    if (!lines[i].startsWith(">")) {
+    if (!lines[i].startsWith(">") && !lines[i].trim() === "") {
       return `Reason: Sequence description missing (line ${i + 1}).`;
-    }
-    // Check if the sequence description line does not contain newlines
-    if (lines[i].includes("\n")) {
-      return `Reason: Invalid sequence description (line ${i + 1}).`;
     }
 
     // Check if the sequence description line (odd line) starts with '>' and contains only whitespace after '>'
     if (!/^>\s*\S/.test(lines[i])) {
       return `Reason: Sequence description missing or empty (line ${i + 1}).`;
+    }
+
+    // Check if the sequence description line does not contain newlines
+    if (lines[i].includes("\n")) {
+      return `Reason: Invalid sequence description (line ${i + 1}).`;
     }
   }
 

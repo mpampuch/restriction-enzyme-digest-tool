@@ -9,7 +9,7 @@ export function submit(store) {
   console.log("Submitting form...");
 
   // Get the DNA sequence to cut
-  const dnaToCut = state.settings.inputString;
+  const dnaToCut = state.settings.inputString.trim();
 
   // Validate the the input was not empty
   if (dnaToCut === "") {
@@ -45,7 +45,7 @@ export function submit(store) {
   }
 
   // Get the DNA sequence to not cut
-  const dnaToNotCut = state.settings.restrictedInputString;
+  const dnaToNotCut = state.settings.restrictedInputString.trim();
 
   // Validate that the input was a valid FASTA format if it was provided
   if (dnaToNotCut !== "") {

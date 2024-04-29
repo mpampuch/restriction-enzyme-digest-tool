@@ -1,29 +1,22 @@
 import { useSelector, useDispatch } from "react-redux";
 import {
   setInputString,
-  // toggleProvideDnaInput,
   toggleShowRestrictedDnaInput,
   setRestrictedInputString,
-  // toggleProvideRestrictedDnaInput,
 } from "../features/settingsSlice";
 import { isFastaFormat } from "../../utils/validateFasta";
 
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Button from "@mui/material/Button";
-// import LabelledSwitch from "./LabelledSwitch";
 import Switch from "@mui/material/Switch";
 
 function DnaInputTabLayout() {
-  // Grab State from Redux Store
   const settingsState = useSelector((store) => store.settings);
   const inputString = settingsState.inputString;
   const showRestrictedDnaInput = settingsState.showRestrictedDnaInput;
   const restrictedInputString = settingsState.restrictedInputString;
-
-  // Create Dispatcher to Dispatch Actions to Redux Store
   const dispatch = useDispatch();
 
-  // Create Handlers for Dispatching Actions to Redux Store
   const handleShowRestrictedDnaInputChange = () => {
     dispatch(toggleShowRestrictedDnaInput());
   };
@@ -39,6 +32,25 @@ function DnaInputTabLayout() {
     e.preventDefault();
     const newValue = e.target.value;
     dispatch(setRestrictedInputString(newValue));
+  };
+
+  const handleFileInputChange = (e, field) => {
+    const fileInput = e.target;
+    const file = fileInput.files[0];
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      const contents = event.target.result;
+      // Update the appropriate input string based on the field parameter
+      dispatch(
+        field === "inputString"
+          ? setInputString(contents)
+          : setRestrictedInputString(contents),
+      );
+      console.log(isFastaFormat(contents));
+      // Clear the value of the file input to allow selecting the same file again
+      fileInput.value = null;
+    };
+    reader.readAsText(file);
   };
   return (
     <>
@@ -63,6 +75,7 @@ function DnaInputTabLayout() {
           type="file"
           accept=".fasta, .fna, .ffn, .faa, .frn, .fa"
           hidden
+          onChange={(e) => handleFileInputChange(e, "inputString")}
         />
       </Button>
       <div className="flex flex-row items-center">
@@ -77,7 +90,7 @@ function DnaInputTabLayout() {
         <p>
           Input the DNA sequence(s) that you would not like to digest. If this
           is filled out, then any enzyme that performs one or more digestions in
-          this DNA will be exluded from the analysis on the desired DNA. The
+          this DNA will be excluded from the analysis on the desired DNA. The
           input has to be in FASTA format and be less than 1Mb.
         </p>
         <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[300px] overflow-auto">
@@ -96,10 +109,9 @@ function DnaInputTabLayout() {
             type="file"
             accept=".fasta, .fna, .ffn, .faa, .frn, .fa"
             hidden
+            onChange={(e) => handleFileInputChange(e, "restrictedInputString")}
           />
         </Button>
-        {/* </>
-            )} */}
       </div>
     </>
   );
