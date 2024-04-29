@@ -64,7 +64,7 @@ function DnaInputTabLayout() {
           aria-label="minimum height"
           minRows={8}
           placeholder="Input DNA to digest"
-          className="max-h-[200px] text-gray-800"
+          className="custom-overflow-y-scroll max-h-[200px] text-gray-800"
           value={inputString}
           onChange={(e) => handleInputStringChange(e)}
         />

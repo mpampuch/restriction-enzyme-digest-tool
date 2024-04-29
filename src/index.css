@@ -70,6 +70,10 @@ input:focus {
   border-radius: 5px;
 }
 
+.custom-overflow-y-scroll {
+  overflow-y: scroll !important;
+}
+
 /*
 "importCSSModule": {
     "prefix": "csm",

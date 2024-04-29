@@ -123,7 +123,7 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
             ACTGCT
             >seq2
             GCTACT
-        dict: 
+        dict:
             {"seq1": "ACTGCT", "seq2": "GCTACT"}
 
   sequence_to_not_cut: dict (a dictionary of sequences to not cut with the key being the name of the sequence (> line in fasta file) and the value being the sequence itself)
@@ -223,7 +223,11 @@ def re_digest_analysis(sequence_to_cut: dict, sequence_to_not_cut: dict = {}, en
   output = ""
   with io.StringIO() as buf, redirect_stdout(buf):
     for i, seq in enumerate(sequence_to_cut.keys()):
-      output_message = f"Restriction Digest Analysis on Sequence: {seq}"
+      if len(seq) > 15:
+        seq_display = seq[:15] + "..."
+      else:
+        seq_display = seq
+      output_message = f"Restriction Digest Analysis on Sequence: {seq_display}"
       if i != 0:
         print("\n")
       print("-" * (len(output_message) + 3))
