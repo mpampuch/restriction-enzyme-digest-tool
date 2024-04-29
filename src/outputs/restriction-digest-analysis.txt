@@ -19,7 +19,7 @@ TCAAGTCAAGCCATTGCCTCTCTGAGACGCCGCATGAATTAATACGTAAACTTTGCGCGG
 
                      202 Hpy188I
                      |                                      
-                     |       210 BmiI BspLI NlaIV PspN4I
+                     |       210 NlaIV BspLI PspN4I BmiI
                      |       |                              
 CAAGTGACGCTAGGCAAGTCAGAGCAGGTTCCCGTGTTAGCTTGAGGGTAAACATACAAG
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -33,13 +33,13 @@ CCGATTGAAGATGGGTAGGGGGCTTCAAATCGTCCAGCACTCCACAGTACCTCCGAGAGC
 GGCTAACTTCTACCCATCCCCCGAAGTTTAGCAGGTCGTGAGGTGTCATGGAGGCTCTCG
 241                                                      300
 
-     306 BstMWI HpyF10VI MwoI
+     306 HpyF10VI BstMWI MwoI
      |                                                      
-     |   310 BmiI BspLI NlaIV PspN4I
+     |   310 NlaIV BspLI PspN4I BmiI
      |   |                                                  
-     |   |                      333 Asp700I MroXI PdmI XmnI
+     |   |                      333 MroXI XmnI PdmI Asp700I
      |   |                      |                           
-     |   |                      |                350 BanII Eco24I EcoT38I FriOI
+     |   |                      |                350 FriOI Eco24I BanII EcoT38I
      |   |                      |                |          
 AAGTAGGGCACCCTGTAGTTCGAAGCGGAACTATTTCGAGGGGCGAGCCCACATCGTCTC
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -62,9 +62,9 @@ AAAAAATCGGAACGCTGTCTGGAGGATGAATCTAACGGTGCGTATCTCGATCGCTCAGTC
 TTTTTTAGCCTTGCGACAGACCTCCTACTTAGATTGCCACGCATAGAGCTAGCGAGTCAG
 421                                                      480
 
-                              511 AccBSI BsrBI MbiI
+                              511 MbiI AccBSI BsrBI
                               |                             
-                              |             525 BmiI BspLI NlaIV PspN4I
+                              |             525 NlaIV BspLI PspN4I BmiI
                               |             |               
                               |             |  528 Hpy188I
                               |             |  |            
@@ -77,9 +77,9 @@ CGAAAAGCATGACGCGCTTTCAAGCGTGGCGAGTATGTGAACCAAGGCTTCGGACAGGAC
 
               555 FauI
               |                                             
-              |      562 AccBSI BsrBI MbiI
+              |      562 MbiI AccBSI BsrBI
               |      |                                      
-              |      |      569 BanII Eco24I EcoT38I FriOI
+              |      |      569 FriOI Eco24I BanII EcoT38I
               |      |      |                               
               |      |      |570 Hpy188III
               |      |      ||                              
@@ -88,7 +88,7 @@ ATATATGAATCCAAACTAGAGCGGGGCTCTTGACGTTTGGAGTTGTAAATATCTAATATT
 TATATACTTAGGTTTGATCTCGCCCCGAGAACTGCAAACCTCAACATTTATAGATTATAA
 541                                                      600
 
-               616 BsaAI BstBAI Ppu21I
+               616 BsaAI Ppu21I BstBAI
                |                                            
                |   620 FauI
                |   |                                        
@@ -97,16 +97,16 @@ CCAATCGGCTTTTACGTGCACCACCGCGGGCGGCTGACGAGGGACTCACACCGAGAAACT
 GGTTAGCCGAAAATGCACGTGGTGGCGCCCGCCGACTGCTCCCTGAGTGTGGCTCTTTGA
 601                                                      660
 
-                          687 BsiSI HapII HpaII MspI
+                          687 BsiSI MspI HpaII HapII
                           |                                 
 AGACAGTTGCGCGCTGGAAGTAGCGCCGGCTAAGAAAGACGCCTGGTACAGCAGGACTAT
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 TCTGTCAACGCGCGACCTTCATCGCGGCCGATTCTTTCTGCGGACCATGTCGTCCTGATA
 661                                                      720
 
-            733 AfiI Bsc4I BseLI BslI
+            733 BseLI BslI Bsc4I AfiI
             |                                               
-            |                750 AfiI Bsc4I BseLI BslI
+            |                750 BseLI BslI Bsc4I AfiI
             |                |                              
 GAAACCCGTACAAAGGCAACATCCTCACTTCGGTGAATCGAAACGCGGCATCAAGGTTAC
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -118,11 +118,11 @@ TTTTTGGATACCTGAAACAAAACCCATCGTAGTCCTTAGACTTGGGACACTTTCACCCCT
 AAAAACCTATGGACTTTGTTTTGGGTAGCATCAGGAATCTGAACCCTGTGAAAGTGGGGA
 781                                                      840
 
-    845 BmiI BspLI NlaIV PspN4I
+    845 NlaIV BspLI PspN4I BmiI
     |                                                       
-    | 847 BanII Eco24I EcoT38I FriOI
+    | 847 FriOI Eco24I BanII EcoT38I
     | |                                                     
-    | |    852 AfiI Bsc4I BseLI BslI
+    | |    852 BseLI BslI Bsc4I AfiI
     | |    |                                                
     | |    |853 Hpy188III
     | |    ||                                               
@@ -133,15 +133,15 @@ AGGGCCCATATCTGGAAATAGACGCCAAGTTCAATCCGTACTCCGACGTACGATGGAACA
 TCCCGGGTATAGACCTTTATCTGCGGTTCAAGTTAGGCATGAGGCTGCATGCTACCTTGT
 841                                                      900
 
-     906 BtsIMutI TscAI TspRI
+     906 TspRI TscAI BtsIMutI
      |                                                      
-     |                                 940 BsiSI HapII HpaII HpyAV MspI
+     |                                 940 BsiSI HpyAV MspI HpaII HapII
      |                                 |                    
-     |                                 |    945 BsiSI HapII HpaII MspI
+     |                                 |    945 BsiSI MspI HpaII HapII
      |                                 |    |               
-     |                                 |    |946 AfiI Bsc4I BseLI BslI
+     |                                 |    |946 BseLI BslI Bsc4I AfiI
      |                                 |    ||              
-     |                                 |    ||   950 BmiI BspLI NlaIV PspN4I
+     |                                 |    ||   950 NlaIV BspLI PspN4I BmiI
      |                                 |    ||   |          
 GTGTGGATGTGACGAGCTTCATTTATACCCTTCGCGCGCCGGACCGGGGTCCGCAAGGCG
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -274,9 +274,9 @@ BsaJI     BseDI     Bsp1286I  BssECI    MhlI      SduI
 Restriction Digest Analysis on Sequence: test2
 -------------------------------------------------
 
-         10 BmiI BspLI NlaIV PspN4I
+         10 NlaIV BspLI PspN4I BmiI
          |                                                  
-         |                              41 BanII Eco24I EcoT38I FriOI
+         |                              41 FriOI Eco24I BanII EcoT38I
          |                              |                   
 CGTTATGGCACCAGGGAGTTTAAGCCGAGTCAATGGAGCTCGCAATACAGAGTTTACCGC
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -288,7 +288,7 @@ ATCTTGCCCTAACTGACAAACTGTGATCGACCACAAGCCAAGCCATTGCCTCTTAGACAC
 TAGAACGGGATTGACTGTTTGACACTAGCTGGTGTTCGGTTCGGTAACGGAGAATCTGTG
 61                                                       120
 
-              135 BtsIMutI TscAI TspRI
+              135 TspRI TscAI BtsIMutI
               |                                             
               |     141 FauI
               |     |                                       
@@ -299,16 +299,16 @@ CGGCAATGTCACTAATACTTTTGAAACGCCCCGTACCGATGCTGAACAAGTCGGTGCAGG
 
 181 Hpy188I
 |                                                           
-|                                                  232 AfiI Bsc4I BseLI BslI
+|                                                  232 BseLI BslI Bsc4I AfiI
 |                                                  |        
-|                                                  |233 BsiSI HapII HpaII MspI
+|                                                  |233 BsiSI MspI HpaII HapII
 |                                                  ||       
 GAGGGCAGAAACCTATCCCCATTTGTATGTTCAGCTATCTTCTACCCATCCCCGGAGGTT
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 CTCCCGTCTTTGGATAGGGGTAAACATACAAGTCGATAGAAGATGGGTAGGGGCCTCCAA
 181                                                      240
 
-                       264 BstMWI HpyF10VI MwoI
+                       264 HpyF10VI BstMWI MwoI
                        |                                    
                        |     270 Hpy188III
                        |     |                              
@@ -317,13 +317,13 @@ AAGTAGGTTGTGAGATGCGGAAGAGGCTCTCGATCATCCCGTGGGACATCAACCTTTCCC
 TTCATCCAACACTCTACGCCTTCTCCGAGAGCTAGTAGGGCACCCTGTAGTTGGAAAGGG
 241                                                      300
 
-                317 AccBSI BsrBI MbiI
+                317 MbiI AccBSI BsrBI
                 |                                           
-                | 319 AfiI Bsc4I BseLI BslI
+                | 319 BseLI BslI Bsc4I AfiI
                 | |                                         
                 | |  322 FauI
                 | |  |                                      
-                | |  |                339 Asp700I MroXI PdmI XmnI
+                | |  |                339 MroXI XmnI PdmI Asp700I
                 | |  |                |                     
                 | |  |                |     345 Hpy188I
                 | |  |                |     |               
@@ -343,13 +343,13 @@ GCTGGAATAGTTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATG
 
    424 BtsIMutI
    |                                                        
-   |      431 TscAI TspRI
+   |      431 TspRI TscAI
    |      |                                                 
-   |      |                     453 BtsIMutI TscAI TspRI
+   |      |                     453 TspRI TscAI BtsIMutI
    |      |                     |                           
-   |      |                     |            466 BstMWI HpyF10VI MwoI
+   |      |                     |            466 HpyF10VI BstMWI MwoI
    |      |                     |            |              
-   |      |                     |            |  469 AccBSI BsrBI MbiI
+   |      |                     |            |  469 MbiI AccBSI BsrBI
    |      |                     |            |  |           
    |      |                     |            |  |    474 FauI
    |      |                     |            |  |    |      
@@ -360,13 +360,13 @@ AGTGTGACGGAGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAG
 
 481 Hpy188III
 |                                                           
-|       489 BsaAI BstBAI Ppu21I
+|       489 BsaAI Ppu21I BstBAI
 |       |                                                   
-|       |           501 BmiI BspLI NlaIV PspN4I
+|       |           501 NlaIV BspLI PspN4I BmiI
 |       |           |                                       
-|       |           |502 BanII Eco24I EcoT38I FriOI
+|       |           |502 FriOI Eco24I BanII EcoT38I
 |       |           ||                                      
-|       |           ||503 BsiSI HapII HpaII Hpy188III MspI
+|       |           ||503 BsiSI Hpy188III MspI HpaII HapII
 |       |           |||                                     
 |       |           |||                        528 Hpy188I
 |       |           |||                        |            
@@ -375,22 +375,22 @@ GCGAGTACGTGAGCTAGGGCTCCGGACTGGGCTATATAGTCGAGTCTGATCTCGCCCCGA
 CGCTCATGCACTCGATCCCGAGGCCTGACCCGATATATCAGCTCAGACTAGAGCGGGGCT
 481                                                      540
 
-                                            585 BstMWI HpyF10VI MwoI
+                                            585 HpyF10VI BstMWI MwoI
                                             |               
-                                            |        594 BstMWI HpyF10VI MwoI
+                                            |        594 HpyF10VI BstMWI MwoI
                                             |        |      
-                                            |        | 596 BmiI BspLI NlaIV PspN4I
+                                            |        | 596 NlaIV BspLI PspN4I BmiI
                                             |        | |    
 CAACTGCAAACCTCAACTTTTTTAGATAACATGGTTAGCCGAAGTTGCACGAGGTGCCGA
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 GTTGACGTTTGGAGTTGAAAAAATCTATTGTACCAATCGGCTTCAACGTGCTCCACGGCT
 541                                                      600
 
-               616 BsiSI HapII HpaII MspI
+               616 BsiSI MspI HpaII HapII
                |                                            
-               |    621 AfiI Bsc4I BseLI BslI
+               |    621 BseLI BslI Bsc4I AfiI
                |    |                                       
-               |    |    626 BmiI BspLI NlaIV PspN4I
+               |    |    626 NlaIV BspLI PspN4I BmiI
                |    |    |                                  
                |    |    |         636 Hpy188I
                |    |    |         |                        
@@ -413,7 +413,7 @@ TTTAGTGAATCGAAGCGCGGCATCAGAATTTCCTTTTGGATACCTGATACAAAGCCCATC
 
             793 Hpy188I
             |                                               
-            |      800 BsaAI BstBAI Ppu21I
+            |      800 BsaAI Ppu21I BstBAI
             |      |                                        
 CACCAGGAATCTGAAGCACGTGTATGTGGACGTGGCGTGCGTACACCTTAATCTCCGCTT
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -422,7 +422,7 @@ GTGGTCCTTAGACTTCGTGCACATACACCTGCACCGCACGCATGTGGAATTAGAGGCGAA
 
                                         881 BtsIMutI
                                         |                   
-                                        |      888 TscAI TspRI
+                                        |      888 TspRI TscAI
                                         |      |            
                                         |      |          899 FauI
                                         |      |          | 
@@ -431,13 +431,13 @@ CATGCTAAGGATCTGGCTGCATGCTATGTTGATACACCTACACTGCTCGAAGAAAATATA
 GTACGATTCCTAGACCGACGTACGATACAACTATGTGGATGTGACGAGCTTCTTTTATAT
 841                                                      900
 
-                  919 BsiSI HapII HpaII MspI
+                  919 BsiSI MspI HpaII HapII
                   |                                         
-                  |   923 BmiI BspLI NlaIV PspN4I
+                  |   923 NlaIV BspLI PspN4I BmiI
                   |   |                                     
-                  |   |  926 BanII Eco24I EcoT38I FriOI
+                  |   |  926 FriOI Eco24I BanII EcoT38I
                   |   |  |                                  
-                  |   |  |              941 BsaAI BstBAI Ppu21I
+                  |   |  |              941 BsaAI Ppu21I BstBAI
                   |   |  |              |                   
 CGAAGCGGGCGGCCTGGCCGGAGCCCTACCGCATCGACACGTGTTCGTTTACTGTTAATT
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -570,13 +570,13 @@ BsaJI     BseDI     Bsp1286I  BssECI    MhlI      SduI
 Restriction Digest Analysis on Sequence: test3
 -------------------------------------------------
 
-      7 AccBSI BsrBI MbiI
+      7 MbiI AccBSI BsrBI
       |                                                     
-      | 9 AfiI Bsc4I BseLI BslI
+      | 9 BseLI BslI Bsc4I AfiI
       | |                                                   
       | |  12 FauI
       | |  |                                                
-      | |  |                29 Asp700I MroXI PdmI XmnI
+      | |  |                29 MroXI XmnI PdmI Asp700I
       | |  |                |                               
       | |  |                |     35 Hpy188I
       | |  |                |     |                         
@@ -596,30 +596,30 @@ AAAGCTTGCTACCAATAATTAGGATTATTGCCTTGCGACAGACCTCCTACTCACACTGCC
 TTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATGAGTGTGACGG
 61                                                       120
 
-121 TscAI TspRI
+121 TspRI TscAI
 |                                                           
-|                     143 BtsIMutI TscAI TspRI
+|                     143 TspRI TscAI BtsIMutI
 |                     |                                     
-|                     |            156 BstMWI HpyF10VI MwoI
+|                     |            156 HpyF10VI BstMWI MwoI
 |                     |            |                        
-|                     |            |  159 AccBSI BsrBI MbiI
+|                     |            |  159 MbiI AccBSI BsrBI
 |                     |            |  |                     
 |                     |            |  |    164 FauI
 |                     |            |  |    |                
 |                     |            |  |    |      171 Hpy188III
 |                     |            |  |    |      |         
-|                     |            |  |    |      |       179 BsaAI BstBAI Ppu21I
+|                     |            |  |    |      |       179 BsaAI Ppu21I BstBAI
 |                     |            |  |    |      |       | 
 TCACATTGAGCTAGTCAGTGAGCGATTAGCTTGACCCGCTCTCTAGGGTCGCGAGTACGT
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 AGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAGCGCTCATGCA
 121                                                      180
 
-          191 BmiI BspLI NlaIV PspN4I
+          191 NlaIV BspLI PspN4I BmiI
           |                                                 
-          |192 BanII Eco24I EcoT38I FriOI
+          |192 FriOI Eco24I BanII EcoT38I
           ||                                                
-          ||193 BsiSI HapII HpaII MspI
+          ||193 BsiSI MspI HpaII HapII
           |||                                               
 GAGCTAGGGCTCCGG
 |||||||||||||||

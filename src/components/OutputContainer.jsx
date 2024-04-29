@@ -18,7 +18,7 @@ function OutputContainer() {
   }, []); // Empty dependency array to run the effect only once
 
   return (
-    <div className="relative flex h-full flex-1 flex-col items-center justify-between gap-4 bg-[#2d3439] px-20 pb-6 pt-6 align-middle outline outline-gray-200">
+    <div className="relative flex h-full flex-1 flex-col items-center justify-between gap-4 bg-[#10161B] px-20 pb-6 pt-6 align-middle outline outline-gray-200">
       <h1 className="text-xl">Output</h1>
 
       <TextFileOutput text={fileContent} className="h-full w-full" />
