@@ -15,6 +15,11 @@
   --color-light--1: #aaa;
   --color-light--2: #ececec;
   --color-light--3: #d6dee0;
+
+  /* Custom */
+  --primary: #fcbc44;
+  --primary-shade: #ee9e08;
+  --primary-shade-for-checkbox: #c8860a;
 }
 
 * {
@@ -70,8 +75,68 @@ input:focus {
   border-radius: 5px;
 }
 
+/* CUSTOM STYLES */
+/* .checkbox:checked {
+  background-color: #e3a227; /* Change the background color when checked
+} */
+
 .custom-overflow-y-scroll {
   overflow-y: scroll !important;
+}
+
+/* Prevent body scroll */
+body {
+  overflow: hidden !important;
+}
+
+/* Allow sidebar scroll */
+.sidebar {
+  overflow-y: scroll !important;
+}
+
+/* Change the font size of h1*/
+h1 {
+  font-size: medium;
+}
+
+p {
+  font-size: small;
+}
+
+/* Change the MUI Tabs font size */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-size: small !important;
+}
+
+/* Change the MUI Tabs indicator colour */
+.css-1aquho2-MuiTabs-indicator {
+  background-color: var(--primary) !important;
+}
+
+/* Change the MUI Input font size */
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: small !important;
+}
+
+/* Change the MUI button font size and colour */
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  font-size: small !important;
+  background-color: var(--primary-shade) !important;
+}
+
+/* Change MUI switch colour */
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: var(--primary) !important;
+}
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  background-color: var(--primary-shade) !important;
+}
+
+/* Change checkbox colour */
+input {
+  accent-color: var(--primary-shade-for-checkbox) !important;
 }
 
 /*

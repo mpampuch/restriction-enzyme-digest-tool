@@ -13,7 +13,6 @@ export function submit(store) {
 
   // Validate the the input was not empty
   if (dnaToCut === "") {
-    console.log("toast");
     toast.error("No input DNA sequence provided.", {
       position: "top-left",
       autoClose: 5000, // Close the toast after 5 seconds
@@ -106,6 +105,12 @@ export function submit(store) {
 
   // Get the display type
   const displayType = state.settings.displayType;
+  const diplayTypeConversion = {
+    detailed: "map",
+    "cutsite-locations": "list",
+    "number-of-cutsites": "number",
+  };
+  const displayTypeConverted = diplayTypeConversion[displayType];
 
   // Log the form data to
   console.log("DNA to cut: ", dnaToCut);
@@ -114,4 +119,5 @@ export function submit(store) {
   console.log("Minimum cuts: ", minCuts);
   console.log("Maximum cuts: ", maxCuts);
   console.log("Display type: ", displayType);
+  console.log("Display type converted: ", displayTypeConverted);
 }

@@ -767,7 +767,8 @@ function EnzymeSelection() {
             </button>
           ) : (
             <button
-              className="rounded-md bg-blue-400 px-4 py-2 text-2xl font-medium text-white"
+              className="rounded-md px-4 py-2 text-2xl font-medium text-white"
+              style={{ backgroundColor: "var(--primary-shade)" }}
               onClick={handleSelectVisibleEnzymes}
             >
               {allNonGreyedOutEnzymesSelected
