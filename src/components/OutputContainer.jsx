@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import TextFileOutput from "./TextFileOutput";
+// import if
 import restrictionDigestAnalysis from "../outputs/restriction-digest-analysis.txt"; // Import the .txt file
 
 function OutputContainer() {
