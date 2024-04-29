@@ -5,6 +5,7 @@ import {
   setRestrictedInputString,
 } from "../features/settingsSlice";
 import { isFastaFormat } from "../../utils/validateFasta";
+import { showToast } from "../../utils/showToast";
 
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Button from "@mui/material/Button";
@@ -38,6 +39,15 @@ function DnaInputTabLayout() {
     const fileInput = e.target;
     const file = fileInput.files[0];
     const reader = new FileReader();
+
+    // Check if the file size is greater than 100kb
+    if (file.size > 100 * 1024) {
+      // Handle the error condition, such as displaying a message to the user
+      showToast("File size exceeds 100kb limit");
+      fileInput.value = null;
+      return;
+    }
+
     reader.onload = (event) => {
       const contents = event.target.result;
       // Update the appropriate input string based on the field parameter
@@ -57,7 +67,7 @@ function DnaInputTabLayout() {
       <h1>DNA input</h1>
       <p>
         Input the DNA sequence(s) that you would like to digest. The input has
-        to be in FASTA format and be less than 1Mb.
+        to be in FASTA format and be less than 100kb.
       </p>
       <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[250px] overflow-auto">
         <TextareaAutosize
@@ -91,7 +101,7 @@ function DnaInputTabLayout() {
           Input the DNA sequence(s) that you would not like to digest. If this
           is filled out, then any enzyme that performs one or more digestions in
           this DNA will be excluded from the analysis on the desired DNA. The
-          input has to be in FASTA format and be less than 1Mb.
+          input has to be in FASTA format and be less than 100kb.
         </p>
         <div className="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-10 max-h-[300px] overflow-auto">
           <TextareaAutosize

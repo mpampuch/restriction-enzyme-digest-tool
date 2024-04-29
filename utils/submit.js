@@ -1,6 +1,6 @@
 import { getSelectedEnzymeNames } from "./getSelectedEnzymes";
 import { isFastaFormat } from "./validateFasta";
-import { toast } from "react-toastify";
+import { showToast } from "./showToast";
 
 export function submit(store) {
   // Get the current state of the Redux store
@@ -13,34 +13,22 @@ export function submit(store) {
 
   // Validate the the input was not empty
   if (dnaToCut === "") {
-    toast.error("No input DNA sequence provided.", {
-      position: "top-left",
-      autoClose: 5000, // Close the toast after 5 seconds
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
+    showToast("No input DNA sequence provided.");
     return;
   }
 
   // Validate that the input was a valid FASTA format
   const dnaToCutFastaValidation = isFastaFormat(dnaToCut);
   if (dnaToCutFastaValidation !== "Format: Correct") {
-    toast.error(
+    showToast(
       `DNA input is not in proper FASTA format. ${dnaToCutFastaValidation}`,
-      {
-        position: "top-left",
-        autoClose: 5000, // Close the toast after 5 seconds
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      },
     );
     return;
+  }
+
+  // Check if the overall string is less than 100kb
+  if (dnaToCut.length > 100 * 1024) {
+    showToast("DNA input sequence exceeds 100kb limit");
   }
 
   // Get the DNA sequence to not cut
@@ -50,35 +38,24 @@ export function submit(store) {
   if (dnaToNotCut !== "") {
     const dnaToNotCutFastaValidation = isFastaFormat(dnaToNotCut);
     if (dnaToNotCutFastaValidation !== "Format: Correct") {
-      toast.error(
+      showToast(
         `Restricted DNA input is not in proper FASTA format. ${dnaToNotCutFastaValidation}`,
-        {
-          position: "top-left",
-          autoClose: 5000, // Close the toast after 5 seconds
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        },
       );
       return;
     }
   }
+
+  // Check if the overall string is less than 100kb
+  if (dnaToNotCut.length > 100 * 1024) {
+    showToast("Restricted DNA input sequence exceeds 100kb limit");
+  }
+
   // Get the selected enzymes
   const enzymesToUse = getSelectedEnzymeNames(state.enzymes);
 
   // Validate that at least one enzyme was selected
   if (enzymesToUse.length === 0) {
-    toast.error("No enzymes selected.", {
-      position: "top-left",
-      autoClose: 5000, // Close the toast after 5 seconds
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
+    showToast("No enzymes selected.");
     return;
   }
 
@@ -88,17 +65,8 @@ export function submit(store) {
 
   // validate that the minimum number of cutsites is less than the maximum number of cutsites
   if (minCuts > maxCuts) {
-    toast.error(
+    showToast(
       "Minimum number of cutsites is greater than the maximum number of cutsites.",
-      {
-        position: "top-left",
-        autoClose: 5000, // Close the toast after 5 seconds
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      },
     );
     return;
   }
