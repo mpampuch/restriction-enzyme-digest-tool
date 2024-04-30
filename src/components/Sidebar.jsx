@@ -3,12 +3,18 @@ import Logo from "./Logo";
 import BasicTabs from "./Tabs";
 import { useStore } from "react-redux";
 import { submit } from "../../utils/submit";
+import { useDispatch } from "react-redux";
+import { setOutputLoading } from "../features/settingsSlice";
 
 function Sidebar() {
   const store = useStore(); // Access the Redux store instance
-
+  const dispatch = useDispatch(); // Create a dispatcher
   const handleSubmit = () => {
+    dispatch(setOutputLoading(true)); // Set the outputLoading state to true
+    console.log("submitting:");
     submit(store); // Call the submit function
+    console.log("done");
+    dispatch(setOutputLoading(false)); // Set the outputLoading state to false
   };
 
   return (

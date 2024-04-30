@@ -2,57 +2,119 @@
 Restriction Digest Analysis on Sequence: test1
 -------------------------------------------------
 
-BshFI      :  845.
-BsnI       :  845.
-BspANI     :  845.
-BsuRI      :  845.
-HaeIII     :  845.
-AanI       :  415.
-AccBSI     :  511, 562.
-BsrBI      :  511, 562.
-MbiI       :  511, 562.
-MspA1I     :  627.
-NaeI       :  688.
-PdiI       :  688.
-PsiI       :  415.
-SspI       :  598.
-AleI       :  751.
-Asp700I    :  333.
-BoxI       :  947.
-BstPAI     :  947.
-MroXI      :  333.
-MslI       :  751.
-OliI       :  751.
-PdmI       :  333.
-PshAI      :  947.
-RseI       :  751.
-SmiMI      :  751.
-XmnI       :  333.
+                                     38 FaiI
+                                     |                      
+TCATTAACTGTTGTTTGGTAGCACAAAAGTATTACCATGGTCCTAGAAGTTCGGCACAGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTAATTGACAACAAACCATCGTGTTTTCATAATGGTACCAGGATCTTCAAGCCGTGTCA
+1                                                         60
+
+TAGTTCGAGCCTAATGTCACAAATGACGCAGAACGCCAATGAGTGCCAGACATTAGGTGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATCAAGCTCGGATTACAGTGTTTACTGCGTCTTGCGGTTACTCACGGTCTGTAATCCACC
+61                                                       120
+
+                                           164 FaiI
+                                           |                
+AGTTCAGTTCGGTAACGGAGAGACTCTGCGGCGTACTTAATTATGCATTTGAAACGCGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCAAGTCAAGCCATTGCCTCTCTGAGACGCCGCATGAATTAATACGTAAACTTTGCGCGG
+121                                                      180
+
+                                                      235 FaiI
+                                                      |     
+CAAGTGACGCTAGGCAAGTCAGAGCAGGTTCCCGTGTTAGCTTGAGGGTAAACATACAAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTTCACTGCGATCCGTTCAGTCTCGTCCAAGGGCACAATCGAACTCCCATTTGTATGTTC
+181                                                      240
+
+CCGATTGAAGATGGGTAGGGGGCTTCAAATCGTCCAGCACTCCACAGTACCTCCGAGAGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCTAACTTCTACCCATCCCCCGAAGTTTAGCAGGTCGTGAGGTGTCATGGAGGCTCTCG
+241                                                      300
+
+AAGTAGGGCACCCTGTAGTTCGAAGCGGAACTATTTCGAGGGGCGAGCCCACATCGTCTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTCATCCCGTGGGACATCAAGCTTCGCCTTGATAAAGCTCCCCGCTCGGGTGTAGCAGAG
+301                                                      360
+
+                                                      415 FaiI AanI PsiI
+                                                      |     
+TTCTGCGGATGACTTAACACGCTAGGGAGGTGGAGTCGATTCCATCGATGGTTATAAATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAGACGCCTACTGAATTGTGCGATCCCTCCACCTCAGCTAAGGTAGCTACCAATATTTAG
+361                                                      420
+
+AAAAAATCGGAACGCTGTCTGGAGGATGAATCTAACGGTGCGTATCTCGATCGCTCAGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTTTTAGCCTTGCGACAGACCTCCTACTTAGATTGCCACGCATAGAGCTAGCGAGTCAG
+421                                                      480
+
+                                  515 FaiI
+                                  |                         
+GCTTTTCGTACTGCGCGAAAGTTCGCACCGCTCATACACTTGGTTCCGAAGCCTGTCCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGAAAAGCATGACGCGCTTTCAAGCGTGGCGAGTATGTGAACCAAGGCTTCGGACAGGAC
+481                                                      540
+
+   544 FaiI
+   |                                                        
+   | 546 FaiI
+   | |                                                      
+   | |                                                   598 SspI
+   | |                                                   |  
+ATATATGAATCCAAACTAGAGCGGGGCTCTTGACGTTTGGAGTTGTAAATATCTAATATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TATATACTTAGGTTTGATCTCGCCCCGAGAACTGCAAACCTCAACATTTATAGATTATAA
+541                                                      600
+
+CCAATCGGCTTTTACGTGCACCACCGCGGGCGGCTGACGAGGGACTCACACCGAGAAACT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGTTAGCCGAAAATGCACGTGGTGGCGCCCGCCGACTGCTCCCTGAGTGTGGCTCTTTGA
+601                                                      660
+
+                                                           720 FaiI
+                                                           |
+AGACAGTTGCGCGCTGGAAGTAGCGCCGGCTAAGAAAGACGCCTGGTACAGCAGGACTAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCTGTCAACGCGCGACCTTCATCGCGGCCGATTCTTTCTGCGGACCATGTCGTCCTGATA
+661                                                      720
+
+GAAACCCGTACAAAGGCAACATCCTCACTTCGGTGAATCGAAACGCGGCATCAAGGTTAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTTTGGGCATGTTTCCGTTGTAGGAGTGAAGCCACTTAGCTTTGCGCCGTAGTTCCAATG
+721                                                      780
+
+TTTTTGGATACCTGAAACAAAACCCATCGTAGTCCTTAGACTTGGGACACTTTCACCCCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAAACCTATGGACTTTGTTTTGGGTAGCATCAGGAATCTGAACCCTGTGAAAGTGGGGA
+781                                                      840
+
+        849 FaiI
+        |                                                   
+AGGGCCCATATCTGGAAATAGACGCCAAGTTCAATCCGTACTCCGACGTACGATGGAACA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCCCGGGTATAGACCTTTATCTGCGGTTCAAGTTAGGCATGAGGCTGCATGCTACCTTGT
+841                                                      900
+
+                         926 FaiI
+                         |                                  
+GTGTGGATGTGACGAGCTTCATTTATACCCTTCGCGCGCCGGACCGGGGTCCGCAAGGCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CACACCTACACTGCTCGAAGTAAATATGGGAAGCGCGCGGCCTGGCCCCAGGCGTTCCGC
+901                                                      960
+
+CGGCGGTGCACAAGCAATTGACAACTAACCACCGTGTATT
+||||||||||||||||||||||||||||||||||||||||
+GCCGCCACGTGTTCGTTAACTGTTGATTGGTGGCACATAA
+961                                 1000
+
 
    Enzymes which do not cut the sequence.
 
-Acc16I    AcvI      AfeI      AjiI      Aor51HI   BalI      BbrPI     BmcAI     
-BmgBI     Bsp68I    BssNAI    Bst1107I  BstSNI    BstZ17I   BtrI      BtuMI     
-DinI      DraI      Ecl136II  Eco105I   Eco147I   Eco32I    Eco47III  Eco53kI   
-Eco72I    EcoICRI   EcoRV     EgeI      EheI      FspI      HincII    HindII    
-HpaI      KspAI     MlsI      MluNI     Mox20I    MscI      Msp20I    NruI      
-NsbI      PceI      PmaCI     PmlI      PspCI     PvuII     RruI      ScaI      
-SfoI      SmaI      SnaBI     SseBI     StuI      ZraI      ZrmI      FspAI     
-MssI      PmeI      SmiI      SrfI      SwaI      BsaBI     Bse8I     BseJI     
+DraI      SmiI      SwaI      
 
-
-   Enzymes that cut restricted sequences
-
-AluBI     AluI      CviJI     CviKI_1   BstC8I    Cac8I     
-
-
-   Enzymes that cut more than 2 times
-
-AccII     AfaI      AluBI     AluI      Bsh1236I  BspFNI    
-BstFNI    BstUI     CviJI     CviKI_1   DpnI      FaiI      
-GlaI      HpyCH4V   MalI      MvnI      RsaI      MlyI      
-SchI      BmiI      BsaAI     BspLI     BstBAI    BstC8I    
-Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I    
+   Enzymes that cut more than 1000 times
 
 
 
@@ -61,66 +123,135 @@ Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I
 Restriction Digest Analysis on Sequence: test2
 -------------------------------------------------
 
-BshFI      :  913, 918.
-BsnI       :  913, 918.
-BspANI     :  913, 918.
-BsuRI      :  913, 918.
-HaeIII     :  913, 918.
-AccBSI     :  317, 469.
-AcvI       :  800, 941.
-AjiI       :  177, 812.
-BbrPI      :  800, 941.
-BmgBI      :  177, 812.
-Bsp68I     :  482.
-BsrBI      :  317, 469.
-BtrI       :  177, 812.
-BtuMI      :  482.
-Ecl136II   :  39.
-Eco53kI    :  39.
-Eco72I     :  800, 941.
-EcoICRI    :  39.
-MbiI       :  317, 469.
-MspA1I     :  604, 673.
-NruI       :  482.
-PmaCI      :  800, 941.
-PmlI       :  800, 941.
-PspCI      :  800, 941.
-RruI       :  482.
-SmaI       :  617.
-SspI       :  978.
-Asp700I    :  339.
-MroXI      :  339.
-MslI       :  205, 802.
-PdmI       :  339.
-RseI       :  205, 802.
-SmiMI      :  205, 802.
-XmnI       :  339.
+     6 FaiI
+     |                                                      
+CGTTATGGCACCAGGGAGTTTAAGCCGAGTCAATGGAGCTCGCAATACAGAGTTTACCGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCAATACCGTGGTCCCTCAAATTCGGCTCAGTTACCTCGAGCGTTATGTCTCAAATGGCG
+1                                                         60
+
+ATCTTGCCCTAACTGACAAACTGTGATCGACCACAAGCCAAGCCATTGCCTCTTAGACAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TAGAACGGGATTGACTGTTTGACACTAGCTGGTGTTCGGTTCGGTAACGGAGAATCTGTG
+61                                                       120
+
+                137 FaiI
+                |                                           
+                |                 155 FaiI
+                |                 |                         
+GCCGTTACAGTGATTATGAAAACTTTGCGGGGCATGGCTACGACTTGTTCAGCCACGTCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGGCAATGTCACTAATACTTTTGAAACGCCCCGTACCGATGCTGAACAAGTCGGTGCAGG
+121                                                      180
+
+                           208 FaiI
+                           |                                
+GAGGGCAGAAACCTATCCCCATTTGTATGTTCAGCTATCTTCTACCCATCCCCGGAGGTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTCCCGTCTTTGGATAGGGGTAAACATACAAGTCGATAGAAGATGGGTAGGGGCCTCCAA
+181                                                      240
+
+AAGTAGGTTGTGAGATGCGGAAGAGGCTCTCGATCATCCCGTGGGACATCAACCTTTCCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTCATCCAACACTCTACGCCTTCTCCGAGAGCTAGTAGGGCACCCTGTAGTTGGAAAGGG
+241                                                      300
+
+                        325 FaiI
+                        |                                   
+TTGATAAAGCACCCCGCTCGGGTATGGCAGAGAGAACGCCTTCTGAATTGTGCTATCCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AACTATTTCGTGGGGCGAGCCCATACCGTCTCTCTTGCGGAAGACTTAACACGATAGGAA
+301                                                      360
+
+CGACCTTATCAAAGCTTGCTACCAATAATTAGGATTATTGCCTTGCGACAGACCTCCTAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTGGAATAGTTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATG
+361                                                      420
+
+TCACACTGCCTCACATTGAGCTAGTCAGTGAGCGATTAGCTTGACCCGCTCTCTAGGGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTGTGACGGAGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAG
+421                                                      480
+
+                                  515 FaiI
+                                  |                         
+                                  | 517 FaiI
+                                  | |                       
+GCGAGTACGTGAGCTAGGGCTCCGGACTGGGCTATATAGTCGAGTCTGATCTCGCCCCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGCTCATGCACTCGATCCCGAGGCCTGACCCGATATATCAGCTCAGACTAGAGCGGGGCT
+481                                                      540
+
+                               572 FaiI
+                               |                            
+CAACTGCAAACCTCAACTTTTTTAGATAACATGGTTAGCCGAAGTTGCACGAGGTGCCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTTGACGTTTGGAGTTGAAAAAATCTATTGTACCAATCGGCTTCAACGTGCTCCACGGCT
+541                                                      600
+
+CCGCGGACTGCTCCCCGGGTGTGGCTCCTTCATCTGACAACGTGCAACCGCTATCGCCAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCGCCTGACGAGGGGCCCACACCGAGGAAGTAGACTGTTGCACGTTGGCGATAGCGGTA
+601                                                      660
+
+                              691 FaiI
+                              |                             
+                              |          702 FaiI
+                              |          |                  
+CGATTGATTCAGCGGACGGTGTTGTCGTCATAGTTTGGGCATGTTTCCCTTGTAGGTGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTAACTAAGTCGCCTGCCACAACAGCAGTATCAAACCCGTACAAAGGGAACATCCACAC
+661                                                      720
+
+                                         762 FaiI
+                                         |                  
+                                         |      769 FaiI
+                                         |      |           
+AAATCACTTAGCTTCGCGCCGTAGTCTTAAAGGAAAACCTATGGACTATGTTTCGGGTAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTAGTGAATCGAAGCGCGGCATCAGAATTTCCTTTTGGATACCTGATACAAAGCCCATC
+721                                                      780
+
+                        805 FaiI
+                        |                                   
+CACCAGGAATCTGAAGCACGTGTATGTGGACGTGGCGTGCGTACACCTTAATCTCCGCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGGTCCTTAGACTTCGTGCACATACACCTGCACCGCACGCATGTGGAATTAGAGGCGAA
+781                                                      840
+
+  843 FaiI
+  |                                                         
+  |                  862 FaiI
+  |                  |                                      
+  |                  |    867 FaiI
+  |                  |    |                                 
+  |                  |    |                               899 FaiI
+  |                  |    |                               | 
+CATGCTAAGGATCTGGCTGCATGCTATGTTGATACACCTACACTGCTCGAAGAAAATATA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTACGATTCCTAGACCGACGTACGATACAACTATGTGGATGTGACGAGCTTCTTTTATAT
+841                                                      900
+
+CGAAGCGGGCGGCCTGGCCGGAGCCCTACCGCATCGACACGTGTTCGTTTACTGTTAATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTTCGCCCGCCGGACCGGCCTCGGGATGGCGTAGCTGTGCACAAGCAAATGACAATTAA
+901                                                      960
+
+         970 FaiI
+         |                                                  
+         |       978 SspI
+         |       |                                          
+GGTGGCACATAAGCAATATTGTAGTCCGTCAATTTCAGCC
+||||||||||||||||||||||||||||||||||||||||
+CCACCGTGTATTCGTTATAACATCAGGCAGTTAAAGTCGG
+961                                 1000
+
 
    Enzymes which do not cut the sequence.
 
-AanI      Acc16I    AfeI      Aor51HI   BalI      BmcAI     
-BssNAI    Bst1107I  BstSNI    BstZ17I   DinI      DraI      
-Eco105I   Eco147I   Eco32I    Eco47III  EcoRV     EgeI      
-EheI      FspI      HincII    HindII    HpaI      KspAI     
-MlsI      MluNI     Mox20I    MscI      Msp20I    NaeI      
-NsbI      PceI      PdiI      PsiI      PvuII     ScaI      
-SfoI      SnaBI     SseBI     StuI      ZraI      ZrmI      
-FspAI     MssI      PmeI      SmiI      SrfI      SwaI      
-AleI      BoxI      BsaBI     Bse8I     BseJI     BstPAI    
-OliI      PshAI     
+AanI      DraI      PsiI      SmiI      SwaI      
 
-   Enzymes that cut restricted sequences
-
-AluBI     AluI      CviJI     CviKI_1   BstC8I    Cac8I     
-
-
-   Enzymes that cut more than 2 times
-
-AccII     AfaI      AluBI     AluI      Bsh1236I  BspFNI    
-BstFNI    BstUI     CviJI     CviKI_1   DpnI      FaiI      
-GlaI      HpyCH4V   MalI      MvnI      RsaI      MlyI      
-SchI      BmiI      BsaAI     BspLI     BstBAI    BstC8I    
-Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I    
+   Enzymes that cut more than 1000 times
 
 
 
@@ -129,46 +260,34 @@ Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I
 Restriction Digest Analysis on Sequence: test3
 -------------------------------------------------
 
-AccBSI     :  7, 159.
-Bsp68I     :  172.
-BsrBI      :  7, 159.
-BtuMI      :  172.
-MbiI       :  7, 159.
-NruI       :  172.
-RruI       :  172.
-Asp700I    :  29.
-MroXI      :  29.
-PdmI       :  29.
-XmnI       :  29.
+              15 FaiI
+              |                                             
+ACCCCGCTCGGGTATGGCAGAGAGAACGCCTTCTGAATTGTGCTATCCTTCGACCTTATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGGGCGAGCCCATACCGTCTCTCTTGCGGAAGACTTAACACGATAGGAAGCTGGAATAG
+1                                                         60
+
+AAAGCTTGCTACCAATAATTAGGATTATTGCCTTGCGACAGACCTCCTACTCACACTGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATGAGTGTGACGG
+61                                                       120
+
+TCACATTGAGCTAGTCAGTGAGCGATTAGCTTGACCCGCTCTCTAGGGTCGCGAGTACGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAGCGCTCATGCA
+121                                                      180
+
+GAGCTAGGGCTCCGG
+|||||||||||||||
+CTCGATCCCGAGGCC
+181                        195
+
 
    Enzymes which do not cut the sequence.
 
-BshFI     BsnI      BspANI    BsuRI     HaeIII    AanI      
-Acc16I    AcvI      AfeI      AjiI      Aor51HI   BalI      
-BbrPI     BmcAI     BmgBI     BssNAI    Bst1107I  BstSNI    
-BstZ17I   BtrI      DinI      DraI      Ecl136II  Eco105I   
-Eco147I   Eco32I    Eco47III  Eco53kI   Eco72I    EcoICRI   
-EcoRV     EgeI      EheI      FspI      HincII    HindII    
-HpaI      KspAI     MlsI      MluNI     Mox20I    MscI      
-Msp20I    MspA1I    NaeI      NsbI      PceI      PdiI      
-PmaCI     PmlI      PsiI      PspCI     PvuII     ScaI      
-SfoI      SmaI      SnaBI     SseBI     SspI      StuI      
-ZraI      ZrmI      FspAI     MssI      PmeI      SmiI      
-SrfI      SwaI      AleI      BoxI      BsaBI     Bse8I     
-BseJI     BstPAI    MslI      OliI      PshAI     RseI      
-SmiMI     
-
-   Enzymes that cut restricted sequences
-
-AluBI     AluI      CviJI     CviKI_1   BstC8I    Cac8I     
+AanI      DraI      PsiI      SspI      SmiI      SwaI      
 
 
-   Enzymes that cut more than 2 times
-
-AccII     AfaI      AluBI     AluI      Bsh1236I  BspFNI    
-BstFNI    BstUI     CviJI     CviKI_1   DpnI      FaiI      
-GlaI      HpyCH4V   MalI      MvnI      RsaI      MlyI      
-SchI      BmiI      BsaAI     BspLI     BstBAI    BstC8I    
-Cac8I     Hpy166II  Hpy8I     NlaIV     Ppu21I    PspN4I    
+   Enzymes that cut more than 1000 times
 
 

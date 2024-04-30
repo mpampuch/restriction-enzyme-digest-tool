@@ -31,6 +31,7 @@ const initialState = {
   maxNumberOfCutsitesEnabled: false,
   maxNumberOfCutsites: 1000,
   displayType: "detailed", // can be "detailed", "cutsite-locations", or "number-of-cutsites"
+  outputLoading: false,
 };
 
 // TODO
@@ -132,6 +133,9 @@ const settingsSlice = createSlice({
     setDisplayType(state, action) {
       state.displayType = action.payload;
     },
+    setOutputLoading(state, action) {
+      state.outputLoading = action.payload;
+    },
     resetSettings() {
       () => initialState;
     },
@@ -169,6 +173,7 @@ export const {
   toggleMaxNumberOfCutsitesEnabled,
   setMaxNumberOfCutsites,
   setDisplayType,
+  setOutputLoading,
   resetSettings,
 } = settingsSlice.actions;
 

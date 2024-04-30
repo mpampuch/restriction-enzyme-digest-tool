@@ -15,7 +15,7 @@ export function submit(store) {
   // Validate the the input was not empty
   if (dnaToCut === "") {
     showToast("No input DNA sequence provided.");
-    return;
+    throw new Error("No input DNA sequence provided.");
   }
 
   // Validate that the input was a valid FASTA format
@@ -24,7 +24,9 @@ export function submit(store) {
     showToast(
       `DNA input is not in proper FASTA format. ${dnaToCutFastaValidation}`,
     );
-    return;
+    throw new Error(
+      `DNA input is not in proper FASTA format. ${dnaToCutFastaValidation}`,
+    );
   }
 
   // Check if the overall string is less than 100kb
@@ -42,7 +44,9 @@ export function submit(store) {
       showToast(
         `Restricted DNA input is not in proper FASTA format. ${dnaToNotCutFastaValidation}`,
       );
-      return;
+      throw new Error(
+        `Restricted DNA input is not in proper FASTA format. ${dnaToNotCutFastaValidation}`,
+      );
     }
   }
 
@@ -57,7 +61,7 @@ export function submit(store) {
   // Validate that at least one enzyme was selected
   if (enzymesToUse.length === 0) {
     showToast("No enzymes selected.");
-    return;
+    throw new Error("No enzymes selected.");
   }
 
   // Get the minimum and maximum number of cutsites
@@ -71,7 +75,9 @@ export function submit(store) {
     showToast(
       "Minimum number of cutsites is greater than the maximum number of cutsites.",
     );
-    return;
+    throw new Error(
+      "Minimum number of cutsites is greater than the maximum number of cutsites.",
+    );
   }
 
   // Get the display type
@@ -89,7 +95,7 @@ export function submit(store) {
   // console.log("Enzymes to use: ", enzymesToUse);
   // console.log("Minimum cuts: ", minCuts);
   // console.log("Maximum cuts: ", maxCuts);
-  console.log("Maximum cuts enabled: ", maxCutsEnabledFormattedToPython);
+  // console.log("Maximum cuts enabled: ", maxCutsEnabledFormattedToPython);
   // console.log("Display type: ", displayType);
   // console.log("Display type converted: ", displayTypeConverted);
 
