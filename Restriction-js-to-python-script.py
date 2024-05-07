@@ -237,7 +237,7 @@ if __name__ == "__main__":
                       help="List of enzymes to be used in the analysis.")
   parser.add_argument("--min_cuts", type=int, default=0,
                       help="Minimum number of cuts to be considered in the analysis.")
-  parser.add_argument("--max_cuts_enabled", type=bool, default=False,
+  parser.add_argument("--max_cuts_enabled", type=str, default="False", choices=["True", "False"],
                       help="Whether maximum number of cuts should be considered.")
   parser.add_argument("--max_cuts", type=int, default=9999999999,
                       help="Maximum number of cuts to be considered in the analysis.")
@@ -260,7 +260,7 @@ if __name__ == "__main__":
 
   min_cuts = args.min_cuts
   max_cuts = args.max_cuts
-  max_cuts_enabled = args.max_cuts_enabled
+  max_cuts_enabled = eval(args.max_cuts_enabled)
   output_style = args.output_style
 
   # print("dna_to_cut: ", dna_to_cut)

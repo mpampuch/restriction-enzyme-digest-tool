@@ -1,0 +1,9 @@
+--------------------------------------------------------
+Restriction Digest Analysis on Sequence: restricted_1
+--------------------------------------------------------
+
+
+   Enzymes which do not cut the sequence.
+
+BciT130I  AatII     BanI      BbrPI     BcgI      
+

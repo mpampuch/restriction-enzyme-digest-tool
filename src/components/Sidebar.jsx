@@ -3,18 +3,37 @@ import Logo from "./Logo";
 import BasicTabs from "./Tabs";
 import { useStore } from "react-redux";
 import { submit } from "../../utils/submit";
-import { useDispatch } from "react-redux";
-import { setOutputLoading } from "../features/settingsSlice";
+import { useSelector, useDispatch } from "react-redux";
+import { setOutputLoading, setOutputString } from "../features/settingsSlice";
 
 function Sidebar() {
   const store = useStore(); // Access the Redux store instance
+  const settingsState = useSelector((store) => store.settings);
+  const outputLoading = settingsState.outputLoading;
+
   const dispatch = useDispatch(); // Create a dispatcher
-  const handleSubmit = () => {
+
+  const handleSubmit = async () => {
     dispatch(setOutputLoading(true)); // Set the outputLoading state to true
     console.log("submitting:");
-    submit(store); // Call the submit function
+
+    try {
+      // Call the submit function and await its result
+      const output = await submit(store);
+      // Set the outputString state with the output
+      dispatch(setOutputString(output));
+      // Handle the output (data returned by the Python script)
+      console.log("Python script output:", output);
+      // Do further processing if needed
+    } catch (error) {
+      // Handle errors
+      console.error("Error executing Python script:", error);
+    } finally {
+      // Set the outputLoading state to false
+      dispatch(setOutputLoading(false));
+    }
+
     console.log("done");
-    dispatch(setOutputLoading(false)); // Set the outputLoading state to false
   };
 
   return (
@@ -23,7 +42,11 @@ function Sidebar() {
       <BasicTabs />
       <div className="mt-auto">
         {/* Add onClick handler to call handleSubmit when the button is clicked */}
-        <Button variant="contained" onClick={handleSubmit}>
+        <Button
+          variant="contained"
+          onClick={handleSubmit}
+          disabled={outputLoading}
+        >
           Submit
         </Button>
       </div>
