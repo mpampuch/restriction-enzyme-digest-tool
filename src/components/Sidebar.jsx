@@ -4,7 +4,11 @@ import BasicTabs from "./Tabs";
 import { useStore } from "react-redux";
 import { submit } from "../../utils/submit";
 import { useSelector, useDispatch } from "react-redux";
-import { setOutputLoading, setOutputString } from "../features/settingsSlice";
+import {
+  setSubmittedAtLeastOnce,
+  setOutputLoading,
+  setOutputString,
+} from "../features/settingsSlice";
 
 function Sidebar() {
   const store = useStore(); // Access the Redux store instance
@@ -25,6 +29,8 @@ function Sidebar() {
       // Handle the output (data returned by the Python script)
       console.log("Python script output:", output);
       // Do further processing if needed
+      // Set the submittedAtLeastOnce state to true
+      dispatch(setSubmittedAtLeastOnce());
     } catch (error) {
       // Handle errors
       console.error("Error executing Python script:", error);

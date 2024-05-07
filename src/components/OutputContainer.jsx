@@ -6,6 +6,7 @@ import Loader from "./Loader";
 
 function OutputContainer() {
   const settingsState = useSelector((store) => store.settings);
+  const submittedAtLeastOnce = settingsState.submittedAtLeastOnce;
   const outputLoading = settingsState.outputLoading;
   const [fileContent, setFileContent] = useState(""); // State to hold the file content
 
@@ -28,7 +29,11 @@ function OutputContainer() {
       {outputLoading ? (
         <Loader />
       ) : (
-        <TextFileOutput text={fileContent} className="h-full w-full" />
+        // <TextFileOutput text={fileContent} className="h-full w-full" />
+        <TextFileOutput
+          text={submittedAtLeastOnce ? fileContent : ""}
+          className="h-full w-full"
+        />
       )}
 
       {/* // Render the content of the .txt file */}
