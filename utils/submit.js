@@ -95,6 +95,7 @@ export function submit(store) {
   // console.log("Enzymes to use: ", enzymesToUse);
   // console.log("Minimum cuts: ", minCuts);
   // console.log("Maximum cuts: ", maxCuts);
+  // console.log("Maximum cuts enabled not formatted to python: ", maxCutsEnabled);
   // console.log("Maximum cuts enabled: ", maxCutsEnabledFormattedToPython);
   // console.log("Display type: ", displayType);
   // console.log("Display type converted: ", displayTypeConverted);
@@ -110,24 +111,28 @@ export function submit(store) {
     output_style: displayTypeConverted,
   };
 
-  // Send the form data to the server
-  console.log("Sending form data to server...");
-  fetch(`http://localhost:${pythonScriptPort}/execute-python-script`, {
-    // Update URL to localhost:3000
-    method: "POST",
-    body: JSON.stringify(formData), // Convert formData to JSON string
-    headers: {
-      "Content-Type": "application/json", // Set content type to JSON
-    },
-  })
-    .then((response) => response.text())
-    .then((data) => {
-      console.log("Python script output:", data);
-      // Handle the output as needed
+  return new Promise((resolve, reject) => {
+    // Send the form data to the server
+    console.log("Sending form data to server...");
+    fetch(`http://localhost:${pythonScriptPort}/execute-python-script`, {
+      // Update URL to localhost:3000
+      method: "POST",
+      body: JSON.stringify(formData), // Convert formData to JSON string
+      headers: {
+        "Content-Type": "application/json", // Set content type to JSON
+      },
     })
-    .catch((error) => {
-      console.error("Error executing Python script:", error);
-      // Handle errors
-    });
-  console.log("Data sent");
+      .then((response) => response.text())
+      .then((data) => {
+        console.log("Python script output:", data);
+        // Handle the output as needed
+        resolve(data);
+      })
+      .catch((error) => {
+        console.error("Error executing Python script:", error);
+        // Handle errors
+        reject(error);
+      });
+    console.log("Data sent");
+  });
 }
