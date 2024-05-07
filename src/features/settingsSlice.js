@@ -31,6 +31,7 @@ const initialState = {
   maxNumberOfCutsitesEnabled: false,
   maxNumberOfCutsites: 1000,
   displayType: "detailed", // can be "detailed", "cutsite-locations", or "number-of-cutsites"
+  submittedAtLeastOnce: false,
   outputLoading: false,
   outputString: "",
 };
@@ -134,6 +135,9 @@ const settingsSlice = createSlice({
     setDisplayType(state, action) {
       state.displayType = action.payload;
     },
+    setSubmittedAtLeastOnce(state) {
+      state.submittedAtLeastOnce = true;
+    },
     setOutputLoading(state, action) {
       state.outputLoading = action.payload;
     },
@@ -177,6 +181,7 @@ export const {
   toggleMaxNumberOfCutsitesEnabled,
   setMaxNumberOfCutsites,
   setDisplayType,
+  setSubmittedAtLeastOnce,
   setOutputLoading,
   setOutputString,
   resetSettings,
