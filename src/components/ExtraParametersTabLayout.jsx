@@ -65,7 +65,7 @@ function ExtraParametersTabLayout() {
 
       <div className="flex flex-col gap-12">
         <div className="flex w-3/4 flex-row items-center gap-4">
-          <p>Min number of cutsites</p>
+          <p>Min number of cutsites:</p>
           <TextField
             id="outlined-number"
             className="bg-gray-100 text-3xl text-black"
@@ -85,7 +85,7 @@ function ExtraParametersTabLayout() {
 
         <div className="flex w-3/4 flex-row items-center gap-4">
           <p className={maxNumberOfCutsEnabled ? "" : `${"text-gray-400"}`}>
-            Max number of cutsites
+            Max number of cutsites:
           </p>
           <TextField
             id="outlined-number"

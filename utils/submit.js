@@ -35,7 +35,7 @@ export function submit(store) {
   }
 
   // Get the DNA sequence to not cut
-  const dnaToNotCut = state.settings.restrictedDnaInputProvided
+  const dnaToNotCut = state.settings.restrictedInputString
     ? state.settings.restrictedInputString.trim()
     : "";
 
@@ -68,9 +68,11 @@ export function submit(store) {
 
   // Get the minimum and maximum number of cutsites
   const minCuts = state.settings.minNumberOfCutsites;
-  const maxCuts = state.settings.maxNumberOfCutsites;
   const maxCutsEnabled = state.settings.maxNumberOfCutsitesEnabled;
   const maxCutsEnabledFormattedToPython = maxCutsEnabled ? "True" : "False";
+  const maxCuts = maxCutsEnabled
+    ? state.settings.maxNumberOfCutsites
+    : 9999999999;
 
   // validate that the minimum number of cutsites is less than the maximum number of cutsites
   if (minCuts > maxCuts && maxCutsEnabled) {
@@ -112,6 +114,8 @@ export function submit(store) {
     max_cuts_enabled: maxCutsEnabledFormattedToPython,
     output_style: displayTypeConverted,
   };
+
+  console.log("Form data:", formData);
 
   return new Promise((resolve, reject) => {
     // Send the form data to the server

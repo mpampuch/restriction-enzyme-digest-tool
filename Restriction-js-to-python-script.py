@@ -53,7 +53,6 @@ def find_mode_product_length(enzyme, sequence):
 #   except Exception as e:
 #     raise e
 
-
 def load_dna_from_string(data):
   try:
     dna_dict = {}
@@ -145,6 +144,9 @@ def re_digest_analysis(sequence_to_cut: dict,
   re_enzymes = Restriction.RestrictionBatch(enzymes)
 
   # Check if sequences to not cut are provided
+  print("ENZYMES Tsequence_to_not_cutEQUENCES")
+  print(sequence_to_not_cut)
+  print("ENZYMEsequence_to_not_cutICTED SEQUENCES")
   enzymes_that_cut_restricted_seq = []
   if sequence_to_not_cut:
     # Perform analysis on sequences to not cut
@@ -155,11 +157,15 @@ def re_digest_analysis(sequence_to_cut: dict,
     # Exclude enzymes that cut the sequence from the enzyme batch
       enzymes_that_cut_restricted_seq.extend(
           [k for k, v in re_analysis_not_cut.full().items() if v != []])
+  print("ENZYMES THAT CUT RESTRICTED SEQUENCES")
+  print(enzymes_that_cut_restricted_seq)
+  print("ENZYMES THAT CUT RESTRICTED SEQUENCES")
 
   enzymes_that_cut_less_than_min_cuts = []
   enzymes_that_cut_more_than_max_cuts = []
+
   # Check if min_cuts or max_cuts are provided
-  if min_cuts != 0 or max_cuts != 9999999999:
+  if min_cuts != 0 or max_cuts != (9999999999 + 1):
     # Perform analysis on sequences to cut
     for i, seq in enumerate(sequence_to_cut.keys()):
 
@@ -210,16 +216,28 @@ def re_digest_analysis(sequence_to_cut: dict,
       PrintFormat.linesize = LINESIZE_TO_OUTPUT_6_ENZYMES_PER_ROW
 
       if sequence_to_not_cut:
-        print(re_analysis._make_nocut_only(nc=enzymes_that_cut_restricted_seq,
-              s1=f"{tab}Enzymes that cut restricted sequences.{nl}{nl}"))
+        if enzymes_that_cut_restricted_seq == []:
+          print(re_analysis._make_nocut_only(nc=enzymes_that_cut_restricted_seq,
+                s1=f"{tab}No enzymes cut the restricted sequence(s).{nl}{nl}"))
+        else:
+          print(re_analysis._make_nocut_only(nc=enzymes_that_cut_restricted_seq,
+                s1=f"{tab}Enzymes that cut the restricted sequence(s).{nl}{nl}"))
 
       if min_cuts != 0:
-        print(re_analysis._make_nocut_only(nc=enzymes_that_cut_less_than_min_cuts,
-              s1=f"{tab}Enzymes that cut less than {min_cuts} times.{nl}{nl}"))
+        if enzymes_that_cut_less_than_min_cuts == []:
+          print(re_analysis._make_nocut_only(nc=enzymes_that_cut_more_than_max_cuts,
+                s1=f"{tab}No enzymes cut more than {min_cuts} time{'' if min_cuts == 1 else 's'}.{nl}{nl}"))
+        else:
+          print(re_analysis._make_nocut_only(nc=enzymes_that_cut_less_than_min_cuts,
+                s1=f"{tab}Enzymes that cut less than {min_cuts} time{'' if min_cuts == 1 else 's'}.{nl}{nl}"))
 
       if max_cuts_enabled:
-        print(re_analysis._make_nocut_only(nc=enzymes_that_cut_more_than_max_cuts,
-              s1=f"{tab}Enzymes that cut more than {max_cuts} times.{nl}{nl}"))
+        if enzymes_that_cut_more_than_max_cuts == []:
+          print(re_analysis._make_nocut_only(nc=enzymes_that_cut_more_than_max_cuts,
+                s1=f"{tab}No enzymes cut more than {max_cuts} time{'' if max_cuts == 1 else 's'}.{nl}{nl}"))
+        else:
+          print(re_analysis._make_nocut_only(nc=enzymes_that_cut_more_than_max_cuts,
+                s1=f"{tab}Enzymes that cut more than {max_cuts} time{'' if max_cuts == 1 else 's'}.{nl}{nl}"))
 
       output = buf.getvalue()
 
