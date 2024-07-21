@@ -49,9 +49,19 @@ app.post("/execute-python-script", (req, res) => {
   ]);
 
   // Handle stdout and stderr from the Python process
+  let stdoutBuffer = ""; // Buffer to accumulate stdout data
+
+  // Event handler for stdout data
   pythonProcess.stdout.on("data", (data) => {
-    console.log(`Python script output: ${data}`);
-    res.send(data.toString()); // Send output back to client
+    stdoutBuffer += data.toString(); // Append data to the buffer
+  });
+
+  // Event handler for end of stdout
+  pythonProcess.stdout.on("end", () => {
+    console.log("All stdout data received.");
+    console.log(`Python script output: ${stdoutBuffer}`);
+    // Send accumulated stdout data back to the client
+    res.send(stdoutBuffer);
   });
 
   pythonProcess.stderr.on("data", (data) => {
