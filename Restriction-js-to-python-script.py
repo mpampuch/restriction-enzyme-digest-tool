@@ -144,9 +144,6 @@ def re_digest_analysis(sequence_to_cut: dict,
   re_enzymes = Restriction.RestrictionBatch(enzymes)
 
   # Check if sequences to not cut are provided
-  print("ENZYMES Tsequence_to_not_cutEQUENCES")
-  print(sequence_to_not_cut)
-  print("ENZYMEsequence_to_not_cutICTED SEQUENCES")
   enzymes_that_cut_restricted_seq = []
   if sequence_to_not_cut:
     # Perform analysis on sequences to not cut
@@ -157,9 +154,6 @@ def re_digest_analysis(sequence_to_cut: dict,
     # Exclude enzymes that cut the sequence from the enzyme batch
       enzymes_that_cut_restricted_seq.extend(
           [k for k, v in re_analysis_not_cut.full().items() if v != []])
-  print("ENZYMES THAT CUT RESTRICTED SEQUENCES")
-  print(enzymes_that_cut_restricted_seq)
-  print("ENZYMES THAT CUT RESTRICTED SEQUENCES")
 
   enzymes_that_cut_less_than_min_cuts = []
   enzymes_that_cut_more_than_max_cuts = []
