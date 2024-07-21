@@ -62,6 +62,15 @@ function DnaInputTabLayout() {
     };
     reader.readAsText(file);
   };
+
+  const handleAutofillInputDNA = () => {
+    dispatch(toggleShowRestrictedDnaInput());
+  };
+
+  const handleAutofillRestrictedDNA = () => {
+    dispatch(toggleShowRestrictedDnaInput());
+  };
+
   return (
     <>
       <h1>DNA input</h1>
@@ -79,15 +88,21 @@ function DnaInputTabLayout() {
           onChange={(e) => handleInputStringChange(e)}
         />
       </div>
-      <Button variant="contained" component="label">
-        Upload File
-        <input
-          type="file"
-          accept=".fasta, .fna, .ffn, .faa, .frn, .fa"
-          hidden
-          onChange={(e) => handleFileInputChange(e, "inputString")}
-        />
-      </Button>
+      <div className="flex flex-row items-center justify-between">
+        <Button variant="contained" component="label">
+          Upload File
+          <input
+            type="file"
+            accept=".fasta, .fna, .ffn, .faa, .frn, .fa"
+            hidden
+            onChange={(e) => handleFileInputChange(e, "inputString")}
+          />
+        </Button>
+        <div className="flex flex-row items-center gap-2">
+          <p>Auto-fill Input DNA</p>
+          <Switch onChange={() => handleAutofillInputDNA()} size="small" />
+        </div>
+      </div>
       <div className="flex flex-row items-center">
         <Switch onChange={() => handleShowRestrictedDnaInputChange()} />
         <p> Add Restricted DNA input</p>
@@ -113,15 +128,26 @@ function DnaInputTabLayout() {
             onChange={(e) => handleRestrictedInputStringChange(e)}
           />
         </div>
-        <Button variant="contained" component="label">
-          Upload File
-          <input
-            type="file"
-            accept=".fasta, .fna, .ffn, .faa, .frn, .fa"
-            hidden
-            onChange={(e) => handleFileInputChange(e, "restrictedInputString")}
-          />
-        </Button>
+        <div className="flex flex-row items-center justify-between">
+          <Button variant="contained" component="label">
+            Upload File
+            <input
+              type="file"
+              accept=".fasta, .fna, .ffn, .faa, .frn, .fa"
+              hidden
+              onChange={(e) =>
+                handleFileInputChange(e, "restrictedInputString")
+              }
+            />
+          </Button>
+          <div className="flex flex-row items-center gap-2">
+            <p>Auto-fill Restricted DNA</p>
+            <Switch
+              onChange={() => handleAutofillRestrictedDNA()}
+              size="small"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
