@@ -29,13 +29,28 @@ function DnaInputTabLayout() {
     e.preventDefault();
     const newValue = e.target.value;
     dispatch(setInputString(newValue));
-    console.log(isFastaFormat(newValue));
+    // console.log(isFastaFormat(newValue));
+
+    // Check if the input string is empty
+    if (newValue === "") {
+      // If the autofill input DNA is selected, then clear the input string
+      if (settingsState.autofillInputDnaSelected) {
+        handleAutofillInputDNA();
+      }
+    }
   };
 
   const handleRestrictedInputStringChange = (e) => {
     e.preventDefault();
     const newValue = e.target.value;
     dispatch(setRestrictedInputString(newValue));
+    // Check if the restricted string is empty
+    if (newValue === "") {
+      // If the autofill restricted DNA is selected, then clear the input string
+      if (settingsState.autofillRestrictedDnaSelected) {
+        handleAutofillRestrictedDNA();
+      }
+    }
   };
 
   const handleFileInputChange = (e, field) => {
@@ -114,7 +129,11 @@ function DnaInputTabLayout() {
           />
         </Button>
         <div className="flex flex-row items-center gap-2">
-          <p>Auto-fill Input DNA</p>
+          {settingsState.autofillInputDnaSelected ? (
+            <p>Clear Form Data</p>
+          ) : (
+            <p>Auto-fill Input DNA</p>
+          )}
           <Switch
             checked={settingsState.autofillInputDnaSelected}
             onChange={() => handleAutofillInputDNA()}
@@ -163,7 +182,11 @@ function DnaInputTabLayout() {
             />
           </Button>
           <div className="flex flex-row items-center gap-2">
-            <p>Auto-fill Restricted DNA</p>
+            {settingsState.autofillRestrictedDnaSelected ? (
+              <p>Clear Form Data</p>
+            ) : (
+              <p>Auto-fill Input DNA</p>
+            )}
             <Switch
               checked={settingsState.autofillRestrictedDnaSelected}
               onChange={() => handleAutofillRestrictedDNA()}
