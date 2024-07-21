@@ -211,15 +211,15 @@ def re_digest_analysis(sequence_to_cut: dict,
 
       if sequence_to_not_cut:
         print(re_analysis._make_nocut_only(nc=enzymes_that_cut_restricted_seq,
-              s1=f"{tab}Enzymes that cut restricted sequences{nl}{nl}"))
+              s1=f"{tab}Enzymes that cut restricted sequences.{nl}{nl}"))
 
       if min_cuts != 0:
         print(re_analysis._make_nocut_only(nc=enzymes_that_cut_less_than_min_cuts,
-              s1=f"{tab}Enzymes that cut less than {min_cuts} times{nl}{nl}"))
+              s1=f"{tab}Enzymes that cut less than {min_cuts} times.{nl}{nl}"))
 
       if max_cuts_enabled:
         print(re_analysis._make_nocut_only(nc=enzymes_that_cut_more_than_max_cuts,
-              s1=f"{tab}Enzymes that cut more than {max_cuts} times{nl}{nl}"))
+              s1=f"{tab}Enzymes that cut more than {max_cuts} times.{nl}{nl}"))
 
       output = buf.getvalue()
 

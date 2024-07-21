@@ -515,7 +515,7 @@ function EnzymeSelection() {
             <input
               type="checkbox"
               className="h-8 w-10 flex-shrink-0 "
-              checked={settingsState.exclude_3_prime_overhangs}
+              checked={settingsState.exclude3PrimeOverhangs}
               onChange={handleToggleExclude3PrimeOverhangs}
             />
             <span className="ml-4 text-2xl">No 3&apos; overhangs</span>
@@ -524,7 +524,7 @@ function EnzymeSelection() {
             <input
               type="checkbox"
               className="h-8 w-10 flex-shrink-0 "
-              checked={settingsState.exclude_5_prime_overhangs}
+              checked={settingsState.exclude5PrimeOverhangs}
               onChange={handleToggleExclude5PrimeOverhangs}
             />
             <span className="ml-4 text-2xl">No 5&apos; overhangs</span>

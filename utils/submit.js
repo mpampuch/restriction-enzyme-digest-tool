@@ -35,7 +35,9 @@ export function submit(store) {
   }
 
   // Get the DNA sequence to not cut
-  const dnaToNotCut = state.settings.restrictedInputString.trim();
+  const dnaToNotCut = state.settings.restrictedDnaInputProvided
+    ? state.settings.restrictedInputString.trim()
+    : "";
 
   // Validate that the input was a valid FASTA format if it was provided
   if (dnaToNotCut !== "") {

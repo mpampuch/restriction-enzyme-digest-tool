@@ -3,9 +3,11 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   inputString: "",
   dnaInputProvided: false,
+  autofillInputDnaSelected: false,
   showRestrictedDnaInput: false,
   restrictedInputString: "",
   restrictedDnaInputProvided: false,
+  autofillRestrictedDnaSelected: false,
   exclude3PrimeOverhangs: false,
   exclude5PrimeOverhangs: false,
   excludeBluntEnds: false,
@@ -50,6 +52,9 @@ const settingsSlice = createSlice({
     toggleProvideDnaInput(state) {
       state.dnaInputProvided = !state.dnaInputProvided;
     },
+    toggleAutofillInputDnaSelected(state) {
+      state.autofillInputDnaSelected = !state.autofillInputDnaSelected;
+    },
     toggleShowRestrictedDnaInput(state) {
       state.showRestrictedDnaInput = !state.showRestrictedDnaInput;
     },
@@ -58,6 +63,10 @@ const settingsSlice = createSlice({
     },
     toggleProvideRestrictedDnaInput(state) {
       state.restrictedDnaInputProvided = !state.restrictedDnaInputProvided;
+    },
+    toggleAutofillRestrictedDnaSelected(state) {
+      state.autofillRestrictedDnaSelected =
+        !state.autofillRestrictedDnaSelected;
     },
     toggleExclude3PrimeOverhangs(state) {
       state.exclude3PrimeOverhangs = !state.exclude3PrimeOverhangs;
@@ -153,9 +162,11 @@ const settingsSlice = createSlice({
 export const {
   setInputString,
   toggleProvideDnaInput,
+  toggleAutofillInputDnaSelected,
   toggleShowRestrictedDnaInput,
   setRestrictedInputString,
   toggleProvideRestrictedDnaInput,
+  toggleAutofillRestrictedDnaSelected,
   toggleExclude3PrimeOverhangs,
   toggleExclude5PrimeOverhangs,
   toggleExcludeBluntEnds,

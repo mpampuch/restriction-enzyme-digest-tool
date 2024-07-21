@@ -3,6 +3,8 @@ import {
   setInputString,
   toggleShowRestrictedDnaInput,
   setRestrictedInputString,
+  toggleAutofillInputDnaSelected,
+  toggleAutofillRestrictedDnaSelected,
 } from "../features/settingsSlice";
 import { isFastaFormat } from "../../utils/validateFasta";
 import { showToast } from "../../utils/showToast";
@@ -10,6 +12,7 @@ import { showToast } from "../../utils/showToast";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Button from "@mui/material/Button";
 import Switch from "@mui/material/Switch";
+import { dnaToCut, dnaToNotCut } from "../../utils/autofillSequences";
 
 function DnaInputTabLayout() {
   const settingsState = useSelector((store) => store.settings);
@@ -64,11 +67,23 @@ function DnaInputTabLayout() {
   };
 
   const handleAutofillInputDNA = () => {
-    dispatch(toggleShowRestrictedDnaInput());
+    dispatch(toggleAutofillInputDnaSelected());
+    if (settingsState.autofillInputDnaSelected) {
+      dispatch(setInputString(""));
+      return;
+    } else {
+      dispatch(setInputString(dnaToCut));
+    }
   };
 
   const handleAutofillRestrictedDNA = () => {
-    dispatch(toggleShowRestrictedDnaInput());
+    dispatch(toggleAutofillRestrictedDnaSelected());
+    if (settingsState.autofillRestrictedDnaSelected) {
+      dispatch(setRestrictedInputString(""));
+      return;
+    } else {
+      dispatch(setRestrictedInputString(dnaToNotCut));
+    }
   };
 
   return (
@@ -100,11 +115,18 @@ function DnaInputTabLayout() {
         </Button>
         <div className="flex flex-row items-center gap-2">
           <p>Auto-fill Input DNA</p>
-          <Switch onChange={() => handleAutofillInputDNA()} size="small" />
+          <Switch
+            checked={settingsState.autofillInputDnaSelected}
+            onChange={() => handleAutofillInputDNA()}
+            size="small"
+          />
         </div>
       </div>
       <div className="flex flex-row items-center">
-        <Switch onChange={() => handleShowRestrictedDnaInputChange()} />
+        <Switch
+          checked={settingsState.showRestrictedDnaInput}
+          onChange={() => handleShowRestrictedDnaInputChange()}
+        />
         <p> Add Restricted DNA input</p>
       </div>
       <div
@@ -143,6 +165,7 @@ function DnaInputTabLayout() {
           <div className="flex flex-row items-center gap-2">
             <p>Auto-fill Restricted DNA</p>
             <Switch
+              checked={settingsState.autofillRestrictedDnaSelected}
               onChange={() => handleAutofillRestrictedDNA()}
               size="small"
             />
