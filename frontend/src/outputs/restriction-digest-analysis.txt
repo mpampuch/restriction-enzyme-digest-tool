@@ -1,0 +1,1793 @@
+---------------------------------------------------------
+Restriction Digest Analysis on Sequence: Example-DNA-1
+---------------------------------------------------------
+
+    5 Tru9I SaqAI Tru1I MseI
+    |                                                       
+    |    10 TaaI Bst4CI HpyCH4III
+    |    |                                                  
+    |    |            23 FspEI
+    |    |            |                                     
+    |    |            |            36 ErhI BssT1I StyI BsaJI EcoT14I BseDI BstDSI FatI BssECI Eco130I NcoI BtgI Bsp19I
+    |    |            |            |                        
+    |    |            |            |37 CviAII FspEI
+    |    |            |            ||                       
+    |    |            |            ||38 FaiI
+    |    |            |            |||                      
+    |    |            |            ||| 40 Cfr13I BmgT120I AvaII VpaK11BI Hsp92II Sau96I NlaIII Hin1II SinI Bme18I AspS9I Eco47I FaeI PspPI
+    |    |            |            ||| |                    
+    |    |            |            ||| |   44 SspMI BfaI MaeI FspBI XspI
+    |    |            |            ||| |   |                
+    |    |            |            ||| |   |    49 FspEI
+    |    |            |            ||| |   |    |           
+    |    |            |            ||| |   |    |      56 FspEI
+    |    |            |            ||| |   |    |      |    
+    |    |            |            ||| |   |    |      |  59 TaaI Bst4CI HpyCH4III
+    |    |            |            ||| |   |    |      |  | 
+TCATTAACTGTTGTTTGGTAGCACAAAAGTATTACCATGGTCCTAGAAGTTCGGCACAGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTAATTGACAACAAACCATCGTGTTTTCATAATGGTACCAGGATCTTCAAGCCGTGTCA
+1                                                         60
+
+     66 TaqI
+     |                                                      
+     |         76 Tsp45I MaeIII NmuCI TseFI
+     |         |                                            
+     |         |       84 FspEI
+     |         |       |                                    
+     |         |       |          95 CseI HgaI
+     |         |       |          |                         
+     |         |       |          |    100 FspEI
+     |         |       |          |    |                    
+     |         |       |          |    |  103 FspEI
+     |         |       |          |    |  |                 
+     |         |       |          |    |  |      110 FspEI
+     |         |       |          |    |  |      |          
+     |         |       |          |    |  |      |   114 XcmI
+     |         |       |          |    |  |      |   |      
+     |         |       |          |    |  |      |   |115 FspEI
+     |         |       |          |    |  |      |   ||     
+     |         |       |          |    |  |      |   ||    120 FspEI LpnPI
+     |         |       |          |    |  |      |   ||    |
+TAGTTCGAGCCTAATGTCACAAATGACGCAGAACGCCAATGAGTGCCAGACATTAGGTGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATCAAGCTCGGATTACAGTGTTTACTGCGTCTTGCGGTTACTCACGGTCTGTAATCCACC
+61                                                       120
+
+121 FspEI
+|                                                           
+|          132 MaeIII
+|          |                                                
+|          | 134 FspEI
+|          | |                                              
+|          | |135 BsmAI BstMAI BcoDI Alw26I
+|          | ||                                             
+|          | || 137 SchI PleI MlyI PpsI
+|          | || |                                           
+|          | || |     143 HinfI
+|          | || |     |                                     
+|          | || |     |     149 BspACI AciI SsiI
+|          | || |     |     |                               
+|          | || |     |     |150 BisI Fsp4HI GluI SatI Fnu4HI
+|          | || |     |     ||                              
+|          | || |     |     ||151 BlsI PkrI TspGWI
+|          | || |     |     |||                             
+|          | || |     |     |||152 TauI
+|          | || |     |     ||||                            
+|          | || |     |     |||| 154 Csp6I CviQI RsaNI
+|          | || |     |     |||| |                          
+|          | || |     |     |||| |155 AfaI RsaI
+|          | || |     |     |||| ||                         
+|          | || |     |     |||| ||  158 Tru9I SaqAI Tru1I MseI
+|          | || |     |     |||| ||  |                      
+|          | || |     |     |||| ||  |     164 FaiI
+|          | || |     |     |||| ||  |     |                
+|          | || |     |     |||| ||  |     | 166 HpyCH4V
+|          | || |     |     |||| ||  |     | |              
+|          | || |     |     |||| ||  |     | | 168 Zsp2I EcoT22I NsiI Mph1103I
+|          | || |     |     |||| ||  |     | | |            
+|          | || |     |     |||| ||  |     | | |   172 AgsI
+|          | || |     |     |||| ||  |     | | |   |        
+|          | || |     |     |||| ||  |     | | |   |    177 BspFNI HspAI HinP1I MvnI Bsh1236I FspEI BstFNI BstUI Hin6I AccII
+|          | || |     |     |||| ||  |     | | |   |    |   
+|          | || |     |     |||| ||  |     | | |   |    |178 GlaI
+|          | || |     |     |||| ||  |     | | |   |    ||  
+|          | || |     |     |||| ||  |     | | |   |    ||179 HhaI BstHHI AspLEI CfoI
+|          | || |     |     |||| ||  |     | | |   |    ||| 
+AGTTCAGTTCGGTAACGGAGAGACTCTGCGGCGTACTTAATTATGCATTTGAAACGCGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCAAGTCAAGCCATTGCCTCTCTGAGACGCCGCATGAATTAATACGTAAACTTTGCGCGG
+121                                                      180
+
+   184 Tsp45I MaeIII NmuCI TseFI
+   |                                                        
+   |      191 SspMI BfaI FspEI MaeI FspBI XspI LpnPI
+   |      |                                                 
+   |      | 193 FspEI
+   |      | |                                               
+   |      | |194 FspEI
+   |      | ||                                              
+   |      | || 196 BfuAI CseI BspMI Acc36I BveI HgaI
+   |      | || |                                            
+   |      | || |     202 Hpy188I
+   |      | || |     |                                      
+   |      | || |     |       210 NlaIV FspEI BmiI PspN4I BspLI
+   |      | || |     |       |                              
+   |      | || |     |       |211 FspEI
+   |      | || |     |       ||                             
+   |      | || |     |       ||      218 MnlI
+   |      | || |     |       ||      |                      
+   |      | || |     |       ||      |   222 SmlI SmoI
+   |      | || |     |       ||      |   |                  
+   |      | || |     |       ||      |   |  225 FspEI
+   |      | || |     |       ||      |   |  |               
+   |      | || |     |       ||      |   |  |226 FspEI
+   |      | || |     |       ||      |   |  ||              
+   |      | || |     |       ||      |   |  ||    231 Hpy166II Hpy8I
+   |      | || |     |       ||      |   |  ||    |         
+   |      | || |     |       ||      |   |  ||    |   235 FaiI
+   |      | || |     |       ||      |   |  ||    |   |     
+   |      | || |     |       ||      |   |  ||    |   | 237 FspEI
+   |      | || |     |       ||      |   |  ||    |   | |   
+   |      | || |     |       ||      |   |  ||    |   | |238 FspEI
+   |      | || |     |       ||      |   |  ||    |   | ||  
+CAAGTGACGCTAGGCAAGTCAGAGCAGGTTCCCGTGTTAGCTTGAGGGTAAACATACAAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTTCACTGCGATCCGTTCAGTCTCGTCCAAGGGCACAATCGAACTCCCATTTGTATGTTC
+181                                                      240
+
+ 242 FspEI
+ |                                                          
+ |243 FspEI BpuEI
+ ||                                                         
+ ||244 FspEI
+ |||                                                        
+ |||245 BccI FspEI
+ ||||                                                       
+ ||||  248 AgsI
+ ||||  |                                                    
+ ||||  |      255 FspEI
+ ||||  |      |                                             
+ ||||  |      |    260 MboII
+ ||||  |      |    |                                        
+ ||||  |      |    |      267 AgsI
+ ||||  |      |    |      |                                 
+ ||||  |      |    |      |       275 BsaXI
+ ||||  |      |    |      |       |                         
+ ||||  |      |    |      |       |           287 TaaI Bst4CI HpyCH4III
+ ||||  |      |    |      |       |           |             
+ ||||  |      |    |      |       |           |288 Csp6I CviQI FspEI RsaNI LpnPI
+ ||||  |      |    |      |       |           ||            
+ ||||  |      |    |      |       |           ||289 AfaI RsaI
+ ||||  |      |    |      |       |           |||           
+ ||||  |      |    |      |       |           |||290 FspEI
+ ||||  |      |    |      |       |           ||||          
+ ||||  |      |    |      |       |           ||||291 FspEI
+ ||||  |      |    |      |       |           |||||         
+ ||||  |      |    |      |       |           |||||   295 Hpy188I
+ ||||  |      |    |      |       |           |||||   |     
+ ||||  |      |    |      |       |           |||||   |296 FspEI
+ ||||  |      |    |      |       |           |||||   ||    
+CCGATTGAAGATGGGTAGGGGGCTTCAAATCGTCCAGCACTCCACAGTACCTCCGAGAGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCTAACTTCTACCCATCCCCCGAAGTTTAGCAGGTCGTGAGGTGTCATGGAGGCTCTCG
+241                                                      300
+
+301 MnlI
+|                                                           
+|  304 FspEI
+|  |                                                        
+|  |305 BsaXI
+|  ||                                                       
+|  ||306 MwoI HpyF10VI BstMWI
+|  |||                                                      
+|  |||307 FspEI
+|  ||||                                                     
+|  ||||308 BanI AccB1I BshNI BspT107I
+|  |||||                                                    
+|  ||||| 310 NlaIV BmiI PspN4I BspLI
+|  ||||| |                                                  
+|  ||||| |311 BaeGI BseSI FspEI BstSLI SduI Bsp1286I MhlI
+|  ||||| ||                                                 
+|  ||||| ||  314 BfmI SfcI BstSFI
+|  ||||| ||  |                                              
+|  ||||| ||  |      321 TaqI NspV AsuII Bpu14I SfuI Bsp119I BstBI BspT104I
+|  ||||| ||  |      |                                       
+|  ||||| ||  |      |  324 FspEI
+|  ||||| ||  |      |  |                                    
+|  ||||| ||  |      |  |325 FspEI FspEI
+|  ||||| ||  |      |  ||                                   
+|  ||||| ||  |      |  ||326 BspACI FspEI FspEI AciI SsiI LpnPI
+|  ||||| ||  |      |  |||                                  
+|  ||||| ||  |      |  |||     332 MnlI
+|  ||||| ||  |      |  |||     |                            
+|  ||||| ||  |      |  |||     |333 Asp700I MroXI XmnI PdmI
+|  ||||| ||  |      |  |||     ||                           
+|  ||||| ||  |      |  |||     ||   337 TaqI
+|  ||||| ||  |      |  |||     ||   |                       
+|  ||||| ||  |      |  |||     ||   |            350 Eco24I SduI FriOI EcoT38I Bsp1286I BanII MhlI
+|  ||||| ||  |      |  |||     ||   |            |          
+|  ||||| ||  |      |  |||     ||   |            |351 FspEI
+|  ||||| ||  |      |  |||     ||   |            ||         
+|  ||||| ||  |      |  |||     ||   |            ||352 MboII
+|  ||||| ||  |      |  |||     ||   |            |||        
+AAGTAGGGCACCCTGTAGTTCGAAGCGGAACTATTTCGAGGGGCGAGCCCACATCGTCTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTCATCCCGTGGGACATCAAGCTTCGCCTTGATAAAGCTCCCCGCTCGGGTGTAGCAGAG
+301                                                      360
+
+ 362 BsmAI FspEI Esp3I BstMAI BcoDI Alw26I BsmBI
+ |                                                          
+ |363 FspEI
+ ||                                                         
+ || 365 Eam1104I Bst6I EarI
+ || |                                                       
+ || |366 BspACI AciI SsiI
+ || ||                                                      
+ || ||  369 FspEI
+ || ||  |                                                   
+ || ||  |370 FspEI
+ || ||  ||                                                  
+ || ||  ||  373 FspEI
+ || ||  ||  |                                               
+ || ||  ||  |374 BstF5I BtsCI BseGI
+ || ||  ||  ||                                              
+ || ||  ||  ||375 Tru9I SaqAI Tru1I MseI
+ || ||  ||  |||                                             
+ || ||  ||  |||376 FspEI
+ || ||  ||  ||||                                            
+ || ||  ||  ||||  379 BsaXI
+ || ||  ||  ||||  |                                         
+ || ||  ||  ||||  | 381 FokI MnlI
+ || ||  ||  ||||  | |                                       
+ || ||  ||  ||||  | | 383 SspMI BfaI MaeI FspBI XspI
+ || ||  ||  ||||  | | |                                     
+ || ||  ||  ||||  | | |          394 HinfI FspEI
+ || ||  ||  ||||  | | |          |                          
+ || ||  ||  ||||  | | |          |  397 TaqI
+ || ||  ||  ||||  | | |          |  |                       
+ || ||  ||  ||||  | | |          |  | 399 PfeI HinfI TfiI
+ || ||  ||  ||||  | | |          |  | |                     
+ || ||  ||  ||||  | | |          |  | |  402 BccI PleI PpsI
+ || ||  ||  ||||  | | |          |  | |  |                  
+ || ||  ||  ||||  | | |          |  | |  |403 SchI MlyI PcsI
+ || ||  ||  ||||  | | |          |  | |  ||                 
+ || ||  ||  ||||  | | |          |  | |  ||  406 Bsa29I TaqI Bsu15I ClaI BspDI BshVI BsuTUI BseCI
+ || ||  ||  ||||  | | |          |  | |  ||  |              
+ || ||  ||  ||||  | | |          |  | |  ||  |  409 BsaXI
+ || ||  ||  ||||  | | |          |  | |  ||  |  |           
+ || ||  ||  ||||  | | |          |  | |  ||  |  | 411 BccI
+ || ||  ||  ||||  | | |          |  | |  ||  |  | |         
+ || ||  ||  ||||  | | |          |  | |  ||  |  | | 413 FspEI
+ || ||  ||  ||||  | | |          |  | |  ||  |  | | |       
+ || ||  ||  ||||  | | |          |  | |  ||  |  | | | 415 FaiI PsiI AanI
+ || ||  ||  ||||  | | |          |  | |  ||  |  | | | |     
+ || ||  ||  ||||  | | |          |  | |  ||  |  | | | |416 FspEI
+ || ||  ||  ||||  | | |          |  | |  ||  |  | | | ||    
+TTCTGCGGATGACTTAACACGCTAGGGAGGTGGAGTCGATTCCATCGATGGTTATAAATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAGACGCCTACTGAATTGTGCGATCCCTCCACCTCAGCTAAGGTAGCTACCAATATTTAG
+361                                                      420
+
+    425 FspEI LpnPI
+    |                                                       
+    |  428 FspEI
+    |  |                                                    
+    |  | 430 Hpy188I
+    |  | |                                                  
+    |  | |     436 MnlI
+    |  | |     |                                            
+    |  | |     |   440 Hpy188III
+    |  | |     |   |                                        
+    |  | |     |   |441 FspEI
+    |  | |     |   ||                                       
+    |  | |     |   ||       449 PfeI HinfI TfiI
+    |  | |     |   ||       |                               
+    |  | |     |   ||       | 451 BstF5I BtsCI BseGI
+    |  | |     |   ||       | |                             
+    |  | |     |   ||       | |      458 FokI TaaI Bst4CI HpyCH4III
+    |  | |     |   ||       | |      |                      
+    |  | |     |   ||       | |      |  461 BpmI GsuI
+    |  | |     |   ||       | |      |  |                   
+    |  | |     |   ||       | |      |  |462 TspDTI
+    |  | |     |   ||       | |      |  ||                  
+    |  | |     |   ||       | |      |  ||    467 Hpy188III
+    |  | |     |   ||       | |      |  ||    |             
+    |  | |     |   ||       | |      |  ||    |468 TaqI
+    |  | |     |   ||       | |      |  ||    ||            
+    |  | |     |   ||       | |      |  ||    ||469 Sau3AI BssMI Bsp143I MboI BstMBI NdeII Kzo9I DpnII
+    |  | |     |   ||       | |      |  ||    |||           
+    |  | |     |   ||       | |      |  ||    ||| 471 MalI DpnI
+    |  | |     |   ||       | |      |  ||    ||| |         
+    |  | |     |   ||       | |      |  ||    ||| |472 BstMCI Bsh1285I Ple19I PvuI BsiEI BstKTI
+    |  | |     |   ||       | |      |  ||    ||| ||        
+    |  | |     |   ||       | |      |  ||    ||| ||  475 BstDEI HpyF3I DdeI
+    |  | |     |   ||       | |      |  ||    ||| ||  |     
+AAAAAATCGGAACGCTGTCTGGAGGATGAATCTAACGGTGCGTATCTCGATCGCTCAGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTTTTAGCCTTGCGACAGACCTCCTACTTAGATTGCCACGCATAGAGCTAGCGAGTCAG
+421                                                      480
+
+       488 BspCNI
+       |                                                    
+       |489 Csp6I CviQI RsaNI BseMII
+       ||                                                   
+       ||490 AfaI RsaI
+       |||                                                  
+       |||  493 PcsI
+       |||  |                                               
+       |||  |494 HspAI HinP1I Hin6I
+       |||  ||                                              
+       |||  ||495 GlaI
+       |||  |||                                             
+       |||  |||496 BspFNI HhaI BstHHI MvnI AspLEI Bsh1236I CfoI BstFNI BstUI AccII
+       |||  ||||                                            
+       |||  ||||         506 FspEI
+       |||  ||||         |                                  
+       |||  ||||         |  509 BspACI AciI SsiI
+       |||  ||||         |  |                               
+       |||  ||||         |  | 511 AccBSI BsrBI MbiI
+       |||  ||||         |  | |                             
+       |||  ||||         |  | |   515 FaiI
+       |||  ||||         |  | |   |                         
+       |||  ||||         |  | |   |      522 FspEI
+       |||  ||||         |  | |   |      |                  
+       |||  ||||         |  | |   |      |  525 NlaIV BmiI PspN4I BspLI
+       |||  ||||         |  | |   |      |  |               
+       |||  ||||         |  | |   |      |  |  528 Hpy188I
+       |||  ||||         |  | |   |      |  |  |            
+       |||  ||||         |  | |   |      |  |  |         538 Hpy188III
+       |||  ||||         |  | |   |      |  |  |         |  
+       |||  ||||         |  | |   |      |  |  |         | 540 FspEI
+       |||  ||||         |  | |   |      |  |  |         | |
+GCTTTTCGTACTGCGCGAAAGTTCGCACCGCTCATACACTTGGTTCCGAAGCCTGTCCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGAAAAGCATGACGCGCTTTCAAGCGTGGCGAGTATGTGAACCAAGGCTTCGGACAGGAC
+481                                                      540
+
+   544 FaiI
+   |                                                        
+   | 546 FaiI FspEI LpnPI
+   | |                                                      
+   | |547 FspEI
+   | ||                                                     
+   | ||548 PfeI HinfI FspEI TfiI
+   | |||                                                    
+   | |||549 FspEI
+   | ||||                                                   
+   | |||| 551 FspEI BplI LpnPI
+   | |||| |                                                 
+   | |||| |   555 FauI
+   | |||| |   |                                             
+   | |||| |   | 557 SspMI BfaI MaeI FspBI XspI
+   | |||| |   | |                                           
+   | |||| |   | |   561 TspDTI
+   | |||| |   | |   |                                       
+   | |||| |   | |   |562 BspACI AccBSI AciI BsrBI MbiI SsiI
+   | |||| |   | |   ||                                      
+   | |||| |   | |   ||563 FspEI
+   | |||| |   | |   |||                                     
+   | |||| |   | |   ||| 565 FspEI
+   | |||| |   | |   ||| |                                   
+   | |||| |   | |   ||| |   569 Eco24I SduI FriOI EcoT38I Bsp1286I BanII MhlI
+   | |||| |   | |   ||| |   |                               
+   | |||| |   | |   ||| |   |570 Hpy188III
+   | |||| |   | |   ||| |   ||                              
+   | |||| |   | |   ||| |   ||   574 MaeII HpyCH4IV HpySE526I
+   | |||| |   | |   ||| |   ||   |                          
+   | |||| |   | |   ||| |   ||   |  577 TaiI
+   | |||| |   | |   ||| |   ||   |  |                       
+   | |||| |   | |   ||| |   ||   |  |     583 BplI
+   | |||| |   | |   ||| |   ||   |  |     |                 
+   | |||| |   | |   ||| |   ||   |  |     |       591 FspEI
+   | |||| |   | |   ||| |   ||   |  |     |       |         
+   | |||| |   | |   ||| |   ||   |  |     |       |      598 SspI
+   | |||| |   | |   ||| |   ||   |  |     |       |      |  
+ATATATGAATCCAAACTAGAGCGGGGCTCTTGACGTTTGGAGTTGTAAATATCTAATATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TATATACTTAGGTTTGATCTCGCCCCGAGAACTGCAAACCTCAACATTTATAGATTATAA
+541                                                      600
+
+           612 FspEI PcsI
+           |                                                
+           |613 FspEI
+           ||                                               
+           || 615 MaeII FspEI HpyCH4IV HpySE526I
+           || |                                             
+           || |616 BstBAI Ppu21I FspEI BsaAI
+           || ||                                            
+           || ||617 ApaLI VneI Alw44I
+           || |||                                           
+           || |||618 TaiI
+           || ||||                                          
+           || ||||619 HpyCH4V Hpy166II Hpy8I
+           || |||||                                         
+           || |||||620 FauI
+           || ||||||                                        
+           || ||||||621 BaeGI BseSI Bbv12I BstSLI BsiHKAI SduI Bsp1286I Alw21I MhlI
+           || |||||||                                       
+           || |||||||   625 BspACI BsaJI FspEI AciI BseDI BstDSI SsiI BssECI BtgI
+           || |||||||   |                                   
+           || |||||||   |626 FspEI
+           || |||||||   ||                                  
+           || |||||||   ||627 BspFNI MvnI BspACI Bsh1236I AciI MspA1I BstFNI BstUI SsiI AccII
+           || |||||||   |||                                 
+           || |||||||   |||628 Sfr303I SacII KspI SgrBI Cfr42I
+           || |||||||   ||||                                
+           || |||||||   ||||  631 BspACI AciI SsiI
+           || |||||||   ||||  |                             
+           || |||||||   ||||  |632 BisI Fsp4HI GluI SatI Fnu4HI
+           || |||||||   ||||  ||                            
+           || |||||||   ||||  ||633 BlsI PkrI MnlI
+           || |||||||   ||||  |||                           
+           || |||||||   ||||  |||634 TauI
+           || |||||||   ||||  ||||                          
+           || |||||||   ||||  ||||635 FspEI
+           || |||||||   ||||  |||||                         
+           || |||||||   ||||  |||||  638 SchI FspEI PleI MlyI PpsI
+           || |||||||   ||||  |||||  |                      
+           || |||||||   ||||  |||||  |     644 HinfI
+           || |||||||   ||||  |||||  |     |                
+           || |||||||   ||||  |||||  |     |           656 BsmFI FaqI BslFI
+           || |||||||   ||||  |||||  |     |           |    
+           || |||||||   ||||  |||||  |     |           |   660 SspMI BfaI FspEI MaeI FspBI XspI LpnPI
+           || |||||||   ||||  |||||  |     |           |   |
+CCAATCGGCTTTTACGTGCACCACCGCGGGCGGCTGACGAGGGACTCACACCGAGAAACT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGTTAGCCGAAAATGCACGTGGTGGCGCCCGCCGACTGCTCCCTGAGTGTGGCTCTTTGA
+601                                                      660
+
+    665 FspEI
+    |                                                       
+    |666 TaaI Bst4CI HpyCH4III
+    ||                                                      
+    ||   670 HspAI HinP1I BsePI PauI PteI BssHII Hin6I
+    ||   |                                                  
+    ||   |671 GlaI
+    ||   ||                                                 
+    ||   ||672 BspFNI HhaI HspAI BstHHI HinP1I MvnI AspLEI Bsh1236I FspEI CfoI BstFNI BstUI Hin6I AccII
+    ||   |||                                                
+    ||   |||673 GlaI
+    ||   ||||                                               
+    ||   ||||674 HhaI BstHHI AspLEI CfoI
+    ||   |||||                                              
+    ||   |||||         684 HspAI HinP1I Hin6I
+    ||   |||||         |                                    
+    ||   |||||         |685 GlaI
+    ||   |||||         ||                                   
+    ||   |||||         ||686 Bse118I BsrFI HhaI KroI BstHHI MroNI AspLEI BssAI NgoMIV CfoI Cfr10I
+    ||   |||||         |||                                  
+    ||   |||||         |||687 MspI HaeII BsiSI BstH2I HapII BfoI HpaII
+    ||   |||||         ||||                                 
+    ||   |||||         ||||688 PdiI NaeI
+    ||   |||||         |||||                                
+    ||   |||||         |||||689 FspEI LpnPI
+    ||   |||||         ||||||                               
+    ||   |||||         |||||| 691 BstDEI HpyF3I DdeI
+    ||   |||||         |||||| |                             
+    ||   |||||         |||||| |      698 FspEI LpnPI
+    ||   |||||         |||||| |      |                      
+    ||   |||||         |||||| |      | 700 Hin1I FspEI AcyI BsaHI Hsp92I BstACI BssNI LpnPI
+    ||   |||||         |||||| |      | |                    
+    ||   |||||         |||||| |      | | 702 EcoRII StyD4I PspGI AjnI BstSCI Psp6I
+    ||   |||||         |||||| |      | | |                  
+    ||   |||||         |||||| |      | | | 704 MspR9I ScrFI Bst2UI BstNI Bme1390I BciT130I BseBI BmrFI MvaI
+    ||   |||||         |||||| |      | | | |                
+    ||   |||||         |||||| |      | | | |  707 Csp6I CviQI RsaNI
+    ||   |||||         |||||| |      | | | |  |             
+    ||   |||||         |||||| |      | | | |  |708 AfaI CseI RsaI HgaI
+    ||   |||||         |||||| |      | | | |  ||            
+    ||   |||||         |||||| |      | | | |  ||       716 FspEI LpnPI
+    ||   |||||         |||||| |      | | | |  ||       |    
+    ||   |||||         |||||| |      | | | |  ||       |  719 FspEI
+    ||   |||||         |||||| |      | | | |  ||       |  | 
+    ||   |||||         |||||| |      | | | |  ||       |  |720 FaiI
+    ||   |||||         |||||| |      | | | |  ||       |  ||
+AGACAGTTGCGCGCTGGAAGTAGCGCCGGCTAAGAAAGACGCCTGGTACAGCAGGACTAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCTGTCAACGCGCGACCTTCATCGCGGCCGATTCTTTCTGCGGACCATGTCGTCCTGATA
+661                                                      720
+
+      727 FokI
+      |                                                     
+      | 729 Csp6I CviQI RsaNI
+      | |                                                   
+      | |730 AfaI RsaI
+      | ||                                                  
+      | ||  733 BslI AfiI Bsc4I BseLI
+      | ||  |                                               
+      | ||  | 735 TspDTI
+      | ||  | |                                             
+      | ||  | |736 FspEI
+      | ||  | ||                                            
+      | ||  | ||  739 FspEI
+      | ||  | ||  |                                         
+      | ||  | ||  |740 FspEI BstF5I BtsCI BseGI
+      | ||  | ||  ||                                        
+      | ||  | ||  ||         750 BslI AfiI Bsc4I BseLI
+      | ||  | ||  ||         |                              
+      | ||  | ||  ||         |751 MslI RseI AleI FspEI SmiMI OliI
+      | ||  | ||  ||         ||                             
+      | ||  | ||  ||         ||  754 MnlI
+      | ||  | ||  ||         ||  |                          
+      | ||  | ||  ||         ||  | 756 PfeI HinfI TfiI
+      | ||  | ||  ||         ||  | |                        
+      | ||  | ||  ||         ||  | |757 FspEI
+      | ||  | ||  ||         ||  | ||                       
+      | ||  | ||  ||         ||  | || 759 TaqI FspEI
+      | ||  | ||  ||         ||  | || |                     
+      | ||  | ||  ||         ||  | || |     765 AsuHPI HphI
+      | ||  | ||  ||         ||  | || |     |               
+      | ||  | ||  ||         ||  | || |     |766 BspFNI MvnI BspACI Bsh1236I AciI BstFNI BstUI SsiI AccII
+      | ||  | ||  ||         ||  | || |     ||              
+      | ||  | ||  ||         ||  | || |     ||767 BisI Fsp4HI GluI SatI Fnu4HI
+      | ||  | ||  ||         ||  | || |     |||             
+      | ||  | ||  ||         ||  | || |     |||768 BlsI PkrI
+      | ||  | ||  ||         ||  | || |     ||||            
+      | ||  | ||  ||         ||  | || |     ||||769 TauI
+      | ||  | ||  ||         ||  | || |     |||||           
+      | ||  | ||  ||         ||  | || |     |||||770 FspEI
+      | ||  | ||  ||         ||  | || |     ||||||          
+      | ||  | ||  ||         ||  | || |     ||||||     776 MaeIII
+      | ||  | ||  ||         ||  | || |     ||||||     |    
+      | ||  | ||  ||         ||  | || |     ||||||     | 778 SfaNI LweI BmsI
+      | ||  | ||  ||         ||  | || |     ||||||     | |  
+GAAACCCGTACAAAGGCAACATCCTCACTTCGGTGAATCGAAACGCGGCATCAAGGTTAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTTTGGGCATGTTTCCGTTGTAGGAGTGAAGCCACTTAGCTTTGCGCCGTAGTTCCAATG
+721                                                      780
+
+781 BfuI BciVI BsuI
+|                                                           
+|                       805 FspEI LpnPI
+|                       |                                   
+|                       |  808 FspEI
+|                       |  |                                
+|                       |  |809 FspEI
+|                       |  ||                               
+|                       |  ||   813 BccI
+|                       |  ||   |                           
+|                       |  ||   |  816 BstDEI HpyF3I DdeI
+|                       |  ||   |  |                        
+|                       |  ||   |  |817 FspEI
+|                       |  ||   |  ||                       
+|                       |  ||   |  ||818 FspEI
+|                       |  ||   |  |||                      
+|                       |  ||   |  |||       826 FspEI AsuHPI HphI
+|                       |  ||   |  |||       |              
+|                       |  ||   |  |||       |827 FspEI
+|                       |  ||   |  |||       ||             
+|                       |  ||   |  |||       ||828 FspEI
+|                       |  ||   |  |||       |||            
+|                       |  ||   |  |||       |||         838 FspEI LpnPI
+|                       |  ||   |  |||       |||         |  
+|                       |  ||   |  |||       |||         |839 XmaJI ErhI BssT1I StyI BsaJI EcoT14I BseDI AspA2I BsmFI BlnI AvrII BssECI Eco130I FaqI BslFI
+|                       |  ||   |  |||       |||         || 
+|                       |  ||   |  |||       |||         ||840 SspMI BfaI MaeI FspBI XspI
+|                       |  ||   |  |||       |||         |||
+TTTTTGGATACCTGAAACAAAACCCATCGTAGTCCTTAGACTTGGGACACTTTCACCCCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAAACCTATGGACTTTGTTTTGGGTAGCATCAGGAATCTGAACCCTGTGAAAGTGGGGA
+781                                                      840
+
+  843 Cfr13I BmgT120I EcoO109I AoxI Bsp120I Sau96I PspOMI AspS9I PspPI
+  |                                                         
+  |844 Cfr13I BmgT120I Sau96I AspS9I PspPI
+  ||                                                        
+  ||845 BshFI NlaIV BspANI BsuRI BmiI PspN4I BspLI BsnI HaeIII
+  |||                                                       
+  ||| 847 Eco24I BaeGI BseSI ApaI BstSLI SduI FriOI EcoT38I Bsp1286I BanII MhlI
+  ||| |                                                     
+  ||| | 849 FaiI
+  ||| | |                                                   
+  ||| | |850 FspEI
+  ||| | ||                                                  
+  ||| | ||851 FspEI
+  ||| | |||                                                 
+  ||| | |||852 BslI AfiI Bsc4I FspEI BseLI
+  ||| | ||||                                                
+  ||| | ||||853 Hpy188III
+  ||| | |||||                                               
+  ||| | |||||     859 FspEI
+  ||| | |||||     |                                         
+  ||| | |||||     |860 FspEI
+  ||| | |||||     ||                                        
+  ||| | |||||     ||  863 Hin1I AcyI BsaHI Hsp92I BstACI BssNI
+  ||| | |||||     ||  |                                     
+  ||| | |||||     ||  |  866 TspGWI
+  ||| | |||||     ||  |  |                                  
+  ||| | |||||     ||  |  |    871 CseI HgaI
+  ||| | |||||     ||  |  |    |                             
+  ||| | |||||     ||  |  |    | 873 AgsI
+  ||| | |||||     ||  |  |    | |                           
+  ||| | |||||     ||  |  |    | |     879 Csp6I CviQI FspEI FspEI RsaNI
+  ||| | |||||     ||  |  |    | |     |                     
+  ||| | |||||     ||  |  |    | |     |880 AfaI RsaI
+  ||| | |||||     ||  |  |    | |     ||                    
+  ||| | |||||     ||  |  |    | |     ||    885 Hpy188I
+  ||| | |||||     ||  |  |    | |     ||    |               
+  ||| | |||||     ||  |  |    | |     ||    | 887 BccI MaeII HpyCH4IV HpySE526I
+  ||| | |||||     ||  |  |    | |     ||    | |             
+  ||| | |||||     ||  |  |    | |     ||    | |888 Pfl23II BsiWI PspLI
+  ||| | |||||     ||  |  |    | |     ||    | ||            
+  ||| | |||||     ||  |  |    | |     ||    | ||889 Csp6I CviQI FspEI RsaNI Hpy99I
+  ||| | |||||     ||  |  |    | |     ||    | |||           
+  ||| | |||||     ||  |  |    | |     ||    | |||890 AfaI FspEI TaiI RsaI
+  ||| | |||||     ||  |  |    | |     ||    | ||||          
+  ||| | |||||     ||  |  |    | |     ||    | ||||      897 FspEI
+  ||| | |||||     ||  |  |    | |     ||    | ||||      |   
+AGGGCCCATATCTGGAAATAGACGCCAAGTTCAATCCGTACTCCGACGTACGATGGAACA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCCCGGGTATAGACCTTTATCTGCGGTTCAAGTTAGGCATGAGGCTGCATGCTACCTTGT
+841                                                      900
+
+901 TaaI Bst4CI HpyCH4III
+|                                                           
+|    906 BtsIMutI TspRI TscAI
+|    |                                                      
+|    | 908 MmeI
+|    | |                                                    
+|    | |909 Tsp45I MaeIII TspDTI NmuCI TseFI
+|    | ||                                                   
+|    | ||  912 BstF5I BtsCI BseGI
+|    | ||  |                                                
+|    | ||  |      919 FokI
+|    | ||  |      |                                         
+|    | ||  |      |     925 FspEI
+|    | ||  |      |     |                                   
+|    | ||  |      |     |926 FaiI
+|    | ||  |      |     ||                                  
+|    | ||  |      |     ||   930 FspEI
+|    | ||  |      |     ||   |                              
+|    | ||  |      |     ||   |931 FspEI
+|    | ||  |      |     ||   ||                             
+|    | ||  |      |     ||   ||932 FspEI
+|    | ||  |      |     ||   |||                            
+|    | ||  |      |     ||   |||  935 BspFNI HspAI HinP1I MvnI Bsh1236I BsePI PauI PteI BstFNI BstUI BssHII Hin6I AccII
+|    | ||  |      |     ||   |||  |                         
+|    | ||  |      |     ||   |||  |936 GlaI
+|    | ||  |      |     ||   |||  ||                        
+|    | ||  |      |     ||   |||  ||937 BspFNI HhaI HspAI BstHHI HinP1I MvnI AspLEI Bsh1236I CfoI BstFNI BstUI Hin6I AccII
+|    | ||  |      |     ||   |||  |||                       
+|    | ||  |      |     ||   |||  |||938 GlaI
+|    | ||  |      |     ||   |||  ||||                      
+|    | ||  |      |     ||   |||  ||||939 HhaI BstHHI AspLEI CfoI
+|    | ||  |      |     ||   |||  |||||                     
+|    | ||  |      |     ||   |||  |||||940 HpyAV MspI BsiSI HapII HpaII
+|    | ||  |      |     ||   |||  ||||||                    
+|    | ||  |      |     ||   |||  ||||||941 FspEI
+|    | ||  |      |     ||   |||  |||||||                   
+|    | ||  |      |     ||   |||  |||||||942 Cfr13I BmgT120I CspI AvaII FspEI VpaK11BI Sau96I CpoI RsrII SinI Bme18I AspS9I Eco47I Rsr2I PspPI
+|    | ||  |      |     ||   |||  ||||||||                  
+|    | ||  |      |     ||   |||  ||||||||943 FspEI
+|    | ||  |      |     ||   |||  |||||||||                 
+|    | ||  |      |     ||   |||  |||||||||944 StyD4I BstSCI
+|    | ||  |      |     ||   |||  ||||||||||                
+|    | ||  |      |     ||   |||  ||||||||||945 BsaJI MspI BsiSI HapII BseDI HpaII BssECI
+|    | ||  |      |     ||   |||  |||||||||||               
+|    | ||  |      |     ||   |||  |||||||||||946 MspR9I BslI AsuC2I AfiI ScrFI BpuMI Bsc4I FspEI Bme1390I BseLI NciI BmrFI BcnI
+|    | ||  |      |     ||   |||  ||||||||||||              
+|    | ||  |      |     ||   |||  ||||||||||||947 BoxI PshAI BstPAI
+|    | ||  |      |     ||   |||  |||||||||||||             
+|    | ||  |      |     ||   |||  ||||||||||||| 949 Cfr13I BmgT120I AvaII FspEI VpaK11BI Sau96I SinI Bme18I AspS9I Eco47I PspPI
+|    | ||  |      |     ||   |||  ||||||||||||| |           
+|    | ||  |      |     ||   |||  ||||||||||||| |950 NlaIV BmiI PspN4I BspLI
+|    | ||  |      |     ||   |||  ||||||||||||| ||          
+|    | ||  |      |     ||   |||  ||||||||||||| || 952 BspACI AciI SsiI
+|    | ||  |      |     ||   |||  ||||||||||||| || |        
+|    | ||  |      |     ||   |||  ||||||||||||| || |953 FspEI LpnPI
+|    | ||  |      |     ||   |||  ||||||||||||| || ||       
+|    | ||  |      |     ||   |||  ||||||||||||| || ||    958 FspEI LpnPI
+|    | ||  |      |     ||   |||  ||||||||||||| || ||    |  
+|    | ||  |      |     ||   |||  ||||||||||||| || ||    |959 HspAI HinP1I Hin6I
+|    | ||  |      |     ||   |||  ||||||||||||| || ||    || 
+|    | ||  |      |     ||   |||  ||||||||||||| || ||    ||960 GlaI
+|    | ||  |      |     ||   |||  ||||||||||||| || ||    |||
+GTGTGGATGTGACGAGCTTCATTTATACCCTTCGCGCGCCGGACCGGGGTCCGCAAGGCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CACACCTACACTGCTCGAAGTAAATATGGGAAGCGCGCGGCCTGGCCCCAGGCGTTCCGC
+901                                                      960
+
+961 BspFNI HhaI BstHHI MvnI BspACI AspLEI Bsh1236I AciI CfoI BstFNI BstUI SsiI AccII
+|                                                           
+|962 BisI Fsp4HI GluI SatI Fnu4HI
+||                                                          
+||963 BlsI PkrI
+|||                                                         
+|||964 BspACI AciI SsiI TauI
+||||                                                        
+||||965 FspEI
+|||||                                                       
+||||| 967 ApaLI VneI Alw44I
+||||| |                                                     
+||||| | 969 HpyCH4V Hpy166II Hpy8I
+||||| | |                                                   
+||||| | | 971 BaeGI BseSI Bbv12I BstSLI BsiHKAI SduI Bsp1286I Alw21I MhlI
+||||| | | |                                                 
+||||| | | |    976 MunI MfeI
+||||| | | |    |                                            
+||||| | | |    |                 994 TaaI Bst4CI HpyCH4III
+||||| | | |    |                 |                          
+CGGCGGTGCACAAGCAATTGACAACTAACCACCGTGTATT
+||||||||||||||||||||||||||||||||||||||||
+GCCGCCACGTGTTCGTTAACTGTTGATTGGTGGCACATAA
+961                                 1000
+
+
+   Enzymes which do not cut the sequence.
+
+AclWI     AlwI      ApeKI     BbvI      BceAI     Bse1I     BseNI     BseXI     
+BspPI     BsrI      BstV1I    LmnI      Lsp1109I  TseI      AatII     Acc16I    
+Acc65I    AccI      AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AfeI      AflII     AflIII    AgeI      AhlI      AjiI      Ama87I    Aor13HI   
+Aor51HI   ApoI      AseI      AsiGI     Asp718I   AsuNHI    AvaI      BalI      
+BamHI     BauI      BbrPI     BbsI      BclI      BcuI      BfrI      BglII     
+BmcAI     BmeT110I  BmgBI     BmrI      BmtI      BmuI      BpiI      BsaI      
+BsaWI     Bse3DI    BseAI     BseMI     BseRI     BseX3I    BseYI     BsgI      
+BshTI     BsiHKCI   BsmI      Bso31I    BsoBI     Bsp13I    Bsp1407I  Bsp68I    
+BspEI     BspHI     BspMAI    BspOI     BspTI     BspTNI    BsrDI     BsrGI     
+BssNAI    BssSI     Bst1107I  Bst2BI    BstAFI    BstAUI    BstNSI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     BtgZI     BtrI      BtsI      
+BtuMI     CciI      Cfr9I     CspAI     DinI      DraI      EaeI      EagI      
+EciI      Ecl136II  EclXI     Eco105I   Eco147I   Eco31I    Eco32I    Eco47III  
+Eco52I    Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     
+EgeI      EheI      FauNDI    FbaI      FblI      FspI      GsaI      HincII    
+HindII    HpaI      KasI      Kpn2I     KpnI      Ksp22I    KspAI     MflI      
+MlsI      MluI      MluNI     Mly113I   Mox20I    MroI      MscI      Msp20I    
+MspCI     Mva1269I  NarI      NdeI      NheI      NmeAIII   NruI      NsbI      
+NspI      PaeI      PaeR7I    PagI      PceI      PciI      PctI      PinAI     
+PluTI     PmaCI     PmlI      PscI      PshBI     Psp124BI  Psp1406I  PspCI     
+PspFI     PstI      PsuI      PvuII     RruI      SacI      SalI      ScaI      
+SfoI      Sfr274I   SlaI      SmaI      SnaBI     SpeI      SphI      SseBI     
+SspDI     SstI      StuI      TaqII     TatI      TspMI     Vha464I   VspI      
+XapI      XbaI      XceI      XhoI      XmaI      XmiI      ZraI      ZrmI      
+AarI      AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  
+BspQI     BstEII    BstPI     Bsu36I    CsiI      Eco81I    Eco91I    EcoO65I   
+KflI      LguI      MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    
+PspEI     PspPPI    SapI      SexAI     AbsI      AscI      AsiSI     CciNI     
+FseI      FspAI     MauBI     MreI      MssI      NotI      PacI      PalAI     
+PmeI      PspXI     RgaI      RigI      SbfI      SdaI      SfaAI     SgfI      
+SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      AdeI      
+AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     PsyI      Tth111I   
+BsaBI     Bse8I     BseJI     AccB7I    AhdI      BaeI      BglI      BmeRI     
+BstAPI    BstENI    DriI      Eam1105I  EcoNI     FalI      PflMI     Van91I    
+XagI      AasI      BcgI      BstXI     CspCI     DrdI      DseDI     AloI      
+ArsI      BarI      PsrI      SfiI      AjuI      
+
+   Enzymes that cut the restricted sequence(s).
+
+AbaSI     AluBI     AluI      CviJI     CviKI_1   MluCI     
+MspJI     SetI      SgeI      Sse9I     TasI      BstC8I    
+Cac8I     HindIII   
+
+
+
+---------------------------------------------------------
+Restriction Digest Analysis on Sequence: Example-DNA-2
+---------------------------------------------------------
+
+     6 FaiI
+     |                                                      
+     | 8 BanI AccB1I BshNI BspT107I
+     | |                                                    
+     | | 10 NlaIV BmiI PspN4I BspLI
+     | | |                                                  
+     | | |11 EcoRII StyD4I PspGI AjnI BstSCI Psp6I
+     | | ||                                                 
+     | | ||12 BsaJI BseDI BssECI
+     | | |||                                                
+     | | |||13 MspR9I ScrFI Bst2UI BstNI Bme1390I BciT130I BseBI BmrFI MvaI
+     | | ||||                                               
+     | | ||||     19 FspEI
+     | | ||||     |                                         
+     | | ||||     | 21 Tru9I SaqAI Tru1I MseI
+     | | ||||     | |                                       
+     | | ||||     | |   25 FspEI LpnPI
+     | | ||||     | |   |                                   
+     | | ||||     | |   |  28 HinfI
+     | | ||||     | |   |  |                                
+     | | ||||     | |   |  |       36 LmnI PleI PpsI
+     | | ||||     | |   |  |       |                        
+     | | ||||     | |   |  |       |37 SchI MlyI
+     | | ||||     | |   |  |       ||                       
+     | | ||||     | |   |  |       || 39 EcoICRI FspEI Ecl136II Eco53kI
+     | | ||||     | |   |  |       || |                     
+     | | ||||     | |   |  |       || | 41 Eco24I SacI Bbv12I BsiHKAI SduI FriOI SstI EcoT38I Bsp1286I Psp124BI BanII Alw21I MhlI
+     | | ||||     | |   |  |       || | |                   
+     | | ||||     | |   |  |       || | |         51 NmeAIII
+     | | ||||     | |   |  |       || | |         |         
+     | | ||||     | |   |  |       || | |         |   55 Hpy166II Hpy8I
+     | | ||||     | |   |  |       || | |         |   |     
+     | | ||||     | |   |  |       || | |         |   |  58 BspACI AciI SsiI
+     | | ||||     | |   |  |       || | |         |   |  |  
+CGTTATGGCACCAGGGAGTTTAAGCCGAGTCAATGGAGCTCGCAATACAGAGTTTACCGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCAATACCGTGGTCCCTCAAATTCGGCTCAGTTACCTCGAGCGTTATGTCTCAAATGGCG
+1                                                         60
+
+        69 SfaNI LweI BmsI
+        |                                                   
+        | 71 FspEI
+        | |                                                 
+        | |         81 FspEI
+        | |         |                                       
+        | |         |82 FspEI
+        | |         ||                                      
+        | |         ||83 TaaI Bst4CI HpyCH4III
+        | |         |||                                     
+        | |         ||| 85 Sau3AI BssMI Bsp143I MboI BstMBI NdeII Kzo9I DpnII
+        | |         ||| |                                   
+        | |         ||| | 87 MalI DpnI
+        | |         ||| | |                                 
+        | |         ||| | |88 TaqI BstKTI
+        | |         ||| | ||                                
+        | |         ||| | ||               104 Bse3DI BseMI BsrDI
+        | |         ||| | ||               |                
+        | |         ||| | ||               |105 FspEI
+        | |         ||| | ||               ||               
+        | |         ||| | ||               || 107 BceAI
+        | |         ||| | ||               || |             
+        | |         ||| | ||               || |    112 FspEI
+        | |         ||| | ||               || |    |        
+        | |         ||| | ||               || |    |113 BstDEI HpyF3I DdeI
+        | |         ||| | ||               || |    ||       
+        | |         ||| | ||               || |    ||   117 FspEI
+        | |         ||| | ||               || |    ||   |   
+        | |         ||| | ||               || |    ||   |  120 MnlI
+        | |         ||| | ||               || |    ||   |  |
+ATCTTGCCCTAACTGACAAACTGTGATCGACCACAAGCCAAGCCATTGCCTCTTAGACAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TAGAACGGGATTGACTGTTTGACACTAGCTGGTGTTCGGTTCGGTAACGGAGAATCTGTG
+61                                                       120
+
+  123 FspEI
+  |                                                         
+  |124 MaeIII
+  ||                                                        
+  ||     130 TaaI Bst4CI HpyCH4III
+  ||     |                                                  
+  ||     |  133 FspEI
+  ||     |  |                                               
+  ||     |  |134 FspEI
+  ||     |  ||                                              
+  ||     |  ||135 BtsIMutI FspEI TspRI TscAI
+  ||     |  |||                                             
+  ||     |  |||136 FspEI
+  ||     |  ||||                                            
+  ||     |  ||||137 FaiI
+  ||     |  |||||                                           
+  ||     |  |||||  140 FspEI
+  ||     |  |||||  |                                        
+  ||     |  |||||  |141 FauI
+  ||     |  |||||  ||                                       
+  ||     |  |||||  ||      148 BspACI AciI SsiI
+  ||     |  |||||  ||      |                                
+  ||     |  |||||  ||      |   152 TspDTI
+  ||     |  |||||  ||      |   |                            
+  ||     |  |||||  ||      |   |153 FatI
+  ||     |  |||||  ||      |   ||                           
+  ||     |  |||||  ||      |   ||154 CviAII
+  ||     |  |||||  ||      |   |||                          
+  ||     |  |||||  ||      |   |||155 FaiI
+  ||     |  |||||  ||      |   ||||                         
+  ||     |  |||||  ||      |   |||| 157 Hsp92II NlaIII Hin1II FaeI
+  ||     |  |||||  ||      |   |||| |                       
+  ||     |  |||||  ||      |   |||| |         167 FspEI
+  ||     |  |||||  ||      |   |||| |         |             
+  ||     |  |||||  ||      |   |||| |         |168 FspEI
+  ||     |  |||||  ||      |   |||| |         ||            
+  ||     |  |||||  ||      |   |||| |         ||      175 MnlI
+  ||     |  |||||  ||      |   |||| |         ||      |     
+  ||     |  |||||  ||      |   |||| |         ||      |176 MaeII HpyCH4IV HpySE526I
+  ||     |  |||||  ||      |   |||| |         ||      ||    
+  ||     |  |||||  ||      |   |||| |         ||      ||177 AjiI BtrI BmgBI
+  ||     |  |||||  ||      |   |||| |         ||      |||   
+  ||     |  |||||  ||      |   |||| |         ||      ||| 179 TaiI
+  ||     |  |||||  ||      |   |||| |         ||      ||| | 
+  ||     |  |||||  ||      |   |||| |         ||      ||| |180 BsaJI BseDI BssECI
+  ||     |  |||||  ||      |   |||| |         ||      ||| ||
+GCCGTTACAGTGATTATGAAAACTTTGCGGGGCATGGCTACGACTTGTTCAGCCACGTCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGGCAATGTCACTAATACTTTTGAAACGCCCCGTACCGATGCTGAACAAGTCGGTGCAGG
+121                                                      180
+
+181 Hpy188I
+|                                                           
+|     187 FspEI
+|     |                                                     
+|     |     193 FspEI
+|     |     |                                               
+|     |     |           205 MslI RseI SmiMI
+|     |     |           |                                   
+|     |     |           |206 FspEI
+|     |     |           ||                                  
+|     |     |           || 208 FaiI
+|     |     |           || |                                
+|     |     |           || |  211 MboII FspEI
+|     |     |           || |  |                             
+|     |     |           || |  |212 FspEI
+|     |     |           || |  ||                            
+|     |     |           || |  ||213 FspEI
+|     |     |           || |  |||                           
+|     |     |           || |  |||214 FokI
+|     |     |           || |  ||||                          
+|     |     |           || |  ||||   218 FspEI
+|     |     |           || |  ||||   |                      
+|     |     |           || |  ||||   |  221 FspEI
+|     |     |           || |  ||||   |  |                   
+|     |     |           || |  ||||   |  |     227 BstF5I BsaXI BtsCI BseGI
+|     |     |           || |  ||||   |  |     |             
+|     |     |           || |  ||||   |  |     | 229 MnlI
+|     |     |           || |  ||||   |  |     | |           
+|     |     |           || |  ||||   |  |     | |230 FspEI
+|     |     |           || |  ||||   |  |     | ||          
+|     |     |           || |  ||||   |  |     | ||231 StyD4I BsaJI BseDI BstSCI BssECI
+|     |     |           || |  ||||   |  |     | |||         
+|     |     |           || |  ||||   |  |     | |||232 BslI AfiI Bsc4I BseLI
+|     |     |           || |  ||||   |  |     | ||||        
+|     |     |           || |  ||||   |  |     | ||||233 MspR9I AsuC2I ScrFI BpuMI MspI BsiSI HapII Bme1390I HpaII NciI BmrFI BcnI
+|     |     |           || |  ||||   |  |     | |||||       
+|     |     |           || |  ||||   |  |     | ||||| 235 BccI
+|     |     |           || |  ||||   |  |     | ||||| |     
+|     |     |           || |  ||||   |  |     | ||||| |   239 FspEI
+|     |     |           || |  ||||   |  |     | ||||| |   | 
+|     |     |           || |  ||||   |  |     | ||||| |   |240 Tru9I SaqAI Tru1I FspEI MseI
+|     |     |           || |  ||||   |  |     | ||||| |   ||
+GAGGGCAGAAACCTATCCCCATTTGTATGTTCAGCTATCTTCTACCCATCCCCGGAGGTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTCCCGTCTTTGGATAGGGGTAAACATACAAGTCGATAGAAGATGGGTAGGGGCCTCCAA
+181                                                      240
+
+  243 FspEI
+  |                                                         
+  |244 FspEI
+  ||                                                        
+  ||245 FspEI SfaNI LweI BmsI
+  |||                                                       
+  |||246 FspEI LpnPI
+  ||||                                                      
+  ||||  249 FspEI
+  ||||  |                                                   
+  ||||  |      256 Eam1104I Bst6I EarI
+  ||||  |      |                                            
+  ||||  |      |257 BsaXI MnlI
+  ||||  |      ||                                           
+  ||||  |      ||258 BspACI AciI SsiI
+  ||||  |      |||                                          
+  ||||  |      |||   262 FokI
+  ||||  |      |||   |                                      
+  ||||  |      |||   | 264 MwoI HpyF10VI BstMWI
+  ||||  |      |||   | |                                    
+  ||||  |      |||   | |  267 FspEI
+  ||||  |      |||   | |  |                                 
+  ||||  |      |||   | |  |268 FspEI
+  ||||  |      |||   | |  ||                                
+  ||||  |      |||   | |  || 270 Hpy188III
+  ||||  |      |||   | |  || |                              
+  ||||  |      |||   | |  || |271 TaqI
+  ||||  |      |||   | |  || ||                             
+  ||||  |      |||   | |  || ||272 Sau3AI BssMI Bsp143I MboI BstMBI NdeII Kzo9I DpnII
+  ||||  |      |||   | |  || |||                            
+  ||||  |      |||   | |  || |||273 MboII
+  ||||  |      |||   | |  || ||||                           
+  ||||  |      |||   | |  || ||||274 MalI DpnI
+  ||||  |      |||   | |  || |||||                          
+  ||||  |      |||   | |  || |||||275 BstF5I BtsCI BstKTI BseGI
+  ||||  |      |||   | |  || ||||||                         
+  ||||  |      |||   | |  || |||||| 277 PcsI
+  ||||  |      |||   | |  || |||||| |                       
+  ||||  |      |||   | |  || |||||| |  280 BsaJI BseDI BstDSI BssECI BtgI
+  ||||  |      |||   | |  || |||||| |  |                    
+  ||||  |      |||   | |  || |||||| |  |           292 FspEI
+  ||||  |      |||   | |  || |||||| |  |           |        
+  ||||  |      |||   | |  || |||||| |  |           |293 FspEI
+  ||||  |      |||   | |  || |||||| |  |           ||       
+  ||||  |      |||   | |  || |||||| |  |           ||    298 BsmFI FaqI BslFI
+  ||||  |      |||   | |  || |||||| |  |           ||    |  
+  ||||  |      |||   | |  || |||||| |  |           ||    |299 BcgI
+  ||||  |      |||   | |  || |||||| |  |           ||    || 
+AAGTAGGTTGTGAGATGCGGAAGAGGCTCTCGATCATCCCGTGGGACATCAACCTTTCCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTCATCCAACACTCTACGCCTTCTCCGAGAGCTAGTAGGGCACCCTGTAGTTGGAAAGGG
+241                                                      300
+
+   304 FspEI
+   |                                                        
+   |305 FspEI
+   ||                                                       
+   || 307 FspEI
+   || |                                                     
+   || |  310 FspEI
+   || |  |                                                  
+   || |  | 312 FspEI
+   || |  | |                                                
+   || |  | |313 FspEI
+   || |  | ||                                               
+   || |  | || 315 BspACI AciI SsiI
+   || |  | || |                                             
+   || |  | || | 317 AccBSI BsrBI MbiI
+   || |  | || | |                                           
+   || |  | || | |318 BsiHKCI BsoBI BmeT110I Eco88I Ama87I AvaI
+   || |  | || | ||                                          
+   || |  | || | ||319 BslI AfiI Bsc4I BseLI
+   || |  | || | |||                                         
+   || |  | || | |||  322 FauI
+   || |  | || | |||  |                                      
+   || |  | || | |||  |  325 FaiI
+   || |  | || | |||  |  |                                   
+   || |  | || | |||  |  |326 FspEI
+   || |  | || | |||  |  ||                                  
+   || |  | || | |||  |  ||327 FspEI
+   || |  | || | |||  |  |||                                 
+   || |  | || | |||  |  |||328 FspEI
+   || |  | || | |||  |  ||||                                
+   || |  | || | |||  |  ||||    333 BcgI
+   || |  | || | |||  |  ||||    |                           
+   || |  | || | |||  |  ||||    |     339 Asp700I MroXI XmnI PdmI
+   || |  | || | |||  |  ||||    |     |                     
+   || |  | || | |||  |  ||||    |     |     345 Hpy188I
+   || |  | || | |||  |  ||||    |     |     |               
+   || |  | || | |||  |  ||||    |     |     |    350 HpyAV
+   || |  | || | |||  |  ||||    |     |     |    |          
+   || |  | || | |||  |  ||||    |     |     |    |  353 FspEI
+   || |  | || | |||  |  ||||    |     |     |    |  |       
+TTGATAAAGCACCCCGCTCGGGTATGGCAGAGAGAACGCCTTCTGAATTGTGCTATCCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AACTATTTCGTGGGGCGAGCCCATACCGTCTCTCTTGCGGAAGACTTAACACGATAGGAA
+301                                                      360
+
+361 TaqI
+|                                                           
+|      368 HpyAV
+|      |                                                    
+|      |  371 FspEI
+|      |  |                                                 
+|      |  |    376 FspEI
+|      |  |    |                                            
+|      |  |    | 378 FspEI
+|      |  |    | |                                          
+|      |  |    | |                 396 FspEI
+|      |  |    | |                 |                        
+|      |  |    | |                 |                  415 FspEI
+|      |  |    | |                 |                  |     
+CGACCTTATCAAAGCTTGCTACCAATAATTAGGATTATTGCCTTGCGACAGACCTCCTAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTGGAATAGTTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATG
+361                                                      420
+
+   424 BtsIMutI BtsI MnlI
+   |                                                        
+   |  427 FspEI
+   |  |                                                     
+   |  |  430 FspEI
+   |  |  |                                                  
+   |  |  |431 TspRI TscAI
+   |  |  ||                                                 
+   |  |  ||        440 MnlI
+   |  |  ||        |                                        
+   |  |  ||        | 442 SspMI BfaI MaeI FspBI XspI
+   |  |  ||        | |                                      
+   |  |  ||        | |443 FspEI
+   |  |  ||        | ||                                     
+   |  |  ||        | ||         453 BtsIMutI TspRI TscAI
+   |  |  ||        | ||         |                           
+   |  |  ||        | ||         |      460 FspEI
+   |  |  ||        | ||         |      |                    
+   |  |  ||        | ||         |      |461 FspEI
+   |  |  ||        | ||         |      ||                   
+   |  |  ||        | ||         |      ||    466 MwoI HpyF10VI BstMWI
+   |  |  ||        | ||         |      ||    |              
+   |  |  ||        | ||         |      ||    |467 BspACI AciI SsiI
+   |  |  ||        | ||         |      ||    ||             
+   |  |  ||        | ||         |      ||    || 469 AccBSI BsrBI MbiI
+   |  |  ||        | ||         |      ||    || |           
+   |  |  ||        | ||         |      ||    || |    474 SspMI BfaI MaeI FspBI FauI XspI
+   |  |  ||        | ||         |      ||    || |    |      
+   |  |  ||        | ||         |      ||    || |    |    479 FspEI
+   |  |  ||        | ||         |      ||    || |    |    | 
+   |  |  ||        | ||         |      ||    || |    |    |480 FspEI
+   |  |  ||        | ||         |      ||    || |    |    ||
+TCACACTGCCTCACATTGAGCTAGTCAGTGAGCGATTAGCTTGACCCGCTCTCTAGGGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTGTGACGGAGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAG
+421                                                      480
+
+481 Hpy188III FspEI
+|                                                           
+|482 BspFNI MvnI Bsh1236I FspEI RruI Bsp68I BtuMI BstFNI BstUI NruI AccII
+||                                                          
+||   486 Csp6I CviQI RsaNI
+||   |                                                      
+||   |487 AfaI RsaI
+||   ||                                                     
+||   ||488 MaeII FspEI HpyCH4IV HpySE526I
+||   |||                                                    
+||   |||489 BstBAI Ppu21I BsaAI
+||   ||||                                                   
+||   |||| 491 TaiI
+||   |||| |                                                 
+||   |||| | 493 FspEI LpnPI
+||   |||| | |                                               
+||   |||| | |494 FspEI
+||   |||| | ||                                              
+||   |||| | ||495 SspMI BfaI MaeI FspBI XspI
+||   |||| | |||                                             
+||   |||| | |||     501 NlaIV BmiI PspN4I BspLI
+||   |||| | |||     |                                       
+||   |||| | |||     |502 Eco24I AccIII BsaWI Bsp13I BspEI MroI Aor13HI Kpn2I SduI BseAI FriOI EcoT38I Bsp1286I BanII MhlI
+||   |||| | |||     ||                                      
+||   |||| | |||     ||503 Hpy188III MspI BsiSI HapII HpaII
+||   |||| | |||     |||                                     
+||   |||| | |||     ||| 505 LmnI
+||   |||| | |||     ||| |                                   
+||   |||| | |||     ||| |      512 BseNI Bse1I BsrI
+||   |||| | |||     ||| |      |                            
+||   |||| | |||     ||| |      |  515 FaiI
+||   |||| | |||     ||| |      |  |                         
+||   |||| | |||     ||| |      |  |516 FspEI LpnPI
+||   |||| | |||     ||| |      |  ||                        
+||   |||| | |||     ||| |      |  ||517 FaiI BmrI BmuI
+||   |||| | |||     ||| |      |  |||                       
+||   |||| | |||     ||| |      |  |||   521 TaqI
+||   |||| | |||     ||| |      |  |||   |                   
+||   |||| | |||     ||| |      |  |||   | 523 HinfI
+||   |||| | |||     ||| |      |  |||   | |                 
+||   |||| | |||     ||| |      |  |||   | |    528 Sau3AI BssMI Bsp143I Hpy188I MboI BstMBI NdeII Kzo9I DpnII
+||   |||| | |||     ||| |      |  |||   | |    |            
+||   |||| | |||     ||| |      |  |||   | |    | 530 MalI DpnI
+||   |||| | |||     ||| |      |  |||   | |    | |          
+||   |||| | |||     ||| |      |  |||   | |    | |531 PleI PpsI BstKTI
+||   |||| | |||     ||| |      |  |||   | |    | ||         
+||   |||| | |||     ||| |      |  |||   | |    | ||532 SchI MlyI
+||   |||| | |||     ||| |      |  |||   | |    | |||        
+GCGAGTACGTGAGCTAGGGCTCCGGACTGGGCTATATAGTCGAGTCTGATCTCGCCCCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGCTCATGCACTCGATCCCGAGGCCTGACCCGATATATCAGCTCAGACTAGAGCGGGGCT
+481                                                      540
+
+      547 HpyCH4V
+      |                                                     
+      | 549 FspEI
+      | |                                                   
+      | |550 FspEI
+      | ||                                                  
+      | ||551 FspEI
+      | |||                                                 
+      | |||     557 FspEI
+      | |||     |                                           
+      | |||     |    562 MnlI
+      | |||     |    |                                      
+      | |||     |    |  565 FspEI
+      | |||     |    |  |                                   
+      | |||     |    |  |    570 FatI
+      | |||     |    |  |    |                              
+      | |||     |    |  |    |571 CviAII
+      | |||     |    |  |    ||                             
+      | |||     |    |  |    ||572 FaiI
+      | |||     |    |  |    |||                            
+      | |||     |    |  |    ||| 574 Hsp92II NlaIII Hin1II FaeI
+      | |||     |    |  |    ||| |                          
+      | |||     |    |  |    ||| |  577 FspEI
+      | |||     |    |  |    ||| |  |                       
+      | |||     |    |  |    ||| |  |       585 MwoI HpyF10VI MnlI BstMWI
+      | |||     |    |  |    ||| |  |       |               
+      | |||     |    |  |    ||| |  |       |  588 HpyCH4V
+      | |||     |    |  |    ||| |  |       |  |            
+      | |||     |    |  |    ||| |  |       |  |589 BssSI BauI FspEI Bst2BI
+      | |||     |    |  |    ||| |  |       |  ||           
+      | |||     |    |  |    ||| |  |       |  ||   593 FspEI
+      | |||     |    |  |    ||| |  |       |  ||   |       
+      | |||     |    |  |    ||| |  |       |  ||   |594 MwoI DraIII BanI HpyF10VI AccB1I BshNI AdeI BspT107I BstAPI BstMWI
+      | |||     |    |  |    ||| |  |       |  ||   ||      
+      | |||     |    |  |    ||| |  |       |  ||   || 596 NlaIV BmiI PspN4I BspLI
+      | |||     |    |  |    ||| |  |       |  ||   || |    
+CAACTGCAAACCTCAACTTTTTTAGATAACATGGTTAGCCGAAGTTGCACGAGGTGCCGA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTTGACGTTTGGAGTTGAAAAAATCTATTGTACCAATCGGCTTCAACGTGCTCCACGGCT
+541                                                      600
+
+601 FspEI
+|                                                           
+|602 BstMCI Bsh1285I BspACI BsaJI FspEI AciI BseDI BstDSI SsiI BssECI BsiEI BtgI
+||                                                          
+|| 604 BspFNI MvnI BspACI Bsh1236I AciI MspA1I BstFNI BstUI SsiI AccII
+|| |                                                        
+|| |605 Sfr303I SacII KspI SgrBI Cfr42I
+|| ||                                                       
+|| || 607 FspEI
+|| || |                                                     
+|| || |   611 FspEI
+|| || |   |                                                 
+|| || |   |  614 StyD4I BsaJI BseDI BstSCI BssECI
+|| || |   |  |                                              
+|| || |   |  |615 XmaI BsiHKCI StyD4I TspMI Cfr9I BsoBI BsaJI BmeT110I FspEI Eco88I Ama87I BseDI AvaI BstSCI BssECI
+|| || |   |  ||                                             
+|| || |   |  ||616 MspR9I LmnI AsuC2I ScrFI BpuMI MspI BsiSI HapII Bme1390I HpaII NciI BmrFI BcnI
+|| || |   |  |||                                            
+|| || |   |  |||617 MspR9I AsuC2I ScrFI BpuMI Bme1390I NciI BmrFI SmaI BcnI
+|| || |   |  ||||                                           
+|| || |   |  ||||  620 TspDTI
+|| || |   |  ||||  |                                        
+|| || |   |  ||||  |621 BslI AfiI Bsc4I BseLI
+|| || |   |  ||||  ||                                       
+|| || |   |  ||||  ||    626 NlaIV BmiI PspN4I BspLI
+|| || |   |  ||||  ||    |                                  
+|| || |   |  ||||  ||    |627 FspEI
+|| || |   |  ||||  ||    ||                                 
+|| || |   |  ||||  ||    ||628 FspEI
+|| || |   |  ||||  ||    |||                                
+|| || |   |  ||||  ||    |||629 FspEI LpnPI
+|| || |   |  ||||  ||    ||||                               
+|| || |   |  ||||  ||    ||||630 LmnI
+|| || |   |  ||||  ||    |||||                              
+|| || |   |  ||||  ||    |||||     636 Hpy188I
+|| || |   |  ||||  ||    |||||     |                        
+|| || |   |  ||||  ||    |||||     | 638 HpyAV
+|| || |   |  ||||  ||    |||||     | |                      
+|| || |   |  ||||  ||    |||||     | |  641 MaeII FspEI HpyCH4IV HpySE526I
+|| || |   |  ||||  ||    |||||     | |  |                   
+|| || |   |  ||||  ||    |||||     | |  |  644 TaiI
+|| || |   |  ||||  ||    |||||     | |  |  |                
+|| || |   |  ||||  ||    |||||     | |  |  |645 HpyCH4V
+|| || |   |  ||||  ||    |||||     | |  |  ||               
+|| || |   |  ||||  ||    |||||     | |  |  ||   649 BspACI AciI SsiI
+|| || |   |  ||||  ||    |||||     | |  |  ||   |           
+|| || |   |  ||||  ||    |||||     | |  |  ||   |        658 FspEI
+|| || |   |  ||||  ||    |||||     | |  |  ||   |        |  
+CCGCGGACTGCTCCCCGGGTGTGGCTCCTTCATCTGACAACGTGCAACCGCTATCGCCAT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCGCCTGACGAGGGGCCCACACCGAGGAAGTAGACTGTTGCACGTTGGCGATAGCGGTA
+601                                                      660
+
+661 Bsa29I TaqI Bsu15I ClaI BspDI BshVI BsuTUI BseCI
+|                                                           
+|662 FspEI FspEI
+||                                                          
+||   666 BccI
+||   |                                                      
+||   |667 PfeI HinfI TfiI
+||   ||                                                     
+||   ||   671 FspEI
+||   ||   |                                                 
+||   ||   | 673 BspACI AciI MspA1I SsiI
+||   ||   | |                                               
+||   ||   | |     679 TaaI Bst4CI HpyCH4III
+||   ||   | |     |                                         
+||   ||   | |     | 681 FspEI
+||   ||   | |     | |                                       
+||   ||   | |     | |682 DrdI FspEI AasI DseDI
+||   ||   | |     | ||                                      
+||   ||   | |     | ||683 PcsI
+||   ||   | |     | |||                                     
+||   ||   | |     | |||       691 FaiI
+||   ||   | |     | |||       |                             
+||   ||   | |     | |||       |       699 FspEI
+||   ||   | |     | |||       |       |                     
+||   ||   | |     | |||       |       |700 FatI
+||   ||   | |     | |||       |       ||                    
+||   ||   | |     | |||       |       ||701 CviAII
+||   ||   | |     | |||       |       |||                   
+||   ||   | |     | |||       |       |||702 FaiI
+||   ||   | |     | |||       |       ||||                  
+||   ||   | |     | |||       |       |||| 704 NspI XceI Hsp92II NlaIII Hin1II BstNSI FaeI
+||   ||   | |     | |||       |       |||| |                
+CGATTGATTCAGCGGACGGTGTTGTCGTCATAGTTTGGGCATGTTTCCCTTGTAGGTGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTAACTAAGTCGCCTGCCACAACAGCAGTATCAAACCCGTACAAAGGGAACATCCACAC
+661                                                      720
+
+721 FspEI
+|                                                           
+|722 FspEI
+||                                                          
+|| 724 BceAI
+|| |                                                        
+|| |   728 BstDEI HpyF3I DdeI
+|| |   |                                                    
+|| |   |       736 FspEI
+|| |   |       |                                            
+|| |   |       |737 BspFNI HspAI HinP1I MvnI Bsh1236I BstFNI BstUI Hin6I AccII
+|| |   |       ||                                           
+|| |   |       ||738 GlaI
+|| |   |       |||                                          
+|| |   |       |||739 HhaI BstHHI AspLEI CfoI
+|| |   |       ||||                                         
+|| |   |       ||||       747 FspEI
+|| |   |       ||||       |                                 
+|| |   |       ||||       |748 Tru9I SaqAI Tru1I MseI
+|| |   |       ||||       ||                                
+|| |   |       ||||       ||    753 FspEI
+|| |   |       ||||       ||    |                           
+|| |   |       ||||       ||    |     759 FspEI
+|| |   |       ||||       ||    |     |                     
+|| |   |       ||||       ||    |     |760 FspEI
+|| |   |       ||||       ||    |     ||                    
+|| |   |       ||||       ||    |     || 762 FaiI
+|| |   |       ||||       ||    |     || |                  
+|| |   |       ||||       ||    |     || |      769 FaiI
+|| |   |       ||||       ||    |     || |      |           
+|| |   |       ||||       ||    |     || |      |770 FspEI LpnPI
+|| |   |       ||||       ||    |     || |      ||          
+|| |   |       ||||       ||    |     || |      || 772 FspEI
+|| |   |       ||||       ||    |     || |      || |        
+AAATCACTTAGCTTCGCGCCGTAGTCTTAAAGGAAAACCTATGGACTATGTTTCGGGTAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTAGTGAATCGAAGCGCGGCATCAGAATTTCCTTTTGGATACCTGATACAAAGCCCATC
+721                                                      780
+
+  783 EcoRII StyD4I PspGI AjnI BstSCI Psp6I
+  |                                                         
+  | 785 MspR9I ScrFI Bst2UI BstNI Bme1390I BciT130I BseBI BmrFI MvaI
+  | |                                                       
+  | |  788 PfeI HinfI TfiI
+  | |  |                                                    
+  | |  |   792 FspEI
+  | |  |   |                                                
+  | |  |   |793 Hpy188I
+  | |  |   ||                                               
+  | |  |   ||   797 FspEI LpnPI
+  | |  |   ||   |                                           
+  | |  |   ||   |798 FspEI
+  | |  |   ||   ||                                          
+  | |  |   ||   ||799 MaeII HpyCH4IV AflIII HpySE526I
+  | |  |   ||   |||                                         
+  | |  |   ||   |||800 BstBAI BbrPI Ppu21I AcvI BsaAI PmlI PmaCI Eco72I PspCI
+  | |  |   ||   ||||                                        
+  | |  |   ||   |||| 802 MslI RseI TaiI SmiMI
+  | |  |   ||   |||| |                                      
+  | |  |   ||   |||| |  805 FaiI
+  | |  |   ||   |||| |  |                                   
+  | |  |   ||   |||| |  |   809 Hpy166II Hpy8I
+  | |  |   ||   |||| |  |   |                               
+  | |  |   ||   |||| |  |   | 811 MaeII HpyCH4IV HpySE526I
+  | |  |   ||   |||| |  |   | |                             
+  | |  |   ||   |||| |  |   | |812 AjiI BtrI BmgBI
+  | |  |   ||   |||| |  |   | ||                            
+  | |  |   ||   |||| |  |   | ||813 Eco57I AcuI
+  | |  |   ||   |||| |  |   | |||                           
+  | |  |   ||   |||| |  |   | |||814 TaiI
+  | |  |   ||   |||| |  |   | ||||                          
+  | |  |   ||   |||| |  |   | ||||  817 PcsI
+  | |  |   ||   |||| |  |   | ||||  |                       
+  | |  |   ||   |||| |  |   | ||||  |    822 Csp6I CviQI RsaNI
+  | |  |   ||   |||| |  |   | ||||  |    |                  
+  | |  |   ||   |||| |  |   | ||||  |    |823 AfaI RsaI
+  | |  |   ||   |||| |  |   | ||||  |    ||                 
+  | |  |   ||   |||| |  |   | ||||  |    ||824 Hpy166II Hpy8I
+  | |  |   ||   |||| |  |   | ||||  |    |||                
+  | |  |   ||   |||| |  |   | ||||  |    |||    829 Tru9I SaqAI Tru1I MseI
+  | |  |   ||   |||| |  |   | ||||  |    |||    |           
+  | |  |   ||   |||| |  |   | ||||  |    |||    |830 TspDTI
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||          
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  833 FspEI
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  |       
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  |  836 BspACI AciI SsiI
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  |  |    
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  |  |  839 FspEI LpnPI
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  |  |  | 
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  |  |  |840 FspEI
+  | |  |   ||   |||| |  |   | ||||  |    |||    ||  |  |  ||
+CACCAGGAATCTGAAGCACGTGTATGTGGACGTGGCGTGCGTACACCTTAATCTCCGCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGGTCCTTAGACTTCGTGCACATACACCTGCACCGCACGCATGTGGAATTAGAGGCGAA
+781                                                      840
+
+841 FatI
+|                                                           
+|842 CviAII
+||                                                          
+||843 FaiI
+|||                                                         
+|||844 BstV1I BseXI BbvI Lsp1109I
+||||                                                        
+||||845 Hsp92II NlaIII Hin1II FaeI
+|||||                                                       
+|||||846 BstDEI Bpu10I HpyF3I DdeI
+||||||                                                      
+||||||  849 FspEI
+||||||  |                                                   
+||||||  |850 Sau3AI BssMI Bsp143I BstX2I MboI BstMBI NdeII BstYI MflI Kzo9I DpnII PsuI
+||||||  ||                                                  
+||||||  || 852 MalI DpnI
+||||||  || |                                                
+||||||  || |853 BstKTI
+||||||  || ||                                               
+||||||  || ||   857 ApeKI TseI
+||||||  || ||   |                                           
+||||||  || ||   |858 BisI AclWI BspPI Fsp4HI GluI AlwI SatI Fnu4HI
+||||||  || ||   ||                                          
+||||||  || ||   ||859 BlsI PkrI
+||||||  || ||   |||                                         
+||||||  || ||   |||860 HpyCH4V FatI
+||||||  || ||   ||||                                        
+||||||  || ||   ||||861 CviAII
+||||||  || ||   |||||                                       
+||||||  || ||   |||||862 FaiI
+||||||  || ||   ||||||                                      
+||||||  || ||   |||||| 864 NspI XceI SphI PaeI Hsp92II NlaIII Hin1II BstNSI FaeI
+||||||  || ||   |||||| |                                    
+||||||  || ||   |||||| |  867 FaiI
+||||||  || ||   |||||| |  |                                 
+||||||  || ||   |||||| |  |             881 BtsIMutI BtsI
+||||||  || ||   |||||| |  |             |                   
+||||||  || ||   |||||| |  |             |882 BarI
+||||||  || ||   |||||| |  |             ||                  
+||||||  || ||   |||||| |  |             ||     888 TaqI TspRI TscAI
+||||||  || ||   |||||| |  |             ||     |            
+||||||  || ||   |||||| |  |             ||     |  891 FspEI FspEI
+||||||  || ||   |||||| |  |             ||     |  |         
+||||||  || ||   |||||| |  |             ||     |  |892 FspEI
+||||||  || ||   |||||| |  |             ||     |  ||        
+||||||  || ||   |||||| |  |             ||     |  ||  895 FspEI
+||||||  || ||   |||||| |  |             ||     |  ||  |     
+||||||  || ||   |||||| |  |             ||     |  ||  |   899 FaiI FauI
+||||||  || ||   |||||| |  |             ||     |  ||  |   | 
+||||||  || ||   |||||| |  |             ||     |  ||  |   |900 FspEI LpnPI
+||||||  || ||   |||||| |  |             ||     |  ||  |   ||
+CATGCTAAGGATCTGGCTGCATGCTATGTTGATACACCTACACTGCTCGAAGAAAATATA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTACGATTCCTAGACCGACGTACGATACAACTATGTGGATGTGACGAGCTTCTTTTATAT
+841                                                      900
+
+ 902 MboII
+ |                                                          
+ | 904 FspEI
+ | |                                                        
+ | | 906 BspACI AciI SsiI
+ | | |                                                      
+ | | |   910 BspACI AciI SsiI
+ | | |   |                                                  
+ | | |   |911 BisI AoxI Fsp4HI GluI SatI Fnu4HI
+ | | |   ||                                                 
+ | | |   ||912 BlsI PkrI
+ | | |   |||                                                
+ | | |   |||913 EcoRII StyD4I BshFI PspGI BspANI AjnI BsuRI BstSCI BsnI TauI HaeIII Psp6I
+ | | |   ||||                                               
+ | | |   ||||914 BarI
+ | | |   |||||                                              
+ | | |   |||||915 MspR9I ScrFI Bst2UI BstNI Bme1390I BciT130I BseBI BmrFI MvaI
+ | | |   ||||||                                             
+ | | |   ||||||916 AoxI EaeI AcoI
+ | | |   |||||||                                            
+ | | |   ||||||| 918 BshFI BspANI BsuRI BsnI HaeIII
+ | | |   ||||||| |                                          
+ | | |   ||||||| |919 MspI BsiSI HapII HpaII
+ | | |   ||||||| ||                                         
+ | | |   ||||||| || 921 LmnI
+ | | |   ||||||| || |                                       
+ | | |   ||||||| || | 923 NlaIV BmiI PspN4I BspLI
+ | | |   ||||||| || | |                                     
+ | | |   ||||||| || | |  926 Eco24I SduI FriOI EcoT38I Bsp1286I BanII MhlI
+ | | |   ||||||| || | |  |                                  
+ | | |   ||||||| || | |  |927 FspEI LpnPI
+ | | |   ||||||| || | |  ||                                 
+ | | |   ||||||| || | |  ||  930 BspACI AciI SsiI
+ | | |   ||||||| || | |  ||  |                              
+ | | |   ||||||| || | |  ||  | 932 FspEI LpnPI
+ | | |   ||||||| || | |  ||  | |                            
+ | | |   ||||||| || | |  ||  | |  935 TaqI
+ | | |   ||||||| || | |  ||  | |  |                         
+ | | |   ||||||| || | |  ||  | |  |  938 FspEI AflIII
+ | | |   ||||||| || | |  ||  | |  |  |                      
+ | | |   ||||||| || | |  ||  | |  |  |939 FspEI
+ | | |   ||||||| || | |  ||  | |  |  ||                     
+ | | |   ||||||| || | |  ||  | |  |  ||940 MaeII HpyCH4IV AflIII HpySE526I
+ | | |   ||||||| || | |  ||  | |  |  |||                    
+ | | |   ||||||| || | |  ||  | |  |  |||941 BstBAI BbrPI Ppu21I AcvI BsaAI SfaNI LweI PmlI PmaCI BmsI Eco72I PspCI
+ | | |   ||||||| || | |  ||  | |  |  ||||                   
+ | | |   ||||||| || | |  ||  | |  |  |||| 943 FspEI TaiI
+ | | |   ||||||| || | |  ||  | |  |  |||| |                 
+ | | |   ||||||| || | |  ||  | |  |  |||| | 945 FspEI
+ | | |   ||||||| || | |  ||  | |  |  |||| | |               
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  948 FspEI
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  |            
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  | 950 Hpy166II Hpy8I
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  | |          
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  | |   954 TaaI Bst4CI HpyCH4III
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  | |   |      
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  | |   | 956 Tru9I SaqAI Tru1I MseI
+ | | |   ||||||| || | |  ||  | |  |  |||| | |  | |   | |    
+CGAAGCGGGCGGCCTGGCCGGAGCCCTACCGCATCGACACGTGTTCGTTTACTGTTAATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCTTCGCCCGCCGGACCGGCCTCGGGATGGCGTAGCTGTGCACAAGCAAATGACAATTAA
+901                                                      960
+
+         970 FaiI
+         |                                                  
+         |     976 TspGWI
+         |     |                                            
+         |     | 978 SspI
+         |     | |                                          
+         |     | |                                          1000 FspEI
+         |     | |                                          |
+GGTGGCACATAAGCAATATTGTAGTCCGTCAATTTCAGCC
+||||||||||||||||||||||||||||||||||||||||
+CCACCGTGTATTCGTTATAACATCAGGCAGTTAAAGTCGG
+961                                 1000
+
+
+   Enzymes which do not cut the sequence.
+
+AgsI      Alw26I    AspS9I    AsuHPI    AvaII     BcoDI     
+Bme18I    BmgT120I  BseMII    BsmAI     BspCNI    BstMAI    
+Cfr13I    CseI      Eco47I    HgaI      HphI      Hpy99I    
+NmuCI     PspPI     Sau96I    SinI      TseFI     Tsp45I    
+VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    
+AccI      AclI      AcsI      AcyI      AfeI      AflII     
+AgeI      AhlI      Alw44I    Aor51HI   ApaI      ApaLI     
+ApoI      AseI      AsiGI     Asp718I   AspA2I    AsuII     
+AsuNHI    AvrII     BaeGI     BalI      BamHI     BbsI      
+BciVI     BclI      BcuI      BfmI      BfoI      BfrI      
+BfuAI     BfuI      BglII     BlnI      BmcAI     BmtI      
+BpiI      BpmI      Bpu14I    BpuEI     BsaHI     BsaI      
+Bse118I   BsePI     BseRI     BseSI     BseX3I    BseYI     
+BsgI      BshTI     BsiWI     BsmBI     BsmI      Bso31I    
+Bsp119I   Bsp120I   Bsp1407I  Bsp19I    BspHI     BspMAI    
+BspMI     BspOI     BspT104I  BspTI     BspTNI    BsrFI     
+BsrGI     BssAI     BssHII    BssNAI    BssNI     BssT1I    
+Bst1107I  BstACI    BstAFI    BstAUI    BstBI     BstH2I    
+BstSFI    BstSLI    BstSNI    BstV2I    BstZ17I   BstZI     
+BsuI      BtgZI     BveI      CciI      Cfr10I    CspAI     
+DinI      DraI      EagI      EciI      EclXI     Eco105I   
+Eco130I   Eco147I   Eco31I    Eco32I    Eco47III  Eco52I    
+EcoRI     EcoRV     EcoT14I   EcoT22I   EgeI      EheI      
+ErhI      Esp3I     FauNDI    FbaI      FblI      FspI      
+GsaI      GsuI      HaeII     Hin1I     HincII    HindII    
+HpaI      Hsp92I    KasI      KpnI      KroI      Ksp22I    
+KspAI     MfeI      MlsI      MluI      MluNI     Mly113I   
+MmeI      Mox20I    Mph1103I  MroNI     MscI      Msp20I    
+MspCI     MunI      Mva1269I  NaeI      NarI      NcoI      
+NdeI      NgoMIV    NheI      NsbI      NsiI      NspV      
+PaeR7I    PagI      PauI      PceI      PciI      PctI      
+PdiI      Pfl23II   PinAI     Ple19I    PluTI     PscI      
+PshBI     PsiI      Psp1406I  PspFI     PspLI     PspOMI    
+PstI      PteI      PvuI      PvuII     SalI      ScaI      
+SfcI      SfoI      Sfr274I   SfuI      SlaI      SmlI      
+SmoI      SnaBI     SpeI      SseBI     SspDI     StuI      
+StyI      TaqII     TatI      Vha464I   VneI      VspI      
+XapI      XbaI      XhoI      XmaJI     XmiI      ZraI      
+ZrmI      Zsp2I     AarI      AxyI      BbvCI     BlpI      
+Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     
+Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    
+EcoO109I  EcoO65I   KflI      LguI      MabI      PasI      
+PciSI     PfoI      PpuMI     Psp5II    PspEI     PspPPI    
+Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      
+AsiSI     CciNI     FseI      FspAI     MauBI     MreI      
+MssI      NotI      PacI      PalAI     PmeI      PspXI     
+RgaI      RigI      SbfI      SdaI      SfaAI     SgfI      
+SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  
+SwaI      AlwNI     CaiI      MteI      PflFI     PstNI     
+PsyI      Tth111I   AleI      BoxI      BsaBI     Bse8I     
+BseJI     BstPAI    OliI      PshAI     AccB7I    AhdI      
+BaeI      BglI      BmeRI     BplI      BstENI    DriI      
+Eam1105I  EcoNI     FalI      PflMI     Van91I    XagI      
+BstXI     CspCI     AloI      ArsI      PsrI      SfiI      
+AjuI      XcmI      
+
+   Enzymes that cut the restricted sequence(s).
+
+AbaSI     AluBI     AluI      CviJI     CviKI_1   MluCI     
+MspJI     SetI      SgeI      Sse9I     TasI      BstC8I    
+Cac8I     HindIII   
+
+
+
+---------------------------------------------------------
+Restriction Digest Analysis on Sequence: Example-DNA-3
+---------------------------------------------------------
+
+    5 BspACI AciI SsiI
+    |                                                       
+    | 7 AccBSI BsrBI MbiI
+    | |                                                     
+    | |8 BsiHKCI BsoBI BmeT110I Eco88I Ama87I AvaI
+    | ||                                                    
+    | ||9 BslI AfiI Bsc4I BseLI
+    | |||                                                   
+    | |||  12 FauI
+    | |||  |                                                
+    | |||  |  15 FaiI
+    | |||  |  |                                             
+    | |||  |  |16 FspEI
+    | |||  |  ||                                            
+    | |||  |  ||17 FspEI
+    | |||  |  |||                                           
+    | |||  |  |||18 FspEI
+    | |||  |  ||||                                          
+    | |||  |  ||||          29 Asp700I MroXI XmnI PdmI
+    | |||  |  ||||          |                               
+    | |||  |  ||||          |     35 Hpy188I
+    | |||  |  ||||          |     |                         
+    | |||  |  ||||          |     |    40 HpyAV
+    | |||  |  ||||          |     |    |                    
+    | |||  |  ||||          |     |    |  43 FspEI
+    | |||  |  ||||          |     |    |  |                 
+    | |||  |  ||||          |     |    |  |       51 TaqI
+    | |||  |  ||||          |     |    |  |       |         
+    | |||  |  ||||          |     |    |  |       |      58 HpyAV
+    | |||  |  ||||          |     |    |  |       |      |  
+ACCCCGCTCGGGTATGGCAGAGAGAACGCCTTCTGAATTGTGCTATCCTTCGACCTTATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGGGCGAGCCCATACCGTCTCTCTTGCGGAAGACTTAACACGATAGGAAGCTGGAATAG
+1                                                         60
+
+61 FspEI
+|                                                           
+|    66 FspEI
+|    |                                                      
+|    | 68 FspEI
+|    | |                                                    
+|    | |                 86 FspEI
+|    | |                 |                                  
+|    | |                 |                  105 FspEI
+|    | |                 |                  |               
+|    | |                 |                  |        114 BtsIMutI BtsI MnlI
+|    | |                 |                  |        |      
+|    | |                 |                  |        |  117 FspEI
+|    | |                 |                  |        |  |   
+|    | |                 |                  |        |  |  120 FspEI
+|    | |                 |                  |        |  |  |
+AAAGCTTGCTACCAATAATTAGGATTATTGCCTTGCGACAGACCTCCTACTCACACTGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTCGAACGATGGTTATTAATCCTAATAACGGAACGCTGTCTGGAGGATGAGTGTGACGG
+61                                                       120
+
+121 TspRI TscAI
+|                                                           
+|        130 MnlI
+|        |                                                  
+|        | 132 SspMI BfaI MaeI FspBI XspI
+|        | |                                                
+|        | |133 FspEI
+|        | ||                                               
+|        | ||         143 BtsIMutI TspRI TscAI
+|        | ||         |                                     
+|        | ||         |      150 FspEI
+|        | ||         |      |                              
+|        | ||         |      |151 FspEI
+|        | ||         |      ||                             
+|        | ||         |      ||    156 MwoI HpyF10VI BstMWI
+|        | ||         |      ||    |                        
+|        | ||         |      ||    |157 BspACI AciI SsiI
+|        | ||         |      ||    ||                       
+|        | ||         |      ||    || 159 AccBSI BsrBI MbiI
+|        | ||         |      ||    || |                     
+|        | ||         |      ||    || |    164 SspMI BfaI MaeI FspBI FauI XspI
+|        | ||         |      ||    || |    |                
+|        | ||         |      ||    || |    |    169 FspEI
+|        | ||         |      ||    || |    |    |           
+|        | ||         |      ||    || |    |    |170 FspEI
+|        | ||         |      ||    || |    |    ||          
+|        | ||         |      ||    || |    |    ||171 Hpy188III FspEI
+|        | ||         |      ||    || |    |    |||         
+|        | ||         |      ||    || |    |    |||172 BspFNI MvnI Bsh1236I FspEI RruI Bsp68I BtuMI BstFNI BstUI NruI AccII
+|        | ||         |      ||    || |    |    ||||        
+|        | ||         |      ||    || |    |    ||||   176 Csp6I CviQI RsaNI
+|        | ||         |      ||    || |    |    ||||   |    
+|        | ||         |      ||    || |    |    ||||   |177 AfaI RsaI
+|        | ||         |      ||    || |    |    ||||   ||   
+|        | ||         |      ||    || |    |    ||||   ||178 MaeII FspEI HpyCH4IV HpySE526I
+|        | ||         |      ||    || |    |    ||||   |||  
+|        | ||         |      ||    || |    |    ||||   |||179 BstBAI Ppu21I BsaAI
+|        | ||         |      ||    || |    |    ||||   |||| 
+TCACATTGAGCTAGTCAGTGAGCGATTAGCTTGACCCGCTCTCTAGGGTCGCGAGTACGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGTGTAACTCGATCAGTCACTCGCTAATCGAACTGGGCGAGAGATCCCAGCGCTCATGCA
+121                                                      180
+
+181 TaiI
+|                                                           
+|   185 SspMI BfaI MaeI FspBI XspI
+|   |                                                       
+|   |     191 NlaIV BmiI PspN4I BspLI
+|   |     |                                                 
+|   |     |192 Eco24I SduI FriOI EcoT38I Bsp1286I BanII MhlI
+|   |     ||                                                
+|   |     ||193 MspI BsiSI HapII HpaII
+|   |     |||                                               
+|   |     |||                                               195 LmnI
+|   |     |||                                               |
+GAGCTAGGGCTCCGG
+|||||||||||||||
+CTCGATCCCGAGGCC
+181                        195
+
+
+   Enzymes which do not cut the sequence.
+
+AoxI      AspLEI    BshFI     BsnI      Bsp143I   BspANI    
+BssMI     BstHHI    BstKTI    BstMBI    BsuRI     CfoI      
+CviAII    DpnI      DpnII     FaeI      FatI      GlaI      
+HaeIII    HhaI      Hin1II    Hin6I     HinP1I    HpyCH4V   
+Hsp92II   HspAI     Kzo9I     LpnPI     MalI      MboI      
+MseI      NdeII     NlaIII    SaqAI     Sau3AI    Tru1I     
+Tru9I     AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      
+BccI      BceAI     BciT130I  BcnI      BcoDI     BisI      
+BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     BmsI      
+BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     
+BseXI     BslFI     BsmAI     BsmFI     BspCNI    BspPI     
+BsrI      Bst2UI    Bst4CI    BstDEI    BstF5I    BstMAI    
+BstNI     BstSCI    BstV1I    BtsCI     Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      Fnu4HI    FokI      
+Fsp4HI    GluI      HgaI      HinfI     HphI      Hpy99I    
+HpyCH4III HpyF3I    Lsp1109I  LweI      MaeIII    MboII     
+MlyI      MspR9I    MvaI      NciI      NmuCI     PfeI      
+PkrI      PleI      PpsI      Psp6I     PspGI     PspPI     
+SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      
+StyD4I    TaaI      TauI      TfiI      TseFI     TseI      
+Tsp45I    TspDTI    TspGWI    VpaK11BI  AanI      AatII     
+Acc16I    Acc36I    Acc65I    AccB1I    AccI      AccIII    
+AclI      AcoI      AcsI      AcuI      AcvI      AcyI      
+AfeI      AflII     AflIII    AgeI      AhlI      AjiI      
+Alw21I    Alw44I    Aor13HI   Aor51HI   ApaI      ApaLI     
+ApoI      AseI      AsiGI     Asp718I   AspA2I    AsuII     
+AsuNHI    AvrII     BaeGI     BalI      BamHI     BanI      
+BauI      BbrPI     BbsI      Bbv12I    BciVI     BclI      
+BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      
+BglII     BlnI      BmcAI     BmgBI     BmrI      BmtI      
+BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    
+BsaHI     BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    
+BseAI     BseCI     BseDI     BseMI     BsePI     BseRI     
+BseSI     BseX3I    BseYI     BsgI      Bsh1285I  BshNI     
+BshTI     BshVI     BsiEI     BsiHKAI   BsiWI     BsmBI     
+BsmI      Bso31I    Bsp119I   Bsp120I   Bsp13I    Bsp1407I  
+Bsp19I    BspDI     BspEI     BspHI     BspMAI    BspMI     
+BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrDI     
+BsrFI     BsrGI     BssAI     BssECI    BssHII    BssNAI    
+BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    Bst6I     
+BstACI    BstAFI    BstAUI    BstBI     BstDSI    BstH2I    
+BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    BstV2I    
+BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    BsuI      
+BsuTUI    BtgI      BtgZI     BtrI      BveI      CciI      
+Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      
+DraI      EaeI      EagI      Eam1104I  EarI      EciI      
+Ecl136II  EclXI     Eco105I   Eco130I   Eco147I   Eco31I    
+Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    Eco72I    
+EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   EgeI      
+EheI      ErhI      Esp3I     FauNDI    FbaI      FblI      
+FspI      GsaI      GsuI      HaeII     Hin1I     HincII    
+HindII    HpaI      Hpy166II  Hpy8I     Hsp92I    KasI      
+Kpn2I     KpnI      KroI      Ksp22I    KspAI     KspI      
+MfeI      MflI      MlsI      MluI      MluNI     Mly113I   
+MmeI      Mox20I    Mph1103I  MroI      MroNI     MscI      
+Msp20I    MspA1I    MspCI     MunI      Mva1269I  NaeI      
+NarI      NcoI      NdeI      NgoMIV    NheI      NmeAIII   
+NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    
+PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      
+PscI      PshBI     PsiI      Psp124BI  Psp1406I  PspCI     
+PspFI     PspLI     PspOMI    PstI      PsuI      PteI      
+PvuI      PvuII     SacI      SacII     SalI      ScaI      
+SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     
+SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      
+SphI      SseBI     SspDI     SspI      SstI      StuI      
+StyI      TaqII     TatI      TspMI     Vha464I   VneI      
+VspI      XapI      XbaI      XceI      XhoI      XmaI      
+XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      
+AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    
+Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    CpoI      
+CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   
+KflI      LguI      MabI      PasI      PciSI     PfoI      
+PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     RsrII     
+SapI      SexAI     AbsI      AscI      AsiSI     CciNI     
+FseI      FspAI     MauBI     MreI      MssI      NotI      
+PacI      PalAI     PmeI      PspXI     RgaI      RigI      
+SbfI      SdaI      SfaAI     SgfI      SgrAI     SgrDI     
+SgsI      SmiI      SrfI      Sse8387I  SwaI      AdeI      
+AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     
+PsyI      Tth111I   AleI      BoxI      BsaBI     Bse8I     
+BseJI     BstPAI    MslI      OliI      PshAI     RseI      
+SmiMI     AccB7I    AhdI      BaeI      BglI      BmeRI     
+BplI      BsaXI     BstAPI    BstENI    DriI      Eam1105I  
+EcoNI     FalI      PflMI     Van91I    XagI      AasI      
+BcgI      BstXI     CspCI     DrdI      DseDI     AloI      
+ArsI      BarI      PcsI      PsrI      SfiI      AjuI      
+XcmI      
+
+   Enzymes that cut the restricted sequence(s).
+
+AbaSI     AluBI     AluI      CviJI     CviKI_1   MluCI     
+MspJI     SetI      SgeI      Sse9I     TasI      BstC8I    
+Cac8I     HindIII   
+
