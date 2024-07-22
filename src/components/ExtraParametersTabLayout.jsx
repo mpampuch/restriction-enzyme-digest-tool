@@ -7,6 +7,7 @@ import {
 } from "../features/settingsSlice";
 
 import TextField from "@mui/material/TextField";
+// import { Unstable_NumberInput as NumberInput } from '@mui/base/Unstable_NumberInput';
 
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -67,12 +68,22 @@ function ExtraParametersTabLayout() {
         <div className="flex w-3/4 flex-row items-center gap-4">
           <p>Min number of cutsites:</p>
           <TextField
-            id="outlined-number"
             className="bg-gray-100 text-3xl text-black"
             label=""
             type="number"
             value={minNumberOfCuts}
             onChange={handleMinNumberOfCutsChange}
+            onInput={(e) => {
+              // Prevent setting the value to negative or non-numeric
+              e.target.value = Math.max(0, parseInt(e.target.value) || 0);
+            }}
+            onBlur={(e) => {
+              // If input is empty or zero, set it to zero and select the text
+              if (e.target.value === "" || parseInt(e.target.value) === 0) {
+                e.target.value = "0";
+                // e.target.select();
+              }
+            }}
             InputLabelProps={{
               shrink: true,
             }}
@@ -88,13 +99,23 @@ function ExtraParametersTabLayout() {
             Max number of cutsites:
           </p>
           <TextField
-            id="outlined-number"
             className="bg-gray-100 text-3xl text-black"
             label=""
             type="number"
             value={maxNumberOfCuts}
             disabled={!maxNumberOfCutsEnabled}
             onChange={handleMaxNumberOfCutsChange}
+            onInput={(e) => {
+              // Prevent setting the value to negative or non-numeric
+              e.target.value = Math.max(0, parseInt(e.target.value) || 0);
+            }}
+            onBlur={(e) => {
+              // If input is empty or zero, set it to zero and select the text
+              if (e.target.value === "" || parseInt(e.target.value) === 0) {
+                e.target.value = "0";
+                // e.target.select();
+              }
+            }}
             InputLabelProps={{
               shrink: true,
             }}
