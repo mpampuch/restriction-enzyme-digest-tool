@@ -61,8 +61,8 @@ app.post("/execute-python-script", (req, res) => {
 
   // Event handler for end of stdout
   pythonProcess.stdout.on("end", () => {
-    console.log("All stdout data received.");
-    console.log(`Python script output: ${stdoutBuffer}`);
+    // console.log("All stdout data received.");
+    // console.log(`Python script output: ${stdoutBuffer}`);
     // Send accumulated stdout data back to the client
     res.send(stdoutBuffer);
   });

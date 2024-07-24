@@ -115,11 +115,11 @@ export function submit(store) {
     output_style: displayTypeConverted,
   };
 
-  console.log("Form data:", formData);
+  // console.log("Form data:", formData);
 
   return new Promise((resolve, reject) => {
     // Send the form data to the server
-    console.log("Sending form data to server...");
+    // console.log("Sending form data to server...");
     fetch(`http://localhost:${pythonScriptPort}/execute-python-script`, {
       // Update URL to localhost:3000
       method: "POST",
@@ -130,7 +130,7 @@ export function submit(store) {
     })
       .then((response) => response.text())
       .then((data) => {
-        console.log("Python script output:", data);
+        // console.log("Python script output:", data);
         // Handle the output as needed
         resolve(data);
       })
@@ -141,6 +141,6 @@ export function submit(store) {
         // Handle errors
         reject(error);
       });
-    console.log("Data sent");
+    // console.log("Data sent");
   });
 }

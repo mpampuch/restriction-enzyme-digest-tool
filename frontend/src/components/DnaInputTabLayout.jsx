@@ -6,7 +6,7 @@ import {
   toggleAutofillInputDnaSelected,
   toggleAutofillRestrictedDnaSelected,
 } from "../features/settingsSlice";
-import { isFastaFormat } from "../../utils/validateFasta";
+// import { isFastaFormat } from "../../utils/validateFasta";
 import { showToast } from "../../utils/showToast";
 
 import TextareaAutosize from "@mui/material/TextareaAutosize";
@@ -74,7 +74,7 @@ function DnaInputTabLayout() {
           ? setInputString(contents)
           : setRestrictedInputString(contents),
       );
-      console.log(isFastaFormat(contents));
+      // console.log(isFastaFormat(contents));
       // Clear the value of the file input to allow selecting the same file again
       fileInput.value = null;
     };
