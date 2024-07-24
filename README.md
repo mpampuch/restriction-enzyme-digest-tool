@@ -1,4 +1,8 @@
-# React + Vite + Node js
+# Restriction Digest Analysis Tool
+
+This a web application that I wrote that allows you to perform a restriction digest analysis of custom DNA sequences directly in the browser.
+
+It was written using React + Vite + Node.js + Python.
 
 To run this project, make sure you have [Docker](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/) installed and running on your local machine.
 
