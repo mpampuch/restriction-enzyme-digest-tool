@@ -302,7 +302,7 @@ if __name__ == "__main__":
   print(analysis_output_str)
 
   # Write analysis output to file
-  with open("./src/outputs/restriction-digest-analysis.txt", "w") as f:
+  with open("./outputs/restriction-digest-analysis.txt", "w") as f:
     f.write(analysis_output_str)
 
   # Return the analysis output as JSON response

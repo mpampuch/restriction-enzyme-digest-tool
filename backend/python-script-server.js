@@ -2,11 +2,14 @@
 import express from "express";
 import { spawn } from "child_process";
 import bodyParser from "body-parser";
-import { pythonScriptPort } from "../frontend/config/config.js";
+// import { pythonScriptPort } from "../frontend/config/config.js";
 import cors from "cors"; // Import the cors middleware using ES module syntax
 
 const app = express();
-const port = pythonScriptPort;
+// Get environment variable for the port number
+const port = process.env.PORT;
+// const port = process.env.PORT || 3001;
+// const port = 3001;
 
 app.use(bodyParser.json()); // Parse JSON bodies
 app.use(cors()); // Use the cors middleware to enable CORS
@@ -43,8 +46,8 @@ app.post("/execute-python-script", (req, res) => {
   ];
 
   // Spawn Python process with arguments
-  const pythonProcess = spawn("python", [
-    "/Users/markpampuch/Dropbox/to_learn/cs50.harvard.all/cs50w/assignments/capstone/restriction_digest/backend/Restriction-js-to-python-script.py",
+  const pythonProcess = spawn("python3", [
+    "/app/Restriction-js-to-python-script.py",
     ...pythonArgs,
   ]);
 

@@ -1,1 +1,1 @@
-export const pythonScriptPort = 3000;
+export const pythonScriptPort = 3001;

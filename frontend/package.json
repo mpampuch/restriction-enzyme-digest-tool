@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:clear-outputs\"",
+    "dev": "concurrently \"npm run dev:frontend\" ",
     "dev:frontend": "vite",
     "dev:backend": "node ../backend/python-script-server.js",
     "dev:clear-outputs": "echo '' > src/outputs/restriction-digest-analysis.txt",
