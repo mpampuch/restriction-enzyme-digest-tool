@@ -2,10 +2,12 @@
 version: "3.8"
 services:
   frontend:
+    image: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_frontend_1
     build: ./frontend
     ports:
       - 3000:3000
   backend:
+    image: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_backend_1
     build: ./backend
     ports:
       - 3001:3001
