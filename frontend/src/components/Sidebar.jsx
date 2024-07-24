@@ -4,22 +4,19 @@ import BasicTabs from "./Tabs";
 import { useStore } from "react-redux";
 import { submit } from "../../utils/submit";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  setSubmittedAtLeastOnce,
-  setOutputLoading,
-  setOutputString,
-} from "../features/settingsSlice";
+import { setSubmittedAtLeastOnce } from "../features/settingsSlice";
+import { setOutputLoading, setOutputString } from "../features/outputSlice";
 
 function Sidebar() {
   const store = useStore(); // Access the Redux store instance
-  const settingsState = useSelector((store) => store.settings);
-  const outputLoading = settingsState.outputLoading;
+  const outputState = useSelector((store) => store.output);
+  const outputLoading = outputState.outputLoading;
 
   const dispatch = useDispatch(); // Create a dispatcher
 
   const handleSubmit = async () => {
     dispatch(setOutputLoading(true)); // Set the outputLoading state to true
-    console.log("submitting:");
+    // console.log("submitting:");
 
     try {
       // Reset the outputString state
@@ -30,8 +27,7 @@ function Sidebar() {
       // Set the outputString state with the output
       dispatch(setOutputString(output));
       // Handle the output (data returned by the Python script)
-      console.log("Python script output:", output);
-      // Do further processing if needed
+      // console.log("Python script output:", output);
       // Set the submittedAtLeastOnce state to true
       dispatch(setSubmittedAtLeastOnce());
     } catch (error) {
@@ -48,7 +44,7 @@ function Sidebar() {
       dispatch(setOutputLoading(false));
     }
 
-    console.log("done");
+    // console.log("done");
   };
 
   return (
