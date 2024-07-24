@@ -8,8 +8,8 @@ RUN apk add --no-cache \
     libexecinfo-dev \
     musl-dev \
     linux-headers
-# RUN addgroup -S app && adduser -S -G app app
-# USER app
+RUN addgroup -S app && adduser -S -G app app
+USER app
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
