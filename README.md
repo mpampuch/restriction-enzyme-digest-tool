@@ -26,4 +26,4 @@ Follow the link outputted in the logs to access the app.
 
 ### Images
 
-The images used to run this app can be found here: https://hub.docker.com/repository/docker/mpampuch/restriction-enzyme-digest-tool/general
+The images used to run this app can be found here: https://hub.docker.com/r/mpampuch/restriction-enzyme-digest-tool
