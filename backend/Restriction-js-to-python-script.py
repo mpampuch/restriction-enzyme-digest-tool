@@ -1,16 +1,12 @@
 from Bio import Restriction
 from Bio.Restriction.PrintFormat import PrintFormat
-from Bio.Seq import Seq
 from Bio import SeqIO
-import contextlib
 import io
 from statistics import mean
 from statistics import median
 from statistics import mode
 from io import StringIO
-import sys
 from contextlib import redirect_stdout
-import os
 import argparse
 
 # Helper functions
@@ -40,33 +36,13 @@ def find_mode_product_length(enzyme, sequence):
     return "Unknown"
 
 
-# def check_if_valid_fasta_string(data):
-#   try:
-
-#     # Check if starts with '>'
-#     if not data.strip().startswith(">"):
-#       raise ValueError("Invalid fasta string. It needs to start with '>'")
-
-#     # Check if the string represents a valid FASTA file
-#     fasta = SeqIO.read(StringIO(data), "fasta")
-
-#   except Exception as e:
-#     raise e
-
 def load_dna_from_string(data):
   try:
     dna_dict = {}
 
-    # Check if the string is a valid FASTA file
-    # check_if_valid_fasta_string(data)
-
     # Read the string into a dictionary
     fasta = SeqIO.parse(StringIO(data), "fasta")
     for record in fasta:
-      # Check if sequence is valid
-      # Only valid if sequence contains A, T, G, C, U, or N
-      # if not set(record.seq).issubset("ATGCUatgcuNn"):
-      #   raise ValueError("Invalid sequence")
 
       # Read sequence into dictionary
       dna_dict[record.id] = record.seq
@@ -275,21 +251,6 @@ if __name__ == "__main__":
   max_cuts_enabled = eval(args.max_cuts_enabled)
   output_style = args.output_style
 
-  # print("dna_to_cut: ", dna_to_cut)
-  # print("dna_to_cut: ", dna_to_cut.__class__)
-  # print("dna_to_not_cut: ", dna_to_not_cut)
-  # print("dna_to_not_cut: ", dna_to_not_cut.__class__)
-  # print("enzymes: ", enzymes)
-  # print("enzymes: ", enzymes.__class__)
-  # print("min_cuts: ", min_cuts)
-  # print("min_cuts: ", min_cuts.__class__)
-  # print("max_cuts_enabled: ", max_cuts_enabled)
-  # print("max_cuts_enabled: ", max_cuts_enabled.__class__)
-  # print("max_cuts: ", max_cuts)
-  # print("max_cuts: ", max_cuts.__class__)
-  # print("output_style: ", output_style)
-  # print("output_style: ", output_style.__class__)
-
   # Perform analysis
   analysis_output_str = re_digest_analysis(sequence_to_cut=dna_to_cut,
                                            sequence_to_not_cut=dna_to_not_cut,
@@ -300,10 +261,3 @@ if __name__ == "__main__":
                                            output_style=output_style)
 
   print(analysis_output_str)
-
-  # Write analysis output to file
-  with open("./outputs/restriction-digest-analysis.txt", "w") as f:
-    f.write(analysis_output_str)
-
-  # Return the analysis output as JSON response
-  # jsonify({'analysis_output': analysis_output_str})
