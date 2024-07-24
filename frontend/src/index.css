@@ -104,32 +104,32 @@ p {
 }
 
 /* Change the MUI Tabs font size */
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+[class*="MuiButtonBase-root"][class*="-MuiTab-root"] {
   font-size: small !important;
 }
 
 /* Change the MUI Tabs indicator colour */
-.css-1aquho2-MuiTabs-indicator {
+[class*="MuiTabs-indicator"] {
   background-color: var(--primary) !important;
 }
 
 /* Change the MUI Input font size */
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
-.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+[class*="MuiInputBase-input"][class*="-MuiOutlinedInput-input"],
+[class*="MuiSelect-select"][class*="MuiInputBase-input"][class*="-MuiOutlinedInput-input"] {
   font-size: small !important;
 }
 
 /* Change the MUI button font size and colour */
-.css-sghohy-MuiButtonBase-root-MuiButton-root {
+[class*="MuiButtonBase-root"][class*="-MuiButton-root"] {
   font-size: small !important;
   background-color: var(--primary-shade) !important;
 }
 
 /* Change MUI switch colour */
-.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+[class*="MuiButtonBase-root"][class*="-MuiSwitch-switchBase"][class*="Mui-checked"] {
   color: var(--primary) !important;
 }
-.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
+[class*="MuiButtonBase-root"][class*="-MuiSwitch-switchBase"][class*="Mui-checked"]
   + .MuiSwitch-track {
   background-color: var(--primary-shade) !important;
 }
