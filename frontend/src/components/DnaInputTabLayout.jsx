@@ -87,7 +87,7 @@ function DnaInputTabLayout() {
       dispatch(setInputString(""));
       return;
     } else {
-      dispatch(setInputString(dnaToCut));
+      dispatch(setInputString(dnaToCut.replace(/_/g, " ")));
     }
   };
 
@@ -97,7 +97,7 @@ function DnaInputTabLayout() {
       dispatch(setRestrictedInputString(""));
       return;
     } else {
-      dispatch(setRestrictedInputString(dnaToNotCut));
+      dispatch(setRestrictedInputString(dnaToNotCut.replace(/_/g, " ")));
     }
   };
 

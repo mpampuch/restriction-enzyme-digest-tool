@@ -7,10 +7,11 @@ export function submit(store) {
   // Get the current state of the Redux store
   const state = store.getState();
 
-  console.log("Submitting form...");
+  // console.log("Submitting form...");
 
   // Get the DNA sequence to cut
-  const dnaToCut = state.settings.inputString.trim();
+  const dnaToCut = state.settings.inputString.trim().replace(/ /g, "_");
+  console.log("DNA to cut: ", dnaToCut);
 
   // Validate the the input was not empty
   if (dnaToCut === "") {
@@ -36,8 +37,9 @@ export function submit(store) {
 
   // Get the DNA sequence to not cut
   const dnaToNotCut = state.settings.restrictedInputString
-    ? state.settings.restrictedInputString.trim()
+    ? state.settings.restrictedInputString.trim().replace(/ /g, "_")
     : "";
+  console.log("DNA to not cut: ", dnaToNotCut);
 
   // Validate that the input was a valid FASTA format if it was provided
   if (dnaToNotCut !== "") {
