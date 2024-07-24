@@ -22,6 +22,9 @@ function Sidebar() {
     console.log("submitting:");
 
     try {
+      // Reset the outputString state
+      dispatch(setOutputString(""));
+
       // Call the submit function and await its result
       const output = await submit(store);
       // Set the outputString state with the output
@@ -34,6 +37,12 @@ function Sidebar() {
     } catch (error) {
       // Handle errors
       console.error("Error executing Python script:", error);
+      dispatch(
+        setOutputString(
+          "Error executing Restriction Digest Analysis. Please try again. \n\n" +
+            error,
+        ),
+      );
     } finally {
       // Set the outputLoading state to false
       dispatch(setOutputLoading(false));

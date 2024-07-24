@@ -133,16 +133,9 @@ export function submit(store) {
         console.log("Python script output:", data);
         // Handle the output as needed
         resolve(data);
-        // write the data to /src/outputs/restriction-digest-analysis.txt
-        fs.writeFile(
-          "/src/outputs/restriction-digest-analysis.txt",
-          data,
-          (err) => {
-            // In case of a error throw err.
-            if (err) throw err;
-          },
-        );
       })
+      // Set data to state
+
       .catch((error) => {
         console.error("Error executing Python script:", error);
         // Handle errors
