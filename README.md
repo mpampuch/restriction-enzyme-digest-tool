@@ -16,10 +16,10 @@ docker-compose --version
 If these are installed, download the code in this repository, and from your local repository run
 
 ```bash
-docker-compose up -d && docker-compose logs -f
+docker compose up -d && docker compose logs -f
 
 # If that doesn't work try
-docker-compose up -d --build && docker-compose logs -f
+docker compose up -d --build && docker compose logs -f
 ```
 
 Follow the link outputted in the logs to access the app.
