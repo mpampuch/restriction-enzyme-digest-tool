@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: frontend
+    runtime: docker
+    rootDir: frontend
+    image:
+      url: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_frontend_1
+
+  - type: web 
+    name: backend
+    runtime: docker
+    rootDir: backend
+    image:
+      url: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_backend_1
+    envVars:
+      - key: PORT
+        value: 3001
