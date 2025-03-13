@@ -1,12 +1,14 @@
 services:
   - type: web
     name: frontend
+    plan: free
     runtime: image
     image:
       url: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_frontend_1
 
   - type: web 
     name: backend
+    plan: free
     runtime: image
     image:
       url: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_backend_1
