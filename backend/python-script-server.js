@@ -10,9 +10,15 @@ const app = express();
 const port = process.env.PORT;
 // const port = process.env.PORT || 3001;
 // const port = 3001;
+const host = process.env.HOST || "0.0.0.0"; // Use '0.0.0.0' to listen on all network interfaces
 
 app.use(bodyParser.json()); // Parse JSON bodies
 app.use(cors()); // Use the cors middleware to enable CORS
+
+// Define a route for the root path
+app.get("/", (req, res) => {
+  res.send(`Python backend is running. Host is ${host}. Port is ${port}.`);
+});
 
 // Endpoint to execute Python script
 app.post("/execute-python-script", (req, res) => {
