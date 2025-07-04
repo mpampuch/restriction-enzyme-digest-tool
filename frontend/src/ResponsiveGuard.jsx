@@ -16,27 +16,33 @@ export default function ResponsiveGuard({ children }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  if (isMobile) {
-    return (
-      <div
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          background: "#222",
-          color: "#fff",
-          fontSize: "1.5rem",
-          textAlign: "center",
-          padding: "2rem",
-        }}
-      >
-        This application is only available on desktop-sized screens. <br />
-        Please use the correct device or enlarge your browser window.
-      </div>
-    );
-  }
-  return children;
+  return (
+    <>
+      {children}
+      {isMobile && (
+        <div
+          style={{
+            position: "fixed",
+            inset: 0,
+            zIndex: 9999,
+            minHeight: "100vh",
+            width: "100vw",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "#222",
+            color: "#fff",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            padding: "2rem",
+          }}
+        >
+          This application is only available on desktop-sized screens. <br />
+          Please use the correct device or enlarge your browser window.
+        </div>
+      )}
+    </>
+  );
 }
 
 ResponsiveGuard.propTypes = {
