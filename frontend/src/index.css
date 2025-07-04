@@ -156,3 +156,7 @@ input {
 .Toastify__progress-bar--error {
   background: var(--primary-shade) !important;
 }
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary-shade) !important;
+}
