@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import TextFileOutput from "./TextFileOutput";
 import Loader from "./Loader";
+import { toast } from "react-toastify";
 
 function OutputContainer() {
   const settingsState = useSelector((store) => store.settings);
@@ -9,6 +10,22 @@ function OutputContainer() {
   const outputLoading = outputState.outputLoading;
   const outputString = outputState.outputString;
 
+  const handleCopy = async () => {
+    if (outputString) {
+      await navigator.clipboard.writeText(outputString);
+      toast.success("Copied to clipboard!", {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+    }
+  };
+
+  const hasOutput = submittedAtLeastOnce && outputString;
+
   return (
     <div className="relative flex h-full flex-1 flex-col items-center justify-between gap-4 bg-[#10161B] px-20 pb-6 pt-6 align-middle outline outline-gray-200">
       <h1 className="text-xl">Output</h1>
@@ -16,10 +33,24 @@ function OutputContainer() {
       {outputLoading ? (
         <Loader />
       ) : (
-        <TextFileOutput
-          text={submittedAtLeastOnce ? outputString : ""}
-          className="h-full w-full"
-        />
+        <>
+          <TextFileOutput
+            text={hasOutput ? outputString : ""}
+            className="h-full w-full"
+          />
+          {hasOutput && (
+            <button
+              onClick={handleCopy}
+              className="mt-2 rounded px-4 py-2 text-white hover:opacity-80"
+              style={{
+                fontWeight: 600,
+                backgroundColor: "var(--primary-shade)",
+              }}
+            >
+              Copy to Clipboard
+            </button>
+          )}
+        </>
       )}
       <footer>
         <p className="text-base text-gray-300">
