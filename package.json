@@ -1,0 +1,17 @@
+{
+  "name": "re_digest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start-backend": "npm run --prefix backend start",
+    "start-frontend": "npm run --prefix frontend start",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

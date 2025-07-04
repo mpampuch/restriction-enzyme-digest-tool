@@ -1,7 +1,6 @@
 import { getSelectedEnzymeNames } from "./getSelectedEnzymes";
 import { isFastaFormat } from "./validateFasta";
 import { showToast } from "./showToast";
-import { pythonScriptPort } from "../config/config";
 
 export function submit(store) {
   // Get the current state of the Redux store
@@ -120,10 +119,9 @@ export function submit(store) {
   // console.log("Form data:", formData);
 
   return new Promise((resolve, reject) => {
-    // Send the form data to the server
+    // Send the form data to the server using relative URL
     // console.log("Sending form data to server...");
-    fetch(`http://localhost:${pythonScriptPort}/execute-python-script`, {
-      // Update URL to localhost:3000
+    fetch(`/api/execute-python-script`, {
       method: "POST",
       body: JSON.stringify(formData), // Convert formData to JSON string
       headers: {

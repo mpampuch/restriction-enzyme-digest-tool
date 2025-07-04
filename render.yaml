@@ -1,17 +1,10 @@
 services:
   - type: web
-    name: frontend
+    name: restriction-digest-app
     plan: free
     runtime: image
     image:
-      url: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_frontend_AMD_1
-
-  - type: web 
-    name: backend
-    plan: free
-    runtime: image
-    image:
-      url: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_backend_AMD_1
+      url: mpampuch/restriction-enzyme-digest-tool:restriction-enzyme-digest-tool_app_AMD_1
     envVars:
       - key: PORT
-        value: 3001
+        value: 3000

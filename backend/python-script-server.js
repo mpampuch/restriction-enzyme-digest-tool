@@ -2,26 +2,31 @@
 import express from "express";
 import { spawn } from "child_process";
 import bodyParser from "body-parser";
-// import { pythonScriptPort } from "../frontend/config/config.js";
 import cors from "cors"; // Import the cors middleware using ES module syntax
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 // Get environment variable for the port number
-const port = process.env.PORT;
-// const port = process.env.PORT || 3001;
-// const port = 3001;
+const port = process.env.PORT || 3000;
 const host = process.env.HOST || "0.0.0.0"; // Use '0.0.0.0' to listen on all network interfaces
 
 app.use(bodyParser.json()); // Parse JSON bodies
 app.use(cors()); // Use the cors middleware to enable CORS
 
+// Serve static files from the frontend build
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
 // Define a route for the root path
 app.get("/", (req, res) => {
-  res.send(`Python backend is running. Host is ${host}. Port is ${port}.`);
+  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
 });
 
-// Endpoint to execute Python script
-app.post("/execute-python-script", (req, res) => {
+// API endpoint to execute Python script
+app.post("/api/execute-python-script", (req, res) => {
   // Extract data from the request body
   const {
     dna_to_cut,
@@ -53,7 +58,7 @@ app.post("/execute-python-script", (req, res) => {
 
   // Spawn Python process with arguments
   const pythonProcess = spawn("python3", [
-    "/app/Restriction-js-to-python-script.py",
+    "/app/backend/Restriction-js-to-python-script.py",
     ...pythonArgs,
   ]);
 
@@ -79,8 +84,11 @@ app.post("/execute-python-script", (req, res) => {
   });
 });
 
+// Handle all other routes by serving the frontend
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+});
+
 app.listen(port, () => {
-  console.log(
-    `Python script execution server listening at http://localhost:${port}`,
-  );
+  console.log(`Server listening at http://localhost:${port}`);
 });
