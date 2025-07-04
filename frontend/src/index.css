@@ -20,6 +20,7 @@
   --primary: #fcbc44;
   --primary-shade: #ee9e08;
   --primary-shade-for-checkbox: #c8860a;
+  --toastify-icon-color-error: var(--primary-shade);
 }
 
 * {
@@ -126,11 +127,10 @@ p {
 }
 
 /* Change MUI switch colour */
-[class*="MuiButtonBase-root"][class*="-MuiSwitch-switchBase"][class*="Mui-checked"] {
+.MuiSwitch-switchBase.Mui-checked {
   color: var(--primary) !important;
 }
-[class*="MuiButtonBase-root"][class*="-MuiSwitch-switchBase"][class*="Mui-checked"]
-  + .MuiSwitch-track {
+.MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
   background-color: var(--primary-shade) !important;
 }
 
@@ -147,3 +147,12 @@ input {
     "description": "Import CSS Module as `styles`"
   },
 */
+
+.MuiButton-contained {
+  background-color: var(--primary-shade) !important;
+  font-size: 1rem !important;
+}
+
+.Toastify__progress-bar--error {
+  background: var(--primary-shade) !important;
+}

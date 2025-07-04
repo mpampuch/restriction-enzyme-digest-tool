@@ -62,17 +62,17 @@ export default function BasicTabs() {
           <Tab
             label="DNA Input"
             {...a11yProps(0)}
-            style={{ color: "#ececec" }}
+            style={{ color: "#ececec", fontSize: "1.4rem" }}
           />
           <Tab
             label="Enzyme Selection"
             {...a11yProps(1)}
-            style={{ color: "#ececec" }}
+            style={{ color: "#ececec", fontSize: "1.4rem" }}
           />
           <Tab
             label="Extra Parmeters"
             {...a11yProps(2)}
-            style={{ color: "#ececec" }}
+            style={{ color: "#ececec", fontSize: "1.4rem" }}
           />
         </Tabs>
         <CustomTabPanel value={value} index={0}>
